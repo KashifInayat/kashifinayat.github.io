@@ -211,7 +211,7 @@
                             </div>
                         </footer>
                         <div class="blog-comments">
-                            <h3><i class="fas fa-comments"></i> 🌟 Bit-to-Bit Dialogue</h3>
+                            <h3>🌟 Bit-to-Bit Dialogue</h3>
                             <div class="giscus"></div>
                         </div>
                     </article>
