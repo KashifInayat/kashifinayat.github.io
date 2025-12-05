@@ -323,6 +323,7 @@ $(document).ready(function () {
 
         let mainNavCopy = $(mainNav).clone();
         if (showBottom){
+          mainFooterTop.empty();
           mainFooterTop.append(mainNavCopy);
           mainNav.classList.add('nav-hidden-bottom')
           mainNavCopy.removeClass('nav-fixed');
