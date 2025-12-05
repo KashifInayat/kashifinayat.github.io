@@ -2,16 +2,16 @@
 
 
 
-var webBaseURL = "https://kashifinayat.github.io/";
-var webURL = "https://kashifinayat.github.io/index.html";
+//var webBaseURL = "https://kashifinayat.github.io/";
+//var webURL = "https://kashifinayat.github.io/index.html";
 
 
 
 //var webBaseURL = "https://kashifinayat.com/";
 //var webURL = "https://kashifinayat.com/index.html";
 
-//var webBaseURL = "file:///Volumes/titan/kashif_work/general/my_data/website/kashifinayat.github.io";
-//var webURL = "file:///Volumes/titan/kashif_work/general/my_data/website/kashifinayat.github.io/index.html";
+var webBaseURL = "file:///Volumes/titan/kashif_work/general/my_data/website/kashifinayat.github.io";
+    var webURL = "file:///Volumes/titan/kashif_work/general/my_data/website/kashifinayat.github.io/index.html";
 //C:\Users\kihomepc\public
 /***DATA ENTRY START***/
  
