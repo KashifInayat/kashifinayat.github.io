@@ -734,6 +734,14 @@ p {
     .c-section-heading {
       margin-top: 100px;
       margin-bottom: 70px; } }
+.c-section-heading {
+  margin-top: 20px;
+  padding-top: 50px;
+  margin-bottom: 50px; }
+  @media (min-width: 900px) {
+    .c-section-heading {
+      margin-top: 100px;
+      margin-bottom: 70px; } }
   .c-section-heading__icon {
     display: inline-block;
     vertical-align: middle; }
