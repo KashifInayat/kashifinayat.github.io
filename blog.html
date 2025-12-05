@@ -1,0 +1,122 @@
+<!doctype html>
+<html class="" lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Binary Thoughts - Kashif Inayat's Blog</title>
+    <meta name="description" content="Binary Thoughts - Technical blog by Kashif Inayat covering computer architecture, VLSI design, machine learning accelerators, and semiconductor research.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Lora:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main-green.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB9GY3DQXN"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+
+    <header class="c-main-header">
+        <div class="o-container">
+            <!-- NAVIGATION -->
+            <div class="c-main-header__nav-wrapper" data-menuAnimated="true">
+                <nav class="c-main-nav js-main-nav">
+                    <ul class="c-main-nav__list nav-fixed--is-active js-main-nav__list">
+                        <li class="c-main-nav__item"><a style="font-weight: 900" href="index.html" class="c-main-nav__link">Home</a></li>
+                        <li class="c-main-nav__item"><a style="font-weight: 900" href="wsn.html" class="c-main-nav__link">WSN</a></li>
+                        <li class="c-main-nav__item"><a style="font-weight: 900" href="publications.html" class="c-main-nav__link">Publications</a></li>
+                        <li class="c-main-nav__item"><a style="font-weight: 900" href="blog.html" class="c-main-nav__link active-link">Blog</a></li>
+                    </ul>
+                    <div class="c-main-nav__bars js-main-nav-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </div>
+            <!-- NAVIGATION END -->
+
+            <!-- BLOG HEADER -->
+            <div class="blog-hero">
+                <div class="blog-hero-content">
+                    <h1 class="blog-hero-title">Binary Thoughts</h1>
+                    <p class="blog-hero-subtitle">Where bits meet life insights — exploring humanity, computers, ICs: the art of silicon and life.</p>
+                    <div class="blog-hero-meta">
+                        <span><i class="fas fa-user"></i> Kashif Inayat</span>
+                        <span><i class="fas fa-microchip"></i> Life, Humanity, Hardware, Computers & Technology</span>
+                        <span id="blog-count"><i class="fas fa-book"></i> <span id="total-blogs">0</span> Posts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="c-main-container js-main-container" style="margin-top: 0;">
+        
+        <!-- BLOG FILTERS -->
+        <div class="o-container">
+            <div class="blog-filters">
+                <div class="blog-filter-tags" id="blog-tags">
+                    <button class="blog-tag active" data-tag="all">All Posts</button>
+                    <!-- Tags will be dynamically added here -->
+                </div>
+                <div class="blog-filter-search">
+                    <input type="text" id="blog-search" placeholder="Search blogs..." />
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOG POSTS GRID -->
+        <div class="o-container">
+            <div class="blog-grid" id="blog-grid">
+                <!-- Blog posts will be dynamically inserted here -->
+            </div>
+
+            <!-- EMPTY STATE -->
+            <div class="blog-empty" id="blog-empty" style="display: none;">
+                <i class="fas fa-search"></i>
+                <p>No blog posts found matching your criteria.</p>
+            </div>
+
+            <!-- PAGINATION -->
+            <div class="blog-pagination" id="blog-pagination" style="display: none;">
+                <button class="blog-page-btn" id="prev-page" disabled>
+                    <i class="fas fa-chevron-left"></i> Previous
+                </button>
+                <div class="blog-page-numbers" id="page-numbers"></div>
+                <button class="blog-page-btn" id="next-page">
+                    Next <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="c-main-footer js-main-footer">
+        <div class="c-main-footer__top o-container js-main-footer-top"></div>
+        <div class="c-main-footer__bottom js-main-footer-bottom">
+            <p class="c-main-footer__text">Kashif Inayat. Copyright 2024</p>
+        </div>
+        <div style="text-align:center">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="nofollow">
+                <img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" style="border-width:0" />
+            </a>
+        </div>
+        <div class="c-main-footer__text" style="text-align:center">
+            This Work by <a href="https://kashifinayat.github.io" rel="nofollow">Kashif Inayat</a> is licensed under a 
+            <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US" rel="nofollow">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.
+        </div>
+    </footer>
+
+    <script src="components/jquery.min.js"></script>
+    <script type="text/javascript" src="js/blog-data.js"></script>
+    <script type="text/javascript" src="js/blog.js"></script>
+    <script src="components/wow.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/inview.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
