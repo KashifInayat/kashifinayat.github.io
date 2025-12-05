@@ -136,6 +136,11 @@
                 results = results.concat(this.searchWSNGroups(query));
             }
 
+            // Search About
+            if (typeof about !== 'undefined') {
+                results = results.concat(this.searchAbout(query));
+            }
+
             // Search Publications
             if (typeof publications !== 'undefined') {
                 results = results.concat(this.searchPublications(query));
@@ -228,21 +233,109 @@
             return results;
         },
 
+        searchAbout: function(query) {
+            var results = [];
+            
+            if (about) {
+                // Search in name and heading
+                var searchText = (about.name + ' ' + about.heading).toLowerCase();
+                
+                // Search in about text paragraphs
+                if (about.aboutText && about.aboutText.length > 0) {
+                    var text = about.aboutText[0];
+                    searchText += ' ' + (text.text1 || '') + ' ' + (text.text2 || '') + ' ' + (text.text3 || '');
+                }
+                
+                searchText = searchText.toLowerCase();
+                
+                if (searchText.includes(query)) {
+                    results.push({
+                        type: 'about',
+                        title: about.name,
+                        subtitle: about.heading,
+                        description: 'About section - Personal information and background',
+                        action: 'navigate-section',
+                        data: { section: 'about' },
+                        relevance: this.calculateRelevance(query, searchText) + 50
+                    });
+                }
+            }
+            
+            return results;
+        },
+
         searchPublications: function(query) {
             var results = [];
             
-            if (publications && publications.publications) {
-                publications.publications.forEach(function(pub, index) {
-                    var searchText = (pub.title + ' ' + pub.authors + ' ' + pub.venue + ' ' + (pub.type || '')).toLowerCase();
+            // Search through journals
+            if (publications && publications.journals) {
+                publications.journals.forEach(function(pub, index) {
+                    var authorsText = Array.isArray(pub.authors) ? pub.authors.join(' ') : (pub.authors || '');
+                    var searchText = (
+                        (pub.publicationTitle || '') + ' ' + 
+                        authorsText + ' ' + 
+                        (pub.publicationVenue || '') + ' ' + 
+                        (pub.publicationVenueInformation || '')
+                    ).toLowerCase();
                     
                     if (searchText.includes(query)) {
                         results.push({
                             type: 'publication',
-                            title: pub.title,
-                            subtitle: pub.venue + ' • ' + pub.year,
-                            description: pub.authors,
+                            title: pub.publicationTitle || 'Untitled',
+                            subtitle: (pub.publicationVenue || 'Journal') + ' • ' + (pub.publicationVenueInformation || ''),
+                            description: authorsText,
                             action: 'navigate-publication',
-                            data: { index: index, link: pub.link },
+                            data: { index: index, link: pub.publicationDownloadLink },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }
+
+            // Search through conferences
+            if (publications && publications.conferences) {
+                publications.conferences.forEach(function(pub, index) {
+                    var authorsText = Array.isArray(pub.authors) ? pub.authors.join(' ') : (pub.authors || '');
+                    var searchText = (
+                        (pub.publicationTitle || '') + ' ' + 
+                        authorsText + ' ' + 
+                        (pub.publicationVenue || '') + ' ' + 
+                        (pub.publicationVenueInformation || '')
+                    ).toLowerCase();
+                    
+                    if (searchText.includes(query)) {
+                        results.push({
+                            type: 'publication',
+                            title: pub.publicationTitle || 'Untitled',
+                            subtitle: (pub.publicationVenue || 'Conference') + ' • ' + (pub.publicationVenueInformation || ''),
+                            description: authorsText,
+                            action: 'navigate-publication',
+                            data: { index: index, link: pub.publicationDownloadLink },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }
+
+            // Search through domestic journals
+            if (publications && publications.journalsdomestic) {
+                publications.journalsdomestic.forEach(function(pub, index) {
+                    var authorsText = Array.isArray(pub.authors) ? pub.authors.join(' ') : (pub.authors || '');
+                    var searchText = (
+                        (pub.publicationTitle || '') + ' ' + 
+                        authorsText + ' ' + 
+                        (pub.publicationVenue || '') + ' ' + 
+                        (pub.publicationVenueInformation || '')
+                    ).toLowerCase();
+                    
+                    if (searchText.includes(query)) {
+                        results.push({
+                            type: 'publication',
+                            title: pub.publicationTitle || 'Untitled',
+                            subtitle: (pub.publicationVenue || 'Domestic Journal') + ' • ' + (pub.publicationVenueInformation || ''),
+                            description: authorsText,
+                            action: 'navigate-publication',
+                            data: { index: index, link: pub.publicationDownloadLink },
                             relevance: this.calculateRelevance(query, searchText)
                         });
                     }
@@ -428,6 +521,7 @@
 
         getIconForType: function(type) {
             var icons = {
+                'about': '<i class="icofont icofont-user-alt-4"></i>',
                 'wsn': '<i class="icofont icofont-building-alt"></i>',
                 'publication': '<i class="icofont icofont-file-document"></i>',
                 'research': '<i class="icofont icofont-laboratory"></i>',
