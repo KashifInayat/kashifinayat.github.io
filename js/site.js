@@ -1241,26 +1241,26 @@ var journalLinks = {
 		
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5",
             
-			"detail":"[IF: 10.96]",
+			"detail":"[IF: 12.9]",
         },
 		
 		{    
 			"title": "IEEE Transactions on Image Processing",
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83",        
-			"detail":"[IF: 10.85]",
+			"detail":"[IF: 10.6]",
         },
 		{	"title": "IEEE Transactions on Emerging Topics in Computing",	
 		
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245516",
             
-			"detail":"[IF: 06.03]",
+			"detail":"[IF: 5.1]",
         },
 	
 		{	"title": "IEEE Journal of Solid-State Circuits	",	
 		
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4",
             
-			"detail":"[IF: 04.95]",
+			"detail":"[IF: 4.6]",
         },
 		
 		
@@ -1269,35 +1269,35 @@ var journalLinks = {
 		
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76",
             
-			"detail":"[IF: 04.04]",
+			"detail":"[IF: 8.4]",
         },
 		
 		{	"title": "IEEE Transactions on Circuits and Systems I: Regular Papers",	
 		
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8919",
             
-			"detail":"[IF: 03.93]",
+			"detail":"[IF: 5.1]",
         },
 		
 		{	"title": "Springer, Design Automation for Embedded Systems",	
 		
             "link": "https://www.springer.com/journal/10617",
             
-			"detail":"[IF: 03.81]",
+			"detail":"[IF: 1.9]",
         },
 		
 		{	"title": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",	
 		
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5503868",
             
-			"detail":"[IF: 03.43]",
+			"detail":"[IF: 3.7]",
         },
 		
 		{	"title": "IEEE Access:	",	
 		
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639",
             
-			"detail":"[IF: 03.36]",
+			"detail":"[IF: 3.9]",
         },
 		
 		
@@ -1305,20 +1305,20 @@ var journalLinks = {
 		
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8920",
             
-			"detail":"[IF: 03.25]",
+			"detail":"[IF: 4.4]",
         },
 		{	"title": "IEEE Transactions on Computers",	
 		
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12",
             
-			"detail":"[IF: 02.66]",
+			"detail":"[IF: 3.7]",
         },
 		
 		{	"title": "Elsevier, Computer-Aided Design",	
 		
             "link": "https://www.journals.elsevier.com/computer-aided-design",
             
-			"detail":"[IF: 03.02]",
+			"detail":"[IF: 3.0]",
         },
 		
 				
@@ -1326,7 +1326,7 @@ var journalLinks = {
 		
             "link": "https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=43",
             
-			"detail":"[IF: 02.80]",
+			"detail":"[IF: 2.9]",
         },
 		
 		
@@ -1335,27 +1335,27 @@ var journalLinks = {
 		
             "link": "https://www.mdpi.com/journal/electronics",
             
-			"detail":"[IF: 02.39 ]",
+			"detail":"[IF: 2.6 ]",
         },
 		
 		{	"title": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems	",	
 		
             "link": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92",
             
-			"detail":"[IF: 02.31]",
+			"detail":"[IF: 2.8]",
         },
 		{	"title": "IEEE Design & Test",	
 		
             "link": "https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=6221038",
             
-			"detail":"[IF: 01.52]",
+			"detail":"[IF: 2.0]",
         },
 	
 		{	"title": "Integration, the VLSI Journal",	
 		
             "link": "https://www.journals.elsevier.com/integration",
             
-			"detail":"[IF: 01.21 ]",
+			"detail":"[IF: 2.2 ]",
         },
 		
 		{	"title": "IEEE Computer Architecture Letters",	
@@ -2086,27 +2086,90 @@ function displaySkillspProf() {
 
 //Jorunals
 function displayJournalLinks() {
-    var myList = '<ul class="k-tabs__list" id="journalLinksul">';
+    var html = '<div class="venues-grid">';
+    
     journalLinks.jrnls.forEach(function (jrnl) {
-		
-		myList += '<li><h4><a style="color: blue; text-decoration:underline" href="' + jrnl.link + '" target="_blank">' + jrnl.title + '</a><span style="float:right">' + jrnl.detail + '</span></h4></li>';  
-		
+        // Extract impact factor from detail
+        var impactFactor = jrnl.detail.replace('[IF: ', '').replace(']', '').trim();
+        var tierClass = 'tier-b';
+        var tierLabel = 'Tier B';
+        
+        // Determine tier based on impact factor and format to 1 digit if < 10
+        if (impactFactor) {
+            var ifValue = parseFloat(impactFactor);
+            if (ifValue < 10) {
+                impactFactor = ifValue.toFixed(2).replace(/^0+/, ''); // Remove leading zeros
+            }
+            if (ifValue >= 2.5) {
+                tierClass = 'tier-a';
+                tierLabel = 'Tier A';
+            }
+        }
+        
+        html += '<div class="venue-card">';
+        html += '  <div class="venue-header">';
+        html += '    <i class="fas fa-newspaper venue-icon"></i>';
+        html += '    <div class="venue-title">' + jrnl.title + '</div>';
+        html += '  </div>';
+        html += '  <div class="venue-body">';
+        html += '    <div class="venue-details">';
+        
+        if (impactFactor) {
+            html += '      <div class="venue-detail-item">';
+            html += '        <i class="fas fa-chart-line"></i>';
+            html += '        <span>Impact Factor: ' + impactFactor + '</span>';
+            html += '      </div>';
+            html += '      <div class="venue-detail-item">';
+            html += '        <i class="fas fa-star"></i>';
+            html += '        <span class="tier-badge ' + tierClass + '">' + tierLabel + '</span>';
+            html += '      </div>';
+        }
+        
+        html += '    </div>';
+        html += '    <div class="venue-links">';
+        html += '      <a href="' + jrnl.link + '" target="_blank" class="venue-link">';
+        html += '        <i class="fas fa-globe"></i> Website';
+        html += '      </a>';
+        html += '    </div>'
+        html += '  </div>';
+        html += '</div>';
     });
-    myList += '</ul>';
-    document.getElementById("journalLinksDiv").innerHTML = myList;
+    
+    html += '</div>';
+    document.getElementById("journalLinksDiv").innerHTML = html;
 }
+
 //ConferencesLinks
 function displayConferencesLinks() {
-    var myList = '<ul class="k-tabs__list" id="journalLinksul">';
+    var html = '<div class="venues-grid">';
+    
     conferencesLinks.confs.forEach(function (conf) {
-		
-		myList += '<li><h4><a style="color: blue; text-decoration:underline" href="' + conf.link + '" target="_blank">' + conf.title + '</a><span style="float:right"><a style="color: blue; text-decoration:underline" href="' + conf.detail.link + '" target="_blank">' + conf.detail.text + '</a></span></h4></li>';  
-		
-		
-		
+        html += '<div class="venue-card">';
+        html += '  <div class="venue-header">';
+        html += '    <i class="fas fa-microphone-alt venue-icon"></i>';
+        html += '    <div class="venue-title">' + conf.title + '</div>';
+        html += '  </div>';
+        html += '  <div class="venue-body">';
+        html += '    <div class="venue-details">';
+        html += '      <div class="venue-detail-item">';
+        html += '        <i class="fas fa-star"></i>';
+        html += '        <span class="tier-badge tier-a">Premier Conference</span>';
+        html += '      </div>';
+        html += '    </div>';
+        html += '    <div class="venue-links">';
+        html += '      <a href="' + conf.link + '" target="_blank" class="venue-link">';
+        html += '        <i class="fas fa-globe"></i> Website';
+        html += '      </a>';
+        html += '      <a href="' + conf.detail.link + '" target="_blank" class="venue-link">';
+        html += '        <i class="fas fa-book"></i> Proceedings';
+        html += '      </a>';
+        html += '    </div>';
+        html += '  </div>';
+        html += '</div>';
     });
-    myList += '</ul>';
-    document.getElementById("conferencesLinksDiv").innerHTML = myList;
+    
+    html += '</div>';
+    document.getElementById("conferencesLinksDiv").innerHTML = html;
 }
 
 
@@ -5008,12 +5071,65 @@ function displayWSNGroups() {
 }
 
 function displayWSNRegion(regionData, divId) {
+    // Country flag mapping
+    var countryFlags = {
+        'USA': '🇺🇸',
+        'United States': '🇺🇸',
+        'UK': '🇬🇧',
+        'United Kingdom': '🇬🇧',
+        'Germany': '🇩🇪',
+        'France': '🇫🇷',
+        'Switzerland': '🇨🇭',
+        'Netherlands': '🇳🇱',
+        'Belgium': '🇧🇪',
+        'Sweden': '🇸🇪',
+        'Denmark': '🇩🇰',
+        'Norway': '🇳🇴',
+        'Finland': '🇫🇮',
+        'Italy': '🇮🇹',
+        'Spain': '🇪🇸',
+        'Portugal': '🇵🇹',
+        'Austria': '🇦🇹',
+        'Ireland': '🇮🇪',
+        'China': '🇨🇳',
+        'Japan': '🇯🇵',
+        'South Korea': '🇰🇷',
+        'Korea': '🇰🇷',
+        'Taiwan': '🇹🇼',
+        'Singapore': '🇸🇬',
+        'Hong Kong': '🇭🇰',
+        'India': '🇮🇳',
+        'Israel': '🇮🇱',
+        'UAE': '🇦🇪',
+        'Saudi Arabia': '🇸🇦',
+        'Turkey': '🇹🇷',
+        'Pakistan': '🇵🇰',
+        'Canada': '🇨🇦',
+        'Australia': '🇦🇺',
+        'New Zealand': '🇳🇿',
+        'Brazil': '🇧🇷',
+        'Mexico': '🇲🇽',
+        'Russia': '🇷🇺',
+        'Poland': '🇵🇱',
+        'Czech Republic': '🇨🇿',
+        'Greece': '🇬🇷'
+    };
+    
     var html = '<div class="wsn-countries">';
     
     regionData.forEach(function(country, index) {
         var countryId = divId + '-country-' + index;
+        var countryFlag = countryFlags[country.country] || '🌍';
+        var labCount = (country.labs && country.labs.length > 0) ? country.labs.length : 0;
+        var labCountText = labCount + ' ' + (labCount === 1 ? 'University' : 'Universities');
+        
         html += '<div class="wsn-country">';
-        html += '<button class="wsn-country-btn" onclick="toggleWSNCountry(\'' + countryId + '\')"><span>▼</span> ' + country.country + '</button>';
+        html += '<button class="wsn-country-btn" onclick="toggleWSNCountry(\'' + countryId + '\')">';
+        html += '<span class="wsn-toggle-icon">▼</span>';
+        html += '<span class="wsn-country-flag">' + countryFlag + '</span>';
+        html += '<span class="wsn-country-name">' + country.country + '</span>';
+        html += '<span class="wsn-country-count">' + labCountText + '</span>';
+        html += '</button>';
         html += '<div id="' + countryId + '" class="wsn-country-content" style="display:none; background:#f9f9f9; border-left:3px solid #007bff; padding:10px; margin-top:5px;">';
         
         if (country.labs && country.labs.length > 0) {
