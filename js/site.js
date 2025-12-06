@@ -2267,7 +2267,7 @@ var wsnGroups = {
                                 "name": "Columbia University",
                                 "people": [
                                         {
-                                                "professor": "Prof. Tanveer Ahmed Khan",
+                                                "professor": "Tanveer Ahmed Khan",
                                                 "homepage": "http://web.eecs.umich.edu/~takh/",
                                                 "scholar": "https://scholar.google.com/citations?user=5Tv_pRsAAAAJ&hl=en&oi=sra",
                                                 "dblp": ""
@@ -2284,7 +2284,7 @@ var wsnGroups = {
                                 "name": "Cornell University",
                                 "people": [
                                         {
-                                                "professor": "Prof. Christoph Studer",
+                                                "professor": "Christoph Studer",
                                                 "homepage": "http://vip.ece.cornell.edu/index.html",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2295,7 +2295,7 @@ var wsnGroups = {
                                 "name": "Massachusetts Institute of Technology",
                                 "people": [
                                         {
-                                                "professor": "Prof. Alan Edelman",
+                                                "professor": "Alan Edelman",
                                                 "homepage": "https://math.mit.edu/~edelman/research.php",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2306,37 +2306,37 @@ var wsnGroups = {
                                 "name": "University of Michigan",
                                 "people": [
                                         {
-                                                "professor": "Prof. Todd Austin",
+                                                "professor": "Todd Austin",
                                                 "homepage": "https://web.eecs.umich.edu/~taustin/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Ronald G. Dreslinski",
+                                                "professor": "Ronald G. Dreslinski",
                                                 "homepage": "https://web.eecs.umich.edu/~rdreslin/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Jason Eshrahian",
+                                                "professor": "Jason Eshrahian",
                                                 "homepage": "http://www.jasoneshraghian.com/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Michael P Flynn",
+                                                "professor": "Michael P Flynn",
                                                 "homepage": "https://www.mpflynngroup.com/people.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Hun Seok Kim",
+                                                "professor": "Hun Seok Kim",
                                                 "homepage": "https://kim.engin.umich.edu/research-position-openings/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Trevor Mudge",
+                                                "professor": "Trevor Mudge",
                                                 "homepage": "https://tnm.engin.umich.edu/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2347,7 +2347,7 @@ var wsnGroups = {
                                 "name": "University of North Carolina at Chapel Hill.",
                                 "people": [
                                         {
-                                                "professor": "Prof. ",
+                                                "professor": "",
                                                 "homepage": "http://www.cs.unc.edu/~samarjit/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2358,7 +2358,7 @@ var wsnGroups = {
                                 "name": "University of Washington",
                                 "people": [
                                         {
-                                                "professor": "Prof. Ali Farhadi",
+                                                "professor": "Ali Farhadi",
                                                 "homepage": "https://homes.cs.washington.edu/~ali/index.html",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=jeOFRDsAAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
@@ -2369,7 +2369,7 @@ var wsnGroups = {
                                 "name": "University of Wisconsin-Madison",
                                 "people": [
                                         {
-                                                "professor": "Prof. Joshua San Miguel",
+                                                "professor": "Joshua San Miguel",
                                                 "homepage": "https://jsm.ece.wisc.edu/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2385,7 +2385,7 @@ var wsnGroups = {
                                 "name": "Duke University",
                                 "people": [
                                         {
-                                                "professor": "Prof. Daniel J. Sorin",
+                                                "professor": "Daniel J. Sorin",
                                                 "homepage": "http://people.ee.duke.edu/~sorin/",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=bsoRFLAAAAAJ",
                                                 "dblp": ""
@@ -2396,7 +2396,7 @@ var wsnGroups = {
                                 "name": "Georgia Institute of Technology",
                                 "people": [
                                         {
-                                                "professor": "Prof. Hyesoon Kim",
+                                                "professor": "Hyesoon Kim",
                                                 "homepage": "http://comparch.gatech.edu/hparch/people.hparch",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2407,7 +2407,7 @@ var wsnGroups = {
                                 "name": "Rice University",
                                 "people": [
                                         {
-                                                "professor": "Prof. Ken Kennedy",
+                                                "professor": "Ken Kennedy",
                                                 "homepage": "https://www.cs.rice.edu/~ken/#teaching",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2418,7 +2418,7 @@ var wsnGroups = {
                                 "name": "Texas A&M / Other Texas",
                                 "people": [
                                         {
-                                                "professor": "Prof. Paul Gratz",
+                                                "professor": "Paul Gratz",
                                                 "homepage": "https://cesg.tamu.edu/faculty/paul-gratz/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2429,7 +2429,7 @@ var wsnGroups = {
                                 "name": "University of Michigan",
                                 "people": [
                                         {
-                                                "professor": "Prof. Todd Austin",
+                                                "professor": "Todd Austin",
                                                 "homepage": "https://web.eecs.umich.edu/~taustin/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2440,7 +2440,7 @@ var wsnGroups = {
                                 "name": "University of Texas at Austin",
                                 "people": [
                                         {
-                                                "professor": "Prof. Jacob Abraham",
+                                                "professor": "Jacob Abraham",
                                                 "homepage": "http://www.cerc.utexas.edu/~jaa/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2456,37 +2456,37 @@ var wsnGroups = {
                                 "name": "Arizona State University",
                                 "people": [
                                         {
-                                                "professor": "Prof. Yu Cao",
+                                                "professor": "Yu Cao",
                                                 "homepage": "https://nimo.asu.edu/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Mohammad Dessouky",
+                                                "professor": "Mohammad Dessouky",
                                                 "homepage": "",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=pukEdt4AAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Deliang Fan",
+                                                "professor": "Deliang Fan",
                                                 "homepage": "https://dfan.engineering.asu.edu/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Baoxin Le",
+                                                "professor": "Baoxin Le",
                                                 "homepage": "https://isearch.asu.edu/profile/747601",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Umit Ogras",
+                                                "professor": "Umit Ogras",
                                                 "homepage": "https://elab.engineering.asu.edu/",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=pVo_-KEAAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Aviral Shrivastava",
+                                                "professor": "Aviral Shrivastava",
                                                 "homepage": "https://labs.engineering.asu.edu/mps-lab/person/aviral-shrivastava/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2508,49 +2508,49 @@ var wsnGroups = {
                                 "name": "Carnegie Mellon University",
                                 "people": [
                                         {
-                                                "professor": "Prof. Nathan Beckmann",
+                                                "professor": "Nathan Beckmann",
                                                 "homepage": "https://www.cs.cmu.edu/~beckmann/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. . Shawn Blanton",
+                                                "professor": ". Shawn Blanton",
                                                 "homepage": "https://www.ece.cmu.edu/directory/bios/blanton-ronald.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Greg Ganger",
+                                                "professor": "Greg Ganger",
                                                 "homepage": "https://www.archive.ece.cmu.edu/~ganger/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. James C. Hoes",
+                                                "professor": "James C. Hoes",
                                                 "homepage": "http://users.ece.cmu.edu/~jhoe/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Brandon M. Lucia",
+                                                "professor": "Brandon M. Lucia",
                                                 "homepage": "https://brandonlucia.com/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Todd C Mowry",
+                                                "professor": "Todd C Mowry",
                                                 "homepage": "https://www.toddcmowry.org/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. s",
+                                                "professor": "s",
                                                 "homepage": "http://www.cs.cmu.edu/~gibbons/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. John Paul Shen",
+                                                "professor": "John Paul Shen",
                                                 "homepage": "",
                                                 "scholar": "https://scholar.google.com/citations?user=pARKzQsAAAAJ&hl=en&oi=ao",
                                                 "dblp": ""
@@ -2561,7 +2561,7 @@ var wsnGroups = {
                                 "name": "Colorado State University",
                                 "people": [
                                         {
-                                                "professor": "Prof. ",
+                                                "professor": "",
                                                 "homepage": "https://www.engr.colostate.edu/~sudeep/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2572,13 +2572,13 @@ var wsnGroups = {
                                 "name": "Lehigh University",
                                 "people": [
                                         {
-                                                "professor": "Prof. Wujie Wen",
+                                                "professor": "Wujie Wen",
                                                 "homepage": "https://www.lehigh.edu/~wuw219/index.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Jieming Yin",
+                                                "professor": "Jieming Yin",
                                                 "homepage": "http://jiemingyin.github.io/index.html",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2589,7 +2589,7 @@ var wsnGroups = {
                                 "name": "Northern Arizona University",
                                 "people": [
                                         {
-                                                "professor": "Prof. Tuy Nguyen",
+                                                "professor": "Tuy Nguyen",
                                                 "homepage": "https://www.dsd-lab.com/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2600,13 +2600,13 @@ var wsnGroups = {
                                 "name": "Rochester Institute of Technology",
                                 "people": [
                                         {
-                                                "professor": "Prof. Friedman",
+                                                "professor": "Friedman",
                                                 "homepage": "http://www2.ece.rochester.edu/~friedman/",
                                                 "scholar": "https://scholar.google.com/citations?user=fGnDj7gAAAAJ&hl=en&oi=sra",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Dr. Cory Merkel",
+                                                "professor": "Dr. Cory Merkel",
                                                 "homepage": "https://www.rit.edu/kgcoe/brainlab/people/dr-cory-merkel",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2617,67 +2617,67 @@ var wsnGroups = {
                                 "name": "Stanford University",
                                 "people": [
                                         {
-                                                "professor": "Prof. Kayvon Fatahalian",
+                                                "professor": "Kayvon Fatahalian",
                                                 "homepage": "http://graphics.stanford.edu/~kayvonf/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. John Hennessy",
+                                                "professor": "John Hennessy",
                                                 "homepage": "http://web.stanford.edu/~hennessy/",
                                                 "scholar": "https://scholar.google.com/citations?user=tp07xT0AAAAJ&hl=en&oi=sra",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Mark Horowitz",
+                                                "professor": "Mark Horowitz",
                                                 "homepage": "https://profiles.stanford.edu/mark-horowitz",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=e7V7-gEAAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. William J.D",
+                                                "professor": "William J.D",
                                                 "homepage": "http://cva.stanford.edu/billd_webpage_new.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Michael J.Flynn",
+                                                "professor": "Michael J.Flynn",
                                                 "homepage": "http://arith.stanford.edu/~flynn/",
                                                 "scholar": "",
                                                 "dblp": "https://dblp.org/pers/hd/f/Flynn:Michael_J="
                                         },
                                         {
-                                                "professor": "Prof. Subhasish Mitra",
+                                                "professor": "Subhasish Mitra",
                                                 "homepage": "https://web.stanford.edu/~subh/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Boris Murmann",
+                                                "professor": "Boris Murmann",
                                                 "homepage": "https://engineering.stanford.edu/person/boris-murmann",
                                                 "scholar": "https://scholar.google.com/citations?user=AZkVOeAAAAAJ&hl=en",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Ardavan Pedram",
+                                                "professor": "Ardavan Pedram",
                                                 "homepage": "http://web.stanford.edu/~perdavan/",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=tpQB-7MAAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": "https://dblp.org/pers/hd/p/Pedram:Ardavan"
                                         },
                                         {
-                                                "professor": "Prof. Christopher Re",
+                                                "professor": "Christopher Re",
                                                 "homepage": "https://cs.stanford.edu/people/chrismre/",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=DnnCWN0AAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Philip Wong",
+                                                "professor": "Philip Wong",
                                                 "homepage": "http://www.semicontaiwan.org/en/speakers/dr-h-s-philip-wong",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=HWxGEesAAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Dan Zuras",
+                                                "professor": "Dan Zuras",
                                                 "homepage": "https://web.stanford.edu/class/ee486/dan_zuras_bio.html",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2688,115 +2688,115 @@ var wsnGroups = {
                                 "name": "UC Berkeley",
                                 "people": [
                                         {
-                                                "professor": "Prof. Krste Asanovic",
+                                                "professor": "Krste Asanovic",
                                                 "homepage": "https://people.eecs.berkeley.edu/~krste/?_ga=2.13949616.66791463.1578625911-1909154698.1571891176",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Leon Chua",
+                                                "professor": "Leon Chua",
                                                 "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/chua.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. James Demmel",
+                                                "professor": "James Demmel",
                                                 "homepage": "https://people.eecs.berkeley.edu/~demmel/?_ga=2.254492175.66791463.1578625911-1909154698.1571891176",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Ronald S. Fearing",
+                                                "professor": "Ronald S. Fearing",
                                                 "homepage": "https://people.eecs.berkeley.edu/~ronf/index.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Jerome A. Feldman",
+                                                "professor": "Jerome A. Feldman",
                                                 "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/feldman.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Dan Garcia",
+                                                "professor": "Dan Garcia",
                                                 "homepage": "https://people.eecs.berkeley.edu/~ddgarcia/?_ga=2.177723174.2010109151.1608568937-786524867.1600269815",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Amir Gholami",
+                                                "professor": "Amir Gholami",
                                                 "homepage": "http://amirgholami.org/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Greg Gibeling",
+                                                "professor": "Greg Gibeling",
                                                 "homepage": "http://gibeling.com/greg/index.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. John Hauser",
+                                                "professor": "John Hauser",
                                                 "homepage": "http://www.jhauser.us/",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=9ca3r-gAAAAJ&view_op=list_works&sortby=pubdate#",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. William Kahan",
+                                                "professor": "William Kahan",
                                                 "homepage": "https://people.eecs.berkeley.edu/~wkahan/?_ga=2.166994230.982304428.1582856923-1909154698.1571891176",
                                                 "scholar": "",
                                                 "dblp": "https://dblp.org/pers/hd/k/Kahan:William"
                                         },
                                         {
-                                                "professor": "Prof. Kurt Keutzer",
+                                                "professor": "Kurt Keutzer",
                                                 "homepage": "http://people.eecs.berkeley.edu/~keutzer/?_ga=2.177863330.66791463.1578625911-1909154698.1571891176",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Borivoje Nikolic",
+                                                "professor": "Borivoje Nikolic",
                                                 "homepage": "https://people.eecs.berkeley.edu/~bora/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Nikolic",
+                                                "professor": "Nikolic",
                                                 "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/nikolic.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. David Patterson",
+                                                "professor": "David Patterson",
                                                 "homepage": "",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=Wj4ZBFIAAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. J.M Rabaey",
+                                                "professor": "J.M Rabaey",
                                                 "homepage": "http://bwrcs.eecs.berkeley.edu/faculty/jan/JansWeb/about-me.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Alan Jay Smith",
+                                                "professor": "Alan Jay Smith",
                                                 "homepage": "https://people.eecs.berkeley.edu/~smith/",
                                                 "scholar": "https://scholar.google.com/citations?user=cdIj9NwAAAAJ&hl=en&oi=ao",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Ion Stoica",
+                                                "professor": "Ion Stoica",
                                                 "homepage": "https://people.eecs.berkeley.edu/~istoica/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Validmir",
+                                                "professor": "Validmir",
                                                 "homepage": "",
                                                 "scholar": "https://scholar.google.com/citations?user=rsGmH38AAAAJ",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. John Wawrzynek",
+                                                "professor": "John Wawrzynek",
                                                 "homepage": "https://people.eecs.berkeley.edu/~johnw/",
                                                 "scholar": "https://scholar.google.com/citations?user=hdnpRKsAAAAJ&hl=en&oi=ao",
                                                 "dblp": ""
@@ -2807,7 +2807,7 @@ var wsnGroups = {
                                 "name": "UC Riverside",
                                 "people": [
                                         {
-                                                "professor": "Prof. Hung Wei Tseng",
+                                                "professor": "Hung Wei Tseng",
                                                 "homepage": "https://intra.engr.ucr.edu/~htseng/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2818,31 +2818,31 @@ var wsnGroups = {
                                 "name": "UC-Davis",
                                 "people": [
                                         {
-                                                "professor": "Prof. Venkatesh Akella",
+                                                "professor": "Venkatesh Akella",
                                                 "homepage": "https://faculty.engineering.ucdavis.edu/akella/publications/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Bevan Baas",
+                                                "professor": "Bevan Baas",
                                                 "homepage": "https://www.ece.ucdavis.edu/~bbaas/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Soheil Ghiasi",
+                                                "professor": "Soheil Ghiasi",
                                                 "homepage": "https://www.ece.ucdavis.edu/~soheil/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Houman Homayoun",
+                                                "professor": "Houman Homayoun",
                                                 "homepage": "https://www.ece.ucdavis.edu/~hhomayou/index.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Oklobdzija",
+                                                "professor": "Oklobdzija",
                                                 "homepage": "http://www.acsel-lab.com/",
                                                 "scholar": "https://scholar.google.com/citations?user=5-pEIw0AAAAJ&hl=en&oi=ao",
                                                 "dblp": ""
@@ -2853,25 +2853,25 @@ var wsnGroups = {
                                 "name": "UC-Irvine",
                                 "people": [
                                         {
-                                                "professor": "Prof. Nader Bagherzadeh",
+                                                "professor": "Nader Bagherzadeh",
                                                 "homepage": "https://engineering.uci.edu/users/nader-bagherzadeh",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=SnXi9-0AAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Nikil Dutt",
+                                                "professor": "Nikil Dutt",
                                                 "homepage": "https://duttgroup.ics.uci.edu/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Gajski",
+                                                "professor": "Gajski",
                                                 "homepage": "http://www.cecs.uci.edu/~gajski/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Emre Neftci",
+                                                "professor": "Emre Neftci",
                                                 "homepage": "https://www.faculty.uci.edu/profile.cfm?faculty_id=6236",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2882,37 +2882,37 @@ var wsnGroups = {
                                 "name": "UC-Los Angeles",
                                 "people": [
                                         {
-                                                "professor": "Prof. Algirdas Avizienis",
+                                                "professor": "Algirdas Avizienis",
                                                 "homepage": "http://www.avizienis.info/",
                                                 "scholar": "https://scholar.google.com/citations?user=ujXEG6oAAAAJ&hl=en&oi=sra",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Jason Cong",
+                                                "professor": "Jason Cong",
                                                 "homepage": "https://samueli.ucla.edu/people/jason-jingsheng-cong/",
                                                 "scholar": "https://scholar.google.com/citations?user=Mn_kJ4sAAAAJ&hl=en&oi=sra",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Milos D. Ercegovac",
+                                                "professor": "Milos D. Ercegovac",
                                                 "homepage": "http://web.cs.ucla.edu/~milos/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Dejan Markovic",
+                                                "professor": "Dejan Markovic",
                                                 "homepage": "https://samueli.ucla.edu/people/dejan-markovic/",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=VRb24i8AAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Majid Sarrafzadeh",
+                                                "professor": "Majid Sarrafzadeh",
                                                 "homepage": "http://web.cs.ucla.edu/~majid/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Mani B. Srivastava",
+                                                "professor": "Mani B. Srivastava",
                                                 "homepage": "http://nesl.ee.ucla.edu/people/1",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2923,25 +2923,25 @@ var wsnGroups = {
                                 "name": "UC-Santa Cruz",
                                 "people": [
                                         {
-                                                "professor": "Prof. Scodd Beamer",
+                                                "professor": "Scodd Beamer",
                                                 "homepage": "https://scottbeamer.net/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Matthew R. Guthaus",
+                                                "professor": "Matthew R. Guthaus",
                                                 "homepage": "",
                                                 "scholar": "https://scholar.google.com/citations?user=irzOIvoAAAAJ&hl=en",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Sung Mo Kang",
+                                                "professor": "Sung Mo Kang",
                                                 "homepage": "https://nisl.soe.ucsc.edu/",
                                                 "scholar": "https://scholar.google.com/citations?user=yJB9y2QAAAAJ&hl=en&oi=ao",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Heiner Litz",
+                                                "professor": "Heiner Litz",
                                                 "homepage": "https://people.ucsc.edu/~hlitz/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2952,13 +2952,13 @@ var wsnGroups = {
                                 "name": "University of California, Irvine",
                                 "people": [
                                         {
-                                                "professor": "Prof. Mohammad Abdullad AI Faruque",
+                                                "professor": "Mohammad Abdullad AI Faruque",
                                                 "homepage": "https://aicps.eng.uci.edu/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Sang Woo Jun",
+                                                "professor": "Sang Woo Jun",
                                                 "homepage": "https://ics.uci.edu/~swjun/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -2969,37 +2969,37 @@ var wsnGroups = {
                                 "name": "University of California, San Diego",
                                 "people": [
                                         {
-                                                "professor": "Prof. Gert Cauwenberghs",
+                                                "professor": "Gert Cauwenberghs",
                                                 "homepage": "https://isn.ucsd.edu/index.php",
                                                 "scholar": "https://scholar.google.com/citations?user=KZQz_7AAAAAJ&hl=en",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Mingu Kang",
+                                                "professor": "Mingu Kang",
                                                 "homepage": "https://www.ucsdvvip.com/445916777",
                                                 "scholar": "https://scholar.google.com/citations?user=H8yqlRYAAAAJ&hl=en&oi=sra",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Ryan Kastner",
+                                                "professor": "Ryan Kastner",
                                                 "homepage": "http://kastner.ucsd.edu/ryan/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Alex Orailoglu",
+                                                "professor": "Alex Orailoglu",
                                                 "homepage": "",
                                                 "scholar": "https://scholar.google.com/citations?user=RJhla18AAAAJ&hl=en&oi=sra",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Steven Swanson",
+                                                "professor": "Steven Swanson",
                                                 "homepage": "https://www.nvsl.io/portfolio/steven-swanson/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Dean M. Tullsen",
+                                                "professor": "Dean M. Tullsen",
                                                 "homepage": "http://cseweb.ucsd.edu/~tullsen/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -3010,31 +3010,31 @@ var wsnGroups = {
                                 "name": "University of California-Santa Barbara",
                                 "people": [
                                         {
-                                                "professor": "Prof. Bongjin Kim",
+                                                "professor": "Bongjin Kim",
                                                 "homepage": "https://sites.google.com/view/mslab/professor",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Peng Li",
+                                                "professor": "Peng Li",
                                                 "homepage": "https://web.ece.ucsb.edu/~lip/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Behrooz Parhami",
+                                                "professor": "Behrooz Parhami",
                                                 "homepage": "https://www.ece.ucsb.edu/~parhami/",
                                                 "scholar": "https://scholar.google.com/citations?user=0AS7IpsAAAAJ&hl=en&oi=ao",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Tim Sherwood",
+                                                "professor": "Tim Sherwood",
                                                 "homepage": "https://www.arch.cs.ucsb.edu/people",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Zheng Zhang",
+                                                "professor": "Zheng Zhang",
                                                 "homepage": "https://web.ece.ucsb.edu/~zhengzhang/Index.htm",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -3056,25 +3056,25 @@ var wsnGroups = {
                                 "name": "University of Illinois at Urbana-Champaign (UIUC)",
                                 "people": [
                                         {
-                                                "professor": "Prof. Rakesh Kumar",
+                                                "professor": "Rakesh Kumar",
                                                 "homepage": "http://rakeshk.crhc.illinois.edu/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Muoga Saburo",
+                                                "professor": "Muoga Saburo",
                                                 "homepage": "http://www.history.muroga.org/bio.htm",
                                                 "scholar": "",
                                                 "dblp": "https://dblp.org/pid/82/4473.html"
                                         },
                                         {
-                                                "professor": "Prof. Naresh R Shanbhag",
+                                                "professor": "Naresh R Shanbhag",
                                                 "homepage": "http://shanbhag.ece.illinois.edu/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Douglas B. West",
+                                                "professor": "Douglas B. West",
                                                 "homepage": "https://faculty.math.illinois.edu/~west/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -3085,13 +3085,13 @@ var wsnGroups = {
                                 "name": "University of Maryland, College Park.",
                                 "people": [
                                         {
-                                                "professor": "Prof. Bruce Jacob",
+                                                "professor": "Bruce Jacob",
                                                 "homepage": "https://user.eng.umd.edu/~blj/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Dhananjay Phatak",
+                                                "professor": "Dhananjay Phatak",
                                                 "homepage": "https://www.csee.umbc.edu/~phatak/",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=ohFkYAwAAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
@@ -3102,25 +3102,25 @@ var wsnGroups = {
                                 "name": "University of Massachusetts",
                                 "people": [
                                         {
-                                                "professor": "Prof. Israel Koren",
+                                                "professor": "Israel Koren",
                                                 "homepage": "http://www.ecs.umass.edu/ece/koren/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Ciesielski Maciej",
+                                                "professor": "Ciesielski Maciej",
                                                 "homepage": "http://www.ecs.umass.edu/ece/labs/vlsicad/ciesielski.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Russell Tessier",
+                                                "professor": "Russell Tessier",
                                                 "homepage": "https://ece.umass.edu/faculty/russell-tessier",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. J. Joshua Yang",
+                                                "professor": "J. Joshua Yang",
                                                 "homepage": "",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=9Oaf_cUAAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
@@ -3131,7 +3131,7 @@ var wsnGroups = {
                                 "name": "University of Minnesota",
                                 "people": [
                                         {
-                                                "professor": "Prof. Keshab K. Parhi",
+                                                "professor": "Keshab K. Parhi",
                                                 "homepage": "http://people.ece.umn.edu/users/parhi/",
                                                 "scholar": "https://scholar.google.com/citations?user=G8RIjYMAAAAJ&hl=en&oi=ao",
                                                 "dblp": ""
@@ -3142,19 +3142,19 @@ var wsnGroups = {
                                 "name": "University of Southern California - Los Angeles",
                                 "people": [
                                         {
-                                                "professor": "Prof. Peter A. Beerel",
+                                                "professor": "Peter A. Beerel",
                                                 "homepage": "https://sites.usc.edu/eessc/people/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Massoud Pedram",
+                                                "professor": "Massoud Pedram",
                                                 "homepage": "http://www.mpedram.com/",
                                                 "scholar": "https://scholar.google.com/citations?user=FHiQmOoAAAAJ&hl=en&oi=sra",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Viktor K. Prasanna",
+                                                "professor": "Viktor K. Prasanna",
                                                 "homepage": "https://sites.usc.edu/prasanna/publications/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -3165,25 +3165,25 @@ var wsnGroups = {
                                 "name": "University of Utah",
                                 "people": [
                                         {
-                                                "professor": "Prof. Rajeev Balasubramonian",
+                                                "professor": "Rajeev Balasubramonian",
                                                 "homepage": "https://www.cs.utah.edu/~rajeev/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Erik Brunvand",
+                                                "professor": "Erik Brunvand",
                                                 "homepage": "https://www.cs.utah.edu/~elb/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Armin Tajalli",
+                                                "professor": "Armin Tajalli",
                                                 "homepage": "https://lcas.ece.utah.edu/people/",
                                                 "scholar": "https://scholar.google.com/citations?user=diJ1z_AAAAAJ&hl=en",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Xifan Tang",
+                                                "professor": "Xifan Tang",
                                                 "homepage": "",
                                                 "scholar": "https://scholar.google.com/citations?user=8xx9aw0AAAAJ&hl=en",
                                                 "dblp": ""
@@ -3199,13 +3199,13 @@ var wsnGroups = {
                                 "name": "Duke University",
                                 "people": [
                                         {
-                                                "professor": "Prof. Yiran Chen",
+                                                "professor": "Yiran Chen",
                                                 "homepage": "https://ece.duke.edu/faculty/yiran-chen",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Daniel J. Sorin",
+                                                "professor": "Daniel J. Sorin",
                                                 "homepage": "http://people.ee.duke.edu/~sorin/",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=bsoRFLAAAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
@@ -3216,13 +3216,13 @@ var wsnGroups = {
                                 "name": "Georgia Tech",
                                 "people": [
                                         {
-                                                "professor": "Prof. Milos Prvulovic",
+                                                "professor": "Milos Prvulovic",
                                                 "homepage": "https://faculty.cc.gatech.edu/~milos/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Richard",
+                                                "professor": "Richard",
                                                 "homepage": "https://vuduc.org/v2/",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -3233,31 +3233,31 @@ var wsnGroups = {
                                 "name": "Harvard University",
                                 "people": [
                                         {
-                                                "professor": "Prof. David Brooks",
+                                                "professor": "David Brooks",
                                                 "homepage": "http://www.eecs.harvard.edu/~dbrooks/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. H.T. Kung",
+                                                "professor": "H.T. Kung",
                                                 "homepage": "http://www.eecs.harvard.edu/htk/biography/",
                                                 "scholar": "https://scholar.google.com/citations?user=iLQqwosAAAAJ&hl=en&oi=ao",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Vijay Janapa Reddi",
+                                                "professor": "Vijay Janapa Reddi",
                                                 "homepage": "https://scholar.harvard.edu/vijay-janapa-reddi",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Gu Yeon Wei",
+                                                "professor": "Gu Yeon Wei",
                                                 "homepage": "https://www.seas.harvard.edu/directory/guyeon",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Woodward Yang",
+                                                "professor": "Woodward Yang",
                                                 "homepage": "https://www.seas.harvard.edu/directory/woody",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -3268,19 +3268,19 @@ var wsnGroups = {
                                 "name": "NorthEasteren",
                                 "people": [
                                         {
-                                                "professor": "Prof. Lombardi Fabrizio",
+                                                "professor": "Lombardi Fabrizio",
                                                 "homepage": "https://coe.northeastern.edu/people/lombardi-fabrizio/",
                                                 "scholar": "",
                                                 "dblp": "https://dblp.org/pers/hd/l/Lombardi:Fabrizio"
                                         },
                                         {
-                                                "professor": "Prof. David Kaeli",
+                                                "professor": "David Kaeli",
                                                 "homepage": "https://ece.northeastern.edu/fac-ece/kaeli.html",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Tommaso Melodia",
+                                                "professor": "Tommaso Melodia",
                                                 "homepage": "https://ece.northeastern.edu/wineslab/people.php",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -3291,7 +3291,7 @@ var wsnGroups = {
                                 "name": "The University of Texas at San Antonio (UTSA)",
                                 "people": [
                                         {
-                                                "professor": "Prof. Chen pan",
+                                                "professor": "Chen pan",
                                                 "homepage": "https://sites.google.com/view/iot-laboratory/home",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -3302,7 +3302,7 @@ var wsnGroups = {
                                 "name": "University of Central Florida",
                                 "people": [
                                         {
-                                                "professor": "Prof. Yan",
+                                                "professor": "Yan",
                                                 "homepage": "https://sites.google.com/view/arpers/Home",
                                                 "scholar": "",
                                                 "dblp": ""
@@ -3313,7 +3313,7 @@ var wsnGroups = {
                                 "name": "University of Central Florida",
                                 "people": [
                                         {
-                                                "professor": "Prof. Ramtin Zand",
+                                                "professor": "Ramtin Zand",
                                                 "homepage": "http://cal.ucf.edu/zand.html",
                                                 "scholar": "https://scholar.google.com/citations?hl=en&user=JyzaowcAAAAJ&view_op=list_works&sortby=pubdate",
                                                 "dblp": ""
@@ -3335,43 +3335,43 @@ var wsnGroups = {
                                 "name": "University of Texas at Austin",
                                 "people": [
                                         {
-                                                "professor": "Prof. Jacob Abraham",
+                                                "professor": "Jacob Abraham",
                                                 "homepage": "https://www.cerc.utexas.edu/~jaa/",
                                                 "scholar": "https://scholar.google.com/citations?user=rmkFbFsAAAAJ&hl=en&oi=ao",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Adnan Aziz",
+                                                "professor": "Adnan Aziz",
                                                 "homepage": "http://users.ece.utexas.edu/~adnan/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Burger",
+                                                "professor": "Burger",
                                                 "homepage": "http://www.cs.utexas.edu/~dburger/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Paul Grats",
+                                                "professor": "Paul Grats",
                                                 "homepage": "https://cesg.tamu.edu/faculty/paul-gratz/",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. David Z Pan",
+                                                "professor": "David Z Pan",
                                                 "homepage": "http://users.ece.utexas.edu/~dpan/",
                                                 "scholar": "https://scholar.google.com/citations?user=3aLlroEAAAAJ",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Earl Swartzlander",
+                                                "professor": "Earl Swartzlander",
                                                 "homepage": "http://www.ece.utexas.edu/people/faculty/earl-swartzlander",
                                                 "scholar": "",
                                                 "dblp": ""
                                         },
                                         {
-                                                "professor": "Prof. Yale",
+                                                "professor": "Yale",
                                                 "homepage": "http://users.ece.utexas.edu/~patt/",
                                                 "scholar": "",
                                                 "dblp": ""

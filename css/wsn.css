@@ -318,6 +318,30 @@
     color: #0c5460;
 }
 
+/* Responsive WSN */
+@media (max-width: 768px) {
+    .wsn-country-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    .wsn-country-name {
+        flex: 0 1 auto;
+        min-width: 0;
+    }
+    
+    .wsn-country-count {
+        margin-left: auto;
+        white-space: nowrap;
+    }
+    
+    .wsn-country-flag {
+        font-size: 18px;
+    }
+}
+
 /* Responsive venues */
 @media (max-width: 768px) {
     .venues-grid {
