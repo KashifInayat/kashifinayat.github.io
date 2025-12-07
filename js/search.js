@@ -171,16 +171,22 @@
                 results = results.concat(this.searchWorkExperience(query));
             }
 
+            // Search Blog Posts
+            if (typeof blogPosts !== 'undefined') {
+                results = results.concat(this.searchBlogPosts(query));
+            }
+
             this.displayResults(results, query);
         },
 
         searchWSNGroups: function(query) {
             var results = [];
-            var regions = ['usa', 'europe', 'asia', 'middleEast'];
+            var regions = ['america', 'asia', 'australia', 'europe', 'middleEast'];
             var regionNames = {
-                'usa': 'USA',
-                'europe': 'Europe',
+                'america': 'America',
                 'asia': 'Asia',
+                'australia': 'Australia',
+                'europe': 'Europe',
                 'middleEast': 'Middle East'
             };
 
@@ -191,42 +197,88 @@
                 region.forEach(function(country, countryIndex) {
                     var countryName = country.country;
                     
-                    if (!country.labs) return;
+                    // Handle USA with regions structure
+                    if (country.regions && country.regions.length > 0) {
+                        country.regions.forEach(function(usaRegion, regionIndex) {
+                            var usaRegionName = usaRegion.region;
+                            if (!usaRegion.labs) return;
 
-                    country.labs.forEach(function(lab, labIndex) {
-                        var labName = lab.name;
-                        var searchText = (labName + ' ' + countryName).toLowerCase();
+                            usaRegion.labs.forEach(function(lab, labIndex) {
+                                var labName = lab.name;
+                                var searchText = (labName + ' ' + countryName + ' ' + usaRegionName).toLowerCase();
 
-                        // Search in people if exists
-                        var professors = [];
-                        if (lab.people && lab.people.length > 0) {
-                            lab.people.forEach(function(person) {
-                                var profName = person.professor;
-                                professors.push(profName);
-                                searchText += ' ' + profName.toLowerCase();
-                            });
-                        } else if (lab.professor) {
-                            professors.push(lab.professor);
-                            searchText += ' ' + lab.professor.toLowerCase();
-                        }
+                                // Search in people if exists
+                                var professors = [];
+                                if (lab.people && lab.people.length > 0) {
+                                    lab.people.forEach(function(person) {
+                                        var profName = person.professor;
+                                        professors.push(profName);
+                                        searchText += ' ' + profName.toLowerCase();
+                                    });
+                                } else if (lab.professor) {
+                                    professors.push(lab.professor);
+                                    searchText += ' ' + lab.professor.toLowerCase();
+                                }
 
-                        if (searchText.includes(query)) {
-                            results.push({
-                                type: 'wsn',
-                                title: labName,
-                                subtitle: countryName + ' • ' + regionNames[regionKey],
-                                description: professors.length > 0 ? professors.join(', ') : 'Research Group',
-                                action: 'navigate-wsn',
-                                data: {
-                                    region: regionKey,
-                                    countryIndex: countryIndex,
-                                    labIndex: labIndex,
-                                    regionName: regionNames[regionKey]
-                                },
-                                relevance: this.calculateRelevance(query, searchText)
-                            });
-                        }
-                    }.bind(this));
+                                if (searchText.includes(query)) {
+                                    results.push({
+                                        type: 'wsn',
+                                        title: labName,
+                                        subtitle: countryName + ' (' + usaRegionName + ') • ' + regionNames[regionKey],
+                                        description: professors.length > 0 ? professors.join(', ') : 'Research Group',
+                                        action: 'navigate-wsn',
+                                        data: {
+                                            region: regionKey,
+                                            countryIndex: countryIndex,
+                                            regionIndex: regionIndex,
+                                            labIndex: labIndex,
+                                            regionName: regionNames[regionKey],
+                                            hasRegions: true
+                                        },
+                                        relevance: this.calculateRelevance(query, searchText)
+                                    });
+                                }
+                            }.bind(this));
+                        }.bind(this));
+                    }
+                    
+                    // Handle regular labs structure (Canada and other countries)
+                    if (country.labs && country.labs.length > 0) {
+                        country.labs.forEach(function(lab, labIndex) {
+                            var labName = lab.name;
+                            var searchText = (labName + ' ' + countryName).toLowerCase();
+
+                            // Search in people if exists
+                            var professors = [];
+                            if (lab.people && lab.people.length > 0) {
+                                lab.people.forEach(function(person) {
+                                    var profName = person.professor;
+                                    professors.push(profName);
+                                    searchText += ' ' + profName.toLowerCase();
+                                });
+                            } else if (lab.professor) {
+                                professors.push(lab.professor);
+                                searchText += ' ' + lab.professor.toLowerCase();
+                            }
+
+                            if (searchText.includes(query)) {
+                                results.push({
+                                    type: 'wsn',
+                                    title: labName,
+                                    subtitle: countryName + ' • ' + regionNames[regionKey],
+                                    description: professors.length > 0 ? professors.join(', ') : 'Research Group',
+                                    action: 'navigate-wsn',
+                                    data: {
+                                        region: regionKey,
+                                        countryIndex: countryIndex,
+                                        labIndex: labIndex,
+                                        regionName: regionNames[regionKey]
+                                    },
+                                    relevance: this.calculateRelevance(query, searchText)
+                                });
+                            }
+                        }.bind(this));
+                    }
                 }.bind(this));
             }.bind(this));
 
@@ -467,6 +519,41 @@
             return results;
         },
 
+        searchBlogPosts: function(query) {
+            var results = [];
+            
+            if (blogPosts && Array.isArray(blogPosts)) {
+                blogPosts.forEach(function(post, index) {
+                    // Create searchable text from post
+                    var searchText = (
+                        (post.title || '') + ' ' + 
+                        (post.summary || '') + ' ' + 
+                        (post.author || '') + ' ' + 
+                        (post.tags ? post.tags.join(' ') : '') + ' ' +
+                        (post.content || '').replace(/<[^>]*>/g, ' ') // Remove HTML tags from content
+                    ).toLowerCase();
+                    
+                    if (searchText.includes(query)) {
+                        var tagsText = post.tags ? post.tags.join(', ') : '';
+                        results.push({
+                            type: 'blog',
+                            title: post.title || 'Untitled Post',
+                            subtitle: (post.date || 'No date') + ' • ' + tagsText,
+                            description: (post.summary || '').substring(0, 150) + (post.summary && post.summary.length > 150 ? '...' : ''),
+                            action: 'navigate-blog',
+                            data: { 
+                                postId: post.id,
+                                url: 'blog.html#post-' + post.id
+                            },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }
+
+            return results;
+        },
+
         calculateRelevance: function(query, text) {
             var score = 0;
             
@@ -528,7 +615,8 @@
                 'update': '<i class="icofont icofont-notification"></i>',
                 'news': '<i class="icofont icofont-newspaper"></i>',
                 'education': '<i class="icofont icofont-graduate"></i>',
-                'work': '<i class="icofont icofont-briefcase"></i>'
+                'work': '<i class="icofont icofont-briefcase"></i>',
+                'blog': '<i class="icofont icofont-pen-alt-4"></i>'
             };
             return icons[type] || '<i class="icofont icofont-search"></i>';
         },
@@ -570,6 +658,9 @@
                         this.navigateToSection('publications');
                     }
                     break;
+                case 'navigate-blog':
+                    window.location.href = data.url;
+                    break;
             }
         },
 
@@ -586,10 +677,11 @@
 
         expandWSNSection: function(data) {
             var regionMap = {
-                'usa': 'ktab-wsn-1',
-                'europe': 'ktab-wsn-2',
-                'asia': 'ktab-wsn-3',
-                'middleEast': 'ktab-wsn-4'
+                'america': 'ktab4',
+                'asia': 'ktab5',
+                'australia': 'ktab8',
+                'europe': 'ktab6',
+                'middleEast': 'ktab7'
             };
 
             // Switch to correct region tab
@@ -602,46 +694,97 @@
             // Wait for tab content to render
             setTimeout(function() {
                 var divIds = {
-                    'usa': 'usaCountriesDiv',
-                    'europe': 'europeCountriesDiv',
+                    'america': 'americaCountriesDiv',
                     'asia': 'asiaCountriesDiv',
+                    'australia': 'australiaCountriesDiv',
+                    'europe': 'europeCountriesDiv',
                     'middleEast': 'middleEastCountriesDiv'
                 };
 
                 var divId = divIds[data.region];
                 var countryId = divId + '-country-' + data.countryIndex;
-                var labId = countryId + '-lab-' + data.labIndex;
-
-                // Expand country
-                if (typeof toggleWSNCountry === 'function') {
-                    var countryElem = document.getElementById(countryId);
-                    if (countryElem && countryElem.style.display === 'none') {
-                        toggleWSNCountry(countryId);
-                    }
-                }
-
-                // Expand lab
-                setTimeout(function() {
-                    if (typeof toggleWSNLab === 'function') {
-                        var labElem = document.getElementById(labId);
-                        if (labElem && labElem.style.display === 'none') {
-                            toggleWSNLab(labId);
+                
+                // Check if this is USA with regions structure
+                var labId;
+                if (data.hasRegions) {
+                    var regionId = countryId + '-region-' + data.regionIndex;
+                    labId = regionId + '-lab-' + data.labIndex;
+                    
+                    // Expand country first
+                    if (typeof toggleWSNCountry === 'function') {
+                        var countryElem = document.getElementById(countryId);
+                        if (countryElem && countryElem.style.display === 'none') {
+                            toggleWSNCountry(countryId);
                         }
                     }
-
-                    // Scroll to the lab
+                    
+                    // Then expand region
                     setTimeout(function() {
-                        var labElement = document.getElementById(labId);
-                        if (labElement) {
-                            labElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                            labElement.style.backgroundColor = '#fff3cd';
-                            setTimeout(function() {
-                                labElement.style.transition = 'background-color 1s';
-                                labElement.style.backgroundColor = '';
-                            }, 1000);
+                        if (typeof toggleWSNCountry === 'function') {
+                            var regionElem = document.getElementById(regionId);
+                            if (regionElem && regionElem.style.display === 'none') {
+                                toggleWSNCountry(regionId);
+                            }
                         }
+                        
+                        // Then expand lab
+                        setTimeout(function() {
+                            if (typeof toggleWSNLab === 'function') {
+                                var labElem = document.getElementById(labId);
+                                if (labElem && labElem.style.display === 'none') {
+                                    toggleWSNLab(labId);
+                                }
+                            }
+                            
+                            // Scroll to the lab
+                            setTimeout(function() {
+                                var labElement = document.getElementById(labId);
+                                if (labElement) {
+                                    labElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                    labElement.style.backgroundColor = '#fff3cd';
+                                    setTimeout(function() {
+                                        labElement.style.transition = 'background-color 1s';
+                                        labElement.style.backgroundColor = '';
+                                    }, 1000);
+                                }
+                            }, 300);
+                        }, 300);
                     }, 300);
-                }, 300);
+                } else {
+                    // Regular structure without regions
+                    labId = countryId + '-lab-' + data.labIndex;
+
+                    // Expand country
+                    if (typeof toggleWSNCountry === 'function') {
+                        var countryElem = document.getElementById(countryId);
+                        if (countryElem && countryElem.style.display === 'none') {
+                            toggleWSNCountry(countryId);
+                        }
+                    }
+
+                    // Expand lab
+                    setTimeout(function() {
+                        if (typeof toggleWSNLab === 'function') {
+                            var labElem = document.getElementById(labId);
+                            if (labElem && labElem.style.display === 'none') {
+                                toggleWSNLab(labId);
+                            }
+                        }
+
+                        // Scroll to the lab
+                        setTimeout(function() {
+                            var labElement = document.getElementById(labId);
+                            if (labElement) {
+                                labElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                labElement.style.backgroundColor = '#fff3cd';
+                                setTimeout(function() {
+                                    labElement.style.transition = 'background-color 1s';
+                                    labElement.style.backgroundColor = '';
+                                }, 1000);
+                            }
+                        }, 300);
+                    }, 300);
+                }
             }, 300);
         },
 
