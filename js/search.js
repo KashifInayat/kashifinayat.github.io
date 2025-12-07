@@ -176,6 +176,26 @@
                 results = results.concat(this.searchBlogPosts(query));
             }
 
+            // Search Journals
+            if (typeof journalLinks !== 'undefined') {
+                results = results.concat(this.searchJournals(query));
+            }
+
+            // Search Conferences
+            if (typeof conferencesLinks !== 'undefined') {
+                results = results.concat(this.searchConferences(query));
+            }
+
+            // Search Skills
+            if (typeof skillspProf !== 'undefined') {
+                results = results.concat(this.searchSkills(query));
+            }
+
+            // Search Honors & Awards
+            if (typeof honorsAwards !== 'undefined') {
+                results = results.concat(this.searchHonorsAwards(query));
+            }
+
             this.displayResults(results, query);
         },
 
@@ -544,6 +564,130 @@
                             data: { 
                                 postId: post.id,
                                 url: 'blog.html#post-' + post.id
+                            },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }
+
+            return results;
+        },
+
+        searchJournals: function(query) {
+            var results = [];
+            
+            if (journalLinks && journalLinks.jrnls && Array.isArray(journalLinks.jrnls)) {
+                journalLinks.jrnls.forEach(function(journal, index) {
+                    var searchText = (
+                        (journal.title || '') + ' ' + 
+                        (journal.detail || '')
+                    ).toLowerCase();
+                    
+                    if (searchText.includes(query)) {
+                        var impactFactor = journal.detail ? journal.detail.replace('[IF: ', '').replace(']', '').trim() : '';
+                        results.push({
+                            type: 'journal',
+                            title: journal.title || 'Untitled Journal',
+                            subtitle: 'Journal' + (impactFactor ? ' • Impact Factor: ' + impactFactor : ''),
+                            description: 'Academic journal in relevant venues section',
+                            action: 'navigate-url',
+                            data: { 
+                                url: journal.link || 'wsn.html#section-rvenues'
+                            },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }
+
+            return results;
+        },
+
+        searchConferences: function(query) {
+            var results = [];
+            
+            if (conferencesLinks && conferencesLinks.confs && Array.isArray(conferencesLinks.confs)) {
+                conferencesLinks.confs.forEach(function(conf, index) {
+                    var detailText = '';
+                    if (conf.detail && conf.detail.text) {
+                        detailText = conf.detail.text;
+                    }
+                    
+                    var searchText = (
+                        (conf.title || '') + ' ' + 
+                        detailText
+                    ).toLowerCase();
+                    
+                    if (searchText.includes(query)) {
+                        results.push({
+                            type: 'conference',
+                            title: conf.title || 'Untitled Conference',
+                            subtitle: 'Conference',
+                            description: 'Academic conference in relevant venues section',
+                            action: 'navigate-url',
+                            data: { 
+                                url: conf.link || 'wsn.html#section-rvenues'
+                            },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }
+
+            return results;
+        },
+
+        searchSkills: function(query) {
+            var results = [];
+            
+            if (skillspProf && skillspProf.skills && Array.isArray(skillspProf.skills)) {
+                skillspProf.skills.forEach(function(skill, index) {
+                    var searchText = (
+                        (skill.title || '') + ' ' + 
+                        (skill.detail || '') + ' ' +
+                        (skill.comments || '')
+                    ).toLowerCase();
+                    
+                    if (searchText.includes(query)) {
+                        results.push({
+                            type: 'skill',
+                            title: skill.title || 'Skill',
+                            subtitle: 'Technical Skill' + (skill.comments ? ' • ' + skill.comments : ''),
+                            description: (skill.detail || '').substring(0, 120) + (skill.detail && skill.detail.length > 120 ? '...' : ''),
+                            action: 'navigate-section',
+                            data: { 
+                                section: 'about'
+                            },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }
+
+            return results;
+        },
+
+        searchHonorsAwards: function(query) {
+            var results = [];
+            
+            if (honorsAwards && honorsAwards.honors && Array.isArray(honorsAwards.honors)) {
+                honorsAwards.honors.forEach(function(honor, index) {
+                    var searchText = (
+                        (honor.title || '') + ' ' + 
+                        (honor.detail || '') + ' ' +
+                        (honor.comments || '')
+                    ).toLowerCase();
+                    
+                    if (searchText.includes(query)) {
+                        results.push({
+                            type: 'honor',
+                            title: honor.title || 'Award',
+                            subtitle: 'Honor & Award' + (honor.comments ? ' • ' + honor.comments : ''),
+                            description: honor.detail || 'Academic honor or award',
+                            action: 'navigate-section',
+                            data: { 
+                                section: 'about'
                             },
                             relevance: this.calculateRelevance(query, searchText)
                         });
