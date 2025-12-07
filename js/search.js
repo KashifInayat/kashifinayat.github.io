@@ -667,7 +667,11 @@
         navigateToWSN: function(data) {
             // Navigate to wsn.html if not already there
             if (!window.location.href.includes('wsn.html')) {
-                window.location.href = 'wsn.html?region=' + data.region + '&country=' + data.countryIndex + '&lab=' + data.labIndex;
+                var url = 'wsn.html?region=' + data.region + '&country=' + data.countryIndex + '&lab=' + data.labIndex;
+                if (data.hasRegions) {
+                    url += '&regionIndex=' + data.regionIndex + '&hasRegions=true';
+                }
+                window.location.href = url;
                 return;
             }
 

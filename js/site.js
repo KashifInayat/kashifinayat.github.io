@@ -6102,6 +6102,105 @@ function displayWSNGroups() {
         displayWSNRegion(wsnGroups.europe, "europeCountriesDiv");
         displayWSNRegion(wsnGroups.middleEast, "middleEastCountriesDiv");
         
+        // Check for URL parameters and expand sections
+        var urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('region') && urlParams.has('country') && urlParams.has('lab')) {
+            var region = urlParams.get('region');
+            var countryIndex = parseInt(urlParams.get('country'));
+            var labIndex = parseInt(urlParams.get('lab'));
+            var regionIndex = urlParams.has('regionIndex') ? parseInt(urlParams.get('regionIndex')) : null;
+            var hasRegions = urlParams.get('hasRegions') === 'true';
+            
+            // Switch to the correct tab
+            var regionMap = {
+                'america': 'ktab4',
+                'asia': 'ktab5',
+                'australia': 'ktab8',
+                'europe': 'ktab6',
+                'middleEast': 'ktab7'
+            };
+            
+            var tabId = regionMap[region];
+            if (tabId) {
+                setTimeout(function() {
+                    var tabRadio = document.getElementById(tabId);
+                    if (tabRadio) {
+                        tabRadio.checked = true;
+                        
+                        // Wait for tab to activate, then expand sections
+                        setTimeout(function() {
+                            var divIds = {
+                                'america': 'americaCountriesDiv',
+                                'asia': 'asiaCountriesDiv',
+                                'australia': 'australiaCountriesDiv',
+                                'europe': 'europeCountriesDiv',
+                                'middleEast': 'middleEastCountriesDiv'
+                            };
+                            
+                            var divId = divIds[region];
+                            var countryId = divId + '-country-' + countryIndex;
+                            
+                            if (hasRegions && regionIndex !== null) {
+                                // USA structure with regions
+                                var regionId = countryId + '-region-' + regionIndex;
+                                var labId = regionId + '-lab-' + labIndex;
+                                
+                                // Expand country
+                                toggleWSNCountry(countryId);
+                                
+                                // Expand region
+                                setTimeout(function() {
+                                    toggleWSNCountry(regionId);
+                                    
+                                    // Expand lab
+                                    setTimeout(function() {
+                                        toggleWSNLab(labId);
+                                        
+                                        // Scroll to lab
+                                        setTimeout(function() {
+                                            var labElement = document.getElementById(labId);
+                                            if (labElement) {
+                                                labElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                                labElement.style.backgroundColor = '#fff3cd';
+                                                setTimeout(function() {
+                                                    labElement.style.transition = 'background-color 1s';
+                                                    labElement.style.backgroundColor = '';
+                                                }, 1000);
+                                            }
+                                        }, 300);
+                                    }, 300);
+                                }, 300);
+                            } else {
+                                // Regular structure
+                                var labId = countryId + '-lab-' + labIndex;
+                                
+                                // Expand country
+                                toggleWSNCountry(countryId);
+                                
+                                // Expand lab
+                                setTimeout(function() {
+                                    toggleWSNLab(labId);
+                                    
+                                    // Scroll to lab
+                                    setTimeout(function() {
+                                        var labElement = document.getElementById(labId);
+                                        if (labElement) {
+                                            labElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                            labElement.style.backgroundColor = '#fff3cd';
+                                            setTimeout(function() {
+                                                labElement.style.transition = 'background-color 1s';
+                                                labElement.style.backgroundColor = '';
+                                            }, 1000);
+                                        }
+                                    }, 300);
+                                }, 300);
+                            }
+                        }, 300);
+                    }
+                }, 500);
+            }
+        }
+        
         // Add listeners to WSN tab radio buttons to recalculate margin when switching tabs
         setTimeout(function() {
             if (window.jQuery) {
