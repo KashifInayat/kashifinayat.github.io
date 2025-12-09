@@ -196,6 +196,29 @@
                 results = results.concat(this.searchHonorsAwards(query));
             }
 
+            // Search Contacts
+            if (typeof contacts !== 'undefined') {
+                results = results.concat(this.searchContacts(query));
+            }
+
+            // Search Short Courses
+            if (typeof shortCourses !== 'undefined') {
+                results = results.concat(this.searchShortCourses(query));
+            }
+
+            // Search Academic Material
+            if (typeof academicMaterialData !== 'undefined') {
+                results = results.concat(this.searchAcademicMaterial(query));
+            }
+
+            // Search Tools & Resources
+            if (typeof toolsResourcesData !== 'undefined') {
+                results = results.concat(this.searchToolsResources(query));
+            }
+
+            // Search Page Titles
+            results = results.concat(this.searchPageTitles(query));
+
             this.displayResults(results, query);
         },
 
@@ -316,6 +339,13 @@
                 if (about.aboutText && about.aboutText.length > 0) {
                     var text = about.aboutText[0];
                     searchText += ' ' + (text.text1 || '') + ' ' + (text.text2 || '') + ' ' + (text.text3 || '');
+                }
+
+                // Search in profile links (GitHub, LinkedIn, CV, etc.)
+                if (about.profles && Array.isArray(about.profles)) {
+                    about.profles.forEach(function(profile) {
+                        searchText += ' ' + (profile.name || '') + ' ' + (profile.link || '');
+                    });
                 }
                 
                 searchText = searchText.toLowerCase();
@@ -698,6 +728,199 @@
             return results;
         },
 
+        searchPageTitles: function(query) {
+            var results = [];
+            
+            // Define searchable page titles with their metadata
+            var pageTitles = [
+                {
+                    title: 'Watan Semiconductor Network',
+                    subtitle: 'WSN',
+                    description: 'Network of semiconductor researchers and professors across the globe',
+                    url: 'wsn.html',
+                    keywords: ['watan', 'semiconductor', 'network', 'wsn', 'professors', 'universities']
+                },
+                {
+                    title: 'Binary Thoughts',
+                    subtitle: 'Blog',
+                    description: 'Technical blog covering computer architecture, VLSI design, ML accelerators',
+                    url: 'blog.html',
+                    keywords: ['binary', 'thoughts', 'blog', 'vlsi', 'machine learning', 'accelerators']
+                },
+                {
+                    title: 'Academic Material',
+                    subtitle: 'Resources',
+                    description: 'Academic resources, courses, and educational materials',
+                    url: 'Academic Material.html',
+                    keywords: ['academic', 'material', 'resources', 'courses', 'education']
+                },
+                {
+                    title: 'Tools & More Resources',
+                    subtitle: 'Resources',
+                    description: 'Useful tools and additional resources for research and development',
+                    url: 'Tools  More Resources.html',
+                    keywords: ['tools', 'resources', 'utilities', 'development']
+                },
+                {
+                    title: 'Publications',
+                    subtitle: 'Research',
+                    description: 'Research publications, papers, and academic contributions',
+                    url: 'publications.html',
+                    keywords: ['publications', 'papers', 'research', 'journals', 'conferences']
+                },
+                {
+                    title: 'Recent Updates',
+                    subtitle: 'News',
+                    description: 'Latest news, achievements, and professional updates',
+                    url: 'recentupdates.html',
+                    keywords: ['updates', 'news', 'recent', 'achievements']
+                }
+            ];
+            
+            pageTitles.forEach(function(page) {
+                var searchText = (
+                    page.title + ' ' + 
+                    page.subtitle + ' ' + 
+                    page.description + ' ' + 
+                    page.keywords.join(' ')
+                ).toLowerCase();
+                
+                if (searchText.includes(query)) {
+                    results.push({
+                        type: 'page',
+                        title: page.title,
+                        subtitle: page.subtitle,
+                        description: page.description,
+                        action: 'navigate-url',
+                        data: { url: page.url },
+                        relevance: this.calculateRelevance(query, searchText)
+                    });
+                }
+            }.bind(this));
+
+            return results;
+        },
+
+        searchContacts: function(query) {
+            var results = [];
+            
+            if (contacts && contacts.contact) {
+                var contact = contacts.contact;
+                var searchText = (
+                    (contact.email || '') + ' ' +
+                    (contact.skype || '') + ' ' +
+                    (contact.mobile || '') + ' ' +
+                    (contact.lab || '') + ' ' +
+                    (contact.department || '')
+                ).toLowerCase();
+                
+                if (searchText.includes(query)) {
+                    var displayText = [];
+                    if (contact.email) displayText.push('Email: ' + contact.email);
+                    if (contact.mobile) displayText.push('Mobile: ' + contact.mobile);
+                    if (contact.lab) displayText.push('Location: ' + contact.lab);
+                    
+                    results.push({
+                        type: 'contact',
+                        title: 'Contact Information',
+                        subtitle: contact.lab || 'Contact Details',
+                        description: displayText.join(' • '),
+                        action: 'navigate-section',
+                        data: { section: 'about' },
+                        relevance: this.calculateRelevance(query, searchText)
+                    });
+                }
+            }
+            
+            return results;
+        },
+
+        searchShortCourses: function(query) {
+            var results = [];
+            
+            if (shortCourses && shortCourses.courses && Array.isArray(shortCourses.courses)) {
+                shortCourses.courses.forEach(function(course, index) {
+                    var searchText = (
+                        (course.title || '') + ' ' +
+                        (course.platform || '') + ' ' +
+                        (course.comments || '')
+                    ).toLowerCase();
+                    
+                    if (searchText.includes(query)) {
+                        results.push({
+                            type: 'course',
+                            title: course.title || 'Course',
+                            subtitle: (course.platform || 'Certificate') + ' • ' + (course.comments || ''),
+                            description: 'Professional certification and short course',
+                            action: 'navigate-section',
+                            data: { section: 'education' },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }
+            
+            return results;
+        },
+
+        searchAcademicMaterial: function(query) {
+            var results = [];
+            
+            if (academicMaterialData) {
+                Object.keys(academicMaterialData).forEach(function(key) {
+                    var section = academicMaterialData[key];
+                    var searchText = (
+                        (section.category || '') + ' ' +
+                        (section.title || '') + ' ' +
+                        (section.resources ? section.resources.join(' ') : '')
+                    ).toLowerCase();
+                    
+                    if (searchText.includes(query)) {
+                        results.push({
+                            type: 'academic',
+                            title: section.title || section.category,
+                            subtitle: 'Academic Material • ' + section.category,
+                            description: 'Resources: ' + (section.resources ? section.resources.slice(0, 3).join(', ') + (section.resources.length > 3 ? '...' : '') : ''),
+                            action: 'navigate-url',
+                            data: { url: 'Academic Material.html' },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }
+            
+            return results;
+        },
+
+        searchToolsResources: function(query) {
+            var results = [];
+            
+            if (toolsResourcesData) {
+                Object.keys(toolsResourcesData).forEach(function(key) {
+                    var section = toolsResourcesData[key];
+                    var searchText = (
+                        (section.category || '') + ' ' +
+                        (section.title || '') + ' ' +
+                        (section.resources ? section.resources.join(' ') : '')
+                    ).toLowerCase();
+                    
+                    if (searchText.includes(query)) {
+                        results.push({
+                            type: 'tool',
+                            title: section.title || section.category,
+                            subtitle: 'Tools & Resources • ' + section.category,
+                            description: 'Tools: ' + (section.resources ? section.resources.slice(0, 3).join(', ') + (section.resources.length > 3 ? '...' : '') : ''),
+                            action: 'navigate-url',
+                            data: { url: 'Tools  More Resources.html' },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }
+            
+            return results;
+        },
+
         calculateRelevance: function(query, text) {
             var score = 0;
             
@@ -760,7 +983,16 @@
                 'news': '<i class="icofont icofont-newspaper"></i>',
                 'education': '<i class="icofont icofont-graduate"></i>',
                 'work': '<i class="icofont icofont-briefcase"></i>',
-                'blog': '<i class="icofont icofont-pen-alt-4"></i>'
+                'blog': '<i class="icofont icofont-pen-alt-4"></i>',
+                'journal': '<i class="icofont icofont-book-alt"></i>',
+                'conference': '<i class="icofont icofont-users-social"></i>',
+                'skill': '<i class="icofont icofont-star"></i>',
+                'honor': '<i class="icofont icofont-award"></i>',
+                'page': '<i class="icofont icofont-page"></i>',
+                'contact': '<i class="icofont icofont-phone"></i>',
+                'course': '<i class="icofont icofont-certificate"></i>',
+                'academic': '<i class="icofont icofont-book"></i>',
+                'tool': '<i class="icofont icofont-tools-alt-2"></i>'
             };
             return icons[type] || '<i class="icofont icofont-search"></i>';
         },

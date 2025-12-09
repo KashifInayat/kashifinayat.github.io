@@ -26,6 +26,26 @@
             this.generateTags();
             this.renderPosts();
             this.updateBlogCount();
+            this.checkUrlHash();
+        },
+
+        checkUrlHash: function() {
+            // Check if we navigated to a specific blog post via hash
+            var hash = window.location.hash;
+            if (hash && hash.startsWith('#post-')) {
+                var postId = parseInt(hash.replace('#post-', ''));
+                setTimeout(function() {
+                    var postCard = document.querySelector('[data-post-id="' + postId + '"]');
+                    if (postCard) {
+                        postCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        postCard.style.backgroundColor = '#fff3cd';
+                        setTimeout(function() {
+                            postCard.style.transition = 'background-color 1s';
+                            postCard.style.backgroundColor = '';
+                        }, 2000);
+                    }
+                }, 500);
+            }
         },
 
         setupEventListeners: function() {
@@ -137,6 +157,7 @@
         createPostCard: function(post) {
             var card = document.createElement('div');
             card.className = 'blog-card' + (post.featured ? ' featured' : '');
+            card.setAttribute('data-post-id', post.id);
             
             var tagsHtml = post.tags.map(function(tag) {
                 return '<span class="blog-card-tag">' + tag + '</span>';
