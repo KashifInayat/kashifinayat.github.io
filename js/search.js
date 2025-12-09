@@ -10,10 +10,70 @@
         searchInput: null,
         searchResults: null,
         searchOverlay: null,
+        sectionMetadata: null,
         
         init: function() {
             this.createSearchUI();
             this.attachEventListeners();
+            this.generateSectionMetadata(); // Auto-generate metadata from DOM
+        },
+
+        generateSectionMetadata: function() {
+            // Auto-generate section metadata by reading section headings from the page
+            this.sectionMetadata = {};
+            
+            // Find all sections with IDs that start with "section-"
+            var sections = document.querySelectorAll('[id^="section-"]');
+            
+            sections.forEach(function(section) {
+                var sectionId = section.id.replace('section-', '');
+                
+                // Try to find the heading text
+                var heading = section.querySelector('h2, h3, h1');
+                var title = heading ? heading.textContent.trim().replace('.', '') : sectionId;
+                
+                // Generate keywords from the title
+                var keywords = this.generateKeywordsFromTitle(title, sectionId);
+                
+                this.sectionMetadata[sectionId] = {
+                    title: title,
+                    keywords: keywords
+                };
+            }.bind(this));
+            
+            console.log('Auto-generated section metadata:', this.sectionMetadata);
+        },
+
+        generateKeywordsFromTitle: function(title, sectionId) {
+            var keywords = [];
+            
+            // Add the title itself
+            keywords.push(title.toLowerCase());
+            
+            // Add individual words from title
+            var words = title.toLowerCase().split(/\s+/);
+            keywords = keywords.concat(words);
+            
+            // Add section ID
+            keywords.push(sectionId);
+            
+            // Add common variations based on section ID
+            var commonKeywords = {
+                'about': ['biography', 'bio', 'profile', 'personal', 'introduction', 'background', 'overview'],
+                'research': ['interests', 'topics', 'areas', 'focus', 'expertise', 'specialization'],
+                'teaching': ['service', 'reviewer', 'committee', 'professional'],
+                'publications': ['papers', 'articles', 'research papers', 'journal papers', 'conference papers'],
+                'education': ['academic', 'degree', 'phd', 'masters', 'bachelors', 'university', 'studies', 'qualifications'],
+                'contacts': ['contact', 'email', 'phone', 'address', 'location', 'reach', 'get in touch', 'call', 'write'],
+                'recent': ['updates', 'news', 'latest', 'announcements']
+            };
+            
+            if (commonKeywords[sectionId]) {
+                keywords = keywords.concat(commonKeywords[sectionId]);
+            }
+            
+            // Remove duplicates
+            return [...new Set(keywords)];
         },
 
         createSearchUI: function() {
@@ -219,6 +279,12 @@
             // Search Page Titles
             results = results.concat(this.searchPageTitles(query));
 
+            // Search Navigation & Sections
+            results = results.concat(this.searchNavigationSections(query));
+
+            // Search Common Keywords
+            results = results.concat(this.searchCommonKeywords(query));
+
             this.displayResults(results, query);
         },
 
@@ -248,7 +314,12 @@
 
                             usaRegion.labs.forEach(function(lab, labIndex) {
                                 var labName = lab.name;
-                                var searchText = (labName + ' ' + countryName + ' ' + usaRegionName).toLowerCase();
+                                var searchText = (
+                                    labName + ' ' + 
+                                    countryName + ' ' + 
+                                    usaRegionName + ' ' + 
+                                    regionNames[regionKey]
+                                ).toLowerCase();
 
                                 // Search in people if exists
                                 var professors = [];
@@ -289,7 +360,11 @@
                     if (country.labs && country.labs.length > 0) {
                         country.labs.forEach(function(lab, labIndex) {
                             var labName = lab.name;
-                            var searchText = (labName + ' ' + countryName).toLowerCase();
+                            var searchText = (
+                                labName + ' ' + 
+                                countryName + ' ' + 
+                                regionNames[regionKey]
+                            ).toLowerCase();
 
                             // Search in people if exists
                             var professors = [];
@@ -526,7 +601,16 @@
             
             if (educationList && educationList.educationList) {
                 educationList.educationList.forEach(function(edu, index) {
-                    var searchText = (edu.title + ' ' + edu.department + ' ' + edu.thesis + ' ' + (edu.advisorInfo ? edu.advisorInfo.name : '')).toLowerCase();
+                    var searchText = (
+                        (edu.title || '') + ' ' + 
+                        (edu.department || '') + ' ' + 
+                        (edu.thesis || '') + ' ' + 
+                        (edu.major || '') + ' ' +
+                        (edu.detail || '') + ' ' +
+                        (edu.CGPA || '') + ' ' +
+                        (edu.date || '') + ' ' +
+                        (edu.advisorInfo ? edu.advisorInfo.name : '')
+                    ).toLowerCase();
                     
                     if (searchText.includes(query)) {
                         results.push({
@@ -550,7 +634,12 @@
             
             if (workExperience && workExperience.experiences) {
                 workExperience.experiences.forEach(function(exp, index) {
-                    var searchText = (exp.title + ' ' + exp.detail).toLowerCase();
+                    var searchText = (
+                        (exp.title || '') + ' ' + 
+                        (exp.detail || '') + ' ' +
+                        (exp.date || '') + ' ' +
+                        (exp.text || '')
+                    ).toLowerCase();
                     
                     if (searchText.includes(query)) {
                         results.push({
@@ -801,12 +890,195 @@
             return results;
         },
 
+        searchNavigationSections: function(query) {
+            var results = [];
+            
+            // Use auto-generated metadata
+            if (!this.sectionMetadata || Object.keys(this.sectionMetadata).length === 0) {
+                return results;
+            }
+            
+            // Iterate through all auto-generated sections
+            Object.keys(this.sectionMetadata).forEach(function(sectionKey) {
+                var section = this.sectionMetadata[sectionKey];
+                var searchText = (
+                    section.title + ' ' + 
+                    section.keywords.join(' ')
+                ).toLowerCase();
+                
+                if (searchText.includes(query)) {
+                    results.push({
+                        type: 'section',
+                        title: section.title,
+                        subtitle: 'Section',
+                        description: 'Navigate to ' + section.title + ' section',
+                        action: 'navigate-section',
+                        data: { section: sectionKey },
+                        relevance: this.calculateRelevance(query, searchText) + 100
+                    });
+                }
+            }.bind(this));
+
+            return results;
+        },
+
+        searchCommonKeywords: function(query) {
+            var results = [];
+            
+            // Map common keywords to specific sections or pages
+            var keywordMap = [
+                {
+                    keywords: ['professor', 'professors', 'university', 'universities', 'researcher', 'researchers', 'faculty', 'academia', 'academic institutions'],
+                    title: 'Watan Semiconductor Network',
+                    subtitle: 'WSN Database',
+                    description: 'Browse professors and researchers in semiconductor field across universities worldwide',
+                    url: 'wsn.html',
+                    type: 'wsn'
+                },
+                {
+                    keywords: ['qualcomm', 'barcelona', 'bsc', 'supercomputing', 'samsung', 'hongik', 'iqra', 'incheon', 'inu', 'company', 'organization', 'employer'],
+                    title: 'Work Experience & Education',
+                    subtitle: 'Career & Academic Background',
+                    description: 'View work experience at Qualcomm, BSC, Samsung and education at INU, Hongik University',
+                    section: 'education',
+                    type: 'work'
+                },
+                {
+                    keywords: ['cv', 'resume', 'curriculum vitae', 'download', 'pdf'],
+                    title: 'Download CV',
+                    subtitle: 'Curriculum Vitae',
+                    description: 'Download Kashif Inayat\'s CV/Resume',
+                    section: 'about',
+                    type: 'about'
+                },
+                {
+                    keywords: ['github', 'code', 'repository', 'repositories', 'projects', 'source code'],
+                    title: 'GitHub Profile',
+                    subtitle: 'Code & Projects',
+                    description: 'View code repositories and projects on GitHub',
+                    section: 'about',
+                    type: 'about'
+                },
+                {
+                    keywords: ['linkedin', 'professional network', 'connections'],
+                    title: 'LinkedIn Profile',
+                    subtitle: 'Professional Network',
+                    description: 'Connect on LinkedIn',
+                    section: 'about',
+                    type: 'about'
+                },
+                {
+                    keywords: ['google scholar', 'scholar', 'citations', 'h-index', 'research metrics'],
+                    title: 'Google Scholar Profile',
+                    subtitle: 'Research Metrics',
+                    description: 'View publications and citations on Google Scholar',
+                    section: 'about',
+                    type: 'about'
+                },
+                {
+                    keywords: ['vlsi', 'asic', 'fpga', 'hardware', 'rtl', 'verilog', 'vhdl', 'digital design', 'chip design'],
+                    title: 'Research Interests',
+                    subtitle: 'VLSI & Hardware Design',
+                    description: 'VLSI design, ASIC development, and hardware architecture research',
+                    section: 'research',
+                    type: 'research'
+                },
+                {
+                    keywords: ['machine learning', 'ml', 'ai', 'artificial intelligence', 'deep learning', 'neural network', 'accelerator', 'accelerators', 'tpu', 'gpu'],
+                    title: 'Research Interests',
+                    subtitle: 'AI & ML Accelerators',
+                    description: 'Machine learning accelerators, AI hardware, and neural network implementations',
+                    section: 'research',
+                    type: 'research'
+                },
+                {
+                    keywords: ['systolic', 'array', 'systolic array', 'tensor', 'gemini', 'gemmini', 'processing element', 'dataflow'],
+                    title: 'Research Interests',
+                    subtitle: 'Systolic Arrays',
+                    description: 'Systolic array architectures and tensor processing research',
+                    section: 'research',
+                    type: 'research'
+                },
+                {
+                    keywords: ['korea', 'south korea', 'spain', 'ireland', 'pakistan', 'country', 'location'],
+                    title: 'Work & Education History',
+                    subtitle: 'International Experience',
+                    description: 'Work and education experience across Korea, Spain, Ireland, and Pakistan',
+                    section: 'education',
+                    type: 'education'
+                },
+                {
+                    keywords: ['paper', 'journal', 'conference', 'publication', 'article', 'ieee', 'acm', 'springer'],
+                    title: 'Publications',
+                    subtitle: 'Research Papers',
+                    description: 'Browse research publications in journals and conferences',
+                    section: 'publications',
+                    type: 'publication'
+                },
+                {
+                    keywords: ['skills', 'programming', 'languages', 'tools', 'software', 'expertise', 'proficiency'],
+                    title: 'Skills',
+                    subtitle: 'Technical Skills',
+                    description: 'Programming languages, tools, and technical expertise',
+                    section: 'about',
+                    type: 'skill'
+                },
+                {
+                    keywords: ['award', 'awards', 'honor', 'honors', 'achievement', 'achievements', 'recognition', 'fellowship'],
+                    title: 'Honors & Awards',
+                    subtitle: 'Achievements',
+                    description: 'Academic honors, awards, and achievements',
+                    section: 'about',
+                    type: 'honor'
+                },
+                {
+                    keywords: ['course', 'courses', 'class', 'classes', 'teaching', 'mooc', 'coursera', 'udemy'],
+                    title: 'Short Courses',
+                    subtitle: 'Online Courses',
+                    description: 'Completed short courses and certifications',
+                    section: 'about',
+                    type: 'course'
+                }
+            ];
+            
+            keywordMap.forEach(function(item) {
+                var searchText = item.keywords.join(' ').toLowerCase();
+                
+                if (searchText.includes(query)) {
+                    var actionType = item.url ? 'navigate-url' : 'navigate-section';
+                    var actionData = item.url ? { url: item.url } : { section: item.section };
+                    
+                    results.push({
+                        type: item.type,
+                        title: item.title,
+                        subtitle: item.subtitle,
+                        description: item.description,
+                        action: actionType,
+                        data: actionData,
+                        relevance: this.calculateRelevance(query, searchText) + 80
+                    });
+                }
+            }.bind(this));
+
+            return results;
+        },
+
         searchContacts: function(query) {
             var results = [];
             
             if (contacts && contacts.contact) {
                 var contact = contacts.contact;
+                
+                // Use auto-generated metadata for contact keywords
+                var contactKeywords = '';
+                if (this.sectionMetadata && this.sectionMetadata.contacts) {
+                    contactKeywords = this.sectionMetadata.contacts.keywords.join(' ') + ' ';
+                } else {
+                    contactKeywords = 'contact information details '; // fallback
+                }
+                
                 var searchText = (
+                    contactKeywords +
                     (contact.email || '') + ' ' +
                     (contact.skype || '') + ' ' +
                     (contact.mobile || '') + ' ' +
@@ -820,13 +1092,19 @@
                     if (contact.mobile) displayText.push('Mobile: ' + contact.mobile);
                     if (contact.lab) displayText.push('Location: ' + contact.lab);
                     
+                    // Use auto-generated contact title
+                    var contactTitle = 'Contact Information';
+                    if (this.sectionMetadata && this.sectionMetadata.contacts) {
+                        contactTitle = this.sectionMetadata.contacts.title;
+                    }
+                    
                     results.push({
                         type: 'contact',
-                        title: 'Contact Information',
+                        title: contactTitle,
                         subtitle: contact.lab || 'Contact Details',
                         description: displayText.join(' • '),
                         action: 'navigate-section',
-                        data: { section: 'about' },
+                        data: { section: 'contacts' },
                         relevance: this.calculateRelevance(query, searchText)
                     });
                 }
@@ -992,7 +1270,8 @@
                 'contact': '<i class="icofont icofont-phone"></i>',
                 'course': '<i class="icofont icofont-certificate"></i>',
                 'academic': '<i class="icofont icofont-book"></i>',
-                'tool': '<i class="icofont icofont-tools-alt-2"></i>'
+                'tool': '<i class="icofont icofont-tools-alt-2"></i>',
+                'section': '<i class="icofont icofont-location-arrow"></i>'
             };
             return icons[type] || '<i class="icofont icofont-search"></i>';
         },
