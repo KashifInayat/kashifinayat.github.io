@@ -25,6 +25,8 @@
             // Find all sections with IDs that start with "section-"
             var sections = document.querySelectorAll('[id^="section-"]');
             
+            console.log('Found ' + sections.length + ' sections to generate metadata for');
+            
             sections.forEach(function(section) {
                 var sectionId = section.id.replace('section-', '');
                 
@@ -39,6 +41,8 @@
                     title: title,
                     keywords: keywords
                 };
+                
+                console.log('Section "' + sectionId + '" - Title: "' + title + '", Keywords:', keywords);
             }.bind(this));
             
             console.log('Auto-generated section metadata:', this.sectionMetadata);
@@ -1073,8 +1077,10 @@
                 var contactKeywords = '';
                 if (this.sectionMetadata && this.sectionMetadata.contacts) {
                     contactKeywords = this.sectionMetadata.contacts.keywords.join(' ') + ' ';
+                    console.log('Using auto-generated contact keywords:', this.sectionMetadata.contacts.keywords);
                 } else {
                     contactKeywords = 'contact information details '; // fallback
+                    console.log('Using fallback contact keywords (metadata not found)');
                 }
                 
                 var searchText = (
@@ -1085,6 +1091,8 @@
                     (contact.lab || '') + ' ' +
                     (contact.department || '')
                 ).toLowerCase();
+                
+                console.log('Contact search - Query:', query, 'SearchText:', searchText.substring(0, 200));
                 
                 if (searchText.includes(query)) {
                     var displayText = [];
