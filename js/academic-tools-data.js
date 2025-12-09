@@ -194,7 +194,7 @@ var toolsResourcesData = {
             "MIT OpenCourseWare", "UC Berkeley CS", "UC Berkeley EE", "ETH Zurich Video Portal",
             "Oregon State University", "Virtual University Pakistan", "Infocobuild Courseware",
             "Free Video Lectures Portal", "VideoLectures.net", "Internet Archive", "Khan Academy",
-            "Lej4Learning Portal", "Kashif Courses Catalogue", "Synopsys Courseware"
+            "Lej4Learning Portal", "Synopsys Courseware"
         ]
     },
     "codingPractice": {
