@@ -1453,18 +1453,14 @@
                         if (itemId) {
                             var itemEl = document.getElementById(itemId);
                             if (itemEl && itemEl.style.display === 'none') itemEl.style.display = 'block';
-                            // If a file index provided, open that file's embed
+                            // If a file index provided, open that file's URL in a new tab
                             if (typeof data.fileIndex !== 'undefined') {
-                                var embedId = itemId + '-file-' + data.fileIndex;
-                                var embed = document.getElementById(embedId);
-                                if (embed) {
-                                    var iframe = embed.querySelector('iframe');
-                                    if (iframe && !iframe.src) {
-                                        var ds = iframe.getAttribute('data-src') || iframe.dataset.src;
-                                        if (ds) iframe.src = ds;
-                                    }
-                                    embed.style.display = 'block';
-                                }
+                                try {
+                                    var cats = window._academicCategories || [];
+                                    var file = (cats[cidx] && cats[cidx].items && cats[cidx].items[iidx] && cats[cidx].items[iidx].files && cats[cidx].items[iidx].files[data.fileIndex]) || null;
+                                    var url = file ? (file.url || file.link || null) : null;
+                                    if (url) window.open(url, '_blank');
+                                } catch (e) { /* ignore */ }
                             }
                             // Scroll into view and highlight briefly
                             setTimeout(function(){

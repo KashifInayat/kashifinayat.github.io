@@ -493,7 +493,7 @@
 }
 
 .academic-item {
-    background: white;
+    background: transparent;
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     overflow: hidden;
@@ -506,20 +506,27 @@
 
 .academic-item-btn {
     width: 100%;
-    padding: 8px 16px;
+    padding: 10px 18px;
     background: linear-gradient(135deg, #6a9a7a 0%, #5a8a6a 100%);
-    color: white;
+    color: #ffffff !important;
     border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     text-align: left;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.18s ease;
     display: flex;
     align-items: center;
-    gap: 8px;
+    justify-content: space-between;
+    gap: 12px;
     flex-wrap: nowrap;
-    min-height: 40px;
+    min-height: 46px;
+    border-radius: 8px;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.03) inset;
+    outline: none;
 }
 
 .academic-toggle-icon {
@@ -530,4 +537,19 @@
     padding: 10px;
     background: #f9f9f9;
     border-left: 3px solid #6a9a7a;
+}
+
+/* Make the left toggle icon and label align like other site cards */
+.academic-item .academic-toggle-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: rgba(255,255,255,0.95);
+}
+.academic-item .academic-item-name {
+    flex: 1 1 auto;
+    color: #ffffff;
+}
+.academic-item .academic-item-btn .academic-item-name,
+.academic-item .academic-toggle-icon {
+    vertical-align: middle;
 }

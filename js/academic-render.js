@@ -175,12 +175,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     var embedId = id + '-file-' + fidx;
                     html += '<li style="margin-bottom:6px;">';
                     html += '<span style="font-weight:500;">'+title+'</span> ';
-                    html += '<button class="academic-file-view-btn" data-src="'+safeUrl+'" data-target="'+embedId+'" aria-label="View '+title+'" style="margin-left:8px;">View</button>';
+                    // Open preview/download in a new tab — Drive previews often block embedding
+                    html += '<a class="academic-file-view-btn" href="'+safeUrl+'" target="_blank" rel="noopener" aria-label="Open '+title+'" style="margin-left:8px;">Open</a>';
                     var downloadUrl = (function(u){ try{ var m=u.match(/\/d\/([a-zA-Z0-9_-]+)/); if (m&&m[1]) return 'https://drive.google.com/uc?export=download&id=' + m[1]; var q = u.match(/[?&]id=([a-zA-Z0-9_-]+)/); if (q&&q[1]) return 'https://drive.google.com/uc?export=download&id=' + q[1]; }catch(e){} return u; })(safeUrl);
                     html += '<a class="academic-file-download-btn" href="'+downloadUrl+'" target="_blank" rel="noopener" style="margin-left:8px;">Download</a>';
-                    html += '<div id="'+embedId+'" class="academic-file-embed">';
-                    html += '<iframe data-src="'+safeUrl+'" style="border:0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>';
-                    html += '</div>';
                     html += '</li>';
                 });
                 html += '</ul>';
@@ -193,8 +191,6 @@ document.addEventListener('DOMContentLoaded', function() {
         container.innerHTML = html;
         // Attach item toggle handlers for new content
         container.querySelectorAll('.academic-item-btn').forEach(function(btn){ btn.addEventListener('click', function(){ var id = btn.getAttribute('data-target'); var el = document.getElementById(id); if (!el) return; el.style.display = (el.style.display==='none' || el.style.display==='') ? 'block' : 'none'; setTimeout(recalcAcademicTabs, 10); }); });
-        // Attach view handlers for new content
-        container.querySelectorAll('.academic-file-view-btn').forEach(function(b){ b.addEventListener('click', function(ev){ var tgt=b.getAttribute('data-target'); var el=document.getElementById(tgt); if (!el) return; var iframe = el.querySelector('iframe'); if (iframe && !iframe.src) { var ds = iframe.getAttribute('data-src')||iframe.dataset.src; if (ds) iframe.src = ds; } el.style.display = (el.style.display==='none' || el.style.display==='') ? 'block' : 'none'; setTimeout(recalcAcademicTabs, 30); }); });
     }
 
     function renderFromCategories(categories) {
@@ -280,25 +276,21 @@ document.addEventListener('DOMContentLoaded', function() {
                         var title = f.title || f.name || safeUrl;
                         var embedId = id + '-file-' + fidx;
                         html += '<li style="margin-bottom:6px;">';
-                        // Only provide an in-site Viewer — no external Drive link
-                        html += '<span style="font-weight:500;">'+title+'</span> ';
-                        html += '<button class="academic-file-view-btn" data-src="'+safeUrl+'" data-target="'+embedId+'" aria-label="View '+title+'" style="margin-left:8px;">View</button>';
-                        // Build download URL (Google Drive direct-download when possible)
-                        var downloadUrl = (function(u){
-                            try {
-                                var m = u.match(/\/d\/([a-zA-Z0-9_-]+)/);
-                                if (m && m[1]) return 'https://drive.google.com/uc?export=download&id=' + m[1];
-                                var q = u.match(/[?&]id=([a-zA-Z0-9_-]+)/);
-                                if (q && q[1]) return 'https://drive.google.com/uc?export=download&id=' + q[1];
-                            } catch(e){}
-                            return u;
-                        })(safeUrl);
-                        html += '<a class="academic-file-download-btn" href="'+downloadUrl+'" target="_blank" rel="noopener" style="margin-left:8px;">Download</a>';
-                        // Render iframe without `src` to avoid loading until user clicks View
-                        html += '<div id="'+embedId+'" class="academic-file-embed">';
-                        html += '<iframe data-src="'+safeUrl+'" style="border:0;" sandbox="allow-scripts allow-same-origin allow-forms"></iframe>';
-                        html += '</div>';
-                        html += '</li>';
+                            // Open external preview in a new tab — Drive previews often block embedding
+                            html += '<span style="font-weight:500;">'+title+'</span> ';
+                            html += '<a class="academic-file-view-btn" href="'+safeUrl+'" target="_blank" rel="noopener" aria-label="Open '+title+'" style="margin-left:8px;">Open</a>';
+                            // Build download URL (Google Drive direct-download when possible)
+                            var downloadUrl = (function(u){
+                                try {
+                                    var m = u.match(/\/d\/([a-zA-Z0-9_-]+)/);
+                                    if (m && m[1]) return 'https://drive.google.com/uc?export=download&id=' + m[1];
+                                    var q = u.match(/[?&]id=([a-zA-Z0-9_-]+)/);
+                                    if (q && q[1]) return 'https://drive.google.com/uc?export=download&id=' + q[1];
+                                } catch(e){}
+                                return u;
+                            })(safeUrl);
+                            html += '<a class="academic-file-download-btn" href="'+downloadUrl+'" target="_blank" rel="noopener" style="margin-left:8px;">Download</a>';
+                            html += '</li>';
                     });
                     html += '</ul>';
                     html += '</div>';
@@ -331,28 +323,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
 
-        // Attach click handlers to file view buttons; lazy-load iframe `src` from `data-src` when shown
-        document.querySelectorAll('#section-academic .academic-file-view-btn').forEach(function(b){
-            b.addEventListener('click', function(ev){
-                var tgt = b.getAttribute('data-target');
-                var el = document.getElementById(tgt);
-                if (!el) return;
-                // if iframe exists inside embed, set src from data-src when showing
-                var iframe = el.querySelector('iframe');
-                var isHidden = (el.style.display==='none' || el.style.display==='');
-                if (isHidden) {
-                    if (iframe && !iframe.src) {
-                        var ds = iframe.getAttribute('data-src') || iframe.dataset.src;
-                        if (ds) iframe.src = ds;
-                    }
-                    el.style.display = 'block';
-                } else {
-                    el.style.display = 'none';
-                }
-                // Recalc spacing
-                setTimeout(recalcAcademicTabs, 30);
-            });
-        });
+        // File view buttons are anchors that open in a new tab; no JS handler required.
 
         // recalcAcademicTabs moved to outer scope to avoid ReferenceError
 
@@ -416,16 +387,12 @@ document.addEventListener('DOMContentLoaded', function() {
                             if (itemEl) {
                                 itemEl.style.display = 'block';
                                 if (typeof fidx !== 'undefined') {
-                                    var embedId = itemId + '-file-' + fidx;
-                                    var embed = document.getElementById(embedId);
-                                    if (embed) {
-                                        var iframe = embed.querySelector('iframe');
-                                        if (iframe && !iframe.src) {
-                                            var ds = iframe.getAttribute('data-src') || iframe.dataset.src;
-                                            if (ds) iframe.src = ds;
-                                        }
-                                        embed.style.display = 'block';
-                                    }
+                                    try {
+                                        var cats = window._academicCategories || [];
+                                        var file = (cats[cidx] && cats[cidx].items && cats[cidx].items[iidx] && cats[cidx].items[iidx].files && cats[cidx].items[iidx].files[fidx]) || null;
+                                        var url = file ? (file.url || file.link || null) : null;
+                                        if (url) window.open(url, '_blank');
+                                    } catch(e) { /* ignore */ }
                                 }
                                 setTimeout(function(){ itemEl.scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 200);
                             }
