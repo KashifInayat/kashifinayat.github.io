@@ -16,6 +16,41 @@
             this.createSearchUI();
             this.attachEventListeners();
             this.generateSectionMetadata(); // Auto-generate metadata from DOM
+            // Ensure academic content is indexed for search on all pages
+            this.ensureAcademicIndex();
+        },
+
+        ensureAcademicIndex: function() {
+            // Do nothing if already indexed
+            if (window._searchAcademicCategories) return Promise.resolve(window._searchAcademicCategories);
+
+            // Try fetch JSON first; fallback to available globals
+            return fetch('js/academic-links.json').then(function(res){ if (!res.ok) return {}; return res.json(); }).catch(function(){ return {}; }).then(function(data){
+                var cats = [];
+                if (data && data.constellation && data.constellation.length) {
+                    cats = (data.constellation||[]).map(function(c){
+                        return { category: c.category, items: (c.items||[]).map(function(i){ return { name: i.name||i, children: i.children||[], files: i.files||[] }; }) };
+                    });
+                    window._searchAcademicCategories = cats;
+                    console.log('search.js: indexed academic content from js/academic-links.json', (cats||[]).length, 'categories');
+                    return cats;
+                }
+                // Fallback: academicData or academicLinks global variables if present
+                if (typeof academicData !== 'undefined' && academicData.constellation) {
+                    cats = (academicData.constellation||[]).map(function(c){ return { category: c.category, items: (c.items||[]).map(function(i){ return { name: i.name||i, children: i.children||[], files: i.files||[] }; }) }; });
+                    window._searchAcademicCategories = cats;
+                    console.log('search.js: indexed academic content from academicData fallback', (cats||[]).length, 'categories');
+                    return cats;
+                }
+                if (typeof academicLinks !== 'undefined' && academicLinks.constellation) {
+                    cats = (academicLinks.constellation||[]).map(function(c){ return { category: c.category, items: (c.items||[]).map(function(i){ return { name: i.name||i, children: i.children||[], files: i.files||[] }; }) }; });
+                    window._searchAcademicCategories = cats;
+                    console.log('search.js: indexed academic content from academicLinks fallback', (cats||[]).length, 'categories');
+                    return cats;
+                }
+                window._searchAcademicCategories = [];
+                return [];
+            }).catch(function(){ window._searchAcademicCategories = []; return []; });
         },
 
         generateSectionMetadata: function() {
@@ -1183,9 +1218,10 @@
         // Search rendered Academic section (categories, items, files)
         searchAcademicSection: function(query) {
             var results = [];
-            if (!window._academicCategories || !Array.isArray(window._academicCategories)) return results;
+            // Prefer the indexed academic categories available across pages
+            var cats = window._searchAcademicCategories || window._academicCategories || [];
 
-            (window._academicCategories||[]).forEach(function(cat, cidx){
+            (cats||[]).forEach(function(cat, cidx){
                 var catKey = (cat.category||'').toString();
                 (cat.items||[]).forEach(function(item, iidx){
                     var baseText = (catKey + ' ' + (item.name||'') + ' ' + ((item.children||[]).join(' '))).toLowerCase();
