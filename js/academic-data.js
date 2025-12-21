@@ -3,7 +3,11 @@ var academicData = {
         {
             "category": "Articles",
             "items": [
-                { "name": "Accelerator", "files": [ { "title": "A. D. Dimitri Tan - Architecture and Implementation of a Vector SIMD Multiply Accumulate Unit.pdf", "url": "https://drive.google.com/file/d/1OoCl4QXKTRLQOtS6tUaFIPkvW4FgMQwi/preview" } ] },
+                { "name": "Accelerator", "files": [ { "title": "A. D. Dimitri Tan - Architecture and Implementation of a Vector SIMD Multiply Accumulate Unit.pdf", "url": "https://drive.google.com/file/d/1OoCl4QXKTRLQOtS6tUaFIPkvW4FgMQwi/preview" }, 
+                {
+              "title": "Abraham-A chipyard comparison of NVDLA and Gemmini.pdf",
+              "url": "https://drive.google.com/file/d/17BbkErQ1LmxGV7ZjtTeEJBrINcXOC0-q/preview"
+            }, ] },
                 { "name": "Adder" },
                 { "name": "Approximate Arithmetic" },
                 { "name": "Arithmetic" },
