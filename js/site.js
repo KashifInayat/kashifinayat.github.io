@@ -2,16 +2,16 @@
 
 
 
-var webBaseURL = "https://kashifinayat.github.io/";
-var webURL = "https://kashifinayat.github.io/index.html";
+//var webBaseURL = "https://kashifinayat.github.io/";
+//var webURL = "https://kashifinayat.github.io/index.html";
 
 
 
 //var webBaseURL = "https://kashifinayat.com/";
 //var webURL = "https://kashifinayat.com/index.html";
 
-//var webBaseURL = "file:///Volumes/titan/kashif_work/general/my_data/website/kashifinayat.github.io";
-//var webURL = "file:///Volumes/titan/kashif_work/general/my_data/website/kashifinayat.github.io/index.html";
+var webBaseURL = "file:///Volumes/titan/kashif_work/general/my_data/website/kashifinayat.github.io";
+var webURL = "file:///Volumes/titan/kashif_work/general/my_data/website/kashifinayat.github.io/index.html";
 //C:\Users\kihomepc\public
 /***DATA ENTRY START***/
  
@@ -358,9 +358,28 @@ var recentUpdates = {
 }
 
 
+// Centralized recalc function for WSN tab margins
+function recalcWSNTabs() {
+        if (!window.jQuery) return;
+        var $wsnTabs = $('#section-wsn .k-tabs');
+        if ($wsnTabs.length === 0) return;
+        var tabsHeight = $wsnTabs.outerHeight();
+        var currentContent = $wsnTabs.find('.k-tabs__content:visible');
+        var currentContentHeight = (currentContent.outerHeight() || 0);
+        try { var scrollH = currentContent.prop('scrollHeight') || 0; if (scrollH > currentContentHeight) currentContentHeight = scrollH; } catch(e) {}
+        var margin = Math.max(currentContentHeight, 150);
+        $wsnTabs.css({ 'margin-bottom': margin + 'px' });
+        currentContent.css({ 'top': tabsHeight });
+}
+
+// Run initial recalculations to ensure correct spacing on load
+if (typeof window !== 'undefined') {
+        [50,200,600].forEach(function(delay){ setTimeout(function(){ try { recalcWSNTabs(); } catch(e){} }, delay); });
+}
+
 var chipsopp = {
      "chips": [
-        
+     
 	 {
         "date": "July 6, 2021",
         "text": 'Note: IC Design Tools and Hacks',
@@ -6202,30 +6221,18 @@ function displayWSNGroups() {
         }
         
         // Add listeners to WSN tab radio buttons to recalculate margin when switching tabs
-        setTimeout(function() {
-            if (window.jQuery) {
-                $('input[name="ktabs-wsn"]').on('change', function() {
-                    setTimeout(function() {
-                        var $wsnTabs = $('#section-wsn .k-tabs');
-                        if ($wsnTabs.length > 0) {
-                            var tabsHeight = $wsnTabs.outerHeight();
-                            var currentContent = $wsnTabs.find('.k-tabs__content:visible');
-                            var currentContentHeight = currentContent.outerHeight();
-                            
-                            // Use content height or 150px base, whichever is larger
-                            var margin = Math.max(currentContentHeight, 150);
-                            
-                            $wsnTabs.css({
-                                'margin-bottom': margin + 'px'
-                            });
-                            currentContent.css({
-                                'top': tabsHeight
-                            });
+                setTimeout(function() {
+                        if (window.jQuery) {
+                                $('input[name="ktabs-wsn"]').on('change', function() {
+                                        setTimeout(function(){ try { recalcWSNTabs(); } catch(e){} }, 50);
+                                });
+                                // Recalculate when clicking inside the WSN tabs (covers clicking the current tab label)
+                                var wsnNavInit = document.querySelector('#section-wsn .k-tabs');
+                                if (wsnNavInit) {
+                                        wsnNavInit.addEventListener('click', function(){ setTimeout(function(){ try { recalcWSNTabs(); } catch(e){} }, 20); });
+                                }
                         }
-                    }, 50);
-                });
-            }
-        }, 100);
+                }, 100);
     }
 }
 
@@ -6386,27 +6393,8 @@ function toggleWSNCountry(id) {
     var elem = document.getElementById(id);
     if (elem) {
         elem.style.display = elem.style.display === 'none' ? 'block' : 'none';
-        // Trigger main.js setTabKMargin to recalculate margin
-        setTimeout(function() {
-            if (window.jQuery) {
-                var $wsnTabs = $('#section-wsn .k-tabs');
-                if ($wsnTabs.length > 0) {
-                    var tabsHeight = $wsnTabs.outerHeight();
-                    var currentContent = $wsnTabs.find('.k-tabs__content:visible');
-                    var currentContentHeight = currentContent.outerHeight();
-                    
-                    // Use content height or 150px base, whichever is larger
-                    var margin = Math.max(currentContentHeight, 150);
-                    
-                    $wsnTabs.css({
-                        'margin-bottom': margin + 'px'
-                    });
-                    currentContent.css({
-                        'top': tabsHeight
-                    });
-                }
-            }
-        }, 10);
+                // Recalculate WSN tabs spacing
+                setTimeout(function(){ try { recalcWSNTabs(); } catch(e){} }, 10);
     }
 }
 
@@ -6414,27 +6402,8 @@ function toggleWSNLab(id) {
     var elem = document.getElementById(id);
     if (elem) {
         elem.style.display = elem.style.display === 'none' ? 'block' : 'none';
-        // Trigger main.js setTabKMargin to recalculate margin
-        setTimeout(function() {
-            if (window.jQuery) {
-                var $wsnTabs = $('#section-wsn .k-tabs');
-                if ($wsnTabs.length > 0) {
-                    var tabsHeight = $wsnTabs.outerHeight();
-                    var currentContent = $wsnTabs.find('.k-tabs__content:visible');
-                    var currentContentHeight = currentContent.outerHeight();
-                    
-                    // Use content height or 150px base, whichever is larger
-                    var margin = Math.max(currentContentHeight, 150);
-                    
-                    $wsnTabs.css({
-                        'margin-bottom': margin + 'px'
-                    });
-                    currentContent.css({
-                        'top': tabsHeight
-                    });
-                }
-            }
-        }, 10);
+                // Recalculate WSN tabs spacing
+                setTimeout(function(){ try { recalcWSNTabs(); } catch(e){} }, 10);
     }
 }
 

@@ -275,6 +275,8 @@
                 results = results.concat(this.searchAcademicMaterial(query));
             }
 
+            // Search Academic Section (WSN page `section-academic`) using runtime data
+            results = results.concat(this.searchAcademicSection(query));
             // Search Tools & Resources
             if (typeof toolsResourcesData !== 'undefined') {
                 results = results.concat(this.searchToolsResources(query));
@@ -1178,6 +1180,54 @@
             return results;
         },
 
+        // Search rendered Academic section (categories, items, files)
+        searchAcademicSection: function(query) {
+            var results = [];
+            if (!window._academicCategories || !Array.isArray(window._academicCategories)) return results;
+
+            (window._academicCategories||[]).forEach(function(cat, cidx){
+                var catKey = (cat.category||'').toString();
+                (cat.items||[]).forEach(function(item, iidx){
+                    var baseText = (catKey + ' ' + (item.name||'') + ' ' + ((item.children||[]).join(' '))).toLowerCase();
+                    // include file titles/links
+                    var files = item.files || [];
+                    var filesText = files.map(function(f){ return (f.title||f.name||f.url||f.link||''); }).join(' ').toLowerCase();
+                    var searchText = (baseText + ' ' + filesText);
+
+                    if (searchText.includes(query)) {
+                        // If files match specifically, push one result per matching file for direct open
+                        files.forEach(function(f, fidx){
+                            var fText = (f.title||f.name||f.url||f.link||'').toString().toLowerCase();
+                            if (fText.includes(query) || baseText.includes(query)) {
+                                results.push({
+                                    type: 'academic',
+                                    title: (f.title || item.name || catKey),
+                                    subtitle: (item.name || '') + ' • ' + (cat.category || ''),
+                                    description: (f.title ? 'File: ' + f.title : (f.url || f.link || 'File')),
+                                    action: 'navigate-academic',
+                                    data: { categoryIndex: cidx, itemIndex: iidx, fileIndex: fidx },
+                                    relevance: this.calculateRelevance(query, searchText)
+                                });
+                            }
+                        }.bind(this));
+
+                        // Also add a result for the item itself (if not already added by file match)
+                        results.push({
+                            type: 'academic',
+                            title: item.name || catKey,
+                            subtitle: cat.category || '',
+                            description: (item.children && item.children.length ? 'Has subtopics' : 'Academic item'),
+                            action: 'navigate-academic',
+                            data: { categoryIndex: cidx, itemIndex: iidx },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }.bind(this));
+
+            return results;
+        },
+
         searchToolsResources: function(query) {
             var results = [];
             
@@ -1308,6 +1358,9 @@
                 case 'navigate-wsn':
                     this.navigateToWSN(data);
                     break;
+                case 'navigate-academic':
+                    this.navigateToAcademic(data);
+                    break;
                 case 'navigate-section':
                     this.navigateToSection(data.section);
                     break;
@@ -1340,6 +1393,92 @@
 
             // Already on wsn.html, expand the sections
             this.expandWSNSection(data);
+        },
+
+        navigateToAcademic: function(data) {
+            // Navigate to wsn.html and instruct it to open academic tab/item
+            var params = [];
+            if (typeof data.categoryIndex !== 'undefined') params.push('ac_cat=' + encodeURIComponent(data.categoryIndex));
+            if (typeof data.itemIndex !== 'undefined') params.push('ac_item=' + encodeURIComponent(data.itemIndex));
+            if (typeof data.fileIndex !== 'undefined') params.push('ac_file=' + encodeURIComponent(data.fileIndex));
+
+            var query = params.length ? ('?' + params.join('&')) : '';
+            var url = 'wsn.html' + query + '#section-academic';
+
+            if (!window.location.href.includes('wsn.html')) {
+                window.location.href = url;
+                return;
+            }
+
+            // Already on wsn.html — expand academic UI
+            this.expandAcademicSection(data);
+        },
+
+        expandAcademicSection: function(data) {
+            // Wait a bit for academic renderer to have run
+            setTimeout(function(){
+                try {
+                    var cats = window._academicCategories || [];
+                    var cidx = parseInt(data.categoryIndex || 0, 10);
+                    var iidx = parseInt(data.itemIndex || 0, 10);
+
+                    // Map category indices to tab radio IDs: rely on order used in academic-render
+                    var cat = cats[cidx];
+                    if (!cat) return;
+
+                    // Determine which radio to check by matching normalized category name
+                    var name = (cat.category||'').toLowerCase();
+                    var radioMap = {
+                        'articles': 'ktabA1', 'books': 'ktabA2', 'lectures': 'ktabA3',
+                        'patents': 'ktabA4', 'presentations': 'ktabA5', 'published_issues': 'ktabA6', 'thesis': 'ktabA7'
+                    };
+                    var norm = name.replace(/[^a-z0-9]+/g, '_');
+                    var radioId = radioMap[norm] || 'ktabA1';
+                    var radio = document.getElementById(radioId);
+                    if (radio) radio.checked = true;
+
+                    // Trigger rendering of active tab
+                    setTimeout(function(){
+                        // Locate items container
+                        var container = document.querySelector('#section-academic [id$="ItemsDiv"]');
+                        if (!container) return;
+                        // Ensure active tab content rendered
+                        if (typeof container.dataset !== 'undefined' && container.dataset.rendered !== '1') {
+                            // try to call renderActiveAcademicTab if available on page
+                            if (typeof renderActiveAcademicTab === 'function') renderActiveAcademicTab();
+                        }
+
+                        // Expand the requested item
+                        var itemId = container ? (container.id + '-item-' + iidx) : null;
+                        if (itemId) {
+                            var itemEl = document.getElementById(itemId);
+                            if (itemEl && itemEl.style.display === 'none') itemEl.style.display = 'block';
+                            // If a file index provided, open that file's embed
+                            if (typeof data.fileIndex !== 'undefined') {
+                                var embedId = itemId + '-file-' + data.fileIndex;
+                                var embed = document.getElementById(embedId);
+                                if (embed) {
+                                    var iframe = embed.querySelector('iframe');
+                                    if (iframe && !iframe.src) {
+                                        var ds = iframe.getAttribute('data-src') || iframe.dataset.src;
+                                        if (ds) iframe.src = ds;
+                                    }
+                                    embed.style.display = 'block';
+                                }
+                            }
+                            // Scroll into view and highlight briefly
+                            setTimeout(function(){
+                                var elToScroll = document.getElementById(itemId);
+                                if (elToScroll) {
+                                    elToScroll.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                    elToScroll.style.backgroundColor = '#fff3cd';
+                                    setTimeout(function(){ elToScroll.style.transition='background-color 1s'; elToScroll.style.backgroundColor=''; }, 1000);
+                                }
+                            }, 200);
+                        }
+                    }, 200);
+                } catch(e) { console.warn('expandAcademicSection error', e); }
+            }, 300);
         },
 
         expandWSNSection: function(data) {

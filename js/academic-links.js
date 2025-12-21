@@ -1,0 +1,5837 @@
+// Stub file: `js/academic-links.json` contains the real dataset and is fetched at runtime.
+// Keep a minimal global for backward compatibility.
+var academicLinks = { constellation: [] };
+
+// NOTE: Do NOT inline the dataset here; `academic-render.js` will fetch `js/academic-links.json`.
+                        {
+                            "title": "Qing_Hai_Qing BitSystolic A 26.7 TOPS W 2b8b NPU With Configurable Data Flows for Edge Devices.pdf",
+                            "url": "https://drive.google.com/file/d/1uPesUx9EtfU39NaB-Pl5ZePZdTkscCUJ/preview"
+                        },
+                        {
+                            "title": "Qingzheng_Amine_Qingheng A High speed 32 bit Signed Unsigned Pipelined Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1ifQ6Q54rpAZCBHyOeB1aby1ro64Xh0fG/preview"
+                        },
+                        {
+                            "title": "R._G._Sobelman Simulation Based design of programmable systolic arrays.pdf",
+                            "url": "https://drive.google.com/file/d/1NiEWk2OmmbXX13t-tWXAwk9swan4cJEG/preview"
+                        },
+                        {
+                            "title": "Rachmad_Muhammad_Shafique MPNA  A Massively Parallel Neural Array Accelerator DO CNN.pdf",
+                            "url": "https://drive.google.com/file/d/1E6MbFKcTH4J7Cg_kqD3uodbBYgiIqcKC/preview"
+                        },
+                        {
+                            "title": "Rangharajan_Brucek_Rangharajan MAGNet A Modular Accelerator Generator for Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1CjoERCwwn4daNcciZ0_x0sRzhL_9ea-3/preview"
+                        },
+                        {
+                            "title": "Reza_Arrvindh_Reza Arrvindh Reza SPAGHETTI Streaming Accelerators for Highly Sparse GEMM on FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/1DgJ_Xkec9sH-TfSruZbuG6jo0LiUTWM_/preview"
+                        },
+                        {
+                            "title": "Riana-Systolic Sparse Matrix Vector Multiply in the age of TPUs and Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1mqzO3dRYDPpSdnQWe93PDjsrdV8wnNln/preview"
+                        },
+                        {
+                            "title": "Ritik_Tushar_Tushar SCALE Sim Systolic CNN Accelerator Simulator.pdf",
+                            "url": "https://drive.google.com/file/d/1kPSAcps-JYaAaCY2NlU0djxS64qOB7uP/preview"
+                        },
+                        {
+                            "title": "Roman_Roman_Swagath RaPiD AI Accelerator for Ultra low Precision Training and Inference.pdf",
+                            "url": "https://drive.google.com/file/d/1xOkvs3PrnzYDxhPFOHSk75s_P19VhQDe/preview"
+                        },
+                        {
+                            "title": "Ruhao_Ruhao_Kung High order bit First Conversion for SDR.pdf",
+                            "url": "https://drive.google.com/file/d/1HoOwZw1NqEtuRGcgPb_g8iHVzq-FxJDK/preview"
+                        },
+                        {
+                            "title": "Rui_Yang_Rui Yang Rui HeSA  Heterogeneous Systolic Array Architecture for Compact CNNs Hardware Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1vYUbommtCuiRBxOJm4q-GVjPU9MjXouv/preview"
+                        },
+                        {
+                            "title": "S.S._C._Shivaling High performance low power array multiplier using temporal tiling.pdf",
+                            "url": "https://drive.google.com/file/d/1aEnXx1iXxgbpi2HS3ggeH0bteqNE-Fml/preview"
+                        },
+                        {
+                            "title": "Saeid_Jeong-A_Saeid Jeong A Jeong An kNN MSDF A Hardware Accelerator for k Nearest Neighbors Using Most Significant Digit First Computation.pdf",
+                            "url": "https://drive.google.com/file/d/1fG04djcLDfqnFETnsyhvRL6PXqHY61un/preview"
+                        },
+                        {
+                            "title": "Salim_Akash_Salim Akash Salim Area Optimized Low Latency Approximate Multipliers for FPGA based Hardware Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1DBZtz5hLzpchbSpzHDDm7PkNET9rbE4T/preview"
+                        },
+                        {
+                            "title": "Sana_J\u00f6rg_Sana An area efficient consolidated configurable error correction for approximate hardware accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1EHl059yGTCme6fcqAeB8k7S9ht_yrc2V/preview"
+                        },
+                        {
+                            "title": "Sandeep_Venkatesh_Sacalable Hardware Accelerator for Mini Batch Gradient Descent.pdf",
+                            "url": "https://drive.google.com/file/d/1RoI2B9s1zc7r7j2xVtl8ICTs65D9cSyi/preview"
+                        },
+                        {
+                            "title": "Seah_Yakun_AuRORA: Virtualized Accelerator Orchestration for Multi Tenant Workloads.pdf",
+                            "url": "https://drive.google.com/file/d/1ak9FouIkWWKaPuprKYhemdt9dYJR7s0k/preview"
+                        },
+                        {
+                            "title": "Sehwan-A systolic dataflow base accelerator for CNNs.pdf",
+                            "url": "https://drive.google.com/file/d/1_67Qc2saYzVOY0fENjJ9oEuoHZ-wHxit/preview"
+                        },
+                        {
+                            "title": "Sergi_Eduard_Sergi Abadal Computing Graph Neural Networks, A survey from algorithms to Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1UhXUiJW05YH2JV-OsC4n9ihrmrti900r/preview"
+                        },
+                        {
+                            "title": "Server_Soydan_kasap High Performance System on Chip Based Accelerator System for Polynomial Matrix Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1A5b1gvR4Xt3jTcknMDKG-PI9-I5syZAD/preview"
+                        },
+                        {
+                            "title": "Seung_Tae_Tae A 4 way Matirx Multiply Unit for High Throughput Machine Learning Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1EdbjR5x8Sm0zJE6uO5GYPMTWG7BRneX1/preview"
+                        },
+                        {
+                            "title": "Shayan_Russell_Remote Power Channel Attack in ML Accelerators BNN.pdf",
+                            "url": "https://drive.google.com/file/d/1QCVtaU8bc0iAeshCrER36soFjlmjO3AI/preview"
+                        },
+                        {
+                            "title": "Sheng-Chun_Tushar_ConfuciuX Autonomous Hardware Resource Assignment for DNN Accelerators using Reinforcement Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1yXYjOip7BQMnkdi-02hQhuzI6MrW7IOi/preview"
+                        },
+                        {
+                            "title": "Sheng-Chun_Tushar_Sheng Chun Tushar Tushar ConfuciuX Autonomous Hardware Resource Assignment for DNN Accelerators using Reinforcement Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1B29tn8vErUpYABJdRgDEHUxHIULt8ktY/preview"
+                        },
+                        {
+                            "title": "Shi-fan_Jun_Yu_Qi_Zheng-XNoRNeT with shortcut logic.pdf",
+                            "url": "https://drive.google.com/file/d/1RC89OrwmZME7O2Fzd8Zqsn8uKJmoSx4w/preview"
+                        },
+                        {
+                            "title": "Shiho- Digital Neuron- A hardware Inference Accelerator for CDNN.pdf",
+                            "url": "https://drive.google.com/file/d/1YMxwi1jCRmqpT_oYkLhVOMgGtz1f3AWR/preview"
+                        },
+                        {
+                            "title": "Shiyu_Yiran_Yiran ESCALATE  Boosting the Efficiency of Sparse CNN Accelerator with Kernel Decomposition.pdf",
+                            "url": "https://drive.google.com/file/d/1uyF2XiNS-e0eI0XiuOPSKvSSXCPzTzBJ/preview"
+                        },
+                        {
+                            "title": "Shuli_Noureddine_Shuli Noureddine Efficient Scheme for Implementing Large Size SignedMultipliers UsingMultigranular Embedded DSP Blocks in FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/1iplhcYNOlmG_b8xy50_V0BEhKbxhjq2v/preview"
+                        },
+                        {
+                            "title": "Siam_Farinaz_Saim MAXelerator  FPGA Accelerator for Privacy Preserving Multiply Accumulate (MAC) on Cloud Servers.pdf",
+                            "url": "https://drive.google.com/file/d/1wu_0E_WqnfQwiET7it-KbgH1lW_uQrCc/preview"
+                        },
+                        {
+                            "title": "Sparsh_Sparsh_Sparsh A survey on modeling and improving reliability of DNN algorithms and accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1UUiazhfw1Mc4H8xLudyi6aqe5L44sKfl/preview"
+                        },
+                        {
+                            "title": "Sudhir_Sheetal_Jayakar Jayakar P. Pattnail A taxonomy of accelerator.pdf",
+                            "url": "https://drive.google.com/file/d/1CBNLGL1PIDz1xfi_J4feEIxJsdNMD1XL/preview"
+                        },
+                        {
+                            "title": "Sungju_Jae-Joon_BitBlade Area and Energy Efficient Precision Scalable Neural Network Accelerator with Bitwise Summation.pdf",
+                            "url": "https://drive.google.com/file/d/1hASNOEO1h9Whx32wr_4dIZiIgCVmGRVz/preview"
+                        },
+                        {
+                            "title": "Sungju_Jae-Joon_Joon Feedforward Cutset Free Pipelined Multiply Accumulate Unit for the ML Accum.pdf",
+                            "url": "https://drive.google.com/file/d/1AL22Y1LXTAQM9FNKGSOE6FtBboUzw6a4/preview"
+                        },
+                        {
+                            "title": "Susmita_Sachin_Susmita DeepOptOptimized Scheduling of CNN Workloads for ASIC based Systolic Deep Learning Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1M8rfzInRy-7rkNPfzc1606nT8wF_LnFs/preview"
+                        },
+                        {
+                            "title": "T._V._T. V. KhalilD A floating point systolic array processing element with serial communication and built in self test.pdf",
+                            "url": "https://drive.google.com/file/d/1hC03WiWMV39fx5an1--YopQUz6GO85ZL/preview"
+                        },
+                        {
+                            "title": "Theo_Pascal_Systimator A Design Space Exploration Methodology for Systolic Array Based CNN Acceleration on the FPGA based Edge Node.pdf",
+                            "url": "https://drive.google.com/file/d/1JQ3oYlSDoyTaoJF5Md73vr2Cya-jMxtA/preview"
+                        },
+                        {
+                            "title": "Thomas_Mingoo_Mingoo Pipelining a Triggered Processing Element.pdf",
+                            "url": "https://drive.google.com/file/d/1CYdg1QyJZNY8aCo5BHyPT1gn2ZsQzDUk/preview"
+                        },
+                        {
+                            "title": "Tianshi_Olivier_Chen DianNao   A Small Footprint High Throughput Accelerator for Ubiquitous Machine Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1HQ8dcM_sHY7EP_VUDMj8M7ZXtuVLBm07/preview"
+                        },
+                        {
+                            "title": "V.K.P._Y.-C._tom Wafer Scale Integration of Systolic Arrays.pdf",
+                            "url": "https://drive.google.com/file/d/1fDkWbfHbviHCC_3ywWr7Sc94Msvnv-hH/preview"
+                        },
+                        {
+                            "title": "W._H._H.TKung 1981 matrix triangularization by systolic arrays.pdf",
+                            "url": "https://drive.google.com/file/d/19sUxpm_H90nAUlFp6ZheXkmCrRp4KPIz/preview"
+                        },
+                        {
+                            "title": "Wen_He_Multiplier With Fully Overlapped Partial Products Reduction and Final Addition.pdf",
+                            "url": "https://drive.google.com/file/d/1SOmGdxiR0DVCFQocthccQXpQWsF2DI4e/preview"
+                        },
+                        {
+                            "title": "Wen_Milos_Yan Radix 4 energy efficient carry free truncated multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1AyKOf0GUCFYB3e18-fAOzTgubAKHc-ua/preview"
+                        },
+                        {
+                            "title": "Wenjian_Zhongfeng_Wang USCA A Unified Systolic Convolution Array Architecture for Accelerating Sparse Neural Network.pdf",
+                            "url": "https://drive.google.com/file/d/1AgaXklyUJE2EeHmkCgmvcYgk8eaYCUnn/preview"
+                        },
+                        {
+                            "title": "Wenjian_Zhongfeng_Wanjian A Unified Systolic Convolution Array Architecture for Accelerating Sparse Neural Network.pdf",
+                            "url": "https://drive.google.com/file/d/1-gbjET86bFvHxibZwR9qo_Y6xXPSwFZb/preview"
+                        },
+                        {
+                            "title": "Wenyan_Xiaowei_Xiaowei FlexFlow  A Flexible Dataflow Accelerator Architecture for Convolutional Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1F6Et5708ctrU4oMT412-mPtHbhGlB21S/preview"
+                        },
+                        {
+                            "title": "Westerley_Ricardo_Exploration of Scalable Mesh based Fully Pipelined Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/177_6ez5Y6ROElfi8INzpiYKP-qE6N1R2/preview"
+                        },
+                        {
+                            "title": "Xian-He_Yong_REEVALUATING AMDAHL\u2019S LAW.pdf",
+                            "url": "https://drive.google.com/file/d/1_PjbFje_YFE9Eap99O9jibKGXN8XDi1t/preview"
+                        },
+                        {
+                            "title": "Xu_Zhi-Min_Tan A Non Stop Double Buffering Mechanism for Dataflow Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1NUDiHPBY5esQzhFBuccthHxQ2nZcj-KY/preview"
+                        },
+                        {
+                            "title": "Xuan_Mark_Horowitz Interstellar Using Halide\u2019s Scheduling Language to Analyze DNN Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/19d0aZDd85ZTzp7jgq3XYfiAfKjFtlZ9_/preview"
+                        },
+                        {
+                            "title": "Yakun_David_David Brooks Aladdin a Pre RTL, power performance accelerator.pdf",
+                            "url": "https://drive.google.com/file/d/188eovgpRrK1sOO7QdT7iGGmMdkWDbLJl/preview"
+                        },
+                        {
+                            "title": "Yamil_Philippe_Zhu Trained ternary Quantization.pdf",
+                            "url": "https://drive.google.com/file/d/1IPMW4Jy8koG3iImNGMsQ48PVgabDE8Gl/preview"
+                        },
+                        {
+                            "title": "Yannan_Vivienne_Yannan Vivienne Sze Accelergy, An architecture level energy estimation methodology for accelerator designs.pdf",
+                            "url": "https://drive.google.com/file/d/1Em18LREuMlR7ooJRCyjw1n9qKtUaO7rQ/preview"
+                        },
+                        {
+                            "title": "Yannan_Vivienne_Yannan Vivienne VivienneSze Accelergy An Architecture Level Energy Estimation Methods for Accelerator Design @MIT.pdf",
+                            "url": "https://drive.google.com/file/d/1FKYmcu5odu_c2rJl_-gva2_WxJg5kOWe/preview"
+                        },
+                        {
+                            "title": "Yashrajsinh_K._Yashrajsinh K. Yashrajsinh A resource efficient Multiplierless SA Architecture for Con in DN.pdf",
+                            "url": "https://drive.google.com/file/d/1FtEFIhBe319CfR9iHWCXtkcbquFpc3jo/preview"
+                        },
+                        {
+                            "title": "Yeongjae_Lee-Sup_Energy Efficient Design of Processing Element for Convolutional Neural Network.pdf",
+                            "url": "https://drive.google.com/file/d/1bnPZwxSWiDKPYFGetjufHZaYSsVaea7r/preview"
+                        },
+                        {
+                            "title": "Yingnan_Ahmed_FlexSA Flexible Systolic Array Architecture for Efficient Pruned DNN Model.pdf",
+                            "url": "https://drive.google.com/file/d/1ZH6PdXt2F7l6ka-Z51vLd3HgKFQAHbm6/preview"
+                        },
+                        {
+                            "title": "Yiran-A Survey of Accelerator Architectures for Deep Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1V1Ufb6Q2zHg2taZc3ze3EO6RUN3jZ_Lt/preview"
+                        },
+                        {
+                            "title": "Yongming_Peter_Peter EscherA CNN Accelerator with Flexible Buffering to Minimize Off Chip Transfer.pdf",
+                            "url": "https://drive.google.com/file/d/1D0qvdfcH8akgtszeCbzWOVUMrJfTqFuC/preview"
+                        },
+                        {
+                            "title": "Yu-Hsin_Vivienne_Chen Eyeriss An Energy Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/17HBKy9OjKoVxPD0ji3ilX8dMBMay5Onz/preview"
+                        },
+                        {
+                            "title": "Yu-Hsin_Vivienne_Chen Eyeriss v2 A flexible accelerator for emerging deep neural networks on mobile devices..pdf",
+                            "url": "https://drive.google.com/file/d/17J5r2ooxx_GWnt_wBH5e2KKLbnC1H6_1/preview"
+                        },
+                        {
+                            "title": "Yu-Hsin_Vivienne_Eyeriss A spatial architecture for energy efficient dataflow for cnn.pdf",
+                            "url": "https://drive.google.com/file/d/1hsd0Quf2OBe7IroT3AYloMHoC9CZBv1m/preview"
+                        },
+                        {
+                            "title": "Yuanfang_Ardavan_Pedram CATERPILLAR Coarse Grain Reconfigurable Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1C281ClaLJY1H4yWYAFHHObkdPmKLd9Xw/preview"
+                        },
+                        {
+                            "title": "Yujun_Song_Han Neural Accelerator Architecture Search.pdf",
+                            "url": "https://drive.google.com/file/d/1OZXU5cBWoPsJyWsJ8YxGRKNkwlLUu8QU/preview"
+                        },
+                        {
+                            "title": "Yun-Nan_Yun-Nan_Fengbin RANATowards Efficient Neural Acceleration with.pdf",
+                            "url": "https://drive.google.com/file/d/17c2gXeCVaW1TPb_4XLhlD6g7BWN2mIGq/preview"
+                        },
+                        {
+                            "title": "Yunhung_Song_Song   BEM Bit level Sparsity aware Deep Learning Accelerator with Efficient Booth Encoding and Weight Multiplexing.pdf",
+                            "url": "https://drive.google.com/file/d/1cpXQzzPUyhhUNnD1J_oWS5Rfr7WZf_Js/preview"
+                        },
+                        {
+                            "title": "Zachary_Jeffrey_Tushar STONNE A Detailed Architectural Simulator for Flexible Neural Network Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1FYmEFcAiLhgaYM6bgjqjKyPGNBdnfLnU/preview"
+                        },
+                        {
+                            "title": "Zhekai_William_Zhekai William Zhekai SpArch Efficient Architecture for Sparse Matrix Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1FyxxnomiBi6-y2cFStYujPJXyraOHcHN/preview"
+                        },
+                        {
+                            "title": "Zhi-Gang_Matthew_Matthew Sparse Systolic Tensor Array for Efficient CNN Hardware Acceleration.pdf",
+                            "url": "https://drive.google.com/file/d/1AXHWcx0A4wTZGBtYgrohCJPhcpqI49wK/preview"
+                        },
+                        {
+                            "title": "Zhi-Gang_Matthew_Matthew Systolic Tensor Array  An Efficient Stuctured Sparse GEMM Accelerator for Mobile CNN Inference.pdf",
+                            "url": "https://drive.google.com/file/d/1Yd4xzx2l0zFhmVexbwJLcGasGez2Fpzx/preview"
+                        },
+                        {
+                            "title": "Zhiqiang_Jie_Architecture Design for Accelerating 2D .pdf",
+                            "url": "https://drive.google.com/file/d/1QrpQ2O86aopd3xhzSUK_zKRV4EKNGQlE/preview"
+                        },
+                        {
+                            "title": "Zidong_Olivier_Zidong Olivier Olivier ShiDianNao  Shifting Vision Processing Closer to the Sensor.pdf",
+                            "url": "https://drive.google.com/file/d/1CKZHv40lqSWb_pJQDDbipWTcU28tJnHb/preview"
+                        },
+                        {
+                            "title": "Zidong_Olivier_Zidong ShiDianNao  Shifting Vision Processing Closer to the Sensor.pdf",
+                            "url": "https://drive.google.com/file/d/1M91PXnB7alEako04AmGvCIhYZf0RIgIN/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Adder",
+                    "files": [
+                        {
+                            "title": "A.A._F._Oklobdzija Multiplexer Based Adder for Media Signal Processing.pdf",
+                            "url": "https://drive.google.com/file/d/1grAFLfpf_IWTfxAH9OZma7WxnzknQMpQ/preview"
+                        },
+                        {
+                            "title": "A._A._Tyagi A reduced area scheme for carry select adders.pdf",
+                            "url": "https://drive.google.com/file/d/1wu-7iZL6joZJsAyjyJAluGFmf2snU4wN/preview"
+                        },
+                        {
+                            "title": "A._A._Weinberger A logic of High speed Adders.pdf",
+                            "url": "https://drive.google.com/file/d/13EiGWDpkpvB7D8PvtOyBhcuPPuie8aoH/preview"
+                        },
+                        {
+                            "title": "Alberto_Seda_Syeda Memik Exploring the Energy Efficiency of Multispeculative Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1JSo72qGs-j2QBgSzDpD-UH9KV34JFJQS/preview"
+                        },
+                        {
+                            "title": "Ali_Najeeb_Luciano Implementation and Performance analysis of variable latency adders.pdf",
+                            "url": "https://drive.google.com/file/d/1whsKmw4S0HgDmMlX_Ofr8XSvl4AGlW1U/preview"
+                        },
+                        {
+                            "title": "Basant_Sujit_Sujit Kumar Patel Area Delay Power Efficient Carryy Select Adder.pdf",
+                            "url": "https://drive.google.com/file/d/1DatuktaSSPtilhuCKkaHvnOrXinxAtJ_/preview"
+                        },
+                        {
+                            "title": "Chein-Wei Jen-Generalized Earliest-First Fast Addition Algorithm.pdf",
+                            "url": "https://drive.google.com/file/d/1-wAFTZqJ-vQetyn77NYCy2XB3jnm9xsk/preview"
+                        },
+                        {
+                            "title": "D._D._DHarris Logical Effort of Higher Valency Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1wWVZXEwVSThMu0Lvf1HLVAfI78wx0y33/preview"
+                        },
+                        {
+                            "title": "D._I._DHarris Logical Effort of Carry Propagate Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1wWqD5EmI2hKR_r0hVo36awF6OgsUhWuR/preview"
+                        },
+                        {
+                            "title": "Dinesh_Rajesh_Rajesh Robust Energy Efficient Adder Topologies.pdf",
+                            "url": "https://drive.google.com/file/d/18sUHERiGY3afZEvF3OaRq5FfsElRmYi-/preview"
+                        },
+                        {
+                            "title": "F._T._Kilburn Parallel Adition in Digital Computers.pdf",
+                            "url": "https://drive.google.com/file/d/1wOJ6JPOC1xnkHZ0II10cN3MqCVt6AtJg/preview"
+                        },
+                        {
+                            "title": "G._D._Dimitris Nikolos High Speed Parallel Prefix VLSI Ling Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1Azs4Lv9TH9DJwia786i_8z5xz2-QAg6S/preview"
+                        },
+                        {
+                            "title": "Guy_Guy_Guy Even On teaching Fast Adder Designs.pdf",
+                            "url": "https://drive.google.com/file/d/1wRngrQX3vNqS56pKJp_WNxQmn7B7kBg_/preview"
+                        },
+                        {
+                            "title": "H.Q._V.G._Oklobdzija   Aamir 64 Bit Media Adder.pdf",
+                            "url": "https://drive.google.com/file/d/1whfzl_qHRA0D_EP7Xe8Gr_6d4JcysgzQ/preview"
+                        },
+                        {
+                            "title": "H.T Kung-A Regular Layout for Parallel Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1zCXLDVgI_9kvfOpdOxewzbs7faI0HnZ7/preview"
+                        },
+                        {
+                            "title": "H_C_Luca Bio Inspired Imprecise Computational Blocks for Efficient VLSI.pdf",
+                            "url": "https://drive.google.com/file/d/1wihoU2sPRB2r2yoN-z3yh5_rA-46FT5y/preview"
+                        },
+                        {
+                            "title": "Hafiz_Hafiz Binary Adder Architectures for Cell-Based VLSI and their Synthesis.pdf",
+                            "url": "https://drive.google.com/file/d/1xzq6E0G2Yk8H2KABWXvaHVjJ6HqG1p6b/preview"
+                        },
+                        {
+                            "title": "Huei_Huei_Ling High Speed Binary Adder.pdf",
+                            "url": "https://drive.google.com/file/d/19YOkH_OkduvGVsFHLLkMne8Uqu5SCb-c/preview"
+                        },
+                        {
+                            "title": "N._V._DHarris Implementation of 64 bit Jackson Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1wWsFagVwBBaxtzNwAw7WNhoAtBp-h-Kh/preview"
+                        },
+                        {
+                            "title": "O._H._Ref 2 10 Salomon General Algorithms for a Simplified Addition of 2\u2019s Complement Numbers.pdf",
+                            "url": "https://drive.google.com/file/d/1-Mn9HzFIxnMmfrfjPyfEOKghMJN9o_Ir/preview"
+                        },
+                        {
+                            "title": "Paolo-Very High Division with prescaling and selection by rounding.pdf",
+                            "url": "https://drive.google.com/file/d/1zPQZs6FFbFIeyKLUjmPxopF8Ynq7XDlc/preview"
+                        },
+                        {
+                            "title": "Pappu_Vishal_R.P Brent Design of an nMOS Parallel Adder.pdf",
+                            "url": "https://drive.google.com/file/d/1wbdENpmkgSHawHE0m8EQ_-4NSQjuTyIw/preview"
+                        },
+                        {
+                            "title": "Peter_Harold_kogge   Stone A parallel algorithm for efficient solution of a general class recurrence equations.pdf",
+                            "url": "https://drive.google.com/file/d/1wj8Hy9xJkJwEmOVLKK0Q9WxI9eFy_CIJ/preview"
+                        },
+                        {
+                            "title": "R.W._R.W._Doran Variants of an Improved Carry Look Ahead Adder.pdf",
+                            "url": "https://drive.google.com/file/d/1EKroUNjZMHkH3aVHraE8gCdGiWDwqenb/preview"
+                        },
+                        {
+                            "title": "S._S._Knowles A family of Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1wMCrreta8dVOwKYGc0dXz5rVzsvynpOV/preview"
+                        },
+                        {
+                            "title": "SM Kung-A 32-Bit Carry Lookahead Adder Using Dual-Path All-N Logic.pdf",
+                            "url": "https://drive.google.com/file/d/1wyIcU9vsV-12xyNCXurMu9LB64RzX__7/preview"
+                        },
+                        {
+                            "title": "Shalini_Madhav_Israel Koren Galop A Generalized VLSI Architecture for Ultrafast Carry Originate Propagate adders.pdf",
+                            "url": "https://drive.google.com/file/d/1xz0rQHnp6zbnAXe35Yj8-zBGYHLkaVRr/preview"
+                        },
+                        {
+                            "title": "Tackdon_David_David Fast Area Efficient VLSI Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1kuWG0Jcw9svfrON3SKr_9_tLUzH3r710/preview"
+                        },
+                        {
+                            "title": "Taewhan Kim-An optimum allocation of CSA in arithmetic circuits.pdf",
+                            "url": "https://drive.google.com/file/d/1zWNecZclE7ogNTGC1g9A0G1ZSrfD-lmB/preview"
+                        },
+                        {
+                            "title": "Teodor-Dumitru_James_James A Comprehensive Exploration of the Parallel Prefix Adder Tree Space.pdf",
+                            "url": "https://drive.google.com/file/d/1uuGzxgjdUIRbBoXT_UVL-7Ngyzrek1VG/preview"
+                        },
+                        {
+                            "title": "Unger-Delay Insensitive CLA.pdf",
+                            "url": "https://drive.google.com/file/d/1wsrC3QKUxffyplYv0dB6Jg2SR-9FtiBt/preview"
+                        },
+                        {
+                            "title": "Unger-Self Timed CLA.pdf",
+                            "url": "https://drive.google.com/file/d/1wrfUVHTQKJx8BE92cnVT8C3YSFL8E4q_/preview"
+                        },
+                        {
+                            "title": "Vojin_Earl_Oklobdzija On Implementing Additions in VLSI Technology.pdf",
+                            "url": "https://drive.google.com/file/d/1bLEPky-sHeOCdbQ8nC2T_NlcutrwFzrV/preview"
+                        },
+                        {
+                            "title": "Vojin_Earl_Oklobdzija Som optimal schemes for ALU Implementation in VLSI Technology.pdf",
+                            "url": "https://drive.google.com/file/d/1rQA-quaiq5og96vYiDcHPWCdLOsPQm_f/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Approximate_Arithmetic",
+                    "files": [
+                        {
+                            "title": "Ameer_Lesley_Abdelhadi Revisiting Deep Learning Parallelism FineGrained Inference Engine Utilizing Online Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1CeGAqDhzdVWVGsSAtbv_5ZcQPd3KqWMG/preview"
+                        },
+                        {
+                            "title": "Amir_Fabrizio_Paolo Design and Analysis of Approximate Compressors for Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1gnoJ55oB_gHdW5KhWSYZ8m6rIjIkj9x2/preview"
+                        },
+                        {
+                            "title": "Azzam_Nicholas_Azzam Harnessing GPU Tensor Cores for Fast FP16 Arithmetic to Speed up Mixed Precision Iterative Refinement Solvers.pdf",
+                            "url": "https://drive.google.com/file/d/1X-lPqxzEuIEPhmJ-cCCp83C3xxCgY9wG/preview"
+                        },
+                        {
+                            "title": "Benoit_Dmitry_Benoit Quantization and Traning of Neural Networks for efficient Integer Arithmetic Only Inference.pdf",
+                            "url": "https://drive.google.com/file/d/1_EjVCu1FfUYUJ3A5RWFe5B7zoRqPU2xU/preview"
+                        },
+                        {
+                            "title": "DP. Agrawal-High Speed Arithmetic Arrays.pdf",
+                            "url": "https://drive.google.com/file/d/1iQhaxJyNSo1_v5DUB9iyjDqAs3Q_iNeG/preview"
+                        },
+                        {
+                            "title": "Darjn_Massimo_Alioto Low Power Approximate MAC Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1gd7shn46SRzh0jJbzjblNdLWganzTOzn/preview"
+                        },
+                        {
+                            "title": "Elizabeth_Seok-Bum_SB Ko Energy Efficient Approximate MAC Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1hhzIeLYYz4UNRsTKlOF2tKIuRjDTwXQ4/preview"
+                        },
+                        {
+                            "title": "G._G._G.A. Constantinide Rethinking arithmetic for deep neural networks.pdf",
+                            "url": "https://drive.google.com/file/d/1WsDGAIy9ZfmXD9JMbsPVFwtUdBF-609w/preview"
+                        },
+                        {
+                            "title": "Honglan_Fabrizio_Lombardi Approximate Radix 8 Booth Multipliers for Low Power and High Performance Opertion.pdf",
+                            "url": "https://drive.google.com/file/d/1gL-7jm6tYzXZ58qLBSG40Waq6OMeL8Qc/preview"
+                        },
+                        {
+                            "title": "Honglan_Jie_Jie Han Approximate Arithmetic Circuits A Survey, characterization and Recent Applications.pdf",
+                            "url": "https://drive.google.com/file/d/1gQ8kZ73srfHMFu4fsjbu2qzerhgYoVwM/preview"
+                        },
+                        {
+                            "title": "JunKyu_Hans_Lee Resource efficient deep learning  A survey on model, arithmetic and implementation level tecniques.pdf",
+                            "url": "https://drive.google.com/file/d/1AkOVYdUJusKz0L5uhAtFS-4zeWwoqaWW/preview"
+                        },
+                        {
+                            "title": "Ke_Jie_Lombardi Matrix Multiplication by an Inexact Systolic Array.pdf",
+                            "url": "https://drive.google.com/file/d/1h1XrGBk_-IeiVUVHX_STiRLRXgTkOiws/preview"
+                        },
+                        {
+                            "title": "Lakshmikant_Ganapathi_Design of Approximate Radix 4 Booth.pdf",
+                            "url": "https://drive.google.com/file/d/1Zv09uVUkxdR4QCSkjfZ2_oDi0MWzAQA8/preview"
+                        },
+                        {
+                            "title": "Liangyu_Jie_Weiqiang Liu Design and evaluation of an approximate Wallace Booth multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1hRDkyzmhYRZuQF6cdKbbXTN9XDhTEHhI/preview"
+                        },
+                        {
+                            "title": "Linbin_Weiqiang_Jie Han Design of Approximate High Radix Dividers by Inexact Binary Signed Digit Addition.pdf",
+                            "url": "https://drive.google.com/file/d/1gO8CtjNZv43EueEYfd-fsyhdjsdubFVK/preview"
+                        },
+                        {
+                            "title": "Michitaka_Masahiro_Michitaka Design of Multiple Valued Module Array Using Signed Digit Arithmetic..pdf",
+                            "url": "https://drive.google.com/file/d/1gv1GZFd4GGGE2it2qGiuLwbjLcVhSVW8/preview"
+                        },
+                        {
+                            "title": "Milos_Milos_Ercegovac On left to right arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1TocH-ecw77buiuxwTcSpM9xCc46AQnez/preview"
+                        },
+                        {
+                            "title": "Milos_Milos_MD Ercegovac  On Approximate Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1h0b7nXwKklBwR7mlA39bnFfVCI6y_UQp/preview"
+                        },
+                        {
+                            "title": "Peipei_Fabrizio_Lombardi  Design and Performance Evaluation of Approximate Floating Point Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1gMhlRRTVAcU-qRAcuJbqimju0Uv0sz11/preview"
+                        },
+                        {
+                            "title": "Saeid_Jeong-A_FPGA Implementation of k Nearest Neighbors via Online Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/16zQOHbJ9Cgzlz7os5pv4gUDdd3ppouf1/preview"
+                        },
+                        {
+                            "title": "Saeid_Milo\u0161_Milos AnEfficient Dot Product Unit Based on Online Arithmetic for Variable Precision Applications.pdf",
+                            "url": "https://drive.google.com/file/d/1qeZ03i-MUhpNPUIT8XTVTYICgACmMndD/preview"
+                        },
+                        {
+                            "title": "Suganthi_Seok-Bum_Seok Design and Analysis of Area and Power Efficient Approximate Booth Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1hYFn6gglNLVwygjC7ir9NYbalsruAL8T/preview"
+                        },
+                        {
+                            "title": "TaiYu_Masanori_Hashimoto Logarithm Approximate FP Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1gXqEdeAdyQqH_0-qPCW0tQ5VFHZYZPCN/preview"
+                        },
+                        {
+                            "title": "Vaibhav_Kaushik_Roy IMPACT IMPrecise adders for low power Approximate Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1gf2tQ-8EUqMVxJUKqqAtY9J6yM_zfwNp/preview"
+                        },
+                        {
+                            "title": "Vincent_Christian_Camus A low power carry cut back approximate adder with fixed point implementation and floating point precision.pdf",
+                            "url": "https://drive.google.com/file/d/1gcaylwnl358SO1ibB1csxUYwQOXOdR2o/preview"
+                        },
+                        {
+                            "title": "Vincent_Frank_Camus Approximate 32 bit floating point unit design with 53% power area product reduction.pdf",
+                            "url": "https://drive.google.com/file/d/1gbOvPU1eoKrY-Z26l0qYPgboVwN-h3Bx/preview"
+                        },
+                        {
+                            "title": "Weiqiang_Fabrizio_Lombardi Design of Approximate Radix 4 Booth Multipliers for Error Tolerant Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1h226fAHwRa9YS34r1tk0BClWp5iedOnp/preview"
+                        },
+                        {
+                            "title": "Xiqin_Delong_Approximate Radix 8 Booth Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1_-TjRb5-2sDVfwYWc1LS-n9gOAe5HOFn/preview"
+                        },
+                        {
+                            "title": "Ya_Ya_Fabrizio Design and Analysis of Approximate Redundant Binary Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1gaUW81GuhrangvxR-CBQbTCfWqpTZ6UI/preview"
+                        },
+                        {
+                            "title": "Zhixi_Fabrizio_Lombardi Approximate XOR XNOR based Adders for Inexact Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1h4ShYdZrEAKlLwqxL61k-fzRYI4zbwsz/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Arithmetic",
+                    "files": [
+                        {
+                            "title": "Samuel_George_Combining Power and Arithmetic Optimization via Datapath Rewriting.pdf",
+                            "url": "https://drive.google.com/file/d/1VVlM5f8SxJhh4mTcRclX9rr995iPpW6u/preview"
+                        },
+                        {
+                            "title": "Xin_Xin_Datasheet of FP divisor and square root for variable precision.pdf",
+                            "url": "https://drive.google.com/file/d/1ag5BLxGF-2n5McgiEhRJ9vSM8iS43DBM/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "CPU",
+                    "files": [
+                        {
+                            "title": "A Highly Productive Implementation of an Out-of-Order.pdf",
+                            "url": "https://drive.google.com/file/d/1PjJWgdNO18QhZLEIxzEL1y1swc2B_xWh/preview"
+                        },
+                        {
+                            "title": "A.M._A.M._Anne Optimization for a Superscalar Out of Order Machine.pdf",
+                            "url": "https://drive.google.com/file/d/1_A4pcuo2YmI3Sj-g2iuoacN9CIkvRPIq/preview"
+                        },
+                        {
+                            "title": "A._A._Andre Effective ahead pipelining of instruction block address generation.pdf",
+                            "url": "https://drive.google.com/file/d/1vlbduQzerwvj4bADYXVWdamIW-Lxdhkk/preview"
+                        },
+                        {
+                            "title": "Andreas_Gurindar_Adreas Dynamic Speculation and Synchronization of Data Dependences.pdf",
+                            "url": "https://drive.google.com/file/d/10D8YKqTgN8aqllCTXoZJPegHpH9rBAm2/preview"
+                        },
+                        {
+                            "title": "Arthur_Rami_Perais 2023.pdf",
+                            "url": "https://drive.google.com/file/d/1AOZzfo5MTYKbwpHJwpcUASf2fglziLZ6/preview"
+                        },
+                        {
+                            "title": "C.H._A.J._Perleberg 1993.pdf",
+                            "url": "https://drive.google.com/file/d/1crhVG05rfvNlPBGgM619MQPEqINndELr/preview"
+                        },
+                        {
+                            "title": "ChopStiX_MICRO2023_rejected.pdf",
+                            "url": "https://drive.google.com/file/d/18lMQSCDB_F-6ceXYwSlMQl9aPgtCea81/preview"
+                        },
+                        {
+                            "title": "D._Y._Le IBM POWER6.pdf",
+                            "url": "https://drive.google.com/file/d/1FUqa3UQynByemU96zNfbIy0fFHQ9l71X/preview"
+                        },
+                        {
+                            "title": "H._H.C._Harry An out of order superscalar processor with speculative execution and fast, precise interrupts.pdf",
+                            "url": "https://drive.google.com/file/d/1UITQFAXpHcdCd5M2H8PnlWq_FSOIPvLE/preview"
+                        },
+                        {
+                            "title": "Ipoom_Won_Reconstructing Out of Order Issue Queue.pdf",
+                            "url": "https://drive.google.com/file/d/1TpUJQVSX5DjhSCnmSE4mnAKNf5NMEGOr/preview"
+                        },
+                        {
+                            "title": "J._B._Tendler POWER4 system microarchitecture.pdf",
+                            "url": "https://drive.google.com/file/d/12sVw0kez-NL6TBDFobVxC0trRWaCskq3/preview"
+                        },
+                        {
+                            "title": "Jack_Jack_Intel Smart Memory Access and the Energy Efficient Performance of the Intel Core Microarchitecture.pdf",
+                            "url": "https://drive.google.com/file/d/1HynVa_EqVTBAOnrzTWpW14RH5GJYsDn1/preview"
+                        },
+                        {
+                            "title": "K.C._K.C._Kenneth The MIPS R10000 Superscalar Microprocessor.pdf",
+                            "url": "https://drive.google.com/file/d/1Pr3CNE9wIKj33GTfJr21rVCS8ZEYhROo/preview"
+                        },
+                        {
+                            "title": "K._M._Keith Organization of the Motorola 88110 Superscaler RISC uprocessor.pdf",
+                            "url": "https://drive.google.com/file/d/1bPUTPfN_1xgGPaDL-yvTB-kIRqtewPhz/preview"
+                        },
+                        {
+                            "title": "Lloyd_Lloyd_ECSS E ST 20 40C(11October2023) unprotected.pdf",
+                            "url": "https://drive.google.com/file/d/1YbgdfrRozl51VcUriT4JdJifXVY5TfwO/preview"
+                        },
+                        {
+                            "title": "M._Y._James The Microarchitecture of Superscaler Processor.pdf",
+                            "url": "https://drive.google.com/file/d/1prZSlNN4YIqGkH7nHFy1GQaS9JDDLmrM/preview"
+                        },
+                        {
+                            "title": "R.E._R.E._Kessler The Alpha 21264 Microprocessor.pdf",
+                            "url": "https://drive.google.com/file/d/10ngE65SejsrcWNe86UgqwEb7qkLUuMPv/preview"
+                        },
+                        {
+                            "title": "R._J.M._Ron IBM Power5 Chip A Dual Core Multithreaded Processor.pdf",
+                            "url": "https://drive.google.com/file/d/1e1XA50ouy__CxEY4ALFvGxx4Vxqdw7ck/preview"
+                        },
+                        {
+                            "title": "Rodrigo_Antonio_Rodrigo Simple Out of Order Core for GPGPUs.pdf",
+                            "url": "https://drive.google.com/file/d/15SliJKlp8D8XGrSI-6R--ch4ws0GvpeT/preview"
+                        },
+                        {
+                            "title": "S._L.M._Quantifying the Complexity of Superscalar Processors.pdf",
+                            "url": "https://drive.google.com/file/d/105AiJP6as0OPTtEtT1CKOqSGxDTX2qan/preview"
+                        },
+                        {
+                            "title": "Subbarao_J._Complexity Effective Superscalar Processors.pdf",
+                            "url": "https://drive.google.com/file/d/1yycGpmY3S0hsmIk-ApQmBU1sgvYel4_9/preview"
+                        },
+                        {
+                            "title": "Wenxiang_Jinzhang_ChengPushing the Limits of Machine Design: Automated CPU Design with AI.pdf",
+                            "url": "https://drive.google.com/file/d/19xk5Ntp5ScZL69rz6TXE7v-hPhhQGpxC/preview"
+                        },
+                        {
+                            "title": "Y._M._Yale Critical issues regarding HPS, a high performance.pdf",
+                            "url": "https://drive.google.com/file/d/1bd1Tk-o_cQa3phx2pGWF79eV3XUmVBCa/preview"
+                        },
+                        {
+                            "title": "Y._M._Yale HPS   a new microarchitecture, rationale and.pdf",
+                            "url": "https://drive.google.com/file/d/1_Vsifbw9eyHDWAc_9Amrf0tVHAhnk2Yi/preview"
+                        },
+                        {
+                            "title": "ahmdhal-0.pdf",
+                            "url": "https://drive.google.com/file/d/1_25vShTUaRiTUnK0YFRMrVB4_KtcGH1T/preview"
+                        },
+                        {
+                            "title": "amdahl.pdf",
+                            "url": "https://drive.google.com/file/d/1QsMgQRf9bIYm4Rnq6K0_S4Ii24b0gdv8/preview"
+                        },
+                        {
+                            "title": "James_James_smith \u201cImplementing Precise Interrupts in Pipelined .pdf",
+                            "url": "https://drive.google.com/file/d/1nWh0Uzb1HaOAK4Mm6iqmzWzT9-lVM5wQ/preview"
+                        },
+                        {
+                            "title": "A Comprehensive Instruction Fetch Mechanism for a Processor Supporting Speculative Execution.pdf",
+                            "url": "https://drive.google.com/file/d/19E-3TUyGf_UJ6jPza2cFtDc7G32wmRid/preview"
+                        },
+                        {
+                            "title": "A.N._T._Mudge  The Yags branch prediction scheme.pdf",
+                            "url": "https://drive.google.com/file/d/1KCQrjiLbbK6PEH8gf3rd0HEdeuRy0atY/preview"
+                        },
+                        {
+                            "title": "A._A._Young A novel meta predictor design for hybrid branch prediction.pdf",
+                            "url": "https://drive.google.com/file/d/1UgUW2onrFkmMjEM34wT7g7kxdP97whIg/preview"
+                        },
+                        {
+                            "title": "A._Y._Andre Design Trade offs for the Alpha EV8 Conditional Branch Predictor.pdf",
+                            "url": "https://drive.google.com/file/d/1r2g58kXAxrAQNValFHcu4t8SezhAzVOd/preview"
+                        },
+                        {
+                            "title": "Alicia_Alicia_Aaron Further re examining complex branch predictors.pdf",
+                            "url": "https://drive.google.com/file/d/1KTYkhnwCTw-489qJuRc4ZPSpWBwvUH3W/preview"
+                        },
+                        {
+                            "title": "Andr\u00e9_Pierre_Andre Multiple Block Ahead Branch Predictors.pdf",
+                            "url": "https://drive.google.com/file/d/1SIw_A4-_sPy1eUS1U7VVr-4X6Em6bgG-/preview"
+                        },
+                        {
+                            "title": "B._A._Barry The Performance of Counter and Correlation Based Schemes for Branch Target Buffers.pdf",
+                            "url": "https://drive.google.com/file/d/12fFyw2e1wzsUo_kLOrU6ruM_Q-2YYmL_/preview"
+                        },
+                        {
+                            "title": "B._D._Brad Next Cache Line and Set Prediction.pdf",
+                            "url": "https://drive.google.com/file/d/1xDBOWx-a6SAqTAn0ZINGhyIcJae_wd7L/preview"
+                        },
+                        {
+                            "title": "B._D._Fast & Accurate Instruction Fetch and Branch Prediction.pdf",
+                            "url": "https://drive.google.com/file/d/1gGDoEwIxU1VVqB0j5FR2_SbDHwVku6Fx/preview"
+                        },
+                        {
+                            "title": "B._K._Barry Partial Resolution in Branch Target Buffers.pdf",
+                            "url": "https://drive.google.com/file/d/10V9X7BoMq_LKXXJCLtyM4rOrIAptFIIr/preview"
+                        },
+                        {
+                            "title": "Brian_M._Flynn Strategies for Branch Target Buffers.pdf",
+                            "url": "https://drive.google.com/file/d/1ooHn1AZqbuNSQnCuTxOsSSi2hwF8ELNh/preview"
+                        },
+                        {
+                            "title": "C.H._A.J._Chris Branch Target Buffer Design and Optimization.pdf",
+                            "url": "https://drive.google.com/file/d/16tQcvLVFDp4YMzQiRIfngDMQQecYnthN/preview"
+                        },
+                        {
+                            "title": "C._M.D._Smith A comparative analysis of schemes for correlated branch prediction.pdf",
+                            "url": "https://drive.google.com/file/d/1eYo3BlO9308dE_u4d315pIslE_JqSSGj/preview"
+                        },
+                        {
+                            "title": "Christopher_Christopher_Conte 1995.pdf",
+                            "url": "https://drive.google.com/file/d/1CvxEplSDLG7_K0HyNkllL2UHv-rpmnVa/preview"
+                        },
+                        {
+                            "title": "Combining Branch Predictors.pdf",
+                            "url": "https://drive.google.com/file/d/1BknFm1nU3EPNyi61Zp0sbie9WbSl3G63/preview"
+                        },
+                        {
+                            "title": "D.A._D.A._Daniel Reconsidering complex branch predictors.pdf",
+                            "url": "https://drive.google.com/file/d/1CixCOaJw9eYy3wFLDWk8EHj6O0i9DBeG/preview"
+                        },
+                        {
+                            "title": "D.A._D.A._Lee Optimizing high performance dynamic branch predictors.pdf",
+                            "url": "https://drive.google.com/file/d/1fbNhHBW9sC3WJ7s1fBVJn8LPAT1peL3A/preview"
+                        },
+                        {
+                            "title": "Daniel_Daniel_Andre An optimized 2bcgskew branch predictor.pdf",
+                            "url": "https://drive.google.com/file/d/1n5McIa4pu5qCrJSl6vQuYhMGjiBSNm5_/preview"
+                        },
+                        {
+                            "title": "David_Philip_ranch History Table Prediction of Moving Target Branches Due to Subroutine Returns.pdf",
+                            "url": "https://drive.google.com/file/d/19RrkoQ1czf3uSpu-0LyhMMJo8k2NoSUy/preview"
+                        },
+                        {
+                            "title": "E._J.E._Assigning Confidence to Conditional Branch Predictions1996jacobsen.pdf",
+                            "url": "https://drive.google.com/file/d/1eDN1A_-2uBqI5PVWfqaV2KIBGMZv-jMZ/preview"
+                        },
+                        {
+                            "title": "Eduardo_Antonio_Eduardo Selective Predicate Prediction for Out of order Processors.pdf",
+                            "url": "https://drive.google.com/file/d/1feLNaHJzMM5vi7KEHm209_bM_Lk-Oy-m/preview"
+                        },
+                        {
+                            "title": "Emilio_Alberto_MBPlib Modular Branch Prediction Library.pdf",
+                            "url": "https://drive.google.com/file/d/186y7L9cw6Re9dJe5QT7xcrO899CJOgT3/preview"
+                        },
+                        {
+                            "title": "Eric_Yale_Eric The agree predictor  a mechanism for reducing negative branch history interference.pdf",
+                            "url": "https://drive.google.com/file/d/1gjv8q1ZBFbZrbkpHBnvWr5nu8gjbkicX/preview"
+                        },
+                        {
+                            "title": "Eric_Yale_Yale The Agree Predictor  A mechanism for reducing negative branch history interference.pdf",
+                            "url": "https://drive.google.com/file/d/15saGu-Oi7aDpiF-7z--2cfe8OAkS99Yw/preview"
+                        },
+                        {
+                            "title": "Fred_Fred_Reinman 1999.pdf",
+                            "url": "https://drive.google.com/file/d/1oO6uMmc4FoX2lfzkA6JUARnErXbLGRBc/preview"
+                        },
+                        {
+                            "title": "Fred_Fred_Reinman 2001.pdf",
+                            "url": "https://drive.google.com/file/d/1LnU1dAfWLV3b88jc6tRbfR4lY4m4QD8D/preview"
+                        },
+                        {
+                            "title": "G.H._G.H._Gabriel A Simple Divide and Conquer Approach for Neural Class Branch Prediction.pdf",
+                            "url": "https://drive.google.com/file/d/1shFrkuQ_wKbl3Eu8lWTTdz3jYAldC4tq/preview"
+                        },
+                        {
+                            "title": "G.Z._J.S._Memory dependence prediction using store sets.pdf",
+                            "url": "https://drive.google.com/file/d/1ijWrNo8qZunNDQpdwSKmfWcfo4g8njk5/preview"
+                        },
+                        {
+                            "title": "G._B._A Scalable Front End Architecture for Fast Instruction Delivery.pdf",
+                            "url": "https://drive.google.com/file/d/1eoBM4PQV00YJDzPtGzekEJazkkW2LvGr/preview"
+                        },
+                        {
+                            "title": "Hosein_Dean_Tullsen 2024 pathfinder.pdf",
+                            "url": "https://drive.google.com/file/d/1VpRZKZeCTEpzUr2xc8frEf_6mzbkF7WK/preview"
+                        },
+                        {
+                            "title": "Hosein_Dean_yavarzadeh 2023 half.pdf",
+                            "url": "https://drive.google.com/file/d/1p6IvH4krBJFRKa7m-nm3Ip3c4G22XzLh/preview"
+                        },
+                        {
+                            "title": "I.-C.K._T._Mudge   Design Optimization for High speed Per address Two level Branch Predictors.pdf",
+                            "url": "https://drive.google.com/file/d/1L7YPT1_roUWndZ8DGnqD0vNrTcmowtYQ/preview"
+                        },
+                        {
+                            "title": "JILP-COTTAGE.pdf",
+                            "url": "https://drive.google.com/file/d/1vPLIPc5ewXlRkjJ7Wu6lbQcN4BF7LhFj/preview"
+                        },
+                        {
+                            "title": "James-A Study of Branch Prediction Strategies.pdf",
+                            "url": "https://drive.google.com/file/d/1LI51AuruxM1VnjyZ3CWmloffjqLABHuX/preview"
+                        },
+                        {
+                            "title": "Jerry_Krste_COBRA A Framework for Evaluating Compositions of Hardware Branch Predictors.pdf",
+                            "url": "https://drive.google.com/file/d/18KZjMFy1ZaeumfZru3a_nbQlsUaiCJ96/preview"
+                        },
+                        {
+                            "title": "Jordi_Teodor_Jordi Designing a branch target buffer for executing branches with zero time cost in a RISC processor.pdf",
+                            "url": "https://drive.google.com/file/d/1a7a0cgg5RbfiEpp1-2-GaeRGeE-6cueZ/preview"
+                        },
+                        {
+                            "title": "Lee - Branch Prediction Strat and Branch Target Buffer Desing.pdf",
+                            "url": "https://drive.google.com/file/d/1zkp5ZjfoqvlZxH8_OPI7J8YXW6oxlHV5/preview"
+                        },
+                        {
+                            "title": "Lee -The-bi-mode-branch-predictor.pdf",
+                            "url": "https://drive.google.com/file/d/1czBn3MHYueJMOqRheThYTT7OK9IUfaku/preview"
+                        },
+                        {
+                            "title": "Leo_Dean_Leo Creating Artificial Global History to improve Branch Prediction Accuracy.pdf",
+                            "url": "https://drive.google.com/file/d/13MlsvkoohKJk2OYlaq16Syt_QY2x9y3i/preview"
+                        },
+                        {
+                            "title": "M._Y.N._Yale An Analysis of Correlation and Predictability what makes two level branch precitors work.pdf",
+                            "url": "https://drive.google.com/file/d/1SjZHA-rKJXe2HxQwdwaoeRA7VEW02IK7/preview"
+                        },
+                        {
+                            "title": "Mark_Peter_Tullsen 2024 HalfampHalf.pdf",
+                            "url": "https://drive.google.com/file/d/1trYkg5mykccrBnt0cZlGbR0AYGS4P0mW/preview"
+                        },
+                        {
+                            "title": "Maurice_Maurice_James Branch prediction for free.pdf",
+                            "url": "https://drive.google.com/file/d/1vdLtWzBQBwjT4Jdd1gycWHeJanR66T0G/preview"
+                        },
+                        {
+                            "title": "Muawya_Eric_Muawaya EXACT  explicit dynamic branch prediction with active updates.pdf",
+                            "url": "https://drive.google.com/file/d/1clGS2qI8KY39XrPtbXIkMFSac9Wzft-c/preview"
+                        },
+                        {
+                            "title": "Niranjan_Sreenivas_Khan Pdede Partitioned, deduplicated, delta branch target buffer.pdf",
+                            "url": "https://drive.google.com/file/d/1JBbY4oovn9pLXI4y_V1IeLTMBz-Z8_RF/preview"
+                        },
+                        {
+                            "title": "P._A._Petrov Low power branch target buffer for application specific embedded processors.pdf",
+                            "url": "https://drive.google.com/file/d/1ILSr4Fd1eMc46pjQm2ayL1u0z6qUb5jq/preview"
+                        },
+                        {
+                            "title": "P._S._Andre Exploring Instruction Fetch Bandwidth Requirement in.pdf",
+                            "url": "https://drive.google.com/file/d/19ERMGMPRhkQZveTTJCMTcqWCKkfLezTe/preview"
+                        },
+                        {
+                            "title": "Pauline_Masaru_Ishii 2021.pdf",
+                            "url": "https://drive.google.com/file/d/1CiFzX4QWLvquH-rcnLcyD20k3KIDgLnO/preview"
+                        },
+                        {
+                            "title": "Pierre_Pierre_Michaud An Alternative TAGE like Conditional Branch Predictor.pdf",
+                            "url": "https://drive.google.com/file/d/12MVvAiXgxocHUVhvDpyql-kQkaz9ppK5/preview"
+                        },
+                        {
+                            "title": "Pierre_Richard_Michaud Trading Conflict and Capacity Aliasing in Conditional BP.pdf",
+                            "url": "https://drive.google.com/file/d/1GdzY8dj-0xmUwrwrS7bNHTPd-kpdvv12/preview"
+                        },
+                        {
+                            "title": "Po-Yung_Yale_Yale Target Prediction for Indirect Jumps.pdf",
+                            "url": "https://drive.google.com/file/d/1ocehSCSqeUae99Xk1vvU_L5Ovita7OBu/preview"
+                        },
+                        {
+                            "title": "Samira_Daniel_Samira Exploring Predictive Replacement Policies for IC and BTB.pdf",
+                            "url": "https://drive.google.com/file/d/1OgazLdk0DNLIBAsVJZdf28nXR1Taxm8t/preview"
+                        },
+                        {
+                            "title": "Sawan_Alberto_ op Cache Prefetching.pdf",
+                            "url": "https://drive.google.com/file/d/1Bjv7yNsMTkOC46LM8uUkkP9YYVkbbAx9/preview"
+                        },
+                        {
+                            "title": "Sparsh Mittal- A survey of tecniues for dynamic bp.pdf",
+                            "url": "https://drive.google.com/file/d/10OB00bdfEslO6L8ouxmwH9TvRou2w7p0/preview"
+                        },
+                        {
+                            "title": "Sparsh_Sparsh_Sparsh Mittal   A Survey of Techniques for Dynamic Branch Prediction.pdf",
+                            "url": "https://drive.google.com/file/d/1aUEFMLDJGHfYmUpFMiW0CJS3-UFsdATw/preview"
+                        },
+                        {
+                            "title": "Tao_Lizy_Lizy Adapting branch target buffer to improve the target predictability of java code.pdf",
+                            "url": "https://drive.google.com/file/d/1lVR5L3pRqUVFJdBxEn0rcbpz04ZkY5VW/preview"
+                        },
+                        {
+                            "title": "Tse-Yu_Yale_Yale Two Level Adaptive Training Branch Prediction.pdf",
+                            "url": "https://drive.google.com/file/d/1JH5Dri2hKfwC7ykxSCSbio50c2my1Ctp/preview"
+                        },
+                        {
+                            "title": "Uzelac_2009.pdf",
+                            "url": "https://drive.google.com/file/d/1FiXvf-czBeTeY-k--ZgF7PHOm0-nq--3/preview"
+                        },
+                        {
+                            "title": "Vishal_Biswabandan_Vishal Micro BTB  a high performance and storage efficient last level branch target buffer for servers.pdf",
+                            "url": "https://drive.google.com/file/d/1qIJ2rKUKR0C1wKpyG9NacCQASwys8NJO/preview"
+                        },
+                        {
+                            "title": "Vladimir_Aleksandar_Experiment flows and microbenchmarks for reverse engineering of branch predictor structures.pdf",
+                            "url": "https://drive.google.com/file/d/1HHtAxAB1M0nZVszm3mN6pl74SEqXzStf/preview"
+                        },
+                        {
+                            "title": "Weihaw_Brad_Chuang Predicate Prediction for Efficient Out of order Execution.pdf",
+                            "url": "https://drive.google.com/file/d/1e8zUPnM7slu70IZ4X8sowY3a3761GuAv/preview"
+                        },
+                        {
+                            "title": "Yale-A comprehensive instruction fetch mechanism for a processor supporting speculative execution.pdf",
+                            "url": "https://drive.google.com/file/d/1ygmckvYVftmdrXWUaLY4jNihZAR-QSTl/preview"
+                        },
+                        {
+                            "title": "Yongfeng_Deli_He A new value based branch predictor for smt processors.pdf",
+                            "url": "https://drive.google.com/file/d/12VMJafXNV8bL-c8Cw8nBU0PDclzfKgKw/preview"
+                        },
+                        {
+                            "title": "bcg.pdf",
+                            "url": "https://drive.google.com/file/d/1ZFb3myYr08dMSxd9J22H0jIDPLmjddBu/preview"
+                        },
+                        {
+                            "title": "micro31_retstack.pdf",
+                            "url": "https://drive.google.com/file/d/1Tp3pGbHoWqJ-Xz3Bs0m6f-N_nnAisje4/preview"
+                        },
+                        {
+                            "title": "Stefan_Luca_FPNew.pdf",
+                            "url": "https://drive.google.com/file/d/1Xa_H4dkc1Ovhq-FDeSF4D6Mfh3aeI7zC/preview"
+                        },
+                        {
+                            "title": "Andreas_Gurindar_and Synchronization of Data Dependences.pdf",
+                            "url": "https://drive.google.com/file/d/111eKDAofomCQM2ocr8sh2J-JIOt1UtaX/preview"
+                        },
+                        {
+                            "title": "Baruch_Ronny_Solomon2001   Micro Operation Cache  a Power Aware Frontend for the Variable Instruction Length ISA.pdf",
+                            "url": "https://drive.google.com/file/d/1A1qEdRUfGXQoqApgmPZsWfx9-qQQnN_y/preview"
+                        },
+                        {
+                            "title": "Elvira_Daniel_Minimal Disturbance Placement and Promotion(CacheReplacement).pdf",
+                            "url": "https://drive.google.com/file/d/1pWDj7vtutB7uTR1i5-kGbUFCEthCSE_F/preview"
+                        },
+                        {
+                            "title": "Jagadish_John_Kotra and Kalamatianos   2020   Improving the Utilization of Micro operation Caches in x86 Processors.pdf",
+                            "url": "https://drive.google.com/file/d/1-kZLuG83ueqldTqRmImNRFtpaftY_yCt/preview"
+                        },
+                        {
+                            "title": "Julie_Julie_Dead Block Replacement and Bypass with a Sampling.pdf",
+                            "url": "https://drive.google.com/file/d/1uso2jDF4J_SWlXLJUSk95GfdmaHvP5Qh/preview"
+                        },
+                        {
+                            "title": "Matteo_Luca_Spatzformer: An Efficient Reconfigurable Dual Core RISC V V Cluster for Mixed Scalar Vector Workloads.pdf",
+                            "url": "https://drive.google.com/file/d/1SEzF7OBywQgPXd_cqC2GyglFL9gkVWKs/preview"
+                        },
+                        {
+                            "title": "Xida_Ashish_AMD Micro Op Caches.pdf",
+                            "url": "https://drive.google.com/file/d/1FSM-OPODqR1b5Ku0PB579cHoSZtWuuGr/preview"
+                        },
+                        {
+                            "title": "\u0130smail_\u0130smail_mem disambiguation onur ss lit survey 2001.pdf",
+                            "url": "https://drive.google.com/file/d/1lfuHMVT8mvwfizZGpwhKgBjK-wZpoKVe/preview"
+                        },
+                        {
+                            "title": "Andr\u00e9_Andr\u00e9_Andre Don\u2019t use the page number, but a pointer to it.pdf",
+                            "url": "https://drive.google.com/file/d/1U81xX0iGl99wsUnXYW7NeHnaoMm-vbCX/preview"
+                        },
+                        {
+                            "title": "Faruk_Yale_Tailored Page Sizes ISCA45697.2020.00078.pdf",
+                            "url": "https://drive.google.com/file/d/1XmZzDYGJaJZ1F66SURKzx3MQdDGwY8pf/preview"
+                        },
+                        {
+                            "title": "Ubaid_Tayyeb_On the Radix 2 Syndrome Generators for Varshamov Tenengolts Coded Vertical Racetrack Memories.pdf",
+                            "url": "https://drive.google.com/file/d/1SkJVbLMZdNfVwCqbH26L4pOIcju50JAX/preview"
+                        },
+                        {
+                            "title": "Yoongu_Onur_Onur Flipping Bits in Memory without accessing them  an experimental study of DRAM disturbance errors.pdf",
+                            "url": "https://drive.google.com/file/d/1IIyh5qrwY1MSdBkEO171MCQzdJYKzcgS/preview"
+                        },
+                        {
+                            "title": "hpdcache_spec-1.0.0-draft.pdf",
+                            "url": "https://drive.google.com/file/d/1GuFaKjzGeEnpk-6qunKZ7BVhkQIPdxmu/preview"
+                        },
+                        {
+                            "title": "D._D._Sima Design space of register renaming techniques.pdf",
+                            "url": "https://drive.google.com/file/d/14B6qyoXNogr9Jy0Q6hS7Dlbnp8WGPzcH/preview"
+                        },
+                        {
+                            "title": "Elham_Aggeliki_Elham On the Latency and Energy of Checkpointed Superscalar Register Alias Tables.pdf",
+                            "url": "https://drive.google.com/file/d/1az3fGm7RO6hr_tYlieqSHTLJDXthK1hG/preview"
+                        },
+                        {
+                            "title": "Francis_Yale_Yale Achieving Out of Order Performance with Almost In Order Complexity.pdf",
+                            "url": "https://drive.google.com/file/d/1u3mihD-xNRjFiPIg4CJFfCip6Thz9-zY/preview"
+                        },
+                        {
+                            "title": "G.A._M._PEWs  A Decentralized Dynamic Scheduler for ILP Processing.pdf",
+                            "url": "https://drive.google.com/file/d/19ODs2JokydBtk9-6qp-N6o1lWbnoypvE/preview"
+                        },
+                        {
+                            "title": "Georgios_Marc_Agile TLB Prefetching and Prediction Replacement P.pdf",
+                            "url": "https://drive.google.com/file/d/1iyNYyEaMRModnhtYQAipWPI-4JDFrxpy/preview"
+                        },
+                        {
+                            "title": "H._S.T._Akkary checkpoint processing and recovery towards scalable large instru.pdf",
+                            "url": "https://drive.google.com/file/d/1U0j-oLGhB-UHzdE4z8qKe-h78agRmR3Q/preview"
+                        },
+                        {
+                            "title": "Hidetsugu_Shuichi_Hidetsugu STRAIGHT  hazardless processor architecture without register renaming.pdf",
+                            "url": "https://drive.google.com/file/d/1o21yu9Pl9xBs_41ekVSjF06tvXO8VlkQ/preview"
+                        },
+                        {
+                            "title": "Ian_Wilfrid_First Selection Logic Implemen.pdf",
+                            "url": "https://drive.google.com/file/d/1gQvCNIzbM-4SpBh3Xi7lkvLKMxsUp7iO/preview"
+                        },
+                        {
+                            "title": "J.F._M._Jose Cherry  checkpointed early resource recycling in out of order microprocessors.pdf",
+                            "url": "https://drive.google.com/file/d/100T9OD6ebqb3T_n3Bon1ZZ0lorlWWEM3/preview"
+                        },
+                        {
+                            "title": "J._Y.N._On Pipelining Dynamic Instruction Scheduling Logic.pdf",
+                            "url": "https://drive.google.com/file/d/1y4Las_2V_QyB5OioIMfi3yYJIvXxld_s/preview"
+                        },
+                        {
+                            "title": "J._Y.N._Yale Reducing the performance impact of instruction cache misses by writing instructions into the reservation stations out of order.pdf",
+                            "url": "https://drive.google.com/file/d/1BX_WM20ZpCriDWFx82NJMu9ivCWMWMpC/preview"
+                        },
+                        {
+                            "title": "Jianqing_Yuanyuan_Implementing Fast Recovery for Register Alias Table in Out of order Processors.pdf",
+                            "url": "https://drive.google.com/file/d/12fi8T9R2IFB1cD5t7wGsVq65-UIIyx2z/preview"
+                        },
+                        {
+                            "title": "M._S._A High Speed Dynamic Instruction Scheduling Scheme  for Superscalar Processors.pdf",
+                            "url": "https://drive.google.com/file/d/1pfDrD2hX3n3XZm8TrTkUm2cy7XSMuOfF/preview"
+                        },
+                        {
+                            "title": "M._Y._An Investigation of the Performance of Various Dynamic Scheduling  Techniques.pdf",
+                            "url": "https://drive.google.com/file/d/1BEnlAyQ2ip4r_XP88SpebTTtylSqWxmv/preview"
+                        },
+                        {
+                            "title": "O._Y.N._Onur Runahead Execution  An Alternative to Very Large Instruction Windows for Out of Order Processors.pdf",
+                            "url": "https://drive.google.com/file/d/1-BgKsFqEDlbRmTY0OZrkM29fI4ZQ9tWj/preview"
+                        },
+                        {
+                            "title": "Patrick_Andreas_Patrick BranchTap  Improving Performance with  very few Checkpoints through adaptive speculation control.pdf",
+                            "url": "https://drive.google.com/file/d/1xC1mqiIaCcgfiCbUb2koA8qMoBw-1uew/preview"
+                        },
+                        {
+                            "title": "R._R._Tomasulo An Efficient Algorithm for Exploiting Multiple.pdf",
+                            "url": "https://drive.google.com/file/d/1sXM-jzgKkQVf2G2bXbzdEXBEPn3FjEXY/preview"
+                        },
+                        {
+                            "title": "S._A._Mayan A Novel Renaming Scheme to Exploit Value Temporal Locality.pdf",
+                            "url": "https://drive.google.com/file/d/1s0LXw8G9Anruke3HXAvPGuFBBnVG3ME7/preview"
+                        },
+                        {
+                            "title": "S._A._Stephan A Novel Renaming Scheme to Exploit Value Temporal Locality.pdf",
+                            "url": "https://drive.google.com/file/d/1Hsvrpj6xX08GPGjVdHbe5eFfo8oP8wg6/preview"
+                        },
+                        {
+                            "title": "S._P._Petit A Power aware Hybrid RAM CAM Renaming Mechanisim for Fast Recovery.pdf",
+                            "url": "https://drive.google.com/file/d/1Gt5YTlhsDF6abH7kWtziJHVwH2ukjwvf/preview"
+                        },
+                        {
+                            "title": "Shruti_Scott_DynaMOS  Dynamic Schedule Migration for  Heterogeneous Cores.pdf",
+                            "url": "https://drive.google.com/file/d/1RoZ0nwSfZG0AxF0gQV4kgwJ1wG8A47qL/preview"
+                        },
+                        {
+                            "title": "T._B._Buti Organization and implementation of the register renaming mapper.pdf",
+                            "url": "https://drive.google.com/file/d/10VEcQxYYW329cCnq-G1DLI3rPnorg8Y5/preview"
+                        },
+                        {
+                            "title": "W._Y._Checkpoint Repair for Out of Order Execution Machine.pdf",
+                            "url": "https://drive.google.com/file/d/1bq1Mhl4ROLQ5pnYA2XW3ix-U5CyT9fd-/preview"
+                        },
+                        {
+                            "title": "Yale_CheckpointRepairforOutoforderExecutionMachines.pdf",
+                            "url": "https://drive.google.com/file/d/1iSwCEUBtT5dAYl1fu1R_vQHRAKU08zxv/preview"
+                        },
+                        {
+                            "title": "Zining_Leibo_RRIP algorithm.pdf",
+                            "url": "https://drive.google.com/file/d/1ZGkfLHvswEDu0yFz9_nBv6b63Og13Ck-/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "ChipOpt_DNN_Accelerator",
+                    "files": [
+                        {
+                            "title": "Febin_Sudeep_Designing Hardware for machine learning.pdf",
+                            "url": "https://drive.google.com/file/d/1uu5IzYa6tDC7AVlQmx1tkyswWsJJOoO6/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "ChipOpt_EDA_General",
+                    "files": [
+                        {
+                            "title": "Ahmet_David_for Electronic Design Automation Case Studies and Perspectives Invited Paper.pdf",
+                            "url": "https://drive.google.com/file/d/1vU3dOguFltBKtSv8EtaMwMF7wPFGL-bd/preview"
+                        },
+                        {
+                            "title": "Andrew_Andrew_JohnActor Critic Algorithms.pdf",
+                            "url": "https://drive.google.com/file/d/1yj0UxspiaiSu9CgsRfwuOq6DWSa7Mgh7/preview"
+                        },
+                        {
+                            "title": "Anthony_Sung_Lim  General Framework For VLSI Tool Parameter Optimization with Deep Reinforcement Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1uapB7m29KIQ0xNacNPcKBst60aOmWzOt/preview"
+                        },
+                        {
+                            "title": "Brooks_Robert_An EDA Framework for Design Space Exploration of On Chip AI in Bioimplantable Applications.pdf",
+                            "url": "https://drive.google.com/file/d/1uEcPmQNre5gqK2L79QObypTompllxhs4/preview"
+                        },
+                        {
+                            "title": "David_Domenic_Forte A Survey and Perspective on Artificial Intelligence for Security Aware Electronic Design Automation.pdf",
+                            "url": "https://drive.google.com/file/d/1uLea8ORyoIh1fFFFGzbP3duAqYtoWd0t/preview"
+                        },
+                        {
+                            "title": "Hanrui_Song_Song Han GCN RL Circuit Designer Transferable Transistor Sizing with Graph Neural Networks and RL.pdf",
+                            "url": "https://drive.google.com/file/d/1ydXPpwb5n5HqDmMzchxTvDN6vgGZJFtz/preview"
+                        },
+                        {
+                            "title": "Haoxing_Rajarshi_Optimizing VLSI Implementation with Reinforcement Learning ICCAD Special Session Paper.pdf",
+                            "url": "https://drive.google.com/file/d/1uUYVqHWP3x8-_bOLuzd8U6kyT0VoiSdU/preview"
+                        },
+                        {
+                            "title": "Masanori_Hidetoshi_Pham Logic Gate Sizing using Analytic Gradients on a Tensorized Static Timing Engine.pdf",
+                            "url": "https://drive.google.com/file/d/1aZoaowpq8t4NH0E74mCSdMaLt4Rjx0he/preview"
+                        },
+                        {
+                            "title": "Phuoc_Jaeyong_Pham AGD A Learning based Optimization Framework for EDA and its Application to Gate Sizing.pdf",
+                            "url": "https://drive.google.com/file/d/1643l2MZR0pB6r8b1U2pTbwbnXIcBoQF4/preview"
+                        },
+                        {
+                            "title": "Samuel_Theo_Automatic Datapath Optimization using E Graphs.pdf",
+                            "url": "https://drive.google.com/file/d/1aqrG_Nl-gngls-AJTjWpTjXVexY7DhDp/preview"
+                        },
+                        {
+                            "title": "Samuel_Theo_Automating Constraint Aware Datapath 2303.01839v1.pdf",
+                            "url": "https://drive.google.com/file/d/1ap8ntdDNcgve_QCIkiVD1E8bYa02U3Mu/preview"
+                        },
+                        {
+                            "title": "Samuel_Theo_Combining E Graphs with Abstract Interpretation.pdf",
+                            "url": "https://drive.google.com/file/d/1adPoEKd2crVrTA_ayGVOr7Btx5b8Hzfn/preview"
+                        },
+                        {
+                            "title": "Yi-Chen_Sung_RL Sizer VLSI Gate Sizing for Timing Optimization using Deep Reinforcement Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1plafADtATRoJy5xRoP3fOyMadDrR99nH/preview"
+                        },
+                        {
+                            "title": "Yuyang_Longxing_Ye Learning driven Physically aware Large scale Circuit Gate Sizing.pdf",
+                            "url": "https://drive.google.com/file/d/1aahL0I-UR1tpWVoMHrBgalIyEPQ8NVHY/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "ChipOpt_Placement",
+                    "files": [
+                        {
+                            "title": "A.R._A._A HIERARCHICAL MODEL FOR DEVICE PLACEMENT.pdf",
+                            "url": "https://drive.google.com/file/d/1uInxL_h-PiBLhkvXbDVIguTe9YJb_lVJ/preview"
+                        },
+                        {
+                            "title": "Azalia_Jeff_Azalia A graph placement methodology for fast for Chip Desing.pdf",
+                            "url": "https://drive.google.com/file/d/1yi6KAy3ZcXsb4K5LmRGgNKzkZKH4ywZm/preview"
+                        },
+                        {
+                            "title": "Michael_Ricardo_TRAVERSAL A Fast and Adaptive Graph Based Placement and Routing for CGRAs.pdf",
+                            "url": "https://drive.google.com/file/d/1vNPBBEuM_OJ6qVW-UNkkz2ApZDQN8bt-/preview"
+                        },
+                        {
+                            "title": "Ramy_Ramy_Chip Placement with Deep Reinforcement Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1uBjouDgJCJHCQJU2DUTReo-8WuhRrdeb/preview"
+                        },
+                        {
+                            "title": "Zixiang_Dongbin_Device Placement Optimization with Reinforcement Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1upw_iq3K8r3S_KSpnl-oS3SV43A-a0pa/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "ChipOpt_Synthesis",
+                    "files": [
+                        {
+                            "title": "Abdelrahman_Sherief_DRiLLS Deep Reinforcement Learning for Logic Synthesis.pdf",
+                            "url": "https://drive.google.com/file/d/1yeS5T-VR3K9kFQvGjDeFBUFyDFQWPACt/preview"
+                        },
+                        {
+                            "title": "Yi-Chen_Sung_Sung RL Sizer VLSI Gate Sizing for Timing Optimization using Deep Reinforcement Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1vQdeceC5fUVv7DSkybyp-ZybZkXTTvNU/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crypto",
+                    "files": [
+                        {
+                            "title": "Brandon_David_Cheetah Optimizing and Accelerating HE for Private Inference.pdf",
+                            "url": "https://drive.google.com/file/d/1VW39xKm4W6Og3ifcMERGOnJAMR5NFcum/preview"
+                        },
+                        {
+                            "title": "C._B.S._Cetin Analyzing and comparing Montgomery multiplication algorithms.pdf",
+                            "url": "https://drive.google.com/file/d/1VPssWEuzCi3jzBwLVseE470sa5nh-xlH/preview"
+                        },
+                        {
+                            "title": "Chiou-Yng_Chiou-Yng_Jiafeng Low Register Complexity Systolic Digit Serial Multiplier Over GF(2m) Based on Trinomials.pdf",
+                            "url": "https://drive.google.com/file/d/1R1zePWXr38ke83FVJWqfyflmzP5NH7lr/preview"
+                        },
+                        {
+                            "title": "Chiou-Yng_Jiafeng_Jiafeng Digit Serial Versatile Multiplier Based on a Novel Block Recombination of the Modified KA.pdf",
+                            "url": "https://drive.google.com/file/d/1OPfnQKMx-jbaMXN2G44HoAzewbLsPWv9/preview"
+                        },
+                        {
+                            "title": "Chiou-Yng_Shyan-Ming_Jiafeng Efficient Implementation of KA Based Three Operand Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1WaI2iZL_XvaH7wpQcKMehkNx683xLtXb/preview"
+                        },
+                        {
+                            "title": "Hannes_Christoph_Hannes Ascon hardware implementations and side channel evaluation.pdf",
+                            "url": "https://drive.google.com/file/d/1hXhufZyUbB1HMH0ld-S0hfGT_BoSuPiX/preview"
+                        },
+                        {
+                            "title": "Hannes_Christoph_Hannes Suit up   Made to Measure Hardware Implementation of Ascon.pdf",
+                            "url": "https://drive.google.com/file/d/11jFHN0OBaD8GAL0deR-pM0jIckyLer2s/preview"
+                        },
+                        {
+                            "title": "Hannes_Christoph_Hannes Suit up Made to Measure Hardware Implementations of ASCON.pdf",
+                            "url": "https://drive.google.com/file/d/1CwXzvfv2rNHsA69wt46rM26u2jtre2hy/preview"
+                        },
+                        {
+                            "title": "Julian_Martin_FPGA based Niederreiter Cryptosystem using Binary Goppa Codes.pdf",
+                            "url": "https://drive.google.com/file/d/1iLji2EteoHEEgGuKQ8vfGDWqo9LjPxd-/preview"
+                        },
+                        {
+                            "title": "Khalid-Radix-4 and Radix-8 Booth Encoded Interleaved  Modular Multipliers over General Fp.pdf",
+                            "url": "https://drive.google.com/file/d/1tVrJ_LmZoCQRp9xvkqF48_-uVlNoU29V/preview"
+                        },
+                        {
+                            "title": "Khalid_David_Khalid E2CSM: efcient FPGA implementation of elliptic curve scalar multiplication over generic prime feld GF(p).pdf",
+                            "url": "https://drive.google.com/file/d/1-tPOgniZrmGGpzWGeAuCvcWllsCSpbh0/preview"
+                        },
+                        {
+                            "title": "Khalid_David_Khalid EC Crypto: Highly Efficient Area Delay Optimized Elliptic Curve Cryptography Processor.pdf",
+                            "url": "https://drive.google.com/file/d/1j3XuaWy4dVpRNzeTrhwMaWaeG6YZYwZQ/preview"
+                        },
+                        {
+                            "title": "Khalid_David_Khalid High speed parallel reconfigurable Fp multipliers for elliptic curve cryptography applications.pdf",
+                            "url": "https://drive.google.com/file/d/1SyZekCqiB2UQcU-I2utg9wlIjyNnWGdX/preview"
+                        },
+                        {
+                            "title": "Khalid_Mike_Khalid Serial and Parallel Interleaved Modular Multipliers  on FPGA Platform.pdf",
+                            "url": "https://drive.google.com/file/d/1jKRKWgZgVRDg43tr77sn1tS4ytWIGs57/preview"
+                        },
+                        {
+                            "title": "Khalid_Xiaojun_Khalid FPGA Based High Speed SPA Resistant Elliptic Curve Scalar Multiplier Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/11qpKARCkwxyMAM2QXhjaOK4WDWjopUTM/preview"
+                        },
+                        {
+                            "title": "Khalid_Xiaojun_Khalid Low latency flexible FPGA implementation of point multiplication on elliptic curves.pdf",
+                            "url": "https://drive.google.com/file/d/1wV8Ucve2XCodsZ2lri0thAoUIBQpRpLV/preview"
+                        },
+                        {
+                            "title": "Meltem_John_Evaluating the Performance of Ascon Lightweight Authenticated Encryption for AI Enabled IoT Devices.pdf",
+                            "url": "https://drive.google.com/file/d/1uA-ewgbp7TqHLuibht2ZJ6tsWX2Emjv6/preview"
+                        },
+                        {
+                            "title": "Nathan_Jean-Baptiste_Nathan CMOS STT MRAM Based Ascon LWC a Power Efficient Hardware Implementation.pdf",
+                            "url": "https://drive.google.com/file/d/1IginX2uZZV9GOktupOT9sLOoBUgkMfr9/preview"
+                        },
+                        {
+                            "title": "P._P._Kornerup A systolic linear array multiplier for a class of right shift algorithms.pdf",
+                            "url": "https://drive.google.com/file/d/1rgyAXSW3x8rlRC2JwWPDepMya7TsXUul/preview"
+                        },
+                        {
+                            "title": "Peter_Peter_Peter Modular Multiplication Without Trial Division.pdf",
+                            "url": "https://drive.google.com/file/d/1lUSUjPfBiMt6WyC2GAv1SHUhxCXa_2LQ/preview"
+                        },
+                        {
+                            "title": "Po-Jen_Wen_Complete and Improved FPGA Implementation of Classic McEliece.pdf",
+                            "url": "https://drive.google.com/file/d/1cJIQyRke38JA2gyXUeqi7szY8rVCf_aV/preview"
+                        },
+                        {
+                            "title": "Qiliang_Jiafeng_Jiafeng Low Complexity Implementation of Unified SM for NIST Pentanomials and.pdf",
+                            "url": "https://drive.google.com/file/d/1pICuT0mGIDZNayBrBBmZaISypbrJVB8T/preview"
+                        },
+                        {
+                            "title": "Ran_Renfei_Faster Matrix Multiplication via Asymmetric Hashing.pdf",
+                            "url": "https://drive.google.com/file/d/176WMyTJpJyNsckSpPaa5Yx8DvZbwu7AN/preview"
+                        },
+                        {
+                            "title": "Safiullah_Akmalbek_Safi Securing the IoT ecosystem: ASIC based hardware realization of Ascon lightweight cipher.pdf",
+                            "url": "https://drive.google.com/file/d/1dFwVtLcqhxsVzEALiMrcK9WQLnTw0oTa/preview"
+                        },
+                        {
+                            "title": "Safiullah_Seong_Safi Scalable and Efficient Hardware Architectures for Authenticated Encryption in IoT Applications.pdf",
+                            "url": "https://drive.google.com/file/d/1PC9awyPZEGrYB3bQYQIBnzw2VqEHRGr8/preview"
+                        },
+                        {
+                            "title": "Safiullah_Yasir_Safi High speed FPGA implementation of full word Montgomery multiplier forECC applications.pdf",
+                            "url": "https://drive.google.com/file/d/17zH02ryaM3St-C0oKnAXnA6_4TfRdZ4z/preview"
+                        },
+                        {
+                            "title": "Siam_Farinaz_Farinaz MAXelerator FPGA Accelerator for Privacy Preserving MAC on Cloud Servers.pdf",
+                            "url": "https://drive.google.com/file/d/1TWgV6Z1y4DTvqHTJYpPsZDE7c7nQElew/preview"
+                        },
+                        {
+                            "title": "Talla_Babulu_Khalid Speed and Area Optimized Parallel Higher Radix  Modular Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1T7y-vWII7N7uOObsIU_ImD4Q-x-5SpAW/preview"
+                        },
+                        {
+                            "title": "Udit_David_David Brooks MASR A modular Accelerator for Sparse RNNs.pdf",
+                            "url": "https://drive.google.com/file/d/1Tc9B8jHF1A31Y-VkqbnHpxGW1bQXvYfX/preview"
+                        },
+                        {
+                            "title": "Vlad-Florin_Vincent_Compact GF(2) systemizer and optimized constant time hardware sorters for Key Generation in Classic McEliece.pdf",
+                            "url": "https://drive.google.com/file/d/1qWIJCUTUOr_YJ4caHLdSAEFEClE0PMN8/preview"
+                        },
+                        {
+                            "title": "Xinyuan_Zhen_Cheetah An Accurate Assessment Mechanism and a High Throughput Acceleration.pdf",
+                            "url": "https://drive.google.com/file/d/1Ti2KAOheSq6wOQp5TE5xZYRxclsM3mdP/preview"
+                        },
+                        {
+                            "title": "Yasir_Shoaib_Yasir LUT based high speed point multiplier for Goldilocks Curve448.pdf",
+                            "url": "https://drive.google.com/file/d/1Fr7VO8px5kptyTKgN6xm_dx_BvHsYl2K/preview"
+                        },
+                        {
+                            "title": "Yasir_Xiaojun_Yasir A high\u2010speed RSD\u2010based flexible ECC processor for arbitrary curves over general prime field.pdf",
+                            "url": "https://drive.google.com/file/d/1gNAffh2RfaF0dqnjwn2fgpwNo-69u15_/preview"
+                        },
+                        {
+                            "title": "Yu_Sheng_Anantha GAZELLE  A Low Latency Framework for Secure Neural Network Inference.pdf",
+                            "url": "https://drive.google.com/file/d/1k60EwjxzotjI9mzfL8F1e9vwZs04EKUg/preview"
+                        },
+                        {
+                            "title": "Zeeshan_Xiaojun_Self Test Architecture Integrated With PRESENT Cipher Core.pdf",
+                            "url": "https://drive.google.com/file/d/1RlRPX6qIGp8c4I8kNfIIGBZ8_y_jYK-L/preview"
+                        },
+                        {
+                            "title": "Zhenghong_Zhiru_Zhang Designing Secure Cryptographic Accelerators with Information Flow Enforcement.pdf",
+                            "url": "https://drive.google.com/file/d/1U9K0YemoH_Q0Tr3HTVrPAjpBC9Mo4f-y/preview"
+                        },
+                        {
+                            "title": "Zhenji_Jiafeng_Jiafeng Novel Hybrid Size Digit Serial Systolic Multiplier over GF (2m).pdf",
+                            "url": "https://drive.google.com/file/d/1dZOIwH1J7FvpgsB2VicyYEjOA1-z5TP2/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Accelerator",
+                    "files": [
+                        {
+                            "title": "Alberto_Alberto_Alberto Tunable Floating Point for Energy Efficient Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1yZgwGOaqbSfllBJiSOkGIoPm27DRm-57/preview"
+                        },
+                        {
+                            "title": "Alberto_Alberto_Alberto Variable Precision 16 Bit Floating Point Vector Unit for Embedded Processors.pdf",
+                            "url": "https://drive.google.com/file/d/1yXYRSV4S3w1BuGPX5Lzk7LUvrZldVN6e/preview"
+                        },
+                        {
+                            "title": "Andrew_David_David Efficient Multibyte Floating Point Data Formats Using Vectorization.pdf",
+                            "url": "https://drive.google.com/file/d/1z6bNwZS1Y_89NxLJB2QsWmWpB6n1PYpV/preview"
+                        },
+                        {
+                            "title": "Andrew_David_David Scalar Arithmetic Multiple Data Customizable Precision for Deep Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1z6KqFiSlUUzlQ3xCqVkZAHujsYFhOsHv/preview"
+                        },
+                        {
+                            "title": "Andrew_David_Scalar Arithmetic Multiple Data Customization Precision for DNN.pdf",
+                            "url": "https://drive.google.com/file/d/165xH27sLLT6t1hXsbh-h6G4Mc74ecdlv/preview"
+                        },
+                        {
+                            "title": "Ankur_Kailash_IBM DLFloat  A 16 b Floating Point format designed for DL Training and Inference.pdf",
+                            "url": "https://drive.google.com/file/d/1zwxI3FvLxBXKxSJC_9e1VufprD6j0-Xq/preview"
+                        },
+                        {
+                            "title": "Bohan_Ian_Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients.pdf",
+                            "url": "https://drive.google.com/file/d/1HbFYu1_96LQrpw5DmJWdnZGqTawU6c59/preview"
+                        },
+                        {
+                            "title": "Boyko_Boyko_A study  of BFLOAT16 for deep learning training.pdf",
+                            "url": "https://drive.google.com/file/d/1Nm4RPA-g5T83dD2uzsF_nzV5_vWFIdeS/preview"
+                        },
+                        {
+                            "title": "Cameron_Anastasios_TRAINING DEEP NEURAL NETWORKS WITH LOW Precision Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1HfgrKAp6O0iDE_N0EHv0QJTfAjDY95yJ/preview"
+                        },
+                        {
+                            "title": "Charles_Charles_Wasserstein GAN.pdf",
+                            "url": "https://drive.google.com/file/d/1HW39Z6S0gipFefGQ4XL3AFxioktEo1b2/preview"
+                        },
+                        {
+                            "title": "Cheng_Cheng_Jeff Johnson Rethinking floating point for deep learning.pdf",
+                            "url": "https://drive.google.com/file/d/1zpeVXSaE64PUUqpFZ4iyuqpTsijIzaUJ/preview"
+                        },
+                        {
+                            "title": "Christoph_Anastasia_Lauter A Framework for Semi Automatic Precision and Accuracy Analysis for Fast and Rigorous Deep Learning.pdf",
+                            "url": "https://drive.google.com/file/d/11PY3rZhYg2sP4ZzN8A83143cdBWpwnxq/preview"
+                        },
+                        {
+                            "title": "D._B._Improving the speed of neural networks on CPUs.pdf",
+                            "url": "https://drive.google.com/file/d/1Gl7S3H59MfCFa1nE-PwSReSJYok3oEXM/preview"
+                        },
+                        {
+                            "title": "Dawson_Wei_Zongwei Zhou sclae MLP and TPU v3 Google.pdf",
+                            "url": "https://drive.google.com/file/d/1AF6LJWbZZbQqpxC9jZwqGBzsyamFqgeD/preview"
+                        },
+                        {
+                            "title": "Fanny_Pasquale_Pasquale Energy Efficient Architecture for CNNs Inference on FPGA.pdf",
+                            "url": "https://drive.google.com/file/d/13IIv_xtv1GrljKmDwM72aQho7a2tQeq8/preview"
+                        },
+                        {
+                            "title": "Felix_Felix_Mingzhen The Deep Learning Compiler  A Comprehensive Survey.pdf",
+                            "url": "https://drive.google.com/file/d/11_YABfHWl3v-q9l7rpEjxgdKk-YKEiye/preview"
+                        },
+                        {
+                            "title": "Flexpoint an adaptive numerical format for efficient training of deep neural networks.pdf",
+                            "url": "https://drive.google.com/file/d/1OcdOPGdMf_MaeLWgrriOeVPRxT-4GY9v/preview"
+                        },
+                        {
+                            "title": "Floating_Point_on_NVIDIA_GPU_White_Paper.pdf",
+                            "url": "https://drive.google.com/file/d/1Ob3pEWe8GviF1TGPOF2WiOzPbsHi6FhA/preview"
+                        },
+                        {
+                            "title": "Ganesh_Debbie_ACCELERATING DEEP CONVOLUTIONAL NETWORKS USING LOW PRECISION AND SPARSITY.pdf",
+                            "url": "https://drive.google.com/file/d/1HPn7sUY6iFrCm10HW2rZPabkTEfZq3j8/preview"
+                        },
+                        {
+                            "title": "Hao_Seok-Bum_Mixed Low precision Deep Learning Inference using Dynamic Fixed Point.pdf",
+                            "url": "https://drive.google.com/file/d/1IE9Cotnqc9mdYuEVMA2SzqcVeap03Gvf/preview"
+                        },
+                        {
+                            "title": "Hao_Seok-Bum_Seok B Efficient Fixed Floating Point Merged MixedPrecision Multiply Accumulate Unit for Deep Learning Processors.pdf",
+                            "url": "https://drive.google.com/file/d/15rle8BfEEY9dRPUJuu3RAayivD2eeexv/preview"
+                        },
+                        {
+                            "title": "Hao_Seok-Bum_Seok B New Flexible Multiple Precision MAC for Deep NN Training and Inference.pdf",
+                            "url": "https://drive.google.com/file/d/15krwqB5UjOt-ha2AwmrwzDHyNNfLkMlr/preview"
+                        },
+                        {
+                            "title": "Himanshu_Ram_Ram Optimized Fused Floating Point Many Term Dot Product Hardware for Machine Learning Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1510qayyPK2l85c4aKIXpp-PXm99nM8ZE/preview"
+                        },
+                        {
+                            "title": "Hongqiao_James_A survey on Methods and Theories of Quantized Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1HVHMcxkpOW0WRAe6JYZ3Ix47hatOEEGI/preview"
+                        },
+                        {
+                            "title": "Jack_Krste_Asanovic A Hardware Accelerator for Computing an Exact Dot Product.pdf",
+                            "url": "https://drive.google.com/file/d/1yTXZaEBiwvKd1UVtRPQ9LLvJ-Ok9oAV6/preview"
+                        },
+                        {
+                            "title": "Jeffrey_Jeffrey_Jeffrey Dean The Deep Learning Revolution and Its Implications for.pdf",
+                            "url": "https://drive.google.com/file/d/1znldtIECcRGFKQ3PJghBbHV7R5QmeaVg/preview"
+                        },
+                        {
+                            "title": "Joanna_Krzysztof_RPU.pdf",
+                            "url": "https://drive.google.com/file/d/1I4umcUKkOfk_6gxhlN2y07hGiwNOGcVS/preview"
+                        },
+                        {
+                            "title": "Ke_Jie_Lambardi Matrix multiplication by an inexact systolic array.pdf",
+                            "url": "https://drive.google.com/file/d/11YQm5rE-AZKrcJnX5kuAAb4x3q1n4jeE/preview"
+                        },
+                        {
+                            "title": "Khaled_Carla_Deep Learning with Limited Numerical Precision.pdf",
+                            "url": "https://drive.google.com/file/d/1H5Uw5lH_yee45ml6MkTRQ1L0aIgE1Vmf/preview"
+                        },
+                        {
+                            "title": "Marta_Maurizio_Alberto Tunable Floating Point for Artificial Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1yZw4CKjo6XxNy3B8U_6Du72zBgAVvCha/preview"
+                        },
+                        {
+                            "title": "Marta_Maurizio_Nannarelli Tunable Floating Point for Embedded Machine Learning Algorithms Implementation.pdf",
+                            "url": "https://drive.google.com/file/d/12OsAlPfcvdmQw78qdhRwng9QaMZqaWAO/preview"
+                        },
+                        {
+                            "title": "Martin_Peter_AddNet. DNN using FPGA Optimized Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1HFwBJNTaTYRz6xcs465jLbJwKe85EHbc/preview"
+                        },
+                        {
+                            "title": "Ming_Shahin_kNN CAM Floating Point Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1IFj-_ptaIEsVOf0uiSCLvHatw9Mf61BX/preview"
+                        },
+                        {
+                            "title": "Minje_Paris_Bitwise Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1HD4gGUyWeDC3h8WP-h3MFvK-ETXxwKkh/preview"
+                        },
+                        {
+                            "title": "Mixed Precision Training.pdf",
+                            "url": "https://drive.google.com/file/d/1OVQpdVtoIS_xICwTym7rvX6ni9H7MZAG/preview"
+                        },
+                        {
+                            "title": "Mohammad_Norbert_Training DNN with 8 bit floating point numbers.pdf",
+                            "url": "https://drive.google.com/file/d/1HcSeidCIXXvZdB3TzqE-UxXzbs6FvAxL/preview"
+                        },
+                        {
+                            "title": "Mohsen_Tajana_CFPU Configureable Floating Point Multiplier for Energy Efficient Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1H8Pp0ZCQXfzZzohllyp8h65PSi9tkqWe/preview"
+                        },
+                        {
+                            "title": "Mythile_Sudhapriya_Fixed Point Quantization of Deep Convolutional Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1H3QqMEBrYWGA4bUmpBQ9znVDSlAyqifx/preview"
+                        },
+                        {
+                            "title": "NEURAL NETWORKS WITH FEW MULTIPLICATIONS.pdf",
+                            "url": "https://drive.google.com/file/d/1OSd-O8a8w0CLQFQAOyxXE12M_-OP7Ce7/preview"
+                        },
+                        {
+                            "title": "Neil_David_Neil Burgess Bfloat16 Processing for Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/13qTQKAukTQoxlyJ1Z23yYC9agXkDBOne/preview"
+                        },
+                        {
+                            "title": "Nikko_Nikko_FAST DNN training on DS and Cloud TPu.pdf",
+                            "url": "https://drive.google.com/file/d/1H4wOu01CgmZvBtW8hJU7fbJt3QdxKMqE/preview"
+                        },
+                        {
+                            "title": "Nitish_Pradeep_T2S Tensor.pdf",
+                            "url": "https://drive.google.com/file/d/1HxkMvGCmZADvJx8e_N4pt7AnD8DYsC_T/preview"
+                        },
+                        {
+                            "title": "Nong Xiao-Low-Cost Binary128 Floating-Point FMA Unit Design with SIMD Support.pdf",
+                            "url": "https://drive.google.com/file/d/13kD-nNlsSV4_MMfVYAyySVDj5Xp82Yhi/preview"
+                        },
+                        {
+                            "title": "Pierre_Srikara_Pierre Mixed Precision Block Fused Multiply Add  Error Analysis and Application to GPU Tensor Cores.pdf",
+                            "url": "https://drive.google.com/file/d/13D084Ih8kOK73EUv6opkbZjECHauyitK/preview"
+                        },
+                        {
+                            "title": "S._A._A. Raghunathan Neural Network Accelerator Design with Resistive crossbars IBM.pdf",
+                            "url": "https://drive.google.com/file/d/1ygYsdTZPErOORXoPQk5IoM-vYqV49qSs/preview"
+                        },
+                        {
+                            "title": "Shenghou_Paul_Accumulation bit width sacaling for ultra low precision DN.pdf",
+                            "url": "https://drive.google.com/file/d/1HHuq0nOEtYF7PTsv2WOGp61rBLbgUT-6/preview"
+                        },
+                        {
+                            "title": "Shiho Kim-Digital Neuron-A Hardware Inference Accelerator for CDNN.pdf",
+                            "url": "https://drive.google.com/file/d/17BChkJ7I-6DbO4ZXoQdMyk5PdlsJTNTy/preview"
+                        },
+                        {
+                            "title": "Shubham_Leland_Chang Compensated DNN Energy Efficient Low Precision Deep Neural.pdf",
+                            "url": "https://drive.google.com/file/d/1yq_ixneuSzL1POYHNIEBcYfy6s6KqmxZ/preview"
+                        },
+                        {
+                            "title": "Stefan_Tina_Nicol Hofmann SIMD Multi Format Floating Point Unit on the IBM z15(TM).pdf",
+                            "url": "https://drive.google.com/file/d/13oLI76fsW5nmeiNlGPA9CRfm6rgX0A62/preview"
+                        },
+                        {
+                            "title": "Stefano_Stefano_Vijaykrishnan FARMA Flexible Accelerator For Recurrent.pdf",
+                            "url": "https://drive.google.com/file/d/17YV--HUSeAYMVxMsvoTO2YME6YzjLmfS/preview"
+                        },
+                        {
+                            "title": "Steven_Michael_SM Muller The IBM zEnterprise 196 Decimal Floating Point Accelerator.pdf",
+                            "url": "https://drive.google.com/file/d/176ivATtnAM9R01bcX90LcUQCcW76cwrG/preview"
+                        },
+                        {
+                            "title": "Thierry_Gu-Yeon_Thierry AdaptivFloat  A Floating point based Data Type for Resilient Deep Learning Inference.pdf",
+                            "url": "https://drive.google.com/file/d/16MmvxOowPXxXMCw_6-TsdLj6mnIxxsI4/preview"
+                        },
+                        {
+                            "title": "Tuan_James_James A combined IEEE half and single precision floating point multipliers for deep learning.pdf",
+                            "url": "https://drive.google.com/file/d/1zvJcEx6DjBzLsZNDccaqXnj6QzoK_hsJ/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Adder",
+                    "files": [
+                        {
+                            "title": "A.M._G._Guy Even An IEEE complaint FPU Adder.pdf",
+                            "url": "https://drive.google.com/file/d/1zOcc0WqHg9qiRuY91i4TYTCKuNV966Q_/preview"
+                        },
+                        {
+                            "title": "A._C.C._C.C. Lim Reduced Latency IEEE FP standard Adder.pdf",
+                            "url": "https://drive.google.com/file/d/1ytc4UxEfNccvSHtIa6vCiAu7fhCQMSqA/preview"
+                        },
+                        {
+                            "title": "A._C.C._S. Lefrere and C.C. Lim Reduced Latency IEEE FPU Standard Adder Architectures.pdf",
+                            "url": "https://drive.google.com/file/d/15j9gB0cL8GfPDZ9Ni0z0Xq20m1bSR8TT/preview"
+                        },
+                        {
+                            "title": "Basit_Rajit_Rajit An operand Optimized Asynchronous IEEE 754 Double Precision Floating Point Adder by Cornell University.pdf",
+                            "url": "https://drive.google.com/file/d/153Mg1-RujBe6IBgrxRXzpspQaTqS8MFY/preview"
+                        },
+                        {
+                            "title": "Brett_James_James A Novel Single Double Precision Normalized IEEE 754 Floating Point Adder Subtracter.pdf",
+                            "url": "https://drive.google.com/file/d/1zt-4oNQ-Tfysu-0eEDc3FOadhMeP6hmS/preview"
+                        },
+                        {
+                            "title": "Dake Liu-ImplementationofaFloatingPointAdderusingNoGAP.pdf",
+                            "url": "https://drive.google.com/file/d/1z7fd8tccIK5NA6nHQzj3TUK-nJQD-Tdc/preview"
+                        },
+                        {
+                            "title": "E._E.L._Bruguera A novel design of a two operand normalization circuit.pdf",
+                            "url": "https://drive.google.com/file/d/1yP2sfwQqTYKpWPXnixMabJqbeX8QgvoA/preview"
+                        },
+                        {
+                            "title": "E._R._Hokenek LZA in IBM risc 6000 FP unit.pdf",
+                            "url": "https://drive.google.com/file/d/1zdEYDp0EjTqgi69iqP5JGALVZagJ-32x/preview"
+                        },
+                        {
+                            "title": "Feng_Qingping_Liu FPGA  prototyping EAC parallel prefix tree architecture.pdf",
+                            "url": "https://drive.google.com/file/d/11P0Aenjf-8EknGem6ExXt6MI6kmfnbPP/preview"
+                        },
+                        {
+                            "title": "Feng_Qingping_Qingping A Comparative Study of Parallel Prefix Adders in FPGA Imp EAC.pdf",
+                            "url": "https://drive.google.com/file/d/142nL1NO3rBItP5dYAHeOlerrmSJle2zv/preview"
+                        },
+                        {
+                            "title": "H.P._S._Hon An 80 MFLOPS floating point engine in the Intel i860 processor.pdf",
+                            "url": "https://drive.google.com/file/d/1z_q6SkUJ2nealNA7cqcWG744icIEl0xe/preview"
+                        },
+                        {
+                            "title": "H.T._H.T._Vergos Area time efficient end around inverted carry adders.pdf",
+                            "url": "https://drive.google.com/file/d/1IwN27lG0-xDvG-jr-4KtDjreDGpOYTgh/preview"
+                        },
+                        {
+                            "title": "Hao_Seok\u2010Bum_Seok B High performance and energy efficient SP and DP merged FP Adder on FPGA.pdf",
+                            "url": "https://drive.google.com/file/d/15muvXXuqCHAamp4SU7ygJZ3skax9Lxn5/preview"
+                        },
+                        {
+                            "title": "J.D._T._Thomas Leading one prediction scheme for latency improvement in single datapath floating point adders.pdf",
+                            "url": "https://drive.google.com/file/d/17w1TektrXqGhami-_VW1Oc1PYbDCAYIg/preview"
+                        },
+                        {
+                            "title": "Jae_Earl_Swartzlander A low power dual path floating point fused add subtract unit.pdf",
+                            "url": "https://drive.google.com/file/d/16jIQ3FLUOUs1hGbISddpXNbTOLY0hMdR/preview"
+                        },
+                        {
+                            "title": "John-Comments on sequential and Indetermine behaviour of EACA.pdf",
+                            "url": "https://drive.google.com/file/d/1zdiupAXNkNjX7k9NUBTI0uvb0rWRpuUw/preview"
+                        },
+                        {
+                            "title": "Liang-Kai_Nandini_Nandini Hardware Designs for Decimal Floating Point Addition Related Operations.pdf",
+                            "url": "https://drive.google.com/file/d/12Vub5WvX1Vxh_8r23oF1iww9HleBxQCY/preview"
+                        },
+                        {
+                            "title": "Libo_Zhiying_Zhiying Wang A New Architecture For Multiple Precision Floating Point Fused Multpliers Addition.pdf",
+                            "url": "https://drive.google.com/file/d/1AVKMYNZkNIvYn2PjqB_TWjiKezhUuqqd/preview"
+                        },
+                        {
+                            "title": "M.S._K.J._Schmookler Leading Zero anticipation and detection methods analysis.pdf",
+                            "url": "https://drive.google.com/file/d/1651pIBCPkEgjgc9PRE7GsD1UKhXKE9a5/preview"
+                        },
+                        {
+                            "title": "Mahesh_Prasanna_Swartzlandar A Fused Floating Point Three Term Adder.pdf",
+                            "url": "https://drive.google.com/file/d/16k1sFYe0r5dAgWvNYWsu-bB4SUKUIwnQ/preview"
+                        },
+                        {
+                            "title": "Mauro_Giuseppe_Visalli Analysis and Implementation of a Novel Leading Zero Anticipation Algorithm for FP AU.pdf",
+                            "url": "https://drive.google.com/file/d/17SPGD6wKIXhMe2pDacXvYZFwurXPXpeU/preview"
+                        },
+                        {
+                            "title": "N._N._NBurgess Prenormalization rounding in IEEE floating point operations using a flagged prefix adder.pdf",
+                            "url": "https://drive.google.com/file/d/12IDJ2g9c_oKjnIWre5_QL73zKGyRn9Il/preview"
+                        },
+                        {
+                            "title": "Ogun_Ogun_Gang Formal Analysis of End Around Carry Adder in FPU.pdf",
+                            "url": "https://drive.google.com/file/d/1JAUQF-xK6GdBSvCIzg9CoaN6S-2BBaMf/preview"
+                        },
+                        {
+                            "title": "P._D._Dake Liu High performance, low latency fieldprogrammable gate array based floating point adder and MULT.pdf",
+                            "url": "https://drive.google.com/file/d/1z7iMrgnLZOq1LrP7DEoprC8kLw6tCMVN/preview"
+                        },
+                        {
+                            "title": "Qian_Jiaguang_Jiaguang Sun Scalable Verification of a Generic End Around Carry.pdf",
+                            "url": "https://drive.google.com/file/d/1zkMyzfFjfkhTUtXdACXxPBinMtWJlk-7/preview"
+                        },
+                        {
+                            "title": "Qian_Jiaguang_Qian Scalable Verification of a Generic End Around Carry Adder for Floating Point Units by Coq.pdf",
+                            "url": "https://drive.google.com/file/d/1IxF7HIY0r6VjHlYND-nNRqrmejSSdIkR/preview"
+                        },
+                        {
+                            "title": "R.V. Pillai-Barel Swtich.pdf",
+                            "url": "https://drive.google.com/file/d/1GE0A2Z14kjo7y8hAzhJc6EHfLEbJNVuo/preview"
+                        },
+                        {
+                            "title": "V.G._V.G._Oklobdzija A Hierarchical And Modular Circuit Implementing Leading Zero Detector For A High Performance FP Processor.pdf",
+                            "url": "https://drive.google.com/file/d/13ff7xPnPLvOUKhCg0y559P3bSuclaeGN/preview"
+                        },
+                        {
+                            "title": "V.G._V.G._Oklobdzija An algorithmic and novel design of a leading zero.pdf",
+                            "url": "https://drive.google.com/file/d/13fVqfwrd2XDI64HSz5ayCv1xrEsEa8kV/preview"
+                        },
+                        {
+                            "title": "V.G._V.G._Oklobdzija An implementation algorithm and design of a novel leading zero detector circuit.pdf",
+                            "url": "https://drive.google.com/file/d/13a7khTRgbWI_Gr0CO9gWVpyl6uTJkgkG/preview"
+                        },
+                        {
+                            "title": "V._T._Oklobdzija Comments on Suzuki LZA.pdf",
+                            "url": "https://drive.google.com/file/d/13X9mLZf4ewwib5t-iPowL8GhySw5aySC/preview"
+                        },
+                        {
+                            "title": "Vincent_Vincent_Vincent Correctly Rounded Arbitrary Precision FP Summation.pdf",
+                            "url": "https://drive.google.com/file/d/17UK0fewtgP7ZZFvm2HY_uNXo4-0fRN5M/preview"
+                        },
+                        {
+                            "title": "W._D._Zarus An open Question of Developers of Numerical Software.pdf",
+                            "url": "https://drive.google.com/file/d/19Hze9fmBg7FX1FwsMjEyKXUb8fEMQMZ1/preview"
+                        },
+                        {
+                            "title": "Weiqiang_Fabrizio_Lombardi Design and Analysis of Inexact Floating Point Adders.pdf",
+                            "url": "https://drive.google.com/file/d/11DEgtpnOrUYGY12_d68IFR0BZaG2E3O7/preview"
+                        },
+                        {
+                            "title": "Weiwu-A Novel Design of LZA circuit with parallel Error Detection.pdf",
+                            "url": "https://drive.google.com/file/d/17GhuoSfyd11HmvxOZ5-8bg-60iuywRZJ/preview"
+                        },
+                        {
+                            "title": "Xiao_Michael_Michael A 270ps 20mW 108 bit End around Carry Adder for FPMAC.pdf",
+                            "url": "https://drive.google.com/file/d/1IxSVWAnmrsO0XttxApNl1iq9iLOXAmzn/preview"
+                        },
+                        {
+                            "title": "Zhang-Parallel Error Detection For LZA.pdf",
+                            "url": "https://drive.google.com/file/d/1AzISqS6xXpV8RRTOK8KRmzxRCiPbMaab/preview"
+                        },
+                        {
+                            "title": "Zi chu-Parallel Error Detection for Leading Zero Anticipation.pdf",
+                            "url": "https://drive.google.com/file/d/1AM6YUc7VyEXU3nLx-iUUL-pCnPZ2b5QZ/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_MAC",
+                    "files": [
+                        {
+                            "title": "A Jacob-Design of testable structuresdefined by simple loops.pdf",
+                            "url": "https://drive.google.com/file/d/1Id0Ak9GtA12Sv5UITjUazLkYukAyvP1L/preview"
+                        },
+                        {
+                            "title": "A.M._F._Lombardi On a tapered floating point system.pdf",
+                            "url": "https://drive.google.com/file/d/1153kpNson4sFLkKGJ7L44rQfQdZVw7sP/preview"
+                        },
+                        {
+                            "title": "A._C._Vergis Testing Trees for Multiple Faults.pdf",
+                            "url": "https://drive.google.com/file/d/1IUa5v434lBzZFHTC44RAFFtfA4pcY7--/preview"
+                        },
+                        {
+                            "title": "Alan_Alan_IBM  quarterlytechnic1960univ.pdf",
+                            "url": "https://drive.google.com/file/d/1zXGn8bmXuIg-oJvw1OjBnhdwUJMYnSyq/preview"
+                        },
+                        {
+                            "title": "Alberto_Alberto_Alberto Fused Multiply Add for Variable Precision Floating Point.pdf",
+                            "url": "https://drive.google.com/file/d/1yc5Zjj2nVz2qwFsc3g8qmspeVxcwxSnT/preview"
+                        },
+                        {
+                            "title": "Algorithm722.pdf",
+                            "url": "https://drive.google.com/file/d/1yUbzjbQAX6Tcr98diox-z-t-Q_61_pal/preview"
+                        },
+                        {
+                            "title": "Andrea_Florent_Florent Dynamic Precision Numerics Using a Variable Precision UNUM Type I HW Coprocessor.pdf",
+                            "url": "https://drive.google.com/file/d/1zJvQ_mEL5_JFdp9pkEpocnnLGPsBXEPe/preview"
+                        },
+                        {
+                            "title": "Anu_M_V. Sridhar Efficient Floating point based Block LU Decomposition on FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/17cSvZ1GIn52d-PBJTy04mUXVX6wL504z/preview"
+                        },
+                        {
+                            "title": "Benjamin_Benjamin_UnumSORN The end of Errors by William Kahan.pdf",
+                            "url": "https://drive.google.com/file/d/1CoztDfnnuJfZvnNVtsRRRZ6z-zqOUcUd/preview"
+                        },
+                        {
+                            "title": "Bjorn_Andreas_Koch Architecture Exploration of High Performance Floating Point Fused Multiply Add.pdf",
+                            "url": "https://drive.google.com/file/d/10KmMUplIc1rdu47ahiLUp1NnZ5eM6Mt-/preview"
+                        },
+                        {
+                            "title": "Block FP for NN.pdf",
+                            "url": "https://drive.google.com/file/d/1yQLUlyKSKo_HE9e8DF2ZmYkIs0X288AF/preview"
+                        },
+                        {
+                            "title": "Bogdan_Bogdan_Bogdan=Hybrid Dot Product Design for FP Enabled FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/1yPeuoJBuITRRdwP79tvG6TbEzUsCeXgJ/preview"
+                        },
+                        {
+                            "title": "Bogdan_Martin_Gavriliu Low Precision DSP Based FP MAF for FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/1zTSsz7yzP4d0uj0BSOIQU_-69uy-cK9a/preview"
+                        },
+                        {
+                            "title": "Brian_Sasikanth_Sasikanth Intel NNP T Fused FP Many Term Dot Product.pdf",
+                            "url": "https://drive.google.com/file/d/167YH9Ic-T5F85r47eN-Edoo87fyCfir-/preview"
+                        },
+                        {
+                            "title": "C.N._D.R._DR Lutz A small and fast leading one predictor corrector circuit.pdf",
+                            "url": "https://drive.google.com/file/d/1z-r7ejGhkuuliv2LZGwcgomsIdQN-ftC/preview"
+                        },
+                        {
+                            "title": "Cedric_Silvia_SM Muller Quad Precision Floating Point on the IBM z13\u2122.pdf",
+                            "url": "https://drive.google.com/file/d/1796zQDii0kaOhY0Uriy2DCSPdxaqAIKp/preview"
+                        },
+                        {
+                            "title": "Chaitra_Amit_Loadbalancing.pdf",
+                            "url": "https://drive.google.com/file/d/11Ipdn4D3XSSXVv-bHLurg3zcVYVf5RZZ/preview"
+                        },
+                        {
+                            "title": "Chichyang_Paul_chen Design of a Versatile and Cost Effective Hybrid FloatingPoint LNS Arithmetic Processor.pdf",
+                            "url": "https://drive.google.com/file/d/1ykdb8fRuakQRQtEiNs1ACI-WV5Rc77SL/preview"
+                        },
+                        {
+                            "title": "Claude-Pierre_Paul_Muller On various ways to split a floating point number.pdf",
+                            "url": "https://drive.google.com/file/d/12gfduacNCtCN4EPrk4ik1BWOjIAea1tc/preview"
+                        },
+                        {
+                            "title": "Clothilde_Christoph_Christoph Lauter A Correctly Rounded Mixed Radix FMA.pdf",
+                            "url": "https://drive.google.com/file/d/1yiMRd-9V2XIaY33-FiONXgAhJikuFq5C/preview"
+                        },
+                        {
+                            "title": "D._D._Darrel Dynamically scaled fixed point arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1z7JeJ_6xjO8ryCL72HTZqdd8EDoHb0tB/preview"
+                        },
+                        {
+                            "title": "Darvish-Pushing-the-limits-of-narrow-precision-inferencing-at-cloud-scale-with-microsoft-floating-point-Paper.pdf",
+                            "url": "https://drive.google.com/file/d/1Cc1ifb7_G8LRyeLhtKWEAGr4_ee7RhN5/preview"
+                        },
+                        {
+                            "title": "David_Christopher_DR Lutz High Precision Anchored Accumulators for Reproducible Floating Point.pdf",
+                            "url": "https://drive.google.com/file/d/1zNxxUkcgZowWD09HwFdPFwA_drDUxxDf/preview"
+                        },
+                        {
+                            "title": "David_Christopher_Lutz High Precision Anchored Accumulators for Reproducible FPS.pdf",
+                            "url": "https://drive.google.com/file/d/10zp-T8rPI_19Ah8H35bPCuy5HL307UmX/preview"
+                        },
+                        {
+                            "title": "David_Christopher_NBurgess High Precision Anchored Accumulators for Reproducible Floating Point Summation.pdf",
+                            "url": "https://drive.google.com/file/d/12JrMmBKA3W6VdIoFgCZBIld-3suCCn1v/preview"
+                        },
+                        {
+                            "title": "David_David_DR Lutz ARM Floating Point 2019 Latency, Area, Power.pdf",
+                            "url": "https://drive.google.com/file/d/1z-jtq5hwmhcpX1tTI5iBpqmhlAESu-84/preview"
+                        },
+                        {
+                            "title": "David_David_DR Lutz Fused Multiply Add Microarchitecture Comprising Separate Early Normalizing.pdf",
+                            "url": "https://drive.google.com/file/d/1yzpF8q8H98B7xgH5VEwsAjdUJukmip7S/preview"
+                        },
+                        {
+                            "title": "David_David_DR Lutz Optimized Leading Zero Anticipators for Faster FMA.pdf",
+                            "url": "https://drive.google.com/file/d/1zMDqg2tZr5ep1GfqkYFcDcjgwHANDPHD/preview"
+                        },
+                        {
+                            "title": "David_David_David M. Russinoff Formal Verification of Floating Point Hardware Design.pdf",
+                            "url": "https://drive.google.com/file/d/1IT5nmv8BQC46iWFBkX82ICH-yBObWYly/preview"
+                        },
+                        {
+                            "title": "David_David_Matula Towards an abstract mathematical theory of floating point arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/129Q0usukLEBFVpvD8-JHlL8v3-m_iaYO/preview"
+                        },
+                        {
+                            "title": "Davide_Francesco_Davide Reduced Precision Floating Point Optimization for Deep Neural Network On Device Learning on MicroControllers.pdf",
+                            "url": "https://drive.google.com/file/d/1J1NjWvx3RKpudZrGjdL0yyjJUWkXq9U5/preview"
+                        },
+                        {
+                            "title": "Double Precision Floating Point Core.PDF",
+                            "url": "https://drive.google.com/file/d/1z19w2MiQykrhgmkTNmIfTpR6yWAVALbD/preview"
+                        },
+                        {
+                            "title": "Double_FPU.PDF",
+                            "url": "https://drive.google.com/file/d/1z0uAczJ-rzykEE1I-sgeirnQLoeAufhu/preview"
+                        },
+                        {
+                            "title": "E.V._J.C._JacobAA On the C testability of generalized.pdf",
+                            "url": "https://drive.google.com/file/d/1I_I34Q8NFqWaSu97oKjT0sWDeOH7CHYO/preview"
+                        },
+                        {
+                            "title": "E._P.W._Hokenek Second generation RISC floating point with multiply add fused.pdf",
+                            "url": "https://drive.google.com/file/d/1zbXQMAMAm9r0cdL0XB2l4JdRnO-nd0g_/preview"
+                        },
+                        {
+                            "title": "Eric_Carl_Swartzlander Bridge FP FMA Design.pdf",
+                            "url": "https://drive.google.com/file/d/16cy90vQRDBWfsiO09g4o8cMdUoRl3o55/preview"
+                        },
+                        {
+                            "title": "Eric_Carl_Swartzlander Floating Point Fused Multiply Add Architectures.pdf",
+                            "url": "https://drive.google.com/file/d/16VfKfncb6l7W6cRKfGsxBu_y58tNVnxS/preview"
+                        },
+                        {
+                            "title": "FP Arithmetic in AMD Processor 2015.pdf",
+                            "url": "https://drive.google.com/file/d/1BaX6bs5E-CINcQYRdBqZ4UB6TL4Wacy3/preview"
+                        },
+                        {
+                            "title": "FP Washington II.pdf",
+                            "url": "https://drive.google.com/file/d/1D6DCvmg1M3O2IoQ9ccgizz1mIbjjkLF1/preview"
+                        },
+                        {
+                            "title": "Fredrik_Fredrik_Johansson Faster Arbitrary Precision Dot Product and Matrix Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1zec6k3-XvhcpHFnOxAEPNU2O0Ykdy4Y_/preview"
+                        },
+                        {
+                            "title": "G._M._Kroener Floating Point Unit in standard cell design with 116 bit wide dataflow.pdf",
+                            "url": "https://drive.google.com/file/d/1-unBMdCMyjD63mguHCLk3nK8-xlsHaAP/preview"
+                        },
+                        {
+                            "title": "G._M._Kroener The IBM eServer z990 Floating Point Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1-skB9BwR9fI5vpOXsJaJPXY-iw6-0xkX/preview"
+                        },
+                        {
+                            "title": "Geoff_Geoff_Barrett A formal approach to rounding.pdf",
+                            "url": "https://drive.google.com/file/d/1yQduYu3aEKTVv_KNS3Vp-cINaPpUD9ou/preview"
+                        },
+                        {
+                            "title": "Gongqiong_Zhaolin_Zhaolin Design of A Fully Pipelined Single Precision Multiply Add Fused Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1AksRgt4HH9KVt7VIzFitUK2K6-UShIOr/preview"
+                        },
+                        {
+                            "title": "Greg_Alexander_Alexander Leveraging the bfloat16 Artificial Intelligence Datatype For Higher Precision Computation.pdf",
+                            "url": "https://drive.google.com/file/d/1yVbHAhDt8S7I58CMXRNWFu2gdIBUY_0T/preview"
+                        },
+                        {
+                            "title": "H.A.H._M.J._Flynn Improving the effectiveness of Floating Point Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1zJCy8auzI_oNzJPFg_G-d-2TA1jzQL3D/preview"
+                        },
+                        {
+                            "title": "H._H._K. Arora Itanium Processor Microarch.pdf",
+                            "url": "https://drive.google.com/file/d/10de3fEzuT7tUkK83zZch5psO8WgQ_lUy/preview"
+                        },
+                        {
+                            "title": "H._H._Loomis The Maximum Rate Accumulator.pdf",
+                            "url": "https://drive.google.com/file/d/113uXc9Kd8uW0uPmG7zOBpF6TsYMRuLCt/preview"
+                        },
+                        {
+                            "title": "H._K._Suzuki Leading Zero Anticipatory Logic for High Speed Floating Point Additi.pdf",
+                            "url": "https://drive.google.com/file/d/16pKU_X2jjeQJBZE4UqfKyq9l-JCb42Zq/preview"
+                        },
+                        {
+                            "title": "Hao_Seok-Bum_Ovidiu FPGA implementations of low precision floating point multiply accumulate.pdf",
+                            "url": "https://drive.google.com/file/d/13RCUYiijanIzYdgBMRRLWT2h0I1rSgku/preview"
+                        },
+                        {
+                            "title": "Hao_Seok-Bum_Seok B Efficient Multiple Precision Floating Point Fused Multiply Add with Mixed Precision Support.pdf",
+                            "url": "https://drive.google.com/file/d/15rGBrDOT4ZvzXU2p2jkudAP-3TyqyylL/preview"
+                        },
+                        {
+                            "title": "Hao_Seok-Bum_Seok B Efficient Posit Multiply Accumulate Unit Generator for DL Applications.pdf",
+                            "url": "https://drive.google.com/file/d/15nOWG4FdSrshGwgeiJ6wJM1SceBkh0Qj/preview"
+                        },
+                        {
+                            "title": "Intel-Mixed Precision Training With 8-bit Floating Point.pdf",
+                            "url": "https://drive.google.com/file/d/1WovqOJ-lZ95zRXTbDTk09NoO4foJnH0L/preview"
+                        },
+                        {
+                            "title": "J.A._J.M._Muller Faithful powering computation using table look up and a fused accumulation tree.pdf",
+                            "url": "https://drive.google.com/file/d/12rW-G3kyjrobbSac0ybpsoMhPWuIQ7-T/preview"
+                        },
+                        {
+                            "title": "J.D._T._Thomas Floating point fused multiply add reduced latency for floating point addition.pdf",
+                            "url": "https://drive.google.com/file/d/184n52qj7AmD0KFGHei4C-y3bX0_P6g6M/preview"
+                        },
+                        {
+                            "title": "J.D._T._Thomas Floating point fused multiply add with reduced latency 2002.pdf",
+                            "url": "https://drive.google.com/file/d/182oiiARdKNwAUUKVcEV9JTjAwkj4D3L_/preview"
+                        },
+                        {
+                            "title": "J.D._T._Thomas Floating point multiply add fused with reduced latency 2004.pdf",
+                            "url": "https://drive.google.com/file/d/17xGj__ahW6RN-9BrwQ0Bkn-dOJbfioL1/preview"
+                        },
+                        {
+                            "title": "J.D._T._Thomas Leading one prediction with concurrent position correction.pdf",
+                            "url": "https://drive.google.com/file/d/17inqgU2xkIU_ScMU9d1dBAYAZSAleyC3/preview"
+                        },
+                        {
+                            "title": "Javier_Sonia_Sonia Floating\u2013Point Fused Multiply\u2013Add under HUB Format.pdf",
+                            "url": "https://drive.google.com/file/d/16ytLRfgkK1UGq82DlXKUIuW54gTnUMNm/preview"
+                        },
+                        {
+                            "title": "Jay_Santosh_J. Gustafson A Novel Approach to Generate Correctly Rounded Math.pdf",
+                            "url": "https://drive.google.com/file/d/1zwVwPwxjPw9VINf5Ypg7wCL-qyK_3750/preview"
+                        },
+                        {
+                            "title": "Jochen_Silvia_SM Muller Advanced Clockgating Schemes for Fused Multiply Add Type Floating Point Units.pdf",
+                            "url": "https://drive.google.com/file/d/179bfnYYTraO8V6gKayr8C0tgcQCnxua2/preview"
+                        },
+                        {
+                            "title": "Jon_Bevan_DevanDass Hybrid Hardware Software Floating Point Implementations for Optimized Area and Throughput Tradeoffs.pdf",
+                            "url": "https://drive.google.com/file/d/1z3_aCN991oIexxbSAF4jg7YZ7Wz6lV1t/preview"
+                        },
+                        {
+                            "title": "J\u00fcrgen_J\u00fcrgen_Gudenberg The IAX, Interval Arithmetic Extension.pdf",
+                            "url": "https://drive.google.com/file/d/1zPJ8-wD3dtIwQBb_PSe7Mw--wED6WGJB/preview"
+                        },
+                        {
+                            "title": "Kim-WINNING BOTH THE ACCURACY OF FLOATING POINT ACTIVATION AND THE SIMPLICITY OF INTEGER ARITHMETIC.pdf",
+                            "url": "https://drive.google.com/file/d/1FO2IEIZO5qR1VOypuFqSO9FqebQqdbzG/preview"
+                        },
+                        {
+                            "title": "L.G._D.R._James 12 Mathis.pdf",
+                            "url": "https://drive.google.com/file/d/1D0ShRX8NH0SjT5Z4Fq_UGRG8Vk3eS1wu/preview"
+                        },
+                        {
+                            "title": "Linghao_Yiran_Yiran Chen Low Cost FP Processing in ReRAM for Scientific Computing.pdf",
+                            "url": "https://drive.google.com/file/d/19aO7fE-unF1AuXVvdEXbOBgKunND9K-d/preview"
+                        },
+                        {
+                            "title": "M._M._Flynn ON FAST IEEE ROUNDING.pdf",
+                            "url": "https://drive.google.com/file/d/1zIwa0weQinSzthLr_4KTgP_ICKfc27TS/preview"
+                        },
+                        {
+                            "title": "M._W._Wolfgang Exact accumulation of floating point numbers.pdf",
+                            "url": "https://drive.google.com/file/d/17EAlqM5Hg9lx5frda_yaJEiL6bfE7uHS/preview"
+                        },
+                        {
+                            "title": "Maarten_Kerstin_Muller The POWER7 Binary Floating Point Unit.pdf",
+                            "url": "https://drive.google.com/file/d/12cXKBEvT7iiNIUF1KtML3TUOUN63T6Iy/preview"
+                        },
+                        {
+                            "title": "Manabrata_Jai_Norbert The transcrecision Copmuting Paradigm.pdf",
+                            "url": "https://drive.google.com/file/d/13ht3hD_o8LxJ3D3RcNiXOzTuo8nVijGJ/preview"
+                        },
+                        {
+                            "title": "Marc_David_DW Matula Further Reducing the Redundancy of a Notation Over a Minimally.pdf",
+                            "url": "https://drive.google.com/file/d/1zM7-TKTvwIEbNfDzixiddsegtcRyTAHd/preview"
+                        },
+                        {
+                            "title": "Matthew_Eugene_Schulte Design alternatives for barrel shifters.pdf",
+                            "url": "https://drive.google.com/file/d/15zoph8DGWrx-HTct6-58rzVirK2672HG/preview"
+                        },
+                        {
+                            "title": "Mei-Leading Zero Anticipation for Latency Improvement in Floating Point Fused Multiply-Add Units.pdf",
+                            "url": "https://drive.google.com/file/d/11qhn69JiT80kDhJYFpcpPVHszfgvs0Cd/preview"
+                        },
+                        {
+                            "title": "Mihai Budiu-TCU-IBM.pdf",
+                            "url": "https://drive.google.com/file/d/11jy0IrxZiuZVD2c0eIpUTSUBA0RaPpp3/preview"
+                        },
+                        {
+                            "title": "Mingyi_Mingyi_Adaptive Float.pdf",
+                            "url": "https://drive.google.com/file/d/1yezBQ44kNqdF31yPlo32Gj_qY1jCutWM/preview"
+                        },
+                        {
+                            "title": "Muhammad_HyungWon_Optimal Architecture of Floating Point Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1o6t4h7xWPmKb23X-3GrlohXVUnvGYhOF/preview"
+                        },
+                        {
+                            "title": "Muhammad_Sanghoon_Hybrid Precision Floating Point (HPFP) Selection.pdf",
+                            "url": "https://drive.google.com/file/d/1PAsU0swUTfCjo1DIh7jTAUe3D2uDwLSj/preview"
+                        },
+                        {
+                            "title": "Mustafa_Metin_Ozbilen Multi functional floating point MAF designs with dot product support.pdf",
+                            "url": "https://drive.google.com/file/d/13M1_1bw2kip8e8aUkJzNTKM7gSIGaD5F/preview"
+                        },
+                        {
+                            "title": "Nasibeh_Martin_Martin Modified fused multiply accumulate chained unit.pdf",
+                            "url": "https://drive.google.com/file/d/12FZ6wE_R30ZAsvYzb8irME7nd_rqMDWk/preview"
+                        },
+                        {
+                            "title": "Nicolas_Benoit_Brunie A Mixed Precision Fused Multiply and Add.pdf",
+                            "url": "https://drive.google.com/file/d/1yz9Nlo0gncwohrLpOXSaH4FX0mB6Q9yV/preview"
+                        },
+                        {
+                            "title": "Nicolas_Benoit_Dinechin A Mixed Precision Fused Multiply and Add.pdf",
+                            "url": "https://drive.google.com/file/d/1z1Dgzmp2pnzYGWVu8pZGjOZefborPU_5/preview"
+                        },
+                        {
+                            "title": "Nicolas_Nicolas_Brunie Modified Fused Multiply and Add for exact low precision product accumulation.pdf",
+                            "url": "https://drive.google.com/file/d/1ywEfa0XrVUUUVc196M5vzIurA8D6kaWB/preview"
+                        },
+                        {
+                            "title": "P.-M._G._Guy Even on the Design of FAST IEEE FPU.pdf",
+                            "url": "https://drive.google.com/file/d/1zOWUFPYY9q0yoiVpKUXrIo1rIONb-KSO/preview"
+                        },
+                        {
+                            "title": "Prasanna-Area and power performance analysis of a floatingpoint based application on FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/14byUnTjIafzlxoaJoActtR36bLXpIAAB/preview"
+                        },
+                        {
+                            "title": "Prasanna-Designing Scalable FPGA-Based Reduction Circuits Using Pipelined FP Cores.pdf",
+                            "url": "https://drive.google.com/file/d/14YaObGGr0yqp2AKcz6PdmPSvv_t_Qfu3/preview"
+                        },
+                        {
+                            "title": "Pratibha_Bharat_Michael Schulte Energy Efficient FP Arithmetic for SDR Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/11pnvfEOInRNsctQr_ARRnQCGr_UE4sCc/preview"
+                        },
+                        {
+                            "title": "R.H._A.N._Ercegovac Design of an On line Multiply Add Module for Recursive Digital Filters.pdf",
+                            "url": "https://drive.google.com/file/d/1zM43vaGm91UhSTJEK_BYls5-nmWrwiDi/preview"
+                        },
+                        {
+                            "title": "R.M._M._Putrino Comparison of single  and dual pass multiply add fused floating point units.pdf",
+                            "url": "https://drive.google.com/file/d/14EWISp2bjiIRPe1T7BgkRzypmjLP8pUq/preview"
+                        },
+                        {
+                            "title": "R.V.K._A.J._Khalil Low Power architecture for floating point MAC fusion.pdf",
+                            "url": "https://drive.google.com/file/d/10WXYD49iup4Y5H0RTwJ9k6nhWW3Z-C4I/preview"
+                        },
+                        {
+                            "title": "R.V.K._D._Khalil Low power floating point MAFs a comparative study.pdf",
+                            "url": "https://drive.google.com/file/d/10O1pMyn3GOOS65PteZQHLPwoU0RgmZZL/preview"
+                        },
+                        {
+                            "title": "R._R._RW Hamming On the Distribution of Numbers.pdf",
+                            "url": "https://drive.google.com/file/d/14cSKJqpurYSVUs7LqTb-o5YvirV3CWRo/preview"
+                        },
+                        {
+                            "title": "R._S._Hokenek Design of the IBM RISC System 6000 Hoating Point Execution Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1zdZFw3_xxm_IR0rERWQqJxmc36Nl1VLA/preview"
+                        },
+                        {
+                            "title": "Ronald_Viktor_Prasanna Area efficient arithmetic expression evaluation using deeply pipelined floating point cores.pdf",
+                            "url": "https://drive.google.com/file/d/14aRdYU1bZS-h5B_k3YR8VQ4EnSR8TnFQ/preview"
+                        },
+                        {
+                            "title": "Rong_Gang_Gang Luo Comments on \u201cLeading One Prediction with Concurrent Position Correction.pdf",
+                            "url": "https://drive.google.com/file/d/1zC9VH00xY8zN6a6_vQtDQzfoK4sfkrcv/preview"
+                        },
+                        {
+                            "title": "S._J.-M._JM Muller Some Functions Computable with a Fused Mac.pdf",
+                            "url": "https://drive.google.com/file/d/1zhL3kob1kycvcOxHBOEREiyDi5ehmDfX/preview"
+                        },
+                        {
+                            "title": "S._J.-M._Muller Some Functions Computable with a Fused =MAC.pdf",
+                            "url": "https://drive.google.com/file/d/12fQnIREAhZHmldoqyB_NKPYzTNajWGjA/preview"
+                        },
+                        {
+                            "title": "S._M._Horowitz FPU Generator for Design Space Exploration.pdf",
+                            "url": "https://drive.google.com/file/d/1zZIvC27HJSCGPmaCBluTuic7sMC0uoeE/preview"
+                        },
+                        {
+                            "title": "S._V._Ram Split path Fused Floating Point Multiply Accumulate (FPMAC).pdf",
+                            "url": "https://drive.google.com/file/d/14xHiCf5DCYC2yIUjOi1CicabV88Beos4/preview"
+                        },
+                        {
+                            "title": "S._V._Vasantha Split path Fused Floating Point Multiply Accumulate (FPMAC).pdf",
+                            "url": "https://drive.google.com/file/d/17aur2Tl_1_iZbEsD5pgu61HhNlschr1R/preview"
+                        },
+                        {
+                            "title": "S._Y._Kershaw A 32 bit VLSI Digital Signal Processor.pdf",
+                            "url": "https://drive.google.com/file/d/10WqnqUJ5nPPHHOK0e3jjsuzrO82BKayG/preview"
+                        },
+                        {
+                            "title": "Sai_H._Kung FAST: DNN Training Under Variable Precision Block Floating Point with Stochastic Rounding.pdf",
+                            "url": "https://drive.google.com/file/d/1KG2c2N_K3HjePt2PW6Yn4MzP4k-t3Bvv/preview"
+                        },
+                        {
+                            "title": "Sai_H._Sai FAST DNN Training Under Variable Precision Block Floating Point with Stochastic Rounding.pdf",
+                            "url": "https://drive.google.com/file/d/1HaH2j4Y8AUqdHXmDDvBtxFBwj-vuGwDG/preview"
+                        },
+                        {
+                            "title": "Sameh_Mark_Horowitz Energy Efficient Floating Point Unit Design.pdf",
+                            "url": "https://drive.google.com/file/d/1zZdwvXc5YmNYUu9lrkYd--AVWpnElhrs/preview"
+                        },
+                        {
+                            "title": "Sameh_Mark_Horowitz Latency Sensitive FMA Design.pdf",
+                            "url": "https://drive.google.com/file/d/1zYeUxn4AIo5pp2ZkoBqYOJwxBu0EmYx9/preview"
+                        },
+                        {
+                            "title": "Sameh_Mark_Mark Horowitz Energy Efficient FP Unit.pdf",
+                            "url": "https://drive.google.com/file/d/12HPSMkkCZ1cq0Bk6E8tZIRO_H7QGJKvg/preview"
+                        },
+                        {
+                            "title": "Seock- FlexBlock.pdf",
+                            "url": "https://drive.google.com/file/d/15ze5OogrYRVjXQERLevxLn1uQNUZUVq5/preview"
+                        },
+                        {
+                            "title": "Shailendra_V.P._Karthik A 90mW GFlop 3.4GHz Reconfigurable Fused Continuous Multiply Accumulator.pdf",
+                            "url": "https://drive.google.com/file/d/10a_IAybI3-k9TDZo0Fcb3v03_XQWTMNs/preview"
+                        },
+                        {
+                            "title": "Shanshan_Shanshan_Xiao Hybrid 8 bit floating point hfp8 training and inference for deep neural networks Paper.pdf",
+                            "url": "https://drive.google.com/file/d/1RDgQtDuNBnGCoks_GyXa7XVIf7agSA5s/preview"
+                        },
+                        {
+                            "title": "Sharad_K._Kodandapani Diagnosis of faults in linear tree.pdf",
+                            "url": "https://drive.google.com/file/d/1IXH4R2T8iPGxOeKcHTvFK2M_cVoUXQfQ/preview"
+                        },
+                        {
+                            "title": "Simon_Simon_Knowles Arithmetic Processor Design for T9000 Transputer.pdf",
+                            "url": "https://drive.google.com/file/d/10MA3F8rMPw4NhluTuleay4zgEyNEHgzx/preview"
+                        },
+                        {
+                            "title": "Soheil_Ronald_Ronald Energy and Area Analysis of a Floating Point Unit in 15nmCMOS Process Technology 2015.pdf",
+                            "url": "https://drive.google.com/file/d/14fZIjc0gQIK2Xfmq-n5x8Y4BpZy_Sj6Z/preview"
+                        },
+                        {
+                            "title": "Son_Michael_Schmookler P6 Binary Floating Point Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1648r6Ut4vfnpuHvLbdi4UfZL6opKImIQ/preview"
+                        },
+                        {
+                            "title": "Sonali_Dilip_Kumar Performance Analysis of Floating Point MAC Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1-iQUcZU2q0rVGQBVxsFnKqrKl1fWA8S0/preview"
+                        },
+                        {
+                            "title": "Sreehari-Efficient Implementation of Mixed Precision MAC for AI.pdf",
+                            "url": "https://drive.google.com/file/d/16tx8qIrlWRrGKUoLnIt05md3N4Np1f4z/preview"
+                        },
+                        {
+                            "title": "Stefan_Luca_Luca Benini A transprecision Floating Point Arhcitecture for Energy Efficient Embedded Computing.pdf",
+                            "url": "https://drive.google.com/file/d/113tbJOcUXMNGBqxI6PEwOuhlZx77AoVb/preview"
+                        },
+                        {
+                            "title": "Swartzlander-Improved Architectures for a Floating-Point Fused Dot Product Unit.pdf",
+                            "url": "https://drive.google.com/file/d/16SsP3tWSlZFGFUCsM-tYv_n0B0oUtS8E/preview"
+                        },
+                        {
+                            "title": "Syed_Michael_S.Z Gilani Virtual Floating Point Units for Low Power Embedded Processors.pdf",
+                            "url": "https://drive.google.com/file/d/15QI7borkRhr5Xzo6TyRFqA2cY_eCiXOl/preview"
+                        },
+                        {
+                            "title": "Sylvie_Valentina_Muller Formal Verification of a Floating Point Expansion Renormailization Algorithm.pdf",
+                            "url": "https://drive.google.com/file/d/12kwhhC2wdA9wftpFyZYFI4fMz_GESfaS/preview"
+                        },
+                        {
+                            "title": "Tom_Gerard_Smit Sabrewing  A Lightweight Architecture for Combined Floating Point.pdf",
+                            "url": "https://drive.google.com/file/d/171mRK4pMZ-5G1nYwKt8fWW0xBkMJj3Gc/preview"
+                        },
+                        {
+                            "title": "Toru_Jun_Xiao LZA for latency improvement in FP FMA.pdf",
+                            "url": "https://drive.google.com/file/d/19btTWNmL4JZAFR6H4gc6uE8PUKM0byE9/preview"
+                        },
+                        {
+                            "title": "Ulrich_Ulrich_Kulisch THE ARITHMETIC OF THE DIGITAL COMPUTER.pdf",
+                            "url": "https://drive.google.com/file/d/1-kaMhNPfuB7Jbim-hrGL6-G4yPvtRb7x/preview"
+                        },
+                        {
+                            "title": "V.G._V.G._Oklobdzija logic synthesis for asic a guided algorithmic approach.pdf",
+                            "url": "https://drive.google.com/file/d/13WtvPe90m7C2J18EbwP8axJoyXYTow8C/preview"
+                        },
+                        {
+                            "title": "Vignyan_Mikko_S.Z. Gilani REEL Reducing Effective Execution Latency of FP Operations.pdf",
+                            "url": "https://drive.google.com/file/d/15Lmsd58SsywC5N1CPdmayeLNAt9obzee/preview"
+                        },
+                        {
+                            "title": "Vincent_Marian_Camus Review and Benchmarking of Precision Scalable Multiply Accumulate Unit Architectures for.pdf",
+                            "url": "https://drive.google.com/file/d/1yr_FF-fmiwO4osIqPI7x3iONAcNByPVl/preview"
+                        },
+                        {
+                            "title": "Vishesh_Urbi_Gu Yeo Adaptive Float A FLOATING POINT BASED DATA TYPE FOR RESILIENT DL PRECISION.pdf",
+                            "url": "https://drive.google.com/file/d/1zPpnpmf6s67O6fJpRtxwZYPt-KAydSo_/preview"
+                        },
+                        {
+                            "title": "W. Khan Why do we need floating point arithmetic standard.pdf",
+                            "url": "https://drive.google.com/file/d/17LsF9J0eVcX1uh0qXkN6v9VrOTq50sbl/preview"
+                        },
+                        {
+                            "title": "W._D._Cody A proposed Radix    WL independent Standard for FP Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1zBJ7Ig40FuJGB1RU3gK2ZjhIkeaL-pg0/preview"
+                        },
+                        {
+                            "title": "W._D._Cody A proposed Radix  & WL independent Standard for FP Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1yh6oMJxD__M8CxQ9naAYRP4sBkMGYlIC/preview"
+                        },
+                        {
+                            "title": "Wei_Hao_Floating Point Multiple Precision Processing Element for HPC and AI Converged Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1l3zP32Cgmo_Er4rcdnsDHD-fPxUjB4SN/preview"
+                        },
+                        {
+                            "title": "Wei_Hao_Multiple Precision Floating Point Dot Product Unit for High Performance Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1okBy1KsJjBX_Ug_tv_SXJGBzpodWHc4l/preview"
+                        },
+                        {
+                            "title": "William_William_Intel bf16 hardware numerics definition white paper.pdf",
+                            "url": "https://drive.google.com/file/d/1zwjvJVCqO15kk1TzmKVTRoiUSc3xiKvY/preview"
+                        },
+                        {
+                            "title": "Xiao_Michael_Xiao A 270ps 20mW 108 bit End around Carry Adder for FPFMA.pdf",
+                            "url": "https://drive.google.com/file/d/1Ivm9MPPOfMYKqhDrrF74yMsSIuVTH9ei/preview"
+                        },
+                        {
+                            "title": "Xiaohui_Yi_Qiao S.   Principles of floating point computation .pdf",
+                            "url": "https://drive.google.com/file/d/14B9UBROdZ6Hw05TxtRzlLalZoi9DYCOs/preview"
+                        },
+                        {
+                            "title": "Yuanzhe_Minglei_FP Circuits.pdf",
+                            "url": "https://drive.google.com/file/d/1BVtKwg_EnfGUbZ4X9SvHaMZbCgfeHIlP/preview"
+                        },
+                        {
+                            "title": "Yun-Chen_Ren-Shuo_Mario Training dnns with hybrid block floating point Paper.pdf",
+                            "url": "https://drive.google.com/file/d/1RHZXl_AVex7mJhShcnFVlH3XPtZ_zqLv/preview"
+                        },
+                        {
+                            "title": "Yusong_Viktor_Prasanna A High Performance and Energy efficient Architecture for FP based LU Decomposition on FPGA.pdf",
+                            "url": "https://drive.google.com/file/d/13C-FrGC07PiRyBODrVvEgf69jLIw2E_J/preview"
+                        },
+                        {
+                            "title": "Z._M._Margaret Accelerating Pipelined Integer and FP MAC.pdf",
+                            "url": "https://drive.google.com/file/d/10sfYVA6VI6f6HdW-t57XJfqqneUkNYmP/preview"
+                        },
+                        {
+                            "title": "Z._M._Margaret Martonosi Accelerating pipelined integer and floating point accumulations.pdf",
+                            "url": "https://drive.google.com/file/d/10vSb9oca37UBiaa5pAJ2psXF_xVjGGoe/preview"
+                        },
+                        {
+                            "title": "Zhaolin-Design of A Double-Precision Floating- Point Multiply-Add-Fused Unit with Consideration of Data Dependence.pdf",
+                            "url": "https://drive.google.com/file/d/1AyjtV5SMCzmvrjFmkaBxTdEyc78cG85S/preview"
+                        },
+                        {
+                            "title": "Zhaolin-Design of A Fully Pipelined Single-Precision Floating-Point Uni.pdf",
+                            "url": "https://drive.google.com/file/d/1AltINZncx234mp872c2bhJc9mMtg3h3M/preview"
+                        },
+                        {
+                            "title": "Zhaolin-Optimized Design of a Double-Precision Floating-Point Multiply-Add-Fused.pdf",
+                            "url": "https://drive.google.com/file/d/1AfNrLaKwauPt2CYEjpxBDaE1NaDIwmf9/preview"
+                        },
+                        {
+                            "title": "Zhaolin_Gongqiong_Zhaolin Design of an Extended Floating Point MAC for exploiting ILP.pdf",
+                            "url": "https://drive.google.com/file/d/1AijKl5vgaSv70vj8HePmiD4T3Zs8zkXk/preview"
+                        },
+                        {
+                            "title": "Zichu_Weiwu_Zichu Design of Low Cost High performance Floating point Fused.pdf",
+                            "url": "https://drive.google.com/file/d/1AHBJMTUQJT6K3uV0qNiG8mrzS0ibQoEh/preview"
+                        },
+                        {
+                            "title": "fparithbiblography.pdf",
+                            "url": "https://drive.google.com/file/d/1zG1h-gqgHAUU5E8oIWZM4hoxqQtPI1K0/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Multiplier",
+                    "files": [
+                        {
+                            "title": "A.F._M.D._MD Ercegovac A High Radix Multiplier Design for Variable Long Precision Computations.pdf",
+                            "url": "https://drive.google.com/file/d/125AKSOSJQt7DAu6Ctx223VQ-JFALTwO6/preview"
+                        },
+                        {
+                            "title": "Basit_Rajit_Rajit Manohar An Asynchronous Floating Point Multiplier by Rajit Manohar Cornell University.pdf",
+                            "url": "https://drive.google.com/file/d/153q9dqcW4nZr2XK482DR4uLASxgHAyrB/preview"
+                        },
+                        {
+                            "title": "Brian_Dennis_Dennis Experimental Analysis of Matrix Multiplication Functional Units.pdf",
+                            "url": "https://drive.google.com/file/d/1z5ZF2YrLA9mkId0tORXvAhvcIuaS8i-f/preview"
+                        },
+                        {
+                            "title": "C. Mille-A New Design Technique for Column Compression Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1ywCvpV7B9qJ8nsQiDVBE0axQPS510fcr/preview"
+                        },
+                        {
+                            "title": "Chein-A high performance carry-save to signed-digit recoder for fused addition-multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1yo9iMO_mYMPQl27gEnWiVotKC0iBsT4X/preview"
+                        },
+                        {
+                            "title": "Chen-Architectural design of a fast floating-point multiplication add fused unit using signed digit addition.pdf",
+                            "url": "https://drive.google.com/file/d/1yl8e69n-iWttxwVTecFs_Fz40XX2RUaV/preview"
+                        },
+                        {
+                            "title": "Chen-Architectural design of a fast floating-point multiplication-add fused SD unit.pdf",
+                            "url": "https://drive.google.com/file/d/1ykeCunsyEcoayiQANvjNwR1lbIMUjmCw/preview"
+                        },
+                        {
+                            "title": "D._D._Zarus More on Squaring and Multiplyinh Large Integers.pdf",
+                            "url": "https://drive.google.com/file/d/19ADjiUuxonU7gMSa6q25TMY6jUNDu_pd/preview"
+                        },
+                        {
+                            "title": "Daniel_Dan_Zarus Integer Multiplication and Division on the HP Precision Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/19E3dqPV8tWb6D3M3v4CVSPMKm8P4No1O/preview"
+                        },
+                        {
+                            "title": "Erik_Erik_Erik High Level Synthesis Optimization for Blocked FP MM.pdf",
+                            "url": "https://drive.google.com/file/d/1zLDY9wGKr-AHU-4Ks6SSN5sttMSmPRt2/preview"
+                        },
+                        {
+                            "title": "Floating_Point_Multiplier Concordia University.pdf",
+                            "url": "https://drive.google.com/file/d/1BdzIMZCxVn0fuGGT-gBy7cDmX1v7g6AW/preview"
+                        },
+                        {
+                            "title": "G._P.-M._Guy Even A comparison of three rounding algorithms for IEEE floating point multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1zPD8hFTjoqbAWLPr8T_2sFKseOySL4f8/preview"
+                        },
+                        {
+                            "title": "H._M._Horowitz Array of arrays Architecture for Parallel Floating Point Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1z_hITr690gvt7cBxD5bJeI3x1KxJS03K/preview"
+                        },
+                        {
+                            "title": "Hao_Seok\u2010Bum_Seok B Area and power efficient iterative S D P merged FP Multiplier on FPGA.pdf",
+                            "url": "https://drive.google.com/file/d/15zOYIh2S2ltLb0NPJ4Dqs--PlBxOCqTo/preview"
+                        },
+                        {
+                            "title": "J._S._S. Sivanantham An area efficient 32bit Floating Point Multiplier Using Hybrind GPPs Addition.pdf",
+                            "url": "https://drive.google.com/file/d/15j41kATCQfWSoJu9dSgyy8_oSyWMBoXA/preview"
+                        },
+                        {
+                            "title": "K.E._J.E._James Variable correction truncated floating point multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1zpgJ2-AVnRV57Xmh59pUhoDQ0VpdOFnB/preview"
+                        },
+                        {
+                            "title": "Ke_Fabrizio_Lombardi Efficient Implementations of Reduced Precision Redundancy (RPR) Multiply and Accumulate (MAC).pdf",
+                            "url": "https://drive.google.com/file/d/116t9e9WmQ4MnL9H86BshhO9Ko5Pc5h7z/preview"
+                        },
+                        {
+                            "title": "Kiran_Ming_Prasanna Evaluating energy efficiency of floating point matrix multiplication on FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/14Tw_8oBPve5_41m9DVy6VLh7rAYNFtmC/preview"
+                        },
+                        {
+                            "title": "Ling_Viktor_Prasanna Scalable and Modular Algorithms for Floating Point Matrix Multiplication on Reconfigurable Computing Systems.pdf",
+                            "url": "https://drive.google.com/file/d/14HbKf4zjX5IP2olDjkcCEzeQC55DIfE7/preview"
+                        },
+                        {
+                            "title": "M.I._M.D._MD Ercegovac The IEEE rounding for multiplier with redundant operands.pdf",
+                            "url": "https://drive.google.com/file/d/121ZL0nMTZJNbdHrlTTmVJGV3DxDFez1Q/preview"
+                        },
+                        {
+                            "title": "M.R._M.A._Horowitz Rounding algorithms for IEEE format FP Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1zXdWjR3VqBQzHtPpLgEO2PFBGO3sDVYQ/preview"
+                        },
+                        {
+                            "title": "M.R._M.A._Santoro Rounding algorithms for IEEE format FP Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/15FXuUecjFEpfVjrk_FZ3t48Y4zIHkszs/preview"
+                        },
+                        {
+                            "title": "M._J._Uya A CMOS FP Multiplier 1984.pdf",
+                            "url": "https://drive.google.com/file/d/17do-V1XuivHDU6hLSEOccMzE05ezp1nL/preview"
+                        },
+                        {
+                            "title": "Marianne_Milo?_MD Ercegovac A variable Precision Multiplier for Field Programmable Gate Arrays.pdf",
+                            "url": "https://drive.google.com/file/d/122gGcxmNNGWDMiOdeQvgxG9bdzKk9xPx/preview"
+                        },
+                        {
+                            "title": "Mustafa_Mustafa_Mustafa A novel IEEE Rounding algorithm for high speed FP Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/12W4EIYs4RMd3THSA4g-S7KA-eO53qBef/preview"
+                        },
+                        {
+                            "title": "N.T._M.J._Flynn Systematic IEEE Rounding Method for High Speed FP Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1zHwFv-I3qlt9Gs0ss5SWnNkwnCddNBSy/preview"
+                        },
+                        {
+                            "title": "Per_Dake_Dake Liu High performance low latency FPGA based floating point adder and Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1z9TiiV3zLk_Zmws4yulZV4DSCf8iz5KK/preview"
+                        },
+                        {
+                            "title": "Prasanna-Scalable and Modular Algorithms for Floating-Point Matrix Multiplication on FPGA.pdf",
+                            "url": "https://drive.google.com/file/d/14KuJVFB_ahF9FGkmAoCP1fZUVJVVpxeW/preview"
+                        },
+                        {
+                            "title": "R.K._G.B._Yu Zyner 167 MHz radix 4 floating point multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/19MmqLw0vfJ9yDW_-tezBCDUlPetYe2yn/preview"
+                        },
+                        {
+                            "title": "R.K._G.B._Yu&Zyner 167 MHz radix 4 floating point multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/19YbG52ddjmIUk_zP3n9OMmikR5tGehIL/preview"
+                        },
+                        {
+                            "title": "Rose_James_James A Ling Enhanced Adder for IEEE compliant Floating Point Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1zuihPKUwynEe98uWzhdoMTdF45LDEwJf/preview"
+                        },
+                        {
+                            "title": "Rose_James_James A Novel Rounding Algorithm for a High Performance IEEE 754 Double Precision Floating Point Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1zuVxn5AQLetWkLiF2YwvBIe2TxtwQ8mz/preview"
+                        },
+                        {
+                            "title": "S._K._K. Eshraghian A GaAs IEEE floating point standard single precision multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/10d1xXQklS-VED9_LT7cRiGiXVTpX1q0I/preview"
+                        },
+                        {
+                            "title": "Sadhu_Kuruvilla_Seok B Design of Power Efficient Posit Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/15v4I232VxMLcz2sSSD81AtI_HhmDUnNw/preview"
+                        },
+                        {
+                            "title": "T._A.K._with Concurrent Error De.pdf",
+                            "url": "https://drive.google.com/file/d/16OETwkDhCub8XxOiuojD_3rX4C89Y-T2/preview"
+                        },
+                        {
+                            "title": "Tuan_James_James Clarifications and Optimizations on Rounding for IEEE compliant Floating Point Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1zq8ggjaFHRdPJIC3kHX2m--m2q0fQRos/preview"
+                        },
+                        {
+                            "title": "Victor_Moshe_Moshe Gavrielov On the implementation of shifters, multipliers, and dividers in VLSI floating point units.pdf",
+                            "url": "https://drive.google.com/file/d/11YW8rrwHssYmEkgdjgwjGqTScfNXQkkm/preview"
+                        },
+                        {
+                            "title": "Victor_Moshe_Zarus ON THE IMPLEMENTATION OF SHIFTERS, MULTIPLIERS, AND DIVIDERS in FP Units.pdf",
+                            "url": "https://drive.google.com/file/d/191ijPVvNyfAvor3I5ukmzx4TiRSpgYBA/preview"
+                        },
+                        {
+                            "title": "W.S._D.W._Matula A 17x69 Bit multiply and add unit with redundant binary feedback and single cycle latenc.pdf",
+                            "url": "https://drive.google.com/file/d/12EB_sExopevz1HSbr9XdNyDp--udz35k/preview"
+                        },
+                        {
+                            "title": "Y.C._Y.C._Lim Single precision multiplier with reduced circuit complexity for signal processing applications.pdf",
+                            "url": "https://drive.google.com/file/d/11PCmraHW2ew9EKjAP2Ede84uIDQo0_5l/preview"
+                        },
+                        {
+                            "title": "Yong_G._Gaydadjiev 64 bit Floating Point FPGA Matrix Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1zTC6pN2Rc_Cf_IR_U-qMlDiSCF0etQHb/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "GPU",
+                    "files": [
+                        {
+                            "title": "Wai-Kong_Michel_Dynamic GPU Parallel Sparse LU Factorization for Fast Circuit Simulation.pdf",
+                            "url": "https://drive.google.com/file/d/1q0fFCBFMf9FSIj1HXnwWBas-JTpteQv3/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hash_Functions_and_GPUs",
+                    "files": [
+                        {
+                            "title": "Wai-Kong_Naixue_Parllel   High Speed Hashing in GPU for tekemedicine Applications.pdf",
+                            "url": "https://drive.google.com/file/d/1qomIGmqXbfRZSyKluzbd-3e35mnF3B7D/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "MAC",
+                    "files": [
+                        {
+                            "title": "A.A._V.G._Aamir General Data Path Organization of a MAC unit for VLSI I~ple~entat~on of.pdf",
+                            "url": "https://drive.google.com/file/d/1vIuT2-5wiACQMFpKczFjBBtrFHFR6Ut3/preview"
+                        },
+                        {
+                            "title": "A._M._Ayman A data merging technique for high speed low power multiply accumulate units.pdf",
+                            "url": "https://drive.google.com/file/d/12DxNX2BwSIzYfW4rnxBCEaNnKV0RgjeH/preview"
+                        },
+                        {
+                            "title": "Algirdas_Algirdas_Avizienis Flex On a flexible implementation of digital computer arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1eSGv8KRkx25fSRfgEtUMzQTX0sxShzwQ/preview"
+                        },
+                        {
+                            "title": "Dusan_C._Emilio L. Zapata Energy Efficient Adiabatic Multiplier Accumulator Design on FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/18Fhuh1ocvQC7qzmMMYoizbQxGVzeAewg/preview"
+                        },
+                        {
+                            "title": "Dusan_C._Energy Efficient Adiabatic Multiplier Accumulator Design.pdf",
+                            "url": "https://drive.google.com/file/d/1xg4ccqn0qDKuAsLZerpghG0-JycD4BqL/preview"
+                        },
+                        {
+                            "title": "E._J._Cortadella High level synthesis techniques for reducing the activity of Functional Units.pdf",
+                            "url": "https://drive.google.com/file/d/1vNACLxkozKh8flLjIfYS5pBK2_gwTZpJ/preview"
+                        },
+                        {
+                            "title": "Ehab_Marian_Ehab Survey and Benchmarking of Precision Scalable MAC Arrays for Embedded DNN Processing.pdf",
+                            "url": "https://drive.google.com/file/d/1Yj5l1za1d2dN4cwCqToksY8lR60oXiSu/preview"
+                        },
+                        {
+                            "title": "Ehab_Marian_Ehab Taxonomy and Benchmarking of Precision Scalable MAC arrays for DNN dataflow.pdf",
+                            "url": "https://drive.google.com/file/d/1TwIR3bn595MlQmyx0YoLFUEng6Cm6wKo/preview"
+                        },
+                        {
+                            "title": "Emore-Delay.pdf",
+                            "url": "https://drive.google.com/file/d/1xHp16ptWT9ANfRJI3dNB60aSWlUVxY4g/preview"
+                        },
+                        {
+                            "title": "I.M._J.L._Cooper Parallel Architecture MBE Mutliplier.pdf",
+                            "url": "https://drive.google.com/file/d/1xxxeWvQIMx61jP_-MEuJEAx0Ldavp5zf/preview"
+                        },
+                        {
+                            "title": "J._N._Clouser A 600 MHz superscalar floating point processor.pdf",
+                            "url": "https://drive.google.com/file/d/1xCOteKujLkjFQ3iwDmAkwpjkJh4K_tfr/preview"
+                        },
+                        {
+                            "title": "James_James_Robertson A systematic approach to the design of structures.pdf",
+                            "url": "https://drive.google.com/file/d/1eY2lfGBap5ZJ_NwF4WtkYUUsGaBMohhi/preview"
+                        },
+                        {
+                            "title": "Jinook_Inyup_Samsung An 11.5TOPS W 1024 MAC Butterfly Structure Dual Core Sparsity Aware Neural Processing Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1eHlNWWgNIMjUXRDmCjVDbvz8dUJk9FWT/preview"
+                        },
+                        {
+                            "title": "John D. Villa-Precision-Aware Self-Quantizing Hardware Architecture for the Discrete Wavelet Transform.pdf",
+                            "url": "https://drive.google.com/file/d/1blt-LItqX6EMa_3CGcv5BxTcRieaPTZd/preview"
+                        },
+                        {
+                            "title": "Jorge_Jorge_Bourdane DESIGN AND IMPLEMENTATION OF A WAVELET BASED SYSTEM.pdf",
+                            "url": "https://drive.google.com/file/d/1xJXSkVHncNNFm2sbeCzzTGs_zb7g_d7r/preview"
+                        },
+                        {
+                            "title": "K._K.K._Parhi Low Power 4 2 and 5 2 Compressors.pdf",
+                            "url": "https://drive.google.com/file/d/1vAu_ofLV8SG_n_-5T0vCKvgBM1KbwEoM/preview"
+                        },
+                        {
+                            "title": "Linyan_Marian_Linyan Sub Word Parallel Precision Scalable MAC Engines for Efficient Embedded DNN Inference.pdf",
+                            "url": "https://drive.google.com/file/d/1Brl1O4Q4m8CrqP8k2fe6J8v9jX_-700w/preview"
+                        },
+                        {
+                            "title": "Linyan_Marian_Precision Scalable MAC Engines for Efficient Embedded DNN Inference.pdf",
+                            "url": "https://drive.google.com/file/d/1KR0QvU2avfHicEvfE_NiJnqFksdSxNjf/preview"
+                        },
+                        {
+                            "title": "Maciej_Cunxi_Maciej  Understanding Algebraic Rewriting for Arithmetic Circuit Verification  a bit flow model.pdf",
+                            "url": "https://drive.google.com/file/d/1CnOO6RXnhHBr7vH1KN9j2lt1iW47aTdk/preview"
+                        },
+                        {
+                            "title": "P.F._V.G._Oklobdzija Implementing Multiply Accumulate Operation in Multiplication Time.pdf",
+                            "url": "https://drive.google.com/file/d/1vD4dcNEnaomorxkVlMQOaygo5uqIu8uW/preview"
+                        },
+                        {
+                            "title": "Subahar_Britto_James Low Complexity MAC for .pdf",
+                            "url": "https://drive.google.com/file/d/1xVwkCwGgbZ7e3qplPM0pDSaF_YJz4zFr/preview"
+                        },
+                        {
+                            "title": "Sunil_Gaurav_A High performance Energy efficient Hybrid Redundant MAC for Error Resilient Applications.pdf",
+                            "url": "https://drive.google.com/file/d/1xhZBRTeyW_JpWPik190f246HAQ2xg1pI/preview"
+                        },
+                        {
+                            "title": "Tung_Per_Tung Tanh A High Speed, Energy Efficient Two Cycle  (MAC) Architecture and Its Application to a Double Throughput MAC Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1xnmsrRLO4RxQ5lPF3jpKdjPr6gb9Mrw7/preview"
+                        },
+                        {
+                            "title": "Vojin_Earl_Oklobdzija Arith Chapter.pdf",
+                            "url": "https://drive.google.com/file/d/1xTl3oY9w2a9oX2EUDh0defiSFaMeyfkU/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Machine_Learning",
+                    "files": [
+                        {
+                            "title": "ANU_Ashis_Shuvo Hardware Efficient Deep Neural Network Implementation on FPGA.pdf",
+                            "url": "https://drive.google.com/file/d/1XArgqNpeBbczqU1XNNgmw_hKAas3zARp/preview"
+                        },
+                        {
+                            "title": "A_E_Matthew High Throughput Matrix Matrix Multiplication between Asymmetric Bit Width Operands.pdf",
+                            "url": "https://drive.google.com/file/d/1BG9FVR_VB7b4zoEQNCqZccB0lSmPVzb_/preview"
+                        },
+                        {
+                            "title": "Abenezer_Hung-Wei_Abenzer TPUPoint  Automatic Characterization of Hardware Accelerated Machine Learning Behavior for Cloud.pdf",
+                            "url": "https://drive.google.com/file/d/1-otaqBqsIiSVfbKZIP_-AEVZVDz4eE7A/preview"
+                        },
+                        {
+                            "title": "Accuracy and Energy Analysis of CNN Training.pdf",
+                            "url": "https://drive.google.com/file/d/1koHXRkEeJInOFs9s2uAfWhaBXDmPhoOv/preview"
+                        },
+                        {
+                            "title": "Afzal_Muhammad_Afzal Towards Design Space Exploration and Optimization of FAST Algorithms for CNN on FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/17B4il__Ts_3xlbyLrPbDNNsqFUX-z3LB/preview"
+                        },
+                        {
+                            "title": "Alfredo_Eugenio_Canziani An analysis of deep neural network.pdf",
+                            "url": "https://drive.google.com/file/d/17OugT1uR35wQrREld6VaQQOUePry9z5T/preview"
+                        },
+                        {
+                            "title": "Aman_Imagine_Spring2023_Poster.pdf",
+                            "url": "https://drive.google.com/file/d/1dCA-xOgg28YyCXIhDbqsckuPNOJynXBR/preview"
+                        },
+                        {
+                            "title": "Aman_TensorSlice-2.pdf",
+                            "url": "https://drive.google.com/file/d/1Xk8AzXpjM3f3NOlMGG52fzzqJ2sl6Bfk/preview"
+                        },
+                        {
+                            "title": "Aman_TensorSlice.pdf",
+                            "url": "https://drive.google.com/file/d/14_MSUlyMfFE8jP0-Piqqng8MVRd2cEZ2/preview"
+                        },
+                        {
+                            "title": "Amir_Kurt_Amir A Survey of Quantization Methods for Efficient  Neural Network Inference.pdf",
+                            "url": "https://drive.google.com/file/d/19G06jERvY9TihwVkyY-ensI8zJ6zXiin/preview"
+                        },
+                        {
+                            "title": "Amir_Kurt_Kurt SqueezeNext  Hardware Aware Neural Network Design.pdf",
+                            "url": "https://drive.google.com/file/d/1Phd5bQg2X_bgGwtXK68mWYO7TPr4DWR_/preview"
+                        },
+                        {
+                            "title": "Baker_Baker_Optimizing Memory Access with Shift based On Chip Memory for Efficient Convolution Processing in analog DNNs.pdf",
+                            "url": "https://drive.google.com/file/d/1GNIF1QT_tW3YRxccMbYTrAUKmiW7XKyH/preview"
+                        },
+                        {
+                            "title": "Bert_Marian_Moons A 0.3 2.6 TOPS W Precision Scalable Processor for Real Time Large Scale ConvNets.pdf",
+                            "url": "https://drive.google.com/file/d/1DfalZNv1crw_1ZyJt5KJJqCpdTgUriIb/preview"
+                        },
+                        {
+                            "title": "By_Yuan_LeiDeng Model Compression and Hardware Acceleration for Neural Networks, A comprehensive survey.pdf",
+                            "url": "https://drive.google.com/file/d/1UIlxDJ1XhBgoxuObeEwx5V3SPtxdYzIa/preview"
+                        },
+                        {
+                            "title": "Charles_Ron_H.TKung 1980 introduction to vlsi systems kung leiserson.pdf",
+                            "url": "https://drive.google.com/file/d/1rg74DRpwTwoXSCWgZVkWoLPYkfuHe3-A/preview"
+                        },
+                        {
+                            "title": "Cristiane_Rogerio_with UPF 2013.pdf",
+                            "url": "https://drive.google.com/file/d/1yt3Vn7KjQ38sOWE4nrfIVuR_6wzp9_Yc/preview"
+                        },
+                        {
+                            "title": "D._R._Canetti NeuroFPGA implementing artificial neural networks on programmable logic devices.pdf",
+                            "url": "https://drive.google.com/file/d/1QdzCrVCEjt7-ToJL9mfjzKdO_8zznPEq/preview"
+                        },
+                        {
+                            "title": "Damla-GenASM_DUPLICATE.pdf",
+                            "url": "https://drive.google.com/file/d/1az8E3qN80V9zU_-CFwjZyCu7YZywczup/preview"
+                        },
+                        {
+                            "title": "David-Sytolic Processing and Implementation of Signal and processing.pdf",
+                            "url": "https://drive.google.com/file/d/13qcF5ibnlP54W_F4NTpe6r46_G_sU3eN/preview"
+                        },
+                        {
+                            "title": "Debananda_Debananda_Microsoft Serving DNNs in Real.pdf",
+                            "url": "https://drive.google.com/file/d/1Z-MwMztXxniwRG7S7peIs5yMIJue-UNV/preview"
+                        },
+                        {
+                            "title": "Deep Convolutional Neural Networks Architecture With RC patterns.pdf",
+                            "url": "https://drive.google.com/file/d/1VLcGBSWDUYXdoI4J6gnmSfoYZ2xycrrM/preview"
+                        },
+                        {
+                            "title": "Dongho_Hung-Wei_Hung TensorCV Accelerating Inference Adjacent Computation Using Tensor Processors.pdf",
+                            "url": "https://drive.google.com/file/d/1EKezlW5fUfpn3Lix91RCDaqIedYMIRZk/preview"
+                        },
+                        {
+                            "title": "Dongjie_Dongjie_Google BERT  Pre training of Deep Bidirectional Transformers for Language Understanding.pdf",
+                            "url": "https://drive.google.com/file/d/1P4BtTS5N-abBLQpmJI-GOIrlayqka63V/preview"
+                        },
+                        {
+                            "title": "Dongjoo_Hoi-Jun_Shin DNPU   An 8.1TOPSW reconfigurable CNN RNN processor for general purpose deep neural networks.pdf",
+                            "url": "https://drive.google.com/file/d/1LBXvXf7posO03wfbDUpRkvruWL0szpx3/preview"
+                        },
+                        {
+                            "title": "E.F.M._A._Martin Evolutionary Cell Aided Design for Neural Network Architectures.pdf",
+                            "url": "https://drive.google.com/file/d/1PZOIsf7hrCXVmF1W-AEo1djXJLecHKbh/preview"
+                        },
+                        {
+                            "title": "Erwei_George_LUTNet  Rethinking Inference in FPGA Soft Logic.pdf",
+                            "url": "https://drive.google.com/file/d/1QT6UgCpJzVYMqMjW1fftDclyHKEVyRmj/preview"
+                        },
+                        {
+                            "title": "Erwei_James_Wang Logic Shrinkage Learned Connectivity Sparsification for LUT Based Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1gmy_Ci6WJ_m5aON8V03GPwlxwUmfVCHs/preview"
+                        },
+                        {
+                            "title": "Eunjin_Jangwoo_Jangwoo A Multi Neural Network Acceleration Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1Ajr8bW0sFYxO2jJckaJ9cVkeXZ_ipmBE/preview"
+                        },
+                        {
+                            "title": "Fahad_Safiullah_LPCHISEL  Automatic power intent generation for a chisel basedASIC design.pdf",
+                            "url": "https://drive.google.com/file/d/1F7oAYphYKLxs1ywyBBkBVtNYlOndgD3b/preview"
+                        },
+                        {
+                            "title": "Felix_Mattia_Googles Neural Machine Translation System  Bridging the Gap between Human and Machine Translation.pdf",
+                            "url": "https://drive.google.com/file/d/1Oy4wJ_YTQu9uRei920HwJLk3DC6LfBaB/preview"
+                        },
+                        {
+                            "title": "Feng_Song-Chun_song Sparse Winograd Convolutional neural networks on small scale SA.pdf",
+                            "url": "https://drive.google.com/file/d/1F2NCgLyy6wseaHwwfhRCCi2DyNoN-uBj/preview"
+                        },
+                        {
+                            "title": "Fengbin-Deep Convolutional Neural Networks Architecture With RC patterns.pdf",
+                            "url": "https://drive.google.com/file/d/1zT0NFpCeCqrx8pKxKuLiC1JDrbxe2gTt/preview"
+                        },
+                        {
+                            "title": "G.R._S.A._NVIDIA Deep Gradient Compression.pdf",
+                            "url": "https://drive.google.com/file/d/1PO7wKdH6P8PDAYqek4NMKEqv4giELmZa/preview"
+                        },
+                        {
+                            "title": "H.T._W.T._H.TKung 1983 elliptic problem solvers kung lin.pdf",
+                            "url": "https://drive.google.com/file/d/1i68hXiHAWITz-QCuIRCRc4929MUHcqKe/preview"
+                        },
+                        {
+                            "title": "H.TKung-Packing Sparse CNN for Efficient SA Implementation.pdf",
+                            "url": "https://drive.google.com/file/d/193Bst1QLDHfVNt0v6p6ypnhRv04uX0fg/preview"
+                        },
+                        {
+                            "title": "H.TKung-The Wrap Computer Architecture, Implementation, and Performance.pdf",
+                            "url": "https://drive.google.com/file/d/1iBgAMWTHulhCe0M53Izu6S4mapeUTs4P/preview"
+                        },
+                        {
+                            "title": "H.TKung-The design of special purpose VLSI chips 1980.pdf",
+                            "url": "https://drive.google.com/file/d/1JgLJW2-DnohJTKCkP_Z8ySnmHnP5jjxc/preview"
+                        },
+                        {
+                            "title": "Han_Song_Song Han EFFICIENT METHODS AND HARDWARE FOR DEEP LEARNING augmented.pdf",
+                            "url": "https://drive.google.com/file/d/1XKvxPFRH-5BsfK8ViYRvmot3yWEXgEAS/preview"
+                        },
+                        {
+                            "title": "Hang_Xiaowei_Lu Tetris re architecting convolutional neural network computation for machine learning.pdf",
+                            "url": "https://drive.google.com/file/d/1BoRdS5ySxvBEoJ3wrXUvtzzcjsDSYj9F/preview"
+                        },
+                        {
+                            "title": "Helen_Helen_ch8.pdf",
+                            "url": "https://drive.google.com/file/d/1nlU1gzDBdeT60Tr3csIAv9-XOEnJCTGT/preview"
+                        },
+                        {
+                            "title": "Hongjia_Hongjia_Sicheng Li Towards Efficient Hardware Acceleration of DNN on FPGA.pdf",
+                            "url": "https://drive.google.com/file/d/1X85Y4o6lCIznRlKl69And9X9DJhYO1wm/preview"
+                        },
+                        {
+                            "title": "Hongzi_Srikanth_Kandula Resource Management with Deep Reinforcement Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1Pq_aMcLu2YPKjenypVBe75ZQnCcmgQ6r/preview"
+                        },
+                        {
+                            "title": "Hyoukjun_Angshuman_Tushar Understanding Reuse, Performance, and Hardware Cost of DNN Data flows MAESTRO.pdf",
+                            "url": "https://drive.google.com/file/d/1FTlKb9Yu6BykwQHZkhLZfDhSYs1IVA_i/preview"
+                        },
+                        {
+                            "title": "Ibrahim_Herman_Hardware Architectures for the Discrete Wavelet Transform.pdf",
+                            "url": "https://drive.google.com/file/d/1bpZVIwe8bmkEYpmurdxCPEg_sUIVlp1A/preview"
+                        },
+                        {
+                            "title": "Igor-LARGE BATCH TRAINING OF CONVOLUTIONAL NETWORKS.pdf",
+                            "url": "https://drive.google.com/file/d/1Q2k7y8qSOI0GPHKaD1zVLJ7iufhxrEKL/preview"
+                        },
+                        {
+                            "title": "Jaekwang_Shiho_Chen COSYAn Energy Efficient Hardware Architecture for Deep CNN Based on SA.pdf",
+                            "url": "https://drive.google.com/file/d/17KD_c7lXVGAA7xlgxeojvPtMsDyEVzwi/preview"
+                        },
+                        {
+                            "title": "James_David_David Gregg Low Complexity Multiply Accumulate Units for Convolutional Neural Networks with Weight Sharing.pdf",
+                            "url": "https://drive.google.com/file/d/17eitW0uXoowjW5HdB3TzqbZE9CEf3XEQ/preview"
+                        },
+                        {
+                            "title": "Jason_Hammond_Jason Chip Chat: Challenges and Opportunities in Conversational Hardware Design.pdf",
+                            "url": "https://drive.google.com/file/d/1ETV2LdtA4KvpRRLDFvWZF3ctxA5AnaIK/preview"
+                        },
+                        {
+                            "title": "Jeremy_Doug_Cloud Scale DNN Processor for Real Time AI.pdf",
+                            "url": "https://drive.google.com/file/d/1RL4oM6wqwSVMHCtIN6BfcrWbVIFKK0LL/preview"
+                        },
+                        {
+                            "title": "Jiaxiang_Youhua_Yeongjae Energy Efficient Design of Processing Element for CNN.pdf",
+                            "url": "https://drive.google.com/file/d/1Ft3Iz-8UlmsDkTONNUWoo5OoKKlOZgIj/preview"
+                        },
+                        {
+                            "title": "Jingyao_Ulf_Jingyao Hardware Software Codesign of Weight Reshaping and SA Multiplexing for efficient CNNs.pdf",
+                            "url": "https://drive.google.com/file/d/1AWyow59bYwelqrxHejL8vPsR9DA_aE_x/preview"
+                        },
+                        {
+                            "title": "Jinsu_Hoi-Jun_Jinmook LNPU A 25.3TFLOPS W Sparse Deep Neural Network Learning Processor with Fine Grained Mixed Precision of FP8 FP16.pdf",
+                            "url": "https://drive.google.com/file/d/1V2J-CvQwm-DR5iDOX4GyyqdCJcpjIDqQ/preview"
+                        },
+                        {
+                            "title": "Jonathan_Krste_Chisel Consturcting Hardware in a Sacala Embedded Language.pdf",
+                            "url": "https://drive.google.com/file/d/12uDaHg1cmZVYxHOesNZCx98rLhuhdae5/preview"
+                        },
+                        {
+                            "title": "Kahsif_CPA_FSA.pdf",
+                            "url": "https://drive.google.com/file/d/1uy6lCvKXBJj6P6SPPorXsCHqksaGdTQm/preview"
+                        },
+                        {
+                            "title": "Kartik_Christopher_Christopher UCNN, Exploiting Copmutational Reuse in Deep Neural Networks Via Weight Repetition.pdf",
+                            "url": "https://drive.google.com/file/d/18MGQWVxqk23gbVxBlcltvfHYv4B-bhDs/preview"
+                        },
+                        {
+                            "title": "Keshab_Nanda_Parhi Brain Inspired Computing Models and Architectures.pdf",
+                            "url": "https://drive.google.com/file/d/1M7T1Djb4QQqcqYqKw0kwftPKdLufeLx9/preview"
+                        },
+                        {
+                            "title": "Koster-Flexpoint An adaptive numerical format for efficient training of deep neural networks,.pdf",
+                            "url": "https://drive.google.com/file/d/1MuAJlmsXQqR8RcZr1luXoc3AU3DxFgp_/preview"
+                        },
+                        {
+                            "title": "Kurtis-General-Purpose SAs.pdf",
+                            "url": "https://drive.google.com/file/d/15U3lLsXawpvK5aAvHW-Jp7l-K3P4lg5J/preview"
+                        },
+                        {
+                            "title": "Lei_Guoqi_Hubara Quantized neural networks  Training neural networks with low precision weights and activations.pdf",
+                            "url": "https://drive.google.com/file/d/1HogRfRMkR0nbuyEMxiMcnln4XtRFbjm-/preview"
+                        },
+                        {
+                            "title": "Mahdi_Massoud_Pedram Energy Efficient, Low Latency Realization of Neural Networks(1).pdf",
+                            "url": "https://drive.google.com/file/d/1Q3Wpo8wrtWMKYPXNG5SA1iUHQWF9M98P/preview"
+                        },
+                        {
+                            "title": "Malik_Syed_Controlled Analog kernel for Convolutional Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1DmCvya7GZL0eb-1N_6Yu0f2hQemFlT9_/preview"
+                        },
+                        {
+                            "title": "Mannhee_Youngmin_Optimized Fast Algorithms for Convolutional Neural Network on FPGA.pdf",
+                            "url": "https://drive.google.com/file/d/1RzEq31M-tkW77StTP_p_rt9R0lpAZeOy/preview"
+                        },
+                        {
+                            "title": "Mateusz_Maciej_Hoeowitz A Systematic Approach to Blocking Convolutional Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1Q60VF5xiqtEX9gaSFD9lN5azlQPvDkJ1/preview"
+                        },
+                        {
+                            "title": "Maurizio_Maurizio_Chapra An Updated Survey of Efficient Hardware Architectures for Accelerating DCNN.pdf",
+                            "url": "https://drive.google.com/file/d/1TxmZ3MXATFTwI6ntx8anX0EF1SPWfe3y/preview"
+                        },
+                        {
+                            "title": "Mingyu_Christos_Yang TETRIS  Scalable and Efficient Neural Network Acceleration with 3D Memory.pdf",
+                            "url": "https://drive.google.com/file/d/1F4GfCJQ2Ha3cBVmyOdkx0Gq6stLDvq0h/preview"
+                        },
+                        {
+                            "title": "Minje_Paris_Minje BITWISE NEURAL NETWORKS FOR EFFICIENT SINGLE CHANNEL SOURCE SEPARATION.pdf",
+                            "url": "https://drive.google.com/file/d/1QPQ6Wun1LEUWU-8nNQ79XjlQeN_Xl7rm/preview"
+                        },
+                        {
+                            "title": "Mohsen_Tajana_Tajana FloatPIM  In Memory Acceleration of Deep Neural Network Training with High Precision.pdf",
+                            "url": "https://drive.google.com/file/d/1WRM-gYNQCl9lfTRTniW98shrAgipGhsW/preview"
+                        },
+                        {
+                            "title": "Murad_Murad_Efficient Processing of Deep Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1VA67HaoN7fLK4mkrazZnqSE9Y3-UPPkG/preview"
+                        },
+                        {
+                            "title": "NVIDIA-EIE Efficient Inference Engine on Compressed Deep Neural Network.pdf",
+                            "url": "https://drive.google.com/file/d/1CKyBifkfS83oc_ae1333vOHvtiZN1L4u/preview"
+                        },
+                        {
+                            "title": "Nicholas_Nicholas_Darrell Warp Point.pdf",
+                            "url": "https://drive.google.com/file/d/1J0O6XQE3uAXl-pZmgfbOs7hZgHE1XLt6/preview"
+                        },
+                        {
+                            "title": "Nikolay_Aleksandra_Pedram CAMPFIRE COMPRESSIBLE, REGULARIZATION FREE,.pdf",
+                            "url": "https://drive.google.com/file/d/1Qrnj8-L0R_iC6qNbCyqtS5NeAkdludGG/preview"
+                        },
+                        {
+                            "title": "P._G._Matei DAWNBench  An End to End Deep Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1PPa2qf-ZPkDNtJHPe83R5nNgczqUcXmi/preview"
+                        },
+                        {
+                            "title": "Packing Sparse CNN for Efficient SA Implementation.pdf",
+                            "url": "https://drive.google.com/file/d/1bBkbJTGQXv8me2LNEgrdRkJ7z1dnMM--/preview"
+                        },
+                        {
+                            "title": "Pankaj_Pankaj_H.TKung The Wrap original paper.pdf",
+                            "url": "https://drive.google.com/file/d/1l8xP1jPMqnqaNkOmHQ07eViuOmD5x1hP/preview"
+                        },
+                        {
+                            "title": "Patrick_Andreas_Patrick Stripes Bit serial DNN Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1YU72l-q0WxdZZKAKEjfrt4ICaMrZFBbF/preview"
+                        },
+                        {
+                            "title": "Paul_Michael_Machine Learning Systems are Stuck in a Rut.pdf",
+                            "url": "https://drive.google.com/file/d/1Pg6GZ3J7vSGtbrHz8HUpl3o4Iw8TrxuN/preview"
+                        },
+                        {
+                            "title": "Paul_Michael_Paul Machine Learning Systems are Stuck in a Rut.pdf",
+                            "url": "https://drive.google.com/file/d/13KoHBeBtITvEp6-Vs9aIF24GxdPfRCFk/preview"
+                        },
+                        {
+                            "title": "R.P._H.T._H.TKung 1983 information processing brent kung luk.pdf",
+                            "url": "https://drive.google.com/file/d/16W337bTXcAmi0B1CrDFDJeml-vn_B_gO/preview"
+                        },
+                        {
+                            "title": "Robert_Bill_Guanwen Synergy A HWSW Framework for High Throughput CNN.pdf",
+                            "url": "https://drive.google.com/file/d/1Ot4kYdp-L2PTz5ofM7DjdShuJpTjtamk/preview"
+                        },
+                        {
+                            "title": "S._V._Deepika Efficient and Effective Methods for Mixed Precision Neural Network  Quantization for Faster, Energy efficient Inference.pdf",
+                            "url": "https://drive.google.com/file/d/1sZybYCHuNNDI-9ilyDDmpSctTEX6i44o/preview"
+                        },
+                        {
+                            "title": "Sai_Xin_Sai Training for Multi resolution Inference using Reusable Quantization Terms.pdf",
+                            "url": "https://drive.google.com/file/d/1HaCxktHJJV0KkC_qMfiErgNdJGaFintf/preview"
+                        },
+                        {
+                            "title": "Samuel_David_David Patterson Roofline  An Insightful Visual Performance Model for FP Programs and Multicore Architectures.pdf",
+                            "url": "https://drive.google.com/file/d/1Ww8ljdTl4MaSX-PMKgZSBRHX-sikSLSu/preview"
+                        },
+                        {
+                            "title": "Sayeh_Andreas_Sharify Loom Exploiting weight and activation precisions to accelerate CNN.pdf",
+                            "url": "https://drive.google.com/file/d/1LHc_NqSPFLDeQdM4Q02uKFR4zqlZ2DM7/preview"
+                        },
+                        {
+                            "title": "Shail_Baoxin_Li Hardware Acceleration of Sparse and Irregular Tensor Computation of ML Models  Survey and Insights.pdf",
+                            "url": "https://drive.google.com/file/d/1k40khQThLPYl2n8pLJVtFxJjsXEpJW2o/preview"
+                        },
+                        {
+                            "title": "Shi_Shi_Shi Dong Exploring High Performance DNN on GPUs.pdf",
+                            "url": "https://drive.google.com/file/d/1XEUvggnQe9usiTpMcu1qjAke5zVks8Ai/preview"
+                        },
+                        {
+                            "title": "Song_Shaojun_Song A Multiple Precision Multiply and Accumulation Design with Multiply Add Merged Strategy for AI Accelerating.pdf",
+                            "url": "https://drive.google.com/file/d/1PNxSxuvBhufrQo3k_RYaMztbSA9ysXu5/preview"
+                        },
+                        {
+                            "title": "Sparsh_Sreenivas_Sparsh A Survey of Deep Learning on CPUs.pdf",
+                            "url": "https://drive.google.com/file/d/1Uay2cD5iKzgprHY1yVGDyZXMyId5L-h9/preview"
+                        },
+                        {
+                            "title": "Surat_H.T._DaiMon, A decentralized artificial intelligence model network.pdf",
+                            "url": "https://drive.google.com/file/d/1DhbDLHrdaD1rFAaQA10FsD0O_kuL8DVd/preview"
+                        },
+                        {
+                            "title": "Sutirtha_Sutirtha_Fawzi Discovering faster matrix multiplication algorithms with reinforcement learning.pdf",
+                            "url": "https://drive.google.com/file/d/16YKYIIAGF04JxISJtfqC_OVfMthYef6J/preview"
+                        },
+                        {
+                            "title": "Tooba_Milos_Tooba Adder with Reduced Latency and Minimized Interconnect for Streaming Inner Products.pdf",
+                            "url": "https://drive.google.com/file/d/1saZV9STyEs_lKQpxedQdBAeUAsRgFicr/preview"
+                        },
+                        {
+                            "title": "Tze Meng Low-High Performance Zero-Memory Overhead Direct Convolutions.pdf",
+                            "url": "https://drive.google.com/file/d/1Qpf_zza72t9iMfWgdrbBnpUeHXWnKpW4/preview"
+                        },
+                        {
+                            "title": "Undaru_Dharma_DP. Agrawal  A generalized pipelined array.pdf",
+                            "url": "https://drive.google.com/file/d/1Gq41F8iZ1mTL2E74Zh0D4Tk_p0bIMfOk/preview"
+                        },
+                        {
+                            "title": "V._T._Low power design flow based on Unified Power Format and Synopsys tool chain.pdf",
+                            "url": "https://drive.google.com/file/d/1wsebF7sucGRyAJFITJ2MLlb5CvHlSCVM/preview"
+                        },
+                        {
+                            "title": "Vincent_Marian_Review and Benchmarking of Precision Scalable Multiply Accumulate Unit Architectures for Embedded Neural Network Processing.pdf",
+                            "url": "https://drive.google.com/file/d/1E-DyQokxfFdVmx4wJlTYvcOBfyLNm1tB/preview"
+                        },
+                        {
+                            "title": "Vincent_Marian_Vincent Survey of Precision Scalable Multiply Accumulate Units for Neural Network Processing.pdf",
+                            "url": "https://drive.google.com/file/d/1x3h54qWQ4KljXOReZV7hjXaVML3bGBGB/preview"
+                        },
+                        {
+                            "title": "Vivienne_Joel_Sze Efficient Processing of Deep Neural Networks A Tutorial and Survey.pdf",
+                            "url": "https://drive.google.com/file/d/1oajEzazIIi4ID2vh-u6KdAQB_d4TvNMG/preview"
+                        },
+                        {
+                            "title": "Vivienne_Joel_Sze Efficient Processing of Deep Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1gfh10OGQyI_cL7AbA6dtbwFkf6ZpB_kf/preview"
+                        },
+                        {
+                            "title": "Vivienne_Vivienne_Sze How to evaluate Deep Neural Network Processors.pdf",
+                            "url": "https://drive.google.com/file/d/1O82q_6LR-1bnv63CwMEtPcwXmnYS1gY-/preview"
+                        },
+                        {
+                            "title": "Vojtech_Muhammad_Shafique Systimator  A Design Space Exploration Methodology for SA based on CNN.pdf",
+                            "url": "https://drive.google.com/file/d/1E0IPqa_cVp7P41pDpOICtL2UIquWi5r_/preview"
+                        },
+                        {
+                            "title": "W.L._K.K._Parhi Performance Scalable Array Architectures for Modular Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/17gnQXCZIKO9NkAn36T6ZNTSkuFMUNVT1/preview"
+                        },
+                        {
+                            "title": "Wen_Milo\u0161_Efficient Carry Free Inner Product Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1Pcw-Q2jJlnc6yKsvw4O8XxV9qKvLqEnO/preview"
+                        },
+                        {
+                            "title": "Wen_Milo\u0161_Ercegovac An energy efficient carry free inner product unit.pdf",
+                            "url": "https://drive.google.com/file/d/1CbQeDPa8ItGe4MSH8S9d5A1B_NIFA1t8/preview"
+                        },
+                        {
+                            "title": "Yaman_Kees_FINN  A Framework for Fast, Scalable Binarized Neural Network Inference(1).pdf",
+                            "url": "https://drive.google.com/file/d/1uA5zCQ0WkwBnXkreG4zfQRZFPGRsYjm3/preview"
+                        },
+                        {
+                            "title": "Yi_Ercan_Binarized Neural Networks  Training Neural Networks with Weights and.pdf",
+                            "url": "https://drive.google.com/file/d/1Qn94qRNqWlGQV4ReDNVPpMLS-C-g4gnF/preview"
+                        },
+                        {
+                            "title": "Youngeun_Priyadarshini_Carlo REVISITING SMALL BATCH TRAINING FOR.pdf",
+                            "url": "https://drive.google.com/file/d/1PGtv4cw-SDRx5g4Xm9CeXpAhoE7ccfTi/preview"
+                        },
+                        {
+                            "title": "Yue_Guodong_Yue TRQ Ternary Neural Networks With Residual Quantization.pdf",
+                            "url": "https://drive.google.com/file/d/1IQTnG4Zd3FX2fecWuJwJv-lMUia_hkQL/preview"
+                        },
+                        {
+                            "title": "Yunji_Olivier_Chen DaDianNao  A Machine Learning Supercomputer.pdf",
+                            "url": "https://drive.google.com/file/d/1H1gd1RdB5exSt602t5xu-W1nvJ8cjvka/preview"
+                        },
+                        {
+                            "title": "Zhen_Shuguo_Zhen Optimized Interpolation of Four Term Karatsuba Multiplication and a Method of Avoiding Negative Multiplicands.pdf",
+                            "url": "https://drive.google.com/file/d/1nIlDB_PQ7q_iLUYfpXGNfa2RqXNHmhXU/preview"
+                        },
+                        {
+                            "title": "Zhi-Gang_Matthew_Zhi Gang S2TA Exploiting Structured Sparsity for Energy Efficient Mobile CNN Acceleration.pdf",
+                            "url": "https://drive.google.com/file/d/1NSNyE075nVUoePMOFbyRqFmrJEgszNAi/preview"
+                        },
+                        {
+                            "title": "Zhiqiang_Jie_Liu A  Uniform Architecture Design for Accelerating 2D and 3D CNNs on FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/11Xrn7ZaiFdoHcg0zsnquE5_kwO8c39l5/preview"
+                        },
+                        {
+                            "title": "Zhiqiang_Jie_Zhiqiang A Uniform Architecture Design for Accelerating 2D and 3D CNN on FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/1FygZeUzhud5E2CRXuy7Q_AfRMSsx2pCN/preview"
+                        },
+                        {
+                            "title": "Ziyi_Tim_pieee dnn.pdf",
+                            "url": "https://drive.google.com/file/d/1VQEh54-_WzkvdG0JXFqFQkF_luiRlU6r/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multiplier",
+                    "files": [
+                        {
+                            "title": "A Review of Modular Multiplication Methods and Respective.pdf",
+                            "url": "https://drive.google.com/file/d/1xAPfe8lAqo12zRqlDMKd6phQwndeKjSe/preview"
+                        },
+                        {
+                            "title": "A merged Multiplier Accumulator for High speed Signal Processing Applications.pdf",
+                            "url": "https://drive.google.com/file/d/1xhX2y85jaZkr_KT54HTxLW5Su4rT_S5j/preview"
+                        },
+                        {
+                            "title": "A._G._Tetsuo Compact 5454 b multiplier utilizing sign select.pdf",
+                            "url": "https://drive.google.com/file/d/1-LqhOXu-nime1bMRvF-TdpssyiIlaid_/preview"
+                        },
+                        {
+                            "title": "ANDREW_ANDREW_A signed Binary Multiplication Technique.pdf",
+                            "url": "https://drive.google.com/file/d/1x8ilSgNhqUUHnUJaWGjr8oKGjP_0zlpI/preview"
+                        },
+                        {
+                            "title": "Abbes_Peter_Bourdane Accelerating matrix product on reconfigurable.pdf",
+                            "url": "https://drive.google.com/file/d/1xLlhJ9ukjKYC2kW0pPN-jWP9PoeiBlBT/preview"
+                        },
+                        {
+                            "title": "Alan_Alan_To booth or not to booth.pdf",
+                            "url": "https://drive.google.com/file/d/1v08IAWCtWrtbCVoGvvcRr4gCAlP58pCe/preview"
+                        },
+                        {
+                            "title": "Alberto_Roman_Alberto A Slack based Approach to Efficiently Deploy Radix 8 Booth Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1h6kv1kDy8i_B9Vk6pGZHYmqVRtRM5Lik/preview"
+                        },
+                        {
+                            "title": "Alberto_Seda_Alberto A Combined Arithmetic  HLS Solution to Deploy Partial Carry Save Radix 8 Booth Multipliers in Datapaths.pdf",
+                            "url": "https://drive.google.com/file/d/1uz-dY0TNQYjPvq9eQrDLmmOUa970xFuE/preview"
+                        },
+                        {
+                            "title": "Alberto_Seda_Alberto A Partial Carry Save On the Fly Correction Multispeculative Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1JIPbVQu7lsBFFhd3HPSu9SWyKIgs6S3s/preview"
+                        },
+                        {
+                            "title": "Alberto_Seda_Arithmetic High Level Synthesis Solution to Deploy Partial Carry Save Radix 8 Booth Multipliers in Datapaths.pdf",
+                            "url": "https://drive.google.com/file/d/1xwD0U4p3K6qLxzQr9TdSK8Dv3f0Dj1aB/preview"
+                        },
+                        {
+                            "title": "Alberto_Seda_Syed Memik A Partial Carry Save On the Fly Correction Multispeculative Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1baIuvA1wafheSSPyRrQv8ZR_a4a5oDT6/preview"
+                        },
+                        {
+                            "title": "Alvaro_Paolo_Paolo Montuschi Improved Design of High Performance.pdf",
+                            "url": "https://drive.google.com/file/d/1vkCr-z05maLfD8-zzKWAnelRwfxGeJl_/preview"
+                        },
+                        {
+                            "title": "B.S._E.G._Brain A hybrid radix 4 madix 8 low power signed multiplier architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1JUfmaD2Cb2Iknd6ms9B1hjqEW9_1JFOT/preview"
+                        },
+                        {
+                            "title": "B.S._E.G._Friedman A Hybrid Radix 4 Radix 8 Low Power.pdf",
+                            "url": "https://drive.google.com/file/d/1-C9_Gg3OamqUpxvFn2NUUKo7yQbjZGJa/preview"
+                        },
+                        {
+                            "title": "C._D._D. Nikolos Modified Booth Modulo 2n Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1x6GdGSkEimAwkHLUSkcQUYcGgJApA6mc/preview"
+                        },
+                        {
+                            "title": "Chein-Wei Jen-High-speed Booth encoded parallel multiplier design_1.pdf",
+                            "url": "https://drive.google.com/file/d/1wZMQX6W3N3qivfFyh5hLLlZqnP1UruD3/preview"
+                        },
+                        {
+                            "title": "Chein-Wie-High-Speed Booth Encoded Parallel Multiplier Design.pdf",
+                            "url": "https://drive.google.com/file/d/15FWwMkbDDN1HsRehiZ0wcmQ9tLAw8jfe/preview"
+                        },
+                        {
+                            "title": "Chen_Zhao_High speed Radix 4 Booth scheme in CNTFET technology for high performance parallel multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1x4y8KZ2FOwvfByT-JGua76BqNVcBBIo6/preview"
+                        },
+                        {
+                            "title": "Cui_Wang_Wang Shumin A New Redundant Binary Partial Product Generator for fast 2^n Bit Multiplier Design.pdf",
+                            "url": "https://drive.google.com/file/d/1wBsADqC8HOsULBAkmCcRExuyH-uapkn9/preview"
+                        },
+                        {
+                            "title": "Design and Analysis of a Spurious Switching Suppression Technique Equipped Low Power Multiplier with Hybrid Encoding Scheme.pdf",
+                            "url": "https://drive.google.com/file/d/1x5zpf6yI6kTm8qVSHmihkpSXFj--LARK/preview"
+                        },
+                        {
+                            "title": "Dharma_Bhuwan_DP Agrawal Design and Performance of VLSI Based Parallel Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1vizeqzRA7aD_E4d2eHg3sae3W0fYjgoj/preview"
+                        },
+                        {
+                            "title": "Duncan_Philip_A Two Speed, Radix 4, Serial\u2013Parallel Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1x8Ylm5zKqRuAlD9QVd0ka95DpvHE6HP1/preview"
+                        },
+                        {
+                            "title": "Dursun_Vojin_Oklobdzija Energy Efficient Implementation of Parallel CMOS Multipliers with improved Compressors.pdf",
+                            "url": "https://drive.google.com/file/d/1vlHskpQHedTl4f08eP-EA_jqep4iTJsZ/preview"
+                        },
+                        {
+                            "title": "E.M._L.J._Schwarz A radix 8 CMOS S 390 multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1LdgQwOJAdF_Lq5-Zp4_NJzkiJH92VoEL/preview"
+                        },
+                        {
+                            "title": "E._E.E._Swartzlander Low power parallel multipliers,\u201d.pdf",
+                            "url": "https://drive.google.com/file/d/1-HYlHxv_3PPYip-6X6uezQbJgaCzDXQV/preview"
+                        },
+                        {
+                            "title": "E._E.E._Swartzlander Survey of low power techniques.pdf",
+                            "url": "https://drive.google.com/file/d/1-1WfJbMKNxXfVZwgjKupGb7BYJmakgjG/preview"
+                        },
+                        {
+                            "title": "Elisardo_Alberto_Paolo Improved 64 bit Radix 16 Booth Multiplier Based 2017.pdf",
+                            "url": "https://drive.google.com/file/d/1vweNcz32-J2WctQ80xlx-eMxhmmIldSm/preview"
+                        },
+                        {
+                            "title": "Energy Efficiency of Full Pipelining: A Case Study for Matrix Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1xSL0_4L65Xt1HtFL3mHBXvwQbq430j3V/preview"
+                        },
+                        {
+                            "title": "G.-K._F.J._Gin Multiplier Policies For Digital Singal Processing.pdf",
+                            "url": "https://drive.google.com/file/d/1vewqCkK-huuua_t3Qej_h1hMoqNBvnlY/preview"
+                        },
+                        {
+                            "title": "Gaudiot-A Fast and Well-Structured Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1-ZjEOQBHefPgmo7pftu-tHQun3guk1_j/preview"
+                        },
+                        {
+                            "title": "Gaudiot-A Simple High-Speed Multiplier Design.pdf",
+                            "url": "https://drive.google.com/file/d/1-bQRuFXmXoMzak4fUbyOkHbj0gtzU90j/preview"
+                        },
+                        {
+                            "title": "Gilles-A Compact High-Speed Parallel Multiplication Scheme.pdf",
+                            "url": "https://drive.google.com/file/d/1vfSLanDnLI0s3O5EitVj9PFr3N9tgu_0/preview"
+                        },
+                        {
+                            "title": "H.A._M.J._H. AI Twaijry Area and Performance Optimized CMOS Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1xkRr-YLr6rnjKTv-nsRVG0C-LtWMR4kv/preview"
+                        },
+                        {
+                            "title": "Hari_Hari_Reducing the Computation Time in Two's Complement Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1zyn8-ZLIS0Zy2nHyOa0DEjra7VpK4r-0/preview"
+                        },
+                        {
+                            "title": "Humberto_Stamatis_vassiliadis encrypted multiplier design.pdf",
+                            "url": "https://drive.google.com/file/d/1wEtd47IOM0cJsQnQhKpJxb44d3ascH_l/preview"
+                        },
+                        {
+                            "title": "Issa_Alex_Yakovlev Significance Driven Logic Compression for EE Multiplier Design.pdf",
+                            "url": "https://drive.google.com/file/d/1w4DwePkviwiK3RBXJg3ZKBbgHIZjdo_I/preview"
+                        },
+                        {
+                            "title": "J.-A._J.D._Bruguera High\u2013Radix Iterative Algorithm for Powering Computation.pdf",
+                            "url": "https://drive.google.com/file/d/1EyV0WvluYIHlpOn3rRiEXdpTS9ETq5bJ/preview"
+                        },
+                        {
+                            "title": "J._J._Jochen Analysis and reduction of glitches.pdf",
+                            "url": "https://drive.google.com/file/d/1-C6ShC5zH3eaEWBjzI8_I32g1w1dcumM/preview"
+                        },
+                        {
+                            "title": "J._J._on Chip Pipeline DS Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1x2hlo33gBfPyvmZi6drnaa3b7njym3s2/preview"
+                        },
+                        {
+                            "title": "Jihee_Dae_Hyun High Throughput Multiplier Architectures Enabled by Intra Unit Fast Forwarding.pdf",
+                            "url": "https://drive.google.com/file/d/1vcrKHrx60Pznmrgwg0RJN-MGlyHTEhAf/preview"
+                        },
+                        {
+                            "title": "Jinn-Shyan_Tsung-Han_Tsung Han Low Power Fixed Width Array Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1UmtBJ3QWjTmKcTudNgL8g4x4nNMo0BNG/preview"
+                        },
+                        {
+                            "title": "Jung-Yup_Jean-Luc_Gaudiot A logarithmic Time Method for Two s Complementation.pdf",
+                            "url": "https://drive.google.com/file/d/1-OtYRugp7Bhi8KmXxi3DVFbBojFaPzWi/preview"
+                        },
+                        {
+                            "title": "K.C._K.C._WALLCE Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1wCebSGMwdos4Vy9IJpp5khi0Ip3ZExK3/preview"
+                        },
+                        {
+                            "title": "K.H._P.H.W._Mullet   a parallel multiplier generator.pdf",
+                            "url": "https://drive.google.com/file/d/1x4EWaai6Kkmg6iJxMlyGQ_CSbBNQVbpb/preview"
+                        },
+                        {
+                            "title": "K.K._J.L._MEADOR A nonredundant radix 4 serial multiplier 1989.pdf",
+                            "url": "https://drive.google.com/file/d/1voUS37SDWzVlb1jkF1l1U0H7qw2LIdoX/preview"
+                        },
+                        {
+                            "title": "K._A._Geoffrey Burns  Design and Implementatin of 16x16 low power twos complement multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/15hLCcj-MpSaqRYVMB8ofQqT119vNxbD7/preview"
+                        },
+                        {
+                            "title": "K._K._Pre Encoded Multipliers Based on Non Redundant Radix 4 Signed Digit Encoding.pdf",
+                            "url": "https://drive.google.com/file/d/1-dMKZPCi7EZLXhloWwislC9qZXa-wysi/preview"
+                        },
+                        {
+                            "title": "Kiat Seng Yeo-Low-Power High-Speed Multiplier For ErrorTolerant Application.pdf",
+                            "url": "https://drive.google.com/file/d/1vcGTe5yBk8a5BdSemQU6ty_RHVIPRXrh/preview"
+                        },
+                        {
+                            "title": "Kussai_Wilhelm_An 88 fJ40 MHz [0.4 V]\u20130.61 pJ1 GHz [0.9 V] Dual M L 8x8 Mult AC.pdf",
+                            "url": "https://drive.google.com/file/d/1x88u5K-Zeg7v85i5cleeMmn3m22ih9I6/preview"
+                        },
+                        {
+                            "title": "L._L._Dadda Original.pdf",
+                            "url": "https://drive.google.com/file/d/1vKk0OGxylxCaa4kyaEhhr82twayaIBRq/preview"
+                        },
+                        {
+                            "title": "L._P._Paolo Carry Save Multiplication Schemes without Final Addition.pdf",
+                            "url": "https://drive.google.com/file/d/1WFjPnvAyxT8PhLy7lwuYdzENHOYfWZMl/preview"
+                        },
+                        {
+                            "title": "Luigi_Luigi_Dadda Some schemes for parallel multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1vJY-scZbSxGEXnDpEG0_Kx3Js6qMtWxW/preview"
+                        },
+                        {
+                            "title": "M.D._T._MD Ercegovac and Thomas Lang FAST multiplication without carry propagate addition.pdf",
+                            "url": "https://drive.google.com/file/d/1RB0fcSr7v1wqiw014_BDmtDb7FiLdIb9/preview"
+                        },
+                        {
+                            "title": "M.I._M.D._MD Ercegovac A multiplier with redundant operands.pdf",
+                            "url": "https://drive.google.com/file/d/1vaqN-VW63VVl_c29XZfC7MjFwYpLGHHw/preview"
+                        },
+                        {
+                            "title": "M.R._M.A._Horowitz SPIM Detailed.pdf",
+                            "url": "https://drive.google.com/file/d/1veqVe8yt2wYaAhTP_NXIcyFdBCFmLjtX/preview"
+                        },
+                        {
+                            "title": "M.R._M.A._Horowitz SPIM Stanford Iterative Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1vdONdNYEz6AYGRM0D7ennLoVLvQ-eej0/preview"
+                        },
+                        {
+                            "title": "M._J._A CMOS floating point multiplier 1984.pdf",
+                            "url": "https://drive.google.com/file/d/1RkheMOMRO00gAOvkyltsKcEg5D9HXY2-/preview"
+                        },
+                        {
+                            "title": "MD Ercegovac-High-Performance Low-Power Left-to-Right Array Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1uFw4A7Y-MgvNBRgPMLRDz7aeGbmcpqV9/preview"
+                        },
+                        {
+                            "title": "MD Ercegovac-Power Optimization in a Parallel Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1vYQfDi3uRMQ0I1Q0mh3sjhJz3_6tDXAo/preview"
+                        },
+                        {
+                            "title": "MD. Ercegovac-High-Performance Low-Power Left to Right Array Multiplier Design.pdf",
+                            "url": "https://drive.google.com/file/d/1voyfI7p0YEUblUZhULUx6ym-RgzoErq_/preview"
+                        },
+                        {
+                            "title": "Martin_Peter_Peter Karatsuba with Rectangular Multipliers for FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/1vvya0wjS-C595layyEUvBh6AP-ZFh-Bb/preview"
+                        },
+                        {
+                            "title": "Mike_Earl_Paulo Speeding up Booth Encoded Multipliers by.pdf",
+                            "url": "https://drive.google.com/file/d/1-Xjg0BX5j4Jw-pHa_urX8ViVL1dB2t0q/preview"
+                        },
+                        {
+                            "title": "Minkyu-Design of a high performance.pdf",
+                            "url": "https://drive.google.com/file/d/1-Mgtlj_wBFR7bNCzBD6DOE05N-FrsBn_/preview"
+                        },
+                        {
+                            "title": "Norman H.Taylor The Five-Digit Multiplier R-134 Servomechanisms Laboratory.pdf",
+                            "url": "https://drive.google.com/file/d/1xpnmYSAktz_izS6EDQ2zgp1LBCzj7XDh/preview"
+                        },
+                        {
+                            "title": "P.F._R._Oklobdzija  Optimial Circuit for Parallel Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1vmXx-Du3R_uO5c0IS2fdguLLjkb9rkBC/preview"
+                        },
+                        {
+                            "title": "P.J._G._D.m Giovanni Circuit and Architecture Trade offs for High Speed Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1vLnG3z1xVYHhXGhYY7NwvYvB7pDdNtN0/preview"
+                        },
+                        {
+                            "title": "P.J._G._Giovanni Circuit and architecture trade offs for highspeed multiplication,.pdf",
+                            "url": "https://drive.google.com/file/d/1-LCtg2cRKsxqKtPDeS6UtS6RlYZ7h8Un/preview"
+                        },
+                        {
+                            "title": "P._L._Paolo n x n Carry Save Multipliers without Final Addition.pdf",
+                            "url": "https://drive.google.com/file/d/1G68QwaBwSrXLtsHV7Hht5TZWmicSucOO/preview"
+                        },
+                        {
+                            "title": "P_M_MD Ercegovac Trading Accuract for Power with an Underdesigned Multiplier Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1vqOZl2CSHigZXS1q5kDmv_tRTdSokzR1/preview"
+                        },
+                        {
+                            "title": "Pai2003_Article_Low-PowerConstant-CoefficientM.pdf",
+                            "url": "https://drive.google.com/file/d/1x2Y_qhR3YYAprIxGOTzAyg3FnAcyBQk4/preview"
+                        },
+                        {
+                            "title": "Prabir_Anup_Anup Improve Matrix Multiplier Design for High Speed Digital Signal Processing Applicaitons.pdf",
+                            "url": "https://drive.google.com/file/d/1uvwbOS9PXyufjot-IahaiBJiACLsWfgw/preview"
+                        },
+                        {
+                            "title": "R._H._H.T Kung The Area Time Complexity of Binary Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1veunC7iPY-LjdRM6cAnyPlTtpioU5iKN/preview"
+                        },
+                        {
+                            "title": "Ravindra_M.N._Swany High speed Modified Booth Encoder multiplier for signed and unsigned numbers.pdf",
+                            "url": "https://drive.google.com/file/d/1qlRv6XiXdF7rvjjmCeznMbJ9yeSQYnTK/preview"
+                        },
+                        {
+                            "title": "Robert_Earl_Sign Extension in Booth Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1xBx19ejtemdrTIVWs8dyQ1cTBPQ5SNQO/preview"
+                        },
+                        {
+                            "title": "S.G._P.B._S.G. Smith Radix 4 Modules for high performance bit serial computation.pdf",
+                            "url": "https://drive.google.com/file/d/1vr7Sheyc89TQg7Mwnr2cZGnraxwRfWOB/preview"
+                        },
+                        {
+                            "title": "S.M._G.F._Aamir A novel technique for fast multiplication 1995.pdf",
+                            "url": "https://drive.google.com/file/d/1vUYZF4BAfrd4XAi_wydflujYFn6h32U0/preview"
+                        },
+                        {
+                            "title": "S._B.M._B.M. Sung Hard Wired Multipliers with Encoded Partial Products.pdf",
+                            "url": "https://drive.google.com/file/d/1vQ61pWvytd0hiqGj6a6Dr1Zi2XhyrjUQ/preview"
+                        },
+                        {
+                            "title": "S._E.M._Schwarz Hard Wired Multipliers with Encoded Partial Products.pdf",
+                            "url": "https://drive.google.com/file/d/1wLXRJU7bh5V4bWV7ooK7SUkfaAOdNkZe/preview"
+                        },
+                        {
+                            "title": "S._S._DP Agrawal NegaBinary Addition and Multiplication using Binary Circuits.pdf",
+                            "url": "https://drive.google.com/file/d/1viDDp5FGb_Im0Gyb42W4l3kMHqYBX_Hj/preview"
+                        },
+                        {
+                            "title": "S._S._Furber The Design of a Low Power Asynchronous Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1vfvqDMfQ_oQf_G5-70zn-TGqupOrfWnw/preview"
+                        },
+                        {
+                            "title": "Shilei_Bo_shao An efficient signed digit montgomery modular multiplication algorithm.pdf",
+                            "url": "https://drive.google.com/file/d/1uwKtzKoVfb9a6bCgLrlc-jQMy8SDBxuH/preview"
+                        },
+                        {
+                            "title": "Shin-Kai_An-Chi_An Chi Tsai Design and Implementation of High Speed and Energy Efficient Variable Latency Speculating Booth Multiplier 2013.pdf",
+                            "url": "https://drive.google.com/file/d/1vQlWiiPqkd8iNDTFWJGv0NyPP4c85rxP/preview"
+                        },
+                        {
+                            "title": "Simulation of Booth Multiplier with Verilog XL.pdf",
+                            "url": "https://drive.google.com/file/d/1y-EeJwL4IsgAcP4hrR4GZZWfeKskBrSI/preview"
+                        },
+                        {
+                            "title": "Soonhak Kwon-A digital Serial multiplier for FF GF 2.pdf",
+                            "url": "https://drive.google.com/file/d/1xLmWW-mnq2lDKmsmb99SRI279ommEoHL/preview"
+                        },
+                        {
+                            "title": "Suayb_Suayb_Array BP XoR Codes for Parallel Matrix Multiplication using Hierarchical Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1x7HPOly3LZcSSCd8RQ5qs2bmZaM7Ib_b/preview"
+                        },
+                        {
+                            "title": "Suganthi_Seok-Bum_SK Ko Design and Analysis of Area and Power Efficient Approximate Booth Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1wL9xKdvwBLHXPIJEW9iZxS4URqH47bBn/preview"
+                        },
+                        {
+                            "title": "T.K._E.E._Swartzlander Power Delay Characteristics of CMOS Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1-N8HIU2XfZPJQrI8vFnZ92HVI58BKZx6/preview"
+                        },
+                        {
+                            "title": "Tomas_Alberto_Thomas A Radix 10 Combinational Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1wI2tdoasKD6ZHydOcjxhf3Sj6CrifpVD/preview"
+                        },
+                        {
+                            "title": "V.G._D._Oklobdzija Multiplier Design Utilizing Improved Column Compression Tree and Optimized Final Adder CMOS.pdf",
+                            "url": "https://drive.google.com/file/d/1vkM-gsldqhvAHzmHzEuYuupHn0oRPxU_/preview"
+                        },
+                        {
+                            "title": "V.G._S.S._Oklobdzija  A method for Speed Optimized Partial Production and Generation of Fast Parallel Multipliers Using Algorithm Approach.pdf",
+                            "url": "https://drive.google.com/file/d/1vnyipm37NMwByIQ_OzjUrn96dePgfvCJ/preview"
+                        },
+                        {
+                            "title": "V.G._V.G._Oklobdzija Imporving multipl ieee vlsi 95.pdf",
+                            "url": "https://drive.google.com/file/d/1vkYr2hnao6jTU7hHLA1vmDxEWJ3Fu-HM/preview"
+                        },
+                        {
+                            "title": "Vojtech_Kaushik_Roy Design of Power Efficient Approximate Multipliers for ANN.pdf",
+                            "url": "https://drive.google.com/file/d/1ux7tjh7HISghNr8qTjLFYlUtubLJVva9/preview"
+                        },
+                        {
+                            "title": "Weiqiang_Fabrizio_Design of Approximate Radix 4 Booth Multipliers for Error Tolerant Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1TwzaaYSVqGF1VCqzSTdzXiBaOOLyg29A/preview"
+                        },
+                        {
+                            "title": "Wen_He_MD Ercegovac An Energy Efficient Multiplier With Fully Overlapped Partial Products.pdf",
+                            "url": "https://drive.google.com/file/d/1v_nAc2fYcbVJT3BWjrBv3YtD6PXY5ar_/preview"
+                        },
+                        {
+                            "title": "Wen_Milos_MD Ercegovac Radix 4 Energy Efficient Carry Free Truncated Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1vUyRdEOvK145sVJn_raByyR8xMkHG1jP/preview"
+                        },
+                        {
+                            "title": "Whitney_Jacob_Abraham A comparison of Dadda and Wallace multiplier delays.pdf",
+                            "url": "https://drive.google.com/file/d/1vT4pqx7IQ4a7Yco6QC01nxCSYJmc-ZtX/preview"
+                        },
+                        {
+                            "title": "Xiaoping_Fabrizio_High Performance Parallel Decimal Multipliers Using Hybring BCD Codes.pdf",
+                            "url": "https://drive.google.com/file/d/1G5QHxtgYUt0UcuOtxhHJ9BoCgXvoEGdo/preview"
+                        },
+                        {
+                            "title": "Xiaoping_Fabrizio_Lombardi A Modified Partial Product Generator for Redundant Binary Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1vbXbUM_9xlv5TluVW8BUYRRtJ9V08zL_/preview"
+                        },
+                        {
+                            "title": "Xin_Xin_Geoffrey Burns VLSI Implementation of LRCF Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1X1Z0xNmNFnsMu-U1yPts8IKfzjlpCqQw/preview"
+                        },
+                        {
+                            "title": "Y._N._Y. Harata A high speed multiplier using a redundant binary adder tree.pdf",
+                            "url": "https://drive.google.com/file/d/1ZxvdnAjCh3MVRu0zL8QqQPs6rKk66Ctk/preview"
+                        },
+                        {
+                            "title": "Yen-Jen_Chun-Huo_Chun Hyu A Low Power Radix 4 Booth Multiplier With Pre Encoded Mechanism.pdf",
+                            "url": "https://drive.google.com/file/d/1vOPSxALRvavzz9OY148gyKSFj95rAFX4/preview"
+                        },
+                        {
+                            "title": "Z.-J._F._Zhi Overturned Stairs Adder Trees and Multiplier Design.pdf",
+                            "url": "https://drive.google.com/file/d/1w3kxHb0UZ5CBiZgy8kfOkf2aRss3HJxA/preview"
+                        },
+                        {
+                            "title": "Z._M.D._MD Ercegovac  2 Dimensional Signal Gating for Low Power Array Multiplier Design.pdf",
+                            "url": "https://drive.google.com/file/d/1vatATCCkZ3icTDADeQX2PyTcgGtOVzPW/preview"
+                        },
+                        {
+                            "title": "Z._M.D._MD Ercegovac High Performance Left to Right Array Multiplier Design.pdf",
+                            "url": "https://drive.google.com/file/d/1mQpniW9C_1LSHibKeQ1FMovEIU6GdquU/preview"
+                        },
+                        {
+                            "title": "chapter4 Booth Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1y-LZrteu6zVIxkXfaiGWC3HCJsaYfxpB/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Posit_DNN",
+                    "files": [
+                        {
+                            "title": "Jinming_Li_Wang Evaluation on DNN training using posit number system.pdf",
+                            "url": "https://drive.google.com/file/d/1hiMuAHmKd7pnfZ4hY2nnpJ0qv5mnhgdi/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Posit_General",
+                    "files": [
+                        {
+                            "title": "Gustafson-A Radical Approach to Computation with Real Numbers.pdf",
+                            "url": "https://drive.google.com/file/d/1hJhXn8Yte1CXQSFihuE5GbkFBIP2-Lj0/preview"
+                        },
+                        {
+                            "title": "Isaac Yonrmoto-Beating Floating Point at its Own Game Posit Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1i9hjKbcaoyGIuX8RDmxQNH8dYMefFfG0/preview"
+                        },
+                        {
+                            "title": "N.A._Kashif_Robust Baggage Detection and Classification Based on Local Tri directional Pattern.pdf",
+                            "url": "https://drive.google.com/file/d/1htVbXpSnGLHm273KbZ9sDD6IvB7p9_4J/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_Adder",
+                    "files": [
+                        {
+                            "title": "A._S._Hentschke Look ahead circuit for CSD code carry determination.pdf",
+                            "url": "https://drive.google.com/file/d/1jt_o18DnqxDGFzSDizg6zn8sZDiCtG7q/preview"
+                        },
+                        {
+                            "title": "B._B._Parhami Carry Free Addition of Recorded Binary Signed Digit Numbers.pdf",
+                            "url": "https://drive.google.com/file/d/1mLQhZkfTg_jcwYxXaRo44tJWLTmV8ieU/preview"
+                        },
+                        {
+                            "title": "Catherine_James_JE Roberrtson Logical  Design of a Redundant Binary Adder.pdf",
+                            "url": "https://drive.google.com/file/d/1lMhkqSupfGcbe7DblSZJt7Bzh2Ja_Uhd/preview"
+                        },
+                        {
+                            "title": "Catherine_James_JE Robertson Logical  Design of a Redundant Binary Adder.pdf",
+                            "url": "https://drive.google.com/file/d/1l5ktgihd-NIeDkJ02ahLR4bULvsZBx0K/preview"
+                        },
+                        {
+                            "title": "D.S._I._Israil Koren A constant time addition.pdf",
+                            "url": "https://drive.google.com/file/d/1lOIr_yQ-H0xpLkGHfW1Ftj8F6HkpgEu2/preview"
+                        },
+                        {
+                            "title": "D.S._I._Phatak Intermediate Variable Encodings that Enable Multiplexor Based Implementations of Two Operand Addition.pdf",
+                            "url": "https://drive.google.com/file/d/1o_8uCh7HE6GGk7JvjlICFnXvKlLLuwnP/preview"
+                        },
+                        {
+                            "title": "F._G._Gulam Chaudhary Reliable Binary Signed Digit Number Adder Design.pdf",
+                            "url": "https://drive.google.com/file/d/1kGWCBGPLAaOhGF7c8TIq0HLIxCe53Hdy/preview"
+                        },
+                        {
+                            "title": "Furqan_Furqan_Pinaki CMOS Implementation of a Multiple Valued SD Full Adder Design.pdf",
+                            "url": "https://drive.google.com/file/d/1oPacfdPH4Mwbyb-fP2vtT9NFmVB0CgWQ/preview"
+                        },
+                        {
+                            "title": "H.R._K.K._Parhi A fast VLSI Adder Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1nt2y_AKSbtu_n5X8XBEihz3sjHhs5HO1/preview"
+                        },
+                        {
+                            "title": "K.K._K.K._Parhi Low Energy CSMT Carry Generators and Binary Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1nNKqvU8ICrDZ8DN7VlKr33xZNgxC1rn5/preview"
+                        },
+                        {
+                            "title": "N._T._Naofumi A Systematic Approach for Designing Redundant Arithmetic Adders Based on Counter Tree Diagrams.pdf",
+                            "url": "https://drive.google.com/file/d/1mXHLgycbXdiTFe1kHq5P4Y-kb9g3TXqn/preview"
+                        },
+                        {
+                            "title": "N._T._Naofumi A systematic approach for analyzing fast addition algorithms using counter tree diagrams.pdf",
+                            "url": "https://drive.google.com/file/d/1mbLmbRbcAdq49wtgcnto5dtBIxkFexsA/preview"
+                        },
+                        {
+                            "title": "P._P._Peter Kornerup Necessary and sufficient conditions for parallel, constant time conversion and addition.pdf",
+                            "url": "https://drive.google.com/file/d/1nB0IMXpBODvG4GDNt5vMJBj3ZTnmvVOx/preview"
+                        },
+                        {
+                            "title": "Ranjan_Manoranjan_Manoranjan An Efficient Redundant Binary Adder with Revised Computational Rules.pdf",
+                            "url": "https://drive.google.com/file/d/1n2_lCv1UONB1V4I87Lb7tormMT8B87eS/preview"
+                        },
+                        {
+                            "title": "Saeid_Ghassem_Jaberipur A family of High Radix Signed Digit Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1lOH3KhLTIIbhUG_CETx1gZRj8OwHSo5y/preview"
+                        },
+                        {
+                            "title": "Somayeh_Omid_Omid Maximally Redundant High Radix Signed Digit Adder New Algorithm and.pdf",
+                            "url": "https://drive.google.com/file/d/1mOQ1Yo-2hN1syrd9W5YD3wQg3fO0HJBi/preview"
+                        },
+                        {
+                            "title": "Somayeh_Omid_Somaueh Maximally Redundant High Radix Signed Digit Adder  New Algorithm and Implementation.pdf",
+                            "url": "https://drive.google.com/file/d/1pKUQBlGoXeNbFIcdkWiyd2ixQ-o_9I2-/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_Division",
+                    "files": [
+                        {
+                            "title": "Berlin_Yao_Tamotsu Arithmetic processor and divider using redundant signed digit arithmeti.pdf",
+                            "url": "https://drive.google.com/file/d/1qisEHC0NH5uM0bGtfTCzSgOiswtzdPjk/preview"
+                        },
+                        {
+                            "title": "Linbin_Weiqiang_Linbin Design of Approximate High Radix Dividers by Inexact Binary Signed Digit Addition.pdf",
+                            "url": "https://drive.google.com/file/d/1lz4MakP8VxT-9krgVWXOI5VKSjgYiQ9P/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_General",
+                    "files": [
+                        {
+                            "title": "A._R._Paul Kang On line Arithmetic Algorithms for Efficient Implementation UCLA.pdf",
+                            "url": "https://drive.google.com/file/d/1s34tqNCLjKetMW0v54XueCbpUTEeNAEP/preview"
+                        },
+                        {
+                            "title": "Alejandro_Pinaki_Pinaki Redundant arithmetic, algorithms and implementations.pdf",
+                            "url": "https://drive.google.com/file/d/1oN8c9_03xOPEfib5FyV-uxBkV3wqvpSv/preview"
+                        },
+                        {
+                            "title": "Andr\u00e9as_Andr\u00e9as_Rupa Energy efficient DSP System Design based on RBN.pdf",
+                            "url": "https://drive.google.com/file/d/1rwj7oiBstKAkLnlymeN0A5IVMiBXiOWB/preview"
+                        },
+                        {
+                            "title": "Arthur_John_Burks Preliminary Discussion of the Logical Design of an Electronic Computing Instrument.pdf",
+                            "url": "https://drive.google.com/file/d/1iQG6lKuwOO3NwB5Y6dd5d8pQ0Ctjmi7g/preview"
+                        },
+                        {
+                            "title": "Asger Munk-Number systems and Digit Serial Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1rktKYJ7953trgOa5AQP3ElSJIAzKImZ_/preview"
+                        },
+                        {
+                            "title": "B._B._Parhami Generalize SD Number System Redundant Number.pdf",
+                            "url": "https://drive.google.com/file/d/1mJrgxfYXUjac690CbyALKSGmnMkm9e-l/preview"
+                        },
+                        {
+                            "title": "B._N._NBurgess Minimal Digit Set Converters.pdf",
+                            "url": "https://drive.google.com/file/d/1mVrpdUlKJzLgA8qi6lnsDgPvs47HKbCE/preview"
+                        },
+                        {
+                            "title": "C._M._Ercegovac A simulator for on line arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1j2XMcQcQZsQDnWrIXHKrbK5gP-ph4gTD/preview"
+                        },
+                        {
+                            "title": "Chen-An efficient redundant-binary number to binary number converter.pdf",
+                            "url": "https://drive.google.com/file/d/1jfhMydeloUClvmE8fmqwRrDixk-Z2Zxc/preview"
+                        },
+                        {
+                            "title": "D.E._D.E._Atkins Design of the Arithmetic Units of ILLIAC III  Use of Redundancy and Higher Radix Methods.pdf",
+                            "url": "https://drive.google.com/file/d/1ilcZwmmz7pGxlux2E0VkAEmnOkjRR7ce/preview"
+                        },
+                        {
+                            "title": "D.S._I._Israel Koren Redundancy Management in Arithmetic Processing via Redundant Binary.pdf",
+                            "url": "https://drive.google.com/file/d/1lkeb00frN8U0iBq2SfmTgkZg-VUgUA_Y/preview"
+                        },
+                        {
+                            "title": "G._B._Posibits, Negabits, and Their Mixed Use in Efficient Realization of Arithmetic Algorithms.pdf",
+                            "url": "https://drive.google.com/file/d/1oEzZmlzctyyNvJPbfXf04Tx8vBkHKXM8/preview"
+                        },
+                        {
+                            "title": "Ghassem_Saeid_Ghassem Jaberipur A Nonspeculative Maximally Redundant Signed Digit.pdf",
+                            "url": "https://drive.google.com/file/d/1kKkO9O2PllcRPHm13o53lJyOefRH5qhX/preview"
+                        },
+                        {
+                            "title": "Gustavo_Mercedes_Gustavo Efficient canonic signed digit recoding.pdf",
+                            "url": "https://drive.google.com/file/d/1k4FmogJmIGy7SNDY7THr7CycSbAEak7r/preview"
+                        },
+                        {
+                            "title": "H.A.H._M.J._Michael The Case For a Redundant Format in Floating Point Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1mnYemlZay9pI53N03keQeXx14Yj2KH5i/preview"
+                        },
+                        {
+                            "title": "Hao-Yung_Hao-Yung_HaoYung Lo High speed signed digital multipiers for VLSI.pdf",
+                            "url": "https://drive.google.com/file/d/1jtq4QVv9EseLMBvl6Bdrsxvr0oGMTaBG/preview"
+                        },
+                        {
+                            "title": "He_George_Geroge Digit Stability Inference for Iterative Methods.pdf",
+                            "url": "https://drive.google.com/file/d/1kWWODC6eV23BmI6rt5S298rjRc1K7zp6/preview"
+                        },
+                        {
+                            "title": "Irwin-Nagendra1995_Article_DigitPipelinedArithmeticOnFine.pdf",
+                            "url": "https://drive.google.com/file/d/1jt4a0SJPPCKEZkbDq5HqnPdusc8fm5L5/preview"
+                        },
+                        {
+                            "title": "J._N._Fairbanks A 600 MHz superscalar floating point processor,\u201d.pdf",
+                            "url": "https://drive.google.com/file/d/1inb9hhxu2egybc2uZTWR-6-Hrbj0Gg6Q/preview"
+                        },
+                        {
+                            "title": "Jean_Jean_Jean Chinal Mirror Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1knY6wjxvvwaqUMX9xCFW-XUE1SzvITlC/preview"
+                        },
+                        {
+                            "title": "Jonathan_Christopher_Burges Redundant Bit Vectors for Quickly Searching.pdf",
+                            "url": "https://drive.google.com/file/d/1iVKAJpAqe0vAkQoYHmvYlxwDXbZwa4nN/preview"
+                        },
+                        {
+                            "title": "Keshab_Keshab_parhi chap14.pdf",
+                            "url": "https://drive.google.com/file/d/1sDkd9LfAeEfKgX4GR34JLMV7_8ZQezbs/preview"
+                        },
+                        {
+                            "title": "LEE-An efficient redundantbinary number to binary number converter.pdf",
+                            "url": "https://drive.google.com/file/d/1m7p4ut73TspbYaQWQ4HMt5JjaBFb94Gw/preview"
+                        },
+                        {
+                            "title": "M._C.-H._Chang Fast and VLSI efficient binary to CSD encoder using bypass signal.pdf",
+                            "url": "https://drive.google.com/file/d/1jlEoE98MzcJ0TwZo3ntRFpAWfMnRsYaj/preview"
+                        },
+                        {
+                            "title": "M._C.-H._Gustafsson Fast and VLSI efficient binary to CSD encoder using bypass signal.pdf",
+                            "url": "https://drive.google.com/file/d/1rfy-PlIJwoXhyGKH-YxrgRecd8oUcFfF/preview"
+                        },
+                        {
+                            "title": "M._Y._Zorain On Line Testing for VLSI\u2014A Compendium of Approaches.pdf",
+                            "url": "https://drive.google.com/file/d/1qFsvbuyGP6xfqowFPItFQjkvFGEkds65/preview"
+                        },
+                        {
+                            "title": "Matti_Matti_M.A. Sullivan Reduced Precision Redundancy Applied to Arithmetic Operations in Field Programmable Gate Arrays for Satellite Control.pdf",
+                            "url": "https://drive.google.com/file/d/1rv2e0EbwuTIQg_H9q66rxI9S5INqmXff/preview"
+                        },
+                        {
+                            "title": "P._P._Peter Kornerup Digit Set Conversions Generalizations and Applications.pdf",
+                            "url": "https://drive.google.com/file/d/1nIkaNDIJsxM3W5bdsfD0vRkxfIvrDiBw/preview"
+                        },
+                        {
+                            "title": "RLA-Significant Digit Computer Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1omes4zQqJXxPXCaXzBc_N6t8R88Lw-nP/preview"
+                        },
+                        {
+                            "title": "Rakesh_A._Wadhwani Fast Arithmetic Using Signed Digit Numbers and Ternary Logic.pdf",
+                            "url": "https://drive.google.com/file/d/1qN6Lb2Fb8hXv8SKMrksSHZKrXfu4lSL3/preview"
+                        },
+                        {
+                            "title": "RedundantNumber.pdf",
+                            "url": "https://drive.google.com/file/d/1s38MMboBJD3hRwdt7pCFNwKI1qrw1wLw/preview"
+                        },
+                        {
+                            "title": "Robert_Mary_Irwin An arithmetic unit for online computaiton.pdf",
+                            "url": "https://drive.google.com/file/d/1rcpOLXC0zPtZueQ9qRBRQJ1tkTjd0c0H/preview"
+                        },
+                        {
+                            "title": "S.K._M.C._Pinotti Fast VLSI circuits for CSD coding and GNAF.pdf",
+                            "url": "https://drive.google.com/file/d/1oG1oKHk0iNP_lX3xxY0T9-PUpmHyjkCE/preview"
+                        },
+                        {
+                            "title": "S._T._Shoji Multiple valued radix 2 signed digit arithmetic circuits for high performance VLSI systems.pdf",
+                            "url": "https://drive.google.com/file/d/1pqTNDfucqOjYPiueNVKVkz9mE9wCs3am/preview"
+                        },
+                        {
+                            "title": "Shugang_Shugang_Nurettin A novel arithmetic unit using redundant Binary Signed Digit Number System.pdf",
+                            "url": "https://drive.google.com/file/d/1rr30gqQJLAkg1FQIY-0TIUJzCrtIzBc-/preview"
+                        },
+                        {
+                            "title": "Tien_Tien_Chen Maximal Redundancy SD Systems.pdf",
+                            "url": "https://drive.google.com/file/d/1jbYCAVtEM8-bB4WbIPLpdKFMJiyjr5rO/preview"
+                        },
+                        {
+                            "title": "Y.C._B._BLiu Decomposition of Binary Integers into Signed Power of Two Terms.pdf",
+                            "url": "https://drive.google.com/file/d/1ie4ElQV3scCVgO6rgQmENFwCMef7Ku_B/preview"
+                        },
+                        {
+                            "title": "Zhekai_William_Dally SpArch  Efficient Architecture for Sparse Matrix Multiplicaiton.pdf",
+                            "url": "https://drive.google.com/file/d/1j87yZkiizMfVxYHIyWbZS6w-uyaU2bke/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_MAC",
+                    "files": [
+                        {
+                            "title": "M.D._M.D._Left4 o Right Carry Free Scheme for computing ab+cd.pdf",
+                            "url": "https://drive.google.com/file/d/1FvdxZYyEw_eGBQpKQOP5hPHzlynDEQa9/preview"
+                        },
+                        {
+                            "title": "O._O._Macsorley High Speed Arithmetic in Binary Computers.pdf",
+                            "url": "https://drive.google.com/file/d/1lxz5WkmzMM04bYFC5FK44pYcgHDAVADU/preview"
+                        },
+                        {
+                            "title": "Tiffany_Maria_H.T Kung 2021 gomactech kung.pdf",
+                            "url": "https://drive.google.com/file/d/1juMn-ZL8n88ky2o54xk0Pmt9DmRs989H/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_Multiplier",
+                    "files": [
+                        {
+                            "title": "A_New_Redundant_Binary_Booth_Encoding_for_Fast_-Bi.pdf",
+                            "url": "https://drive.google.com/file/d/1ieJxVqQaCAKl97U2S0aZW__w4k5OarAa/preview"
+                        },
+                        {
+                            "title": "B.S._E.G._Friedman A hybrid radix 4radix 8 low power signed multiplier architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1kXpCbmvlsj2FnwBmeE0DDhgyd-izTTg1/preview"
+                        },
+                        {
+                            "title": "Chang-A New Redundant Binary Booth Encoding for Fast Bit Multiplier Design.pdf",
+                            "url": "https://drive.google.com/file/d/1jseGWZf8MDcqTcPH2u3K9NTnS4FSzpFO/preview"
+                        },
+                        {
+                            "title": "Chip-A New Redundant Binary Booth Encoding for Fast 2^n-Bit Multiplier Design.pdf",
+                            "url": "https://drive.google.com/file/d/1j9wjLgNQjwivSaR-uqm3dde9scIlzeUZ/preview"
+                        },
+                        {
+                            "title": "Chong-Fatt_Samir_Chong A redundant binary partial product generator based on a five bit recoding technique.pdf",
+                            "url": "https://drive.google.com/file/d/1j9EVxbKQghkvD2wtJ_8qwGEWf8yVVyIi/preview"
+                        },
+                        {
+                            "title": "D._M._Ronchi Binary canonic signed digit multiplier for high speed digital signal processing.pdf",
+                            "url": "https://drive.google.com/file/d/1pulMak96jXr8eIgzUySomR9Yyas_xQiB/preview"
+                        },
+                        {
+                            "title": "H._H._H. Makino A 8.8 ns 54x54 bit multiplier using new redundant binary architecture,.pdf",
+                            "url": "https://drive.google.com/file/d/1jxRJWD1NXxQCKW3qKr6-Wv1wnVzUaAt9/preview"
+                        },
+                        {
+                            "title": "H._H._Koichiro An 8.8 ns 54 spl times 54 bit multiplier with high speed redundant binary architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1m8BNObBVZAcj7DohZrOhHB9QjVgublBl/preview"
+                        },
+                        {
+                            "title": "H._H._Makino An 8.8 ns 54 spl times 54 bit multiplier with high speed redundant binary architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1ls-eVfxUH25ehX5x77PhxjJRth7Wnn_e/preview"
+                        },
+                        {
+                            "title": "Indranil_Swapna_Swapna A Computationally Efficient Reconfigurable Constant Multiplication Architecture Based on CSD Decoded VH.pdf",
+                            "url": "https://drive.google.com/file/d/1pHTj7EOr3JIKJBSDv_ttcf-pxEd9jpFe/preview"
+                        },
+                        {
+                            "title": "J.-J.J._D.S._Phatak Area Delay (A   T ) Efficient Multiplier Based on an Intermediate Hybrid Signed\u2013Digit.pdf",
+                            "url": "https://drive.google.com/file/d/1n5ma0JIsTlS_wsdSpvrTRAnsitm0SkGJ/preview"
+                        },
+                        {
+                            "title": "J.-J.J._D.S._Phatak Area Delay (A & T ) Efficient Multiplier Based on an Intermediate Hybrid Signed\u2013Digit.pdf",
+                            "url": "https://drive.google.com/file/d/1n6l2ng-q8A-0kRJn9vZr-hJMcMSgE7X5/preview"
+                        },
+                        {
+                            "title": "Jean_Jean_Jean Vuillemin A very fast multiplication algorithm for VLSI Implementation.pdf",
+                            "url": "https://drive.google.com/file/d/1l1sTfXXOY6LqgHdIKtPKqMHcNt7pN0u3/preview"
+                        },
+                        {
+                            "title": "Jean_Jean_Vuillemin Article A very fast multiplication algorithm for VLSI Implementation.pdf",
+                            "url": "https://drive.google.com/file/d/1qSLVot8Mhfz-Db-h5CCVtS26GIeJLBzK/preview"
+                        },
+                        {
+                            "title": "Jun Dong Cho-A high speed and low power vlsi multiplier using a redundant binary booth encoding.pdf",
+                            "url": "https://drive.google.com/file/d/1klDjSUOvXpRJl6fEhhnWdgNP1B4QDIy-/preview"
+                        },
+                        {
+                            "title": "M.A._M.A._Soderstrand CSD MULTIPLIERS FOR FPGA DSP APPLICATIONS.pdf",
+                            "url": "https://drive.google.com/file/d/1pTPw2Mec9_tMKi238vqI95GpIZky7M7k/preview"
+                        },
+                        {
+                            "title": "M.D._M.D._MD Ercegovac Left to Right Squarer with Overlapped LS and MS Parts.pdf",
+                            "url": "https://drive.google.com/file/d/1FvSuonFMk5d6G2zGQrEsM5mh_D1a0LbM/preview"
+                        },
+                        {
+                            "title": "Matula-Redundant Binary Booth Receding.pdf",
+                            "url": "https://drive.google.com/file/d/1mzWlkGOAPC-B1NP-soPvKgOKHVWT5YCg/preview"
+                        },
+                        {
+                            "title": "Matula-Redundant binary booth recoding.pdf",
+                            "url": "https://drive.google.com/file/d/1muupfEV47cp5zXGGhtoolRILYtrpCmK5/preview"
+                        },
+                        {
+                            "title": "N._R.G._Deshmukh A novel redundant Binary Signed Digit Booths Encoding.pdf",
+                            "url": "https://drive.google.com/file/d/1j7u3noci6V6vM-wMS1-OY3CiNp4djHmR/preview"
+                        },
+                        {
+                            "title": "Parhi-DESIGN OF LOW ERROR CSD FIXED-WIDTH MULTIPLIER.pdf",
+                            "url": "https://drive.google.com/file/d/1nqelivKpfbJltAQs5gTBuTHZC22R6HkI/preview"
+                        },
+                        {
+                            "title": "Parhi-Design of Low Power Error CSD Fixed Width Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1nk54pvwVlkjQF4hE-ECNy-4Vi9m4_0PW/preview"
+                        },
+                        {
+                            "title": "Parhi-Low error fixed-width CSD multiplier with efficient sign extension.pdf",
+                            "url": "https://drive.google.com/file/d/1yFVPgJIMrO6UQGXL7gJS00lgf5L2iLkj/preview"
+                        },
+                        {
+                            "title": "Shoji-Multivalues Parallel Multiplier Based on RPDNR.pdf",
+                            "url": "https://drive.google.com/file/d/1poVECsqfZ9ZcFI6sDKHPoU8cj6FPuZIA/preview"
+                        },
+                        {
+                            "title": "Shuzo-High-Speed VLSI Multiplication Algorithm with a Redundant Binary Addition Tree.pdf",
+                            "url": "https://drive.google.com/file/d/1pV7D1LiJwnmASDiwLnw6EQ-9-tfZQImO/preview"
+                        },
+                        {
+                            "title": "T._K.K._Parhi FPGA based digit serial complex number multiplier accumulator.pdf",
+                            "url": "https://drive.google.com/file/d/1nYiop0v_aSL_uvunDR2MyMn0MdmWji4D/preview"
+                        },
+                        {
+                            "title": "T._O._Rajashekhara Fast Multiplier Design Using Redundant SD Numbers.pdf",
+                            "url": "https://drive.google.com/file/d/1nzRDSbB4Xe5vjFqZmutpX0P1kEqxdDcB/preview"
+                        },
+                        {
+                            "title": "Xiaoping_Fabrizio_Fabrizio A Modified Partial Product Generator for Redundant Binary Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1iwRfU2SdpqQiAWG2IIKCw68MyyjJv4tn/preview"
+                        },
+                        {
+                            "title": "Y._N._Takagi A High Speed Multiplier Using a Redundant Binary Adder Tree.pdf",
+                            "url": "https://drive.google.com/file/d/1ozp0YOCLfHfqDEG2MW8hxjnkbEc1wvcH/preview"
+                        },
+                        {
+                            "title": "YAJIMA-High-Speed VLSI Multiplication Algorithm with a Redundant Binary Addition Tree.pdf",
+                            "url": "https://drive.google.com/file/d/1yLxS86LvZV_37sdchGlVF8-0FC65-to_/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SerDes",
+                    "files": [
+                        {
+                            "title": "Dongjun_Jongsun_Design  High Speed SerDes Transceiver for Chip to Chip Com.pdf",
+                            "url": "https://drive.google.com/file/d/18X2DZRi_xhu07pTvS4qpI6WjqV6ZOuKY/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Survey",
+                    "files": [
+                        {
+                            "title": "Shail_Baoxin_Hardware Acceleration of Sparse and Irregular Tensor Computation of ML Models  Survey and Insights.pdf",
+                            "url": "https://drive.google.com/file/d/1Tq0FZN9Jr1VczbdlfYyI2wt2By8FgcN7/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Systolic_Array",
+                    "files": [
+                        {
+                            "title": "Chiou-Yng_Chiou-Yng_Jiafeng Xie  Low Register Complexity Systolic Digit Serial Multiplier Over GF(2m) Based on Trinomials.pdf",
+                            "url": "https://drive.google.com/file/d/1ZmFPUE-cScnR7kf_Q536Usbi5tiEwr-4/preview"
+                        },
+                        {
+                            "title": "H._Chih_H.TKungMaestro, A memory on logic architecture for coordinated parallel use of many systolic arrays.pdf",
+                            "url": "https://drive.google.com/file/d/18g5nA6FIgHtJijBeYShU5GZLs-K0z4va/preview"
+                        },
+                        {
+                            "title": "Rei_Takafumi_Jiafeng R  Inversion in GF(28) With Redundant Arithmetic SEC.pdf",
+                            "url": "https://drive.google.com/file/d/1G-eCZcGii41kCA62m9kXNIAdgn5vX-cm/preview"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Books",
+            "items": [
+                {
+                    "name": "CPU",
+                    "files": [
+                        {
+                            "title": "Avinoam-Of Limits and Myths in Branch Prediction.pdf",
+                            "url": "https://drive.google.com/file/d/11-yb_ZJ2vChvccHPNfFvW7PSjLn_Fzxj/preview"
+                        },
+                        {
+                            "title": "B._J.P._LIBRO LIPASTI 2 ed Modern Processor Design  Fundamentals of Superscalar Processors ( PDFDrive ).pdf",
+                            "url": "https://drive.google.com/file/d/1_5f6_9A5NnEq_elE7DIdGPYbfFa92Uih/preview"
+                        },
+                        {
+                            "title": "Babak_Thomas_A Primer on Hardware Prefetching.pdf",
+                            "url": "https://drive.google.com/file/d/1EfDD8pbz3sXpD9XN1rGKrNbatZK9ku6U/preview"
+                        },
+                        {
+                            "title": "C.J._C.J._Cesar Thesis Superscalar Processor Design for Embedded Systems.pdf",
+                            "url": "https://drive.google.com/file/d/1gx_AwbZYrCWOtypibUL0JcO7TBxDIAVC/preview"
+                        },
+                        {
+                            "title": "Claudia_Claudia_libro BAER.pdf",
+                            "url": "https://drive.google.com/file/d/1_wgP5l4OzhvUHpFe7eiaTubd2sBEruo-/preview"
+                        },
+                        {
+                            "title": "J.M_M_Tarek Saad Abdel Parallel Processing of Best First Branch and Bound Algorithms on Distributed Memory.pdf",
+                            "url": "https://drive.google.com/file/d/18qeTuZLgPBNwOtN263mgnJmBkJuHR_Bl/preview"
+                        },
+                        {
+                            "title": "Mark_Kajal_Microarchitecture 2010 Claypool 2.pdf",
+                            "url": "https://drive.google.com/file/d/1_8GxME3fjdj6exolrBga6I71PZFlV9FG/preview"
+                        },
+                        {
+                            "title": "Muhammad_David_Hassan A Reusable Characterization of the Memory System Behavior of SPEC2017 and SPEC2006.pdf",
+                            "url": "https://drive.google.com/file/d/1Ec5dlEMADn3I5Y9DLrbKqsq_ludzgtop/preview"
+                        },
+                        {
+                            "title": "Muhammad_David_Hassan Architecturally independent and time based characterization of SPEC CPU 2017.pdf",
+                            "url": "https://drive.google.com/file/d/1pKwnBfejoq-LrTEvNbuNayYajMQbEDwH/preview"
+                        },
+                        {
+                            "title": "Muhammad_David_Hassan Protean Resource efficient Instruction Prefetching.pdf",
+                            "url": "https://drive.google.com/file/d/13U_7xevRKEBp0BCvecyqNM1BuhAvPBTO/preview"
+                        },
+                        {
+                            "title": "Yuval-Historical Study of the Development of Branch Prediction.pdf",
+                            "url": "https://drive.google.com/file/d/1CIYP-m5Yzh8TYbvNVHLzQwwxFwv-MH-l/preview"
+                        },
+                        {
+                            "title": "[The Morgan Kaufmann Series in Computer Architecture and Design ] Jim Handy - The Cache Memory Book (1998, Morgan Kaufmann Publishers) - libgen.li.pdf",
+                            "url": "https://drive.google.com/file/d/1d5B2r8p8eBhCby68M319etKDR2TANmcT/preview"
+                        },
+                        {
+                            "title": "libro_cap7.pdf",
+                            "url": "https://drive.google.com/file/d/1oduycqOBSOzutP5-WAtGMp4OVwiRYcjr/preview"
+                        },
+                        {
+                            "title": "sifive-interrupt-cookbook.pdf",
+                            "url": "https://drive.google.com/file/d/11PnlvaveG-G-NqLXAEPqCLpEgwLcGQNA/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crypto",
+                    "files": [
+                        {
+                            "title": "Hai_Yuhua_Safi Lightweight and Post Quantum Cryptography for IoTs  FPGA Implementation and Optimization.pdf",
+                            "url": "https://drive.google.com/file/d/1p1fgfXt69KQ39T_Esh_laadO1kxc46dH/preview"
+                        },
+                        {
+                            "title": "Rita_Rita_Secure and Privacy preserving Federated Learning with Explainable Artificial Intelligence for Smart Healthcare System.pdf",
+                            "url": "https://drive.google.com/file/d/1IsGB9ClAANavJtyedHdBJX3YiPIcJ4Da/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_MAC",
+                    "files": [
+                        {
+                            "title": "D.H._D.H._Bailey D.H   High precision floating point arithmetic in scientific computation (2005).pdf",
+                            "url": "https://drive.google.com/file/d/1yR1ZaDA-7Sm7QjqrIJ1GscMxo0KxAKfm/preview"
+                        },
+                        {
+                            "title": "David_David_Goldberg D. What every computer scientist should know about floating point arithmetic (1).pdf",
+                            "url": "https://drive.google.com/file/d/18pc69MjiHORRCzwKSxnIlpuOLhnYtqkk/preview"
+                        },
+                        {
+                            "title": "David_David_IEEE FP Std 754 One for the history books (1).pdf",
+                            "url": "https://drive.google.com/file/d/16a5x2apEgmzE2mSpabnfo_jlq28V_qqO/preview"
+                        },
+                        {
+                            "title": "G._V._Prasanna Analysis of High performance Floating point Arithmetic on FPGAs (1).pdf",
+                            "url": "https://drive.google.com/file/d/1Wz7iaiarx7dqkTJ7hotjBBxLUxh3Bhjt/preview"
+                        },
+                        {
+                            "title": "James_James_James H. Wilkinson   Rounding errors in algebraic processes (1994, Dover Publications)   libgen (1).lc.pdf",
+                            "url": "https://drive.google.com/file/d/1lnqIHf4Y1UVjlJ9FfCB2PQj8mW5CHf46/preview"
+                        },
+                        {
+                            "title": "Jean-Michel_Serge_Jean Michel Muller et al. Handbook of Floating Point Arithmetic (1).pdf",
+                            "url": "https://drive.google.com/file/d/1tUL68N8nvMQZNAKbPEkvFlwyhYX76rMP/preview"
+                        },
+                        {
+                            "title": "R.E._Shen_R.E. Moore Reliability in Computing (1).pdf",
+                            "url": "https://drive.google.com/file/d/1pXgV9vJ47IPcD2Z1wGnDPXRHuXOVG-rY/preview"
+                        },
+                        {
+                            "title": "Syed_Michael_S.Z Gilani Energy Efficient Floating Point Arithmetic for DSP (1).pdf",
+                            "url": "https://drive.google.com/file/d/1nncP_N8cbBhFcQVJGriHaprbIVcmxt-x/preview"
+                        },
+                        {
+                            "title": "Syed_Michael_S.Z Gilani Energy efficient floating point arithmetic for software defined radio architectures (1).pdf",
+                            "url": "https://drive.google.com/file/d/1yTrW6zqQiZK2kLBMLKBNzzaFGpiXHm3u/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Multiplier",
+                    "files": [
+                        {
+                            "title": "Vincent_Jean-Michel_Muller Accurate Complex Multiplication in Floating Point Arithmetic (1).pdf",
+                            "url": "https://drive.google.com/file/d/1dGVH8WmZKEjzInzhFuMIJSu-AF2zApi1/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "MAC",
+                    "files": [
+                        {
+                            "title": "Prelim_Disc_Logical_Design.pdf",
+                            "url": "https://drive.google.com/file/d/1utg3OCWFjs6Nk71aiM7zz9Lz-u_t-h07/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Machine_Learning",
+                    "files": [
+                        {
+                            "title": "Chao_Chao_Usman Energy efficient Online Arithmetic in Domain Specific Accelerators for Deep Learning Applications.pdf",
+                            "url": "https://drive.google.com/file/d/1gSQS7NpKVHqDRhOyfphU9GgmUB3HAuOU/preview"
+                        },
+                        {
+                            "title": "Dustin_Oliver_Fully Automated Synthesis of Power Management Controllers from UPF.pdf",
+                            "url": "https://drive.google.com/file/d/1l273jE-o1hvkjQl9ZP1lI_qErE2DyUTk/preview"
+                        },
+                        {
+                            "title": "Li-C._Li-C._Ibrahim Machine Learning in VLSI Computer Aided Design.pdf",
+                            "url": "https://drive.google.com/file/d/1XucYB3LEUkTXoB52tzpAsFIIcPWVEWXu/preview"
+                        },
+                        {
+                            "title": "L\u00edvia_Luiz_chap2.pdf",
+                            "url": "https://drive.google.com/file/d/1Yec6IDmaBXrVgrNJWqdRJ1MbcoMzQtx6/preview"
+                        },
+                        {
+                            "title": "Petra_Guy_KWON DISSERTATION 2020.pdf",
+                            "url": "https://drive.google.com/file/d/1YYivu5V6RpNkzDCovihK4Vc6I02BBqgl/preview"
+                        },
+                        {
+                            "title": "Xuechao_Jason_Jason Automated systolic array architecture synthesis for high throughput CNN inference on FPGAs.pdf",
+                            "url": "https://drive.google.com/file/d/1EUB5cV9rtp8Or_N03gV9854lAMI4rhbB/preview"
+                        },
+                        {
+                            "title": "Zhengang_Zhengang_ali thesis design amd optimization of deep learning hardware.pdf",
+                            "url": "https://drive.google.com/file/d/12mCU-FWUldX6PVWVwHlN_EmOfrbVxjbU/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Posit_General",
+                    "files": [
+                        {
+                            "title": "John_John_posit standard 2.pdf",
+                            "url": "https://drive.google.com/file/d/1hvP3TMlpUBQsXoeT9EphE-MZuWYkjYZy/preview"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Lectures",
+            "items": [
+                {
+                    "name": "Synthesis_Lectures_on_Computer_Architecture",
+                    "files": [
+                        {
+                            "title": "Abhishek_Daniel_Daniel Lustig Architectural and Operating System Support for Virtual Memory.pdf",
+                            "url": "https://drive.google.com/file/d/1rF8vDcpYGdYclq414F_uMEyX4bUKeViR/preview"
+                        },
+                        {
+                            "title": "Akanksha_Calvin_Calvin Lin Cache Replacement Policies.pdf",
+                            "url": "https://drive.google.com/file/d/1qyzIJyp6PuafQJ0uHLa0nLYsW74c4YbO/preview"
+                        },
+                        {
+                            "title": "Antonio_Grigorios_Grigorios Magklis Processor Microarchitecture.pdf",
+                            "url": "https://drive.google.com/file/d/1sIU591mAm63qXIBd0fT3v6Zz6KuuS0nj/preview"
+                        },
+                        {
+                            "title": "Babak_Thomas_David A. Wood A Primer on Hardware Prefetching.pdf",
+                            "url": "https://drive.google.com/file/d/1r4TiON92eZt7vfsy-mRvCeH3MUF4lstu/preview"
+                        },
+                        {
+                            "title": "Benjamin_Benjamin_Benjamin C. Lee Datacenter Design and Management A Computer Architect's Perspective.pdf",
+                            "url": "https://drive.google.com/file/d/1qrUSJG8HL9qVAOEdCIcbIOdjQuoUDyNU/preview"
+                        },
+                        {
+                            "title": "Bipin_Chung_Bipin Rajendran Phase Change Memory From Devices to Systems.pdf",
+                            "url": "https://drive.google.com/file/d/1r3-AgGAhEXuB5vEXGElxj2vS3N1XptgB/preview"
+                        },
+                        {
+                            "title": "Brandon_David_David Brooks Deep Learning for Computer Architects.pdf",
+                            "url": "https://drive.google.com/file/d/1rVgatelHxwgQqoiYfsTKyZQ17vX3kb2j/preview"
+                        },
+                        {
+                            "title": "Bruce Jacub-The Memory System.pdf",
+                            "url": "https://drive.google.com/file/d/1qzhnZRzVtBym042D8VfNQkzWGRNbJ6ch/preview"
+                        },
+                        {
+                            "title": "Christopher_Christopher_Christopher J. Hughes Single Instruction Multiple Data Execution.pdf",
+                            "url": "https://drive.google.com/file/d/1quV9a7vqgoeMVS--vQsUy4KFCOb7QEMU/preview"
+                        },
+                        {
+                            "title": "Daniel_Daniel_Daniel J. Sorin Fault Tolerant Computer Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1rLOBi-mgn5I0xlGLIwFtBSK1UH6F24c9/preview"
+                        },
+                        {
+                            "title": "Dennis-High Performance Networks From_Supe.pdf",
+                            "url": "https://drive.google.com/file/d/1sKR4hlKs3UyQU6W_3AWp4JpMtyU86W4j/preview"
+                        },
+                        {
+                            "title": "Edouard_Dan_Dan Tsafrir Hardware and Software Support for Virtualization.pdf",
+                            "url": "https://drive.google.com/file/d/1rMKhaIlwJRVQs1j-1u4D5_1SRQdBnrqM/preview"
+                        },
+                        {
+                            "title": "Edouard_Dan_Jason Tsafrir, Dan   Hardware and software support for virtualization.pdf",
+                            "url": "https://drive.google.com/file/d/1sp9feMhoRRbi6YMsWBXTnGq29EDvj0VE/preview"
+                        },
+                        {
+                            "title": "Hari_James_James C. Hoe FPGA Accelerated Simulation of Computer Systems.pdf",
+                            "url": "https://drive.google.com/file/d/1sVwhANjzhAAe7rChB80y9swLRy2o3S4N/preview"
+                        },
+                        {
+                            "title": "Hyesoon_Wen-mei_Hyesoon Kim  Performance Analysis and Tuning for General Purpose Graphics Processing Units.pdf",
+                            "url": "https://drive.google.com/file/d/1sISHaHoM7Vz5To1sB13HBN1o-PgcHqI2/preview"
+                        },
+                        {
+                            "title": "Jakub_Jakub_Jakub Szefer Principles of Secure Processor Architecture Design.pdf",
+                            "url": "https://drive.google.com/file/d/1sa4egSibKJrXO6BJ8Nsv1ERb0BUVHQ5K/preview"
+                        },
+                        {
+                            "title": "James_James_James E. Smith Space Time Computing with Temporal Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1sULmC8r9yQ0sJkftvOgg9u7dF17A_gs6/preview"
+                        },
+                        {
+                            "title": "James_Ravi_Ravi Rajwar   Transactional Memory.pdf",
+                            "url": "https://drive.google.com/file/d/1toZ4_ouCmU4JOTaE7h0HClkjI6fy4_ZE/preview"
+                        },
+                        {
+                            "title": "Khaled_Khaled_Daichi Fujik  In Near Memory Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1qsU6eH2oCpBcS4ZmtH2g1k7c-aLovJlq/preview"
+                        },
+                        {
+                            "title": "Kim_Kim_Kim Hazelwood Dynamic Binary Modification Tools,Techniques and Applications.pdf",
+                            "url": "https://drive.google.com/file/d/1siqi_KxoU2hgzg_dK_V63tms_rSniaUr/preview"
+                        },
+                        {
+                            "title": "Kunle_James_Kunle Olikotun Chip Multiprocessor Architecture Techniques to Improve Throughput and Latency.pdf",
+                            "url": "https://drive.google.com/file/d/1sh6q6tigLM2WqLTnID6IJtJH-yT2o6ES/preview"
+                        },
+                        {
+                            "title": "Li-Shiuan Peh-On-Chip Networks, Second Edition.pdf",
+                            "url": "https://drive.google.com/file/d/1sbZ7PRZNXz2yTWN97UKDLinc9p6754QS/preview"
+                        },
+                        {
+                            "title": "Lieven_Lieven_Lieven Eeckhout Computer Architecture Performance Evaluation Methods.pdf",
+                            "url": "https://drive.google.com/file/d/1tUd38GfxRMNB63v_Vg558ZzgHPMJW56F/preview"
+                        },
+                        {
+                            "title": "Luiz_Parthasarathy_Parthasarathy Ranganathan The Datacenter as a Computer Designing Warehouse Scale Machines.pdf",
+                            "url": "https://drive.google.com/file/d/1tb0K6DZ-JF41bqTg0ScdKODimFxuQYlP/preview"
+                        },
+                        {
+                            "title": "Luiz_Urs_The Datacenter as a Computer  An Introduction to the Design of Warehouse Scale Machines.pdf",
+                            "url": "https://drive.google.com/file/d/1ts-P5_XwoUKDeubWK8-IlH0HJrHOUyBP/preview"
+                        },
+                        {
+                            "title": "M.M._M.L._Michael L. Scott   Shared Memory Synchronization.pdf",
+                            "url": "https://drive.google.com/file/d/1tgbDYmPIp5toQIoiDKhF-W7MZh5wKsIJ/preview"
+                        },
+                        {
+                            "title": "Magnus_Stefanos_Stefanos Kaxiras Power Efficient Computer Architectures Recent Advances.pdf",
+                            "url": "https://drive.google.com/file/d/1tsKMAQk0hwm7_juFEw0pXiqvRa9ohQSs/preview"
+                        },
+                        {
+                            "title": "Marco_Robert_Robert Rosenberg   Introduction to Reconfigurable Supercomputing.pdf",
+                            "url": "https://drive.google.com/file/d/1tjKlBkWys9CU4tev5BL6CpFDEVNyZsPX/preview"
+                        },
+                        {
+                            "title": "Mario_Dean_Dean M. Tullsen Multithreading Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1sNrallwEiG5asx0C2_aoQmoLKMEj_Ej_/preview"
+                        },
+                        {
+                            "title": "Matthew_Natalie_Natalie Enright Jerger On Chip Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1tcDGGJ5c-x0wLWzYZDAP4GiRBlhMFAne/preview"
+                        },
+                        {
+                            "title": "Rajeev_Naveen_Norman Jouppi   Multi Core Cache Hierarchies.pdf",
+                            "url": "https://drive.google.com/file/d/1tc4la2T6Qn1Q-p2ZbxPMljlglcDonCgX/preview"
+                        },
+                        {
+                            "title": "Rajeev_Rajeev_Rajeev Balasubramonian Innovations in the Memory System.pdf",
+                            "url": "https://drive.google.com/file/d/1tqzj4It0Z6mIRmLaG9LRXTwkMN2E-spx/preview"
+                        },
+                        {
+                            "title": "Rajesh_Ruchir_Ruchir Puri Analyzing Analytics.pdf",
+                            "url": "https://drive.google.com/file/d/1tsiC_97A3wHXWLjotlPinSD2nY_PJzm2/preview"
+                        },
+                        {
+                            "title": "Ruby_Ruby_Ruby B. Lee Security Basics for Computer Architects.pdf",
+                            "url": "https://drive.google.com/file/d/1thSbFML6UvKeSxALibDT6p8IpOSEFnU7/preview"
+                        },
+                        {
+                            "title": "Samuel_Samuel_Samuel P. Midkiff Automatic Parallelization  An Overview of Fundamental Compiler Techniques.pdf",
+                            "url": "https://drive.google.com/file/d/1tsXdCCRm4BPdxgHG_xbBGnTBI5wIn4B7/preview"
+                        },
+                        {
+                            "title": "Sergio_Sergio_Luiz Barroso The Data Center as a Computer.pdf",
+                            "url": "https://drive.google.com/file/d/1tJ75UuAOuMLKSvL3fLxOecotYHGcfYQ0/preview"
+                        },
+                        {
+                            "title": "Somayeh_David_David Brooks A Primer on Compression in the Memory Hierarchy No Access.pdf",
+                            "url": "https://drive.google.com/file/d/1rXwIWosWxpfRA6XgnNZ9T3HiVx-7uXZV/preview"
+                        },
+                        {
+                            "title": "Stefanos_Margaret_Margaret Martonosi   Computer Architecture Techniques for Power Efficiency.pdf",
+                            "url": "https://drive.google.com/file/d/1t4CATuRM692bS7DO8pl2TP0_EW7-gN00/preview"
+                        },
+                        {
+                            "title": "Steven_Mark_Mark Horowitz Compiling Algorithms for Heterogeneous Systems.pdf",
+                            "url": "https://drive.google.com/file/d/1szV7stpvv68eXI4BFVMMxXTrmyRpsRyh/preview"
+                        },
+                        {
+                            "title": "Tim_Ravi_Tim Harris Transactional Memory, 2nd edition.pdf",
+                            "url": "https://drive.google.com/file/d/1u6GFemOVBXhrKYAojQx3R4RZ-HT41RZm/preview"
+                        },
+                        {
+                            "title": "Tony_David_David Wood Optimization and Mathematical Modeling in Computer Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1rN61qCsVOXCEgM_qcD0Iwjjnp-BlNn-Y/preview"
+                        },
+                        {
+                            "title": "Tor_Timothy_Timothy G. Rogers General Purpose Graphics Processor Architectures.pdf",
+                            "url": "https://drive.google.com/file/d/1u1FIDrGBb6PCpb_4bipjJWESg9YpCzf-/preview"
+                        },
+                        {
+                            "title": "Tushar_Ananda_Tushar Data Orchestration in DL Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1u-dlBfNAK-0K4FFvT3izJt4lWvfzXyqV/preview"
+                        },
+                        {
+                            "title": "Tzvetan_Frederic_Arvin Faruque Quantum Computing for Computer Architects.pdf",
+                            "url": "https://drive.google.com/file/d/1qs1y1IRN_1C2EPw2Ec8mIFtbI-JHe6tD/preview"
+                        },
+                        {
+                            "title": "Vijay_David_David A. Wood   A Primer on Memory Consistency and Cache Coherence.pdf",
+                            "url": "https://drive.google.com/file/d/1rEtaUoY0Oc4X3HpbJTDbb-DGkdXuQ7yw/preview"
+                        },
+                        {
+                            "title": "Vijay_David_David A. Wood A Primer on Memory Consistency and Cache Coherence, Second Edition.pdf",
+                            "url": "https://drive.google.com/file/d/1r3UDZWxk9z9IjlMeRfpv9sq0sn01U8bS/preview"
+                        },
+                        {
+                            "title": "Vijay_Meeta_Meeta Sharma Gupta Resilient Architecture Design for Voltage Variation.pdf",
+                            "url": "https://drive.google.com/file/d/1sv97dJb_szeeK0XqZM7TYSl2-xSdXsmw/preview"
+                        },
+                        {
+                            "title": "Vivienne_Joel_Vivienne Sze, Yu Hsin Chen, Tien Ju Yang, Joel S. Emer   Efficient Processing of Deep Neural Networks (2020, Morgan and Company)   libgen.lc.pdf",
+                            "url": "https://drive.google.com/file/d/1u84fG4y8Kb4yfWpuIU8-8roDKtmKTZqP/preview"
+                        },
+                        {
+                            "title": "Yakun_David_David Brooks Research Infrastructures for Hardware Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1rRauTaVLfBFqVsbPVoxsQh_0HoaraiVd/preview"
+                        },
+                        {
+                            "title": "Yongshan_Frederic_rederic T. Chong Quantum Computer Systems Research for Noisy Intermediate Scale Quantum Computers.pdf",
+                            "url": "https://drive.google.com/file/d/1tmimYNM8UhP50GkJrrjC4zKPaWn1mY6a/preview"
+                        },
+                        {
+                            "title": "Yu-Ting_Bingjun_Bingjun Xiao Customizable Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1qpLW5neeilBje-gcIqiEoHk1V_yu0DN5/preview"
+                        },
+                        {
+                            "title": "Yuan_Jishen_Jishen Zhao Die stacking Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1sjf_Bh7LCvRI5BCi_3lJMyeUsjiR2HoN/preview"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Patents",
+            "items": [
+                {
+                    "name": "Accelerator",
+                    "files": [
+                        {
+                            "title": "Chia-Matrix Multiplication on SA.pdf",
+                            "url": "https://drive.google.com/file/d/1NOFTQqmmq1wDpnpYHBrgJiqxh0Vnx6jA/preview"
+                        },
+                        {
+                            "title": "D. Patterson-Architectues for high performance power efficient programmable image processing.pdf",
+                            "url": "https://drive.google.com/file/d/1NNrRYqvY2vh0PFYPnZfc8tV-SfJT5Qov/preview"
+                        },
+                        {
+                            "title": "Dicky_Joni_Tesla Accelerated mathematical engine.pdf",
+                            "url": "https://drive.google.com/file/d/1EUXSUN_VYIqHafTkcteqPqJs4avdeGJL/preview"
+                        },
+                        {
+                            "title": "N._P.A._D. Patterson Two Dimensional Shift Array For Image Processor.pdf",
+                            "url": "https://drive.google.com/file/d/1NNdVfLQ2ZUlJfDX9_xxdDWDcVqiecK_z/preview"
+                        },
+                        {
+                            "title": "US11270196.pdf",
+                            "url": "https://drive.google.com/file/d/191YmLnMb4UXoq2ijGuQloRg3xyrRF8oJ/preview"
+                        },
+                        {
+                            "title": "V._C._Radix4 Patent.pdf",
+                            "url": "https://drive.google.com/file/d/1__0UIzOULvqPcIG78Q0RFbfn1bOhiz_e/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Adder",
+                    "files": [
+                        {
+                            "title": "Detlef_Detlef_Calif LZA.pdf",
+                            "url": "https://drive.google.com/file/d/1DXDN-qeZKmP-5cmXaL_jYcQqYVzLloId/preview"
+                        },
+                        {
+                            "title": "Flynn-patent-LOP.pdf",
+                            "url": "https://drive.google.com/file/d/1DFzhozkDjFEP1K0WNDtOUxy28RWsy2Ap/preview"
+                        },
+                        {
+                            "title": "Genichiro Inoue-LZA.pdf",
+                            "url": "https://drive.google.com/file/d/1D6lLh7tJ6H_R0Xwl46p-9KncjtODzowK/preview"
+                        },
+                        {
+                            "title": "Horowitz- FLOATING-POINT MULTIPLY-ADD UNIT.pdf",
+                            "url": "https://drive.google.com/file/d/1Fd4FV9LDuQhwGmFzCjepbh1UUdSmDtbB/preview"
+                        },
+                        {
+                            "title": "Kroner-Block Normalization in MAF.pdf",
+                            "url": "https://drive.google.com/file/d/1EbCPxTaFkZBNSkYYgBwTeDXpJaccPoVI/preview"
+                        },
+                        {
+                            "title": "Liang-Kai_Michael_Schwarz System and method for a floating point unit with feedback prior to normalization and rounding.pdf",
+                            "url": "https://drive.google.com/file/d/1E7fndOXGYnl7t2VpSjZ4OaNcftoHhEyJ/preview"
+                        },
+                        {
+                            "title": "Ling-hao_Li_Schmookler Two State Leading Zero Anticipator.pdf",
+                            "url": "https://drive.google.com/file/d/1EACRsvCfsDpHsUqNaAQtEylZFDBLuLa2/preview"
+                        },
+                        {
+                            "title": "Minn-Floating Point Normalization and Rounding.pdf",
+                            "url": "https://drive.google.com/file/d/1EYIglUDs8Ng9RcoFV2Pv726R4WLcmX9o/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_MAC",
+                    "files": [
+                        {
+                            "title": "Adam-Efficient correction of normalizer shift amount errors in fused multiply add operations.pdf",
+                            "url": "https://drive.google.com/file/d/1DaYt06mGAPSoHlrSf1b_tz_AXjOPwc1P/preview"
+                        },
+                        {
+                            "title": "Britton-Leading One-Zero Bit Detector for Floating Point Operation.pdf",
+                            "url": "https://drive.google.com/file/d/1DXSQlSbZc8V-8lFCkIz0mEADze-FVJoG/preview"
+                        },
+                        {
+                            "title": "David_David_Flynn SUGGESTIONS FOR IMPLEMENTING A FAST IEEE MULTIPLY Add.pdf",
+                            "url": "https://drive.google.com/file/d/1DEX98xtQtyYZdZ3AVTR0kW4U02ppbj-l/preview"
+                        },
+                        {
+                            "title": "Giorgos_Dimitris_Nikolos Low Power Leading Zero Counting and Anticipation Logic for High Speed FPU.pdf",
+                            "url": "https://drive.google.com/file/d/1EPXoXOr9D0vAgc6Tkt2WLRY8VPQ_SaqR/preview"
+                        },
+                        {
+                            "title": "Hook-Method and system for performing floating point operations in unnormalized format using a floating point accumulator.pdf",
+                            "url": "https://drive.google.com/file/d/1FgR1X783rdNM6TPOO4SnujlAeGhtVPlG/preview"
+                        },
+                        {
+                            "title": "John_John_Amir Patent Partitioned Shift Right Logic Circuit having Rounding Support.pdf",
+                            "url": "https://drive.google.com/file/d/1DXvlF-KZOViRFaNXMFbp2IYsESZvg2mk/preview"
+                        },
+                        {
+                            "title": "Jonas_Jonas_nvidia teslap100 techoverview.pdf",
+                            "url": "https://drive.google.com/file/d/1MJT_OmFBT54zE0UibEYRqFvw81gsyF9q/preview"
+                        },
+                        {
+                            "title": "Jordan_Jordan_pascal architecture whitepaper v1.2.pdf",
+                            "url": "https://drive.google.com/file/d/1M7gv0bVy4S0CEh6WPG3-xzbmIwEKCEJV/preview"
+                        },
+                        {
+                            "title": "Katsuhisa_Toru_Schwarz Fused Multiply Add Data Flow with Early Feedback Prior to Rounding.pdf",
+                            "url": "https://drive.google.com/file/d/1E8HUo_SB_IoQM9cTqx2iB2UCpVu6FFJ4/preview"
+                        },
+                        {
+                            "title": "Michael_Paula_Flynn Leading One Prediction.pdf",
+                            "url": "https://drive.google.com/file/d/1DLTBdSWjrtAznI2ycL-Ei7dc87HZL_FF/preview"
+                        },
+                        {
+                            "title": "Nicolas_Nicolas_EM Schwarz Patent FUSED MULTIPLY ADD SPLIT FOR Multiple Precision Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1DLsQHW-f5FxlkMbj0Ytwv7kSJ5zxysAw/preview"
+                        },
+                        {
+                            "title": "Runyon-Floating Point Arithmetic Two Cycle Data Flow.pdf",
+                            "url": "https://drive.google.com/file/d/1EPTSB6g9eQZhfekKe4QFUJd7uAc_cgQb/preview"
+                        },
+                        {
+                            "title": "Tomoji-Floating-point data rounding and normalizing circuit.pdf",
+                            "url": "https://drive.google.com/file/d/1E2Pplxmg4q8XdZ_RIuHqz0W-s9eX3TTR/preview"
+                        },
+                        {
+                            "title": "nvidia-tesla-p100-datasheet.pdf",
+                            "url": "https://drive.google.com/file/d/1MPBXkmHU24ho929Jlp_Th9j0tRw7l2XR/preview"
+                        },
+                        {
+                            "title": "tesla-application-performance-guide-us-nv-r18-web.pdf",
+                            "url": "https://drive.google.com/file/d/1M6DlPosbNkVVoC-3MQ_Q4WUTxzpmsMfl/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Multiplier",
+                    "files": [
+                        {
+                            "title": "Hao_Seok-Bum_S.Z. Gilani Patent High Efficiency Computer Floating Point Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1EApXEcmo03l-iZfTwbXnbd0YcLIIm7K3/preview"
+                        },
+                        {
+                            "title": "Rajkumar_Ketan_Jiang Floating point multiply and accumulate unit with classes for alignment and normalization.pdf",
+                            "url": "https://drive.google.com/file/d/1EilaAqxaFeq6QtShh6OwXl0TzlMPzgLb/preview"
+                        },
+                        {
+                            "title": "Rohit_Manisha_Ho patent Architecture to Implement Floating Point Multiply Operations.pdf",
+                            "url": "https://drive.google.com/file/d/1EmJfXehv15shRQbUrP5c1Z50v4PzXJRT/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Machine_Learning",
+                    "files": [
+                        {
+                            "title": "Irina_Irina_Data Flow accelerator archtecture for general matrix matrix multiplicaiton and tensor computation in deep learning.pdf",
+                            "url": "https://drive.google.com/file/d/1Y4ZkqWpXMClG1hMMCyN50OG1UhEFqlKx/preview"
+                        },
+                        {
+                            "title": "Irina_Irina_Peng Data Flow accelerator archtecture for general matrix matrix multiplicaiton and tensor computation in deep learning.pdf",
+                            "url": "https://drive.google.com/file/d/13SvvBjzzc78IJXyKEg6i60kBpU2PZ5J0/preview"
+                        },
+                        {
+                            "title": "Jieming_Jieming_Patent on Systolic Array matrix.pdf",
+                            "url": "https://drive.google.com/file/d/1jDx3iruGXpWpACJV7JkmI6CUUEHC5C0r/preview"
+                        },
+                        {
+                            "title": "Miao_Miao_Systolic Multiplier Patent.pdf",
+                            "url": "https://drive.google.com/file/d/1odXLbVqSCSHmLcgcjJQQ0Rx3JU59vbtq/preview"
+                        },
+                        {
+                            "title": "Sakiko_Tatsuya_Systolic Patent 2.pdf",
+                            "url": "https://drive.google.com/file/d/1mv5ryIXMVIQwydCV4JJT-c5dX9sx36c_/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multiplier",
+                    "files": [
+                        {
+                            "title": "Amir-Patant Booth Encoder-2001.pdf",
+                            "url": "https://drive.google.com/file/d/1vRz6PgB_-VDIjMb1lR1aI41TsUVyIGb7/preview"
+                        },
+                        {
+                            "title": "Anna_Anna_Julian G. Payne Patent on Radix4.pdf",
+                            "url": "https://drive.google.com/file/d/1vcfmkhGEWDRHJ9XXDU6h_YGyoAGch8UO/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_Adder",
+                    "files": [
+                        {
+                            "title": "Ghassem_Saeid_Tamotsu Adder circuitry utilizing redundant signed digit operands.pdf",
+                            "url": "https://drive.google.com/file/d/1qjEH6vn-CmsQshtV43QhE3GdwsZoyXxY/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_General",
+                    "files": [
+                        {
+                            "title": "Abdallah_Abdallah_Tamotsu Patent Signed Digit Arithmetic Processing Units with Binary Operands.pdf",
+                            "url": "https://drive.google.com/file/d/1qeczG_lD7OhECrDytXtBzEMfUHcVoHvr/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_Multiplier",
+                    "files": [
+                        {
+                            "title": "Manju_Sahithi_Quek Patent Apparatus For Determining Booth Recoder Input Control Signal.pdf",
+                            "url": "https://drive.google.com/file/d/1oBINGw5y-CA9Q6wAPbduWJEvzw601VP-/preview"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Presentations",
+            "items": [
+                {
+                    "name": "Accelerator",
+                    "files": [
+                        {
+                            "title": "Alvin_Alvin_Vivienne Sze Understanding the Challenges of Algorithm and Hardware in DNN @MIT.pdf",
+                            "url": "https://drive.google.com/file/d/1aQkfURjPtAk1s6iXBa8fWUvBsm4GZ7Lh/preview"
+                        },
+                        {
+                            "title": "Mike_Mike_Tutorial on DNN All Parts by MIT.pdf",
+                            "url": "https://drive.google.com/file/d/1V6j0C9Zo0TCjyOTcOBusdKrCt8OWjfIw/preview"
+                        },
+                        {
+                            "title": "Nicholas_Lijing_Nicholas Higham Matrix Functions and their Sensitivity.pdf",
+                            "url": "https://drive.google.com/file/d/1aD-DLngoFaU88mUtf8mUgkfXdyQpkD2a/preview"
+                        },
+                        {
+                            "title": "Raymond_Dianne_Nicholas Higham Trips and Tricks in Matrix Computation.pdf",
+                            "url": "https://drive.google.com/file/d/1a12NE4zLiof2RsgVOU2UdSYifx3lTQgf/preview"
+                        },
+                        {
+                            "title": "Vincent_Vincent_On the representation and multiplication of hypers.pdf",
+                            "url": "https://drive.google.com/file/d/1_b76-51Z4Kr7ogmAEETrWHS-aUNrADAq/preview"
+                        },
+                        {
+                            "title": "Vivienne-Sze-Timeloop Accelergy Tutorial-I 2020.pdf",
+                            "url": "https://drive.google.com/file/d/1aJxz-7zvjvJeYP1RlPdw962yPKwQOYfP/preview"
+                        },
+                        {
+                            "title": "Vivienne-Sze-Timeloop Accelergy Tutorial-II 2020.pdf",
+                            "url": "https://drive.google.com/file/d/1aU6NDh5hhwY_gztyXV_5hS7FcYipXDCe/preview"
+                        },
+                        {
+                            "title": "Yu-Hsin_Vivienne_eyeriss isscc 2016 slides.pdf",
+                            "url": "https://drive.google.com/file/d/1M13rzmOKEYFpDyD7bDdn1d_b6Pmiuxnm/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Adder",
+                    "files": [
+                        {
+                            "title": "A.K._P._to Maximize the Use of Carry Save Representation in Arithmetic Circuits.pdf",
+                            "url": "https://drive.google.com/file/d/1vD3tSFBWTb3Gm-2dyVJvneZ8X7nkXEGP/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "General",
+                    "files": [
+                        {
+                            "title": "Peter_Andreas_Christopher Batten A New Era of OpenSource Hardware.pdf",
+                            "url": "https://drive.google.com/file/d/10CgY9h3t5n8K7wMIoT0YHDLhSvfEm1Ca/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "CPU",
+                    "files": [
+                        {
+                            "title": "Andes-RVV-Webinar-I.pdf",
+                            "url": "https://drive.google.com/file/d/1sa6vRTVUSlYDrzomTjOZmD4gkPwXXQQ6/preview"
+                        },
+                        {
+                            "title": "Andes-RVV-Webinar-II_final.pdf",
+                            "url": "https://drive.google.com/file/d/1SZUosfjiwYuHZMn-IJUfm4oL9a_5LzIF/preview"
+                        },
+                        {
+                            "title": "Andes-RVV-Webinar-IV.pdf",
+                            "url": "https://drive.google.com/file/d/1f1_LWs8DdGEakpI3D23EaK2rKjR4V6kI/preview"
+                        },
+                        {
+                            "title": "Bente_Charlotte_Jensen 2004.pdf",
+                            "url": "https://drive.google.com/file/d/1akJzBMC7NhqjNesHq16PwDEhVwv9Zd-e/preview"
+                        },
+                        {
+                            "title": "David_David_Bromley 2007.pdf",
+                            "url": "https://drive.google.com/file/d/1htSHisD54Hr9Q666MZxQ_8rj7gn8MU8h/preview"
+                        },
+                        {
+                            "title": "MDP.pptx.pdf",
+                            "url": "https://drive.google.com/file/d/1oXCxIjrHN3gfP9gJcR4G8QweQugKJcHp/preview"
+                        },
+                        {
+                            "title": "Sutherland_2004.pdf",
+                            "url": "https://drive.google.com/file/d/1fbkzO3tFqtkEgCEioGg-efbyS7BAZ4yN/preview"
+                        },
+                        {
+                            "title": "Testing_Testing_slides.pdf",
+                            "url": "https://drive.google.com/file/d/1vA-JNTRjhMJMnwHoTLnykPGqPX4Hgj2F/preview"
+                        },
+                        {
+                            "title": "VAGU-AGT-Presentation.pdf",
+                            "url": "https://drive.google.com/file/d/1lohZanSDqXzPZEzT07Q1wiAnveO0T0oP/preview"
+                        },
+                        {
+                            "title": "Ventana HotChips23 - Final.pdf",
+                            "url": "https://drive.google.com/file/d/13WzdaC421mnu8Ri0ynKQOyKPdfzwsb_D/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Adder",
+                    "files": [
+                        {
+                            "title": "Peter_Peter_Kornerup Correcting the Normalization Shift of Redundant Binary Representations.pdf",
+                            "url": "https://drive.google.com/file/d/10DaxDeZtohZkFnoMgRj3kcljD-dNF3xs/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_MAC",
+                    "files": [
+                        {
+                            "title": "David_David_FP ANR A representation format to handle floating point cancellation at runtime.pdf",
+                            "url": "https://drive.google.com/file/d/1zGl59P2ld4-rS-ihClUqi4YTOTkHZyqO/preview"
+                        },
+                        {
+                            "title": "FP-L4_Notes-Concordia.pdf",
+                            "url": "https://drive.google.com/file/d/1D5geTpoo2YqI2jSvEeaLmBnbISWnqOPU/preview"
+                        },
+                        {
+                            "title": "FloatingPoint.Handout CERN.pdf",
+                            "url": "https://drive.google.com/file/d/1BetrZyespsbyjk15uxnzVuZr86vuyMWl/preview"
+                        },
+                        {
+                            "title": "Iain_Iain_Dake Liu Presentation on MAC.pdf",
+                            "url": "https://drive.google.com/file/d/1BfWMYC0EoywBr-9a_3_0dsSY-n9oXDbc/preview"
+                        },
+                        {
+                            "title": "P._F.E._Frederick Petry Higher radix floating point representations.pdf",
+                            "url": "https://drive.google.com/file/d/1zEOdno4ayxfGuQCKvnq2f6sPJmouvteg/preview"
+                        },
+                        {
+                            "title": "Sylvie_Jean-Michel_Kornerup Floating Point Arithmetic on Round to Nearest Representation.pdf",
+                            "url": "https://drive.google.com/file/d/106BUaEWpBFe1x3-4a5Pv68Zoc33gBC_D/preview"
+                        },
+                        {
+                            "title": "T._C._Chen Fast digit parallel conversion of signed digit into conventional representations.pdf",
+                            "url": "https://drive.google.com/file/d/1yk75bZCId69Br20kZO5PCQ86mgc9lz-P/preview"
+                        },
+                        {
+                            "title": "Y._Y._FP Computation Handout, Cambridge.pdf",
+                            "url": "https://drive.google.com/file/d/1BRaSOYGM5wvvZLr_wv7w43XG6FZs2YEI/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "MAC",
+                    "files": [
+                        {
+                            "title": "Algirdas_Algirdas_Avizienis Signed Digit Numbe Representations for Fast Parallel Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1UBSCKVetyY7wjK4PPLxf0jeHNo2yEjpI/preview"
+                        },
+                        {
+                            "title": "Arith22Talk.pdf",
+                            "url": "https://drive.google.com/file/d/1xcQ0C62JSXfrE-TovAPjcIkghcthK7KG/preview"
+                        },
+                        {
+                            "title": "Deirdre_Deirdre_Lecture 7 by M.J. Flynn Standfor University.pdf",
+                            "url": "https://drive.google.com/file/d/1xEwtbuv-o-bsUZaS159QpHWe3ZRe-oK4/preview"
+                        },
+                        {
+                            "title": "Ercegovac-Alternative on-the-fly conversion of redundant into conventional representations.pdf",
+                            "url": "https://drive.google.com/file/d/121oN08zXIOXlwA_T4IXoeoafdxoW-EvS/preview"
+                        },
+                        {
+                            "title": "H.R._K.K._Parhi High Speed VLSI Arithmetic Processor Architectures Using Hybrid Number Representation.pdf",
+                            "url": "https://drive.google.com/file/d/10qmmon6d-gRQpJjEONLI0tg78oS_Lmae/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Machine_Learning",
+                    "files": [
+                        {
+                            "title": "Chen_Jason_Jason Caffeine Towards Uniformed Representation and Acceleration for Deep Convolutional Neural Networks.pdf",
+                            "url": "https://drive.google.com/file/d/1mNkhvTvi8VrLu1nrNyuiRnI7zqFT_I6j/preview"
+                        },
+                        {
+                            "title": "Full_Presentaiton.pdf",
+                            "url": "https://drive.google.com/file/d/1QTPtr5wNADXRS9_-l-fq7no7wtvMlzNE/preview"
+                        },
+                        {
+                            "title": "Gordon_Tushar_Tiled Matrix Multiplication.pdf",
+                            "url": "https://drive.google.com/file/d/1y5atJ5UCr2R9_DR9YE-4HnlNtBbmmwCo/preview"
+                        },
+                        {
+                            "title": "Hana_Rohit_Derrick DNN Dataflow Overrated.pdf",
+                            "url": "https://drive.google.com/file/d/1K5DobXHGFzhQ7XI055nTOA4SIvvTbeZS/preview"
+                        },
+                        {
+                            "title": "Kung-Don\u2019t Use a Single Large Systolic Array, Use Many Small Ones Instead.pdf",
+                            "url": "https://drive.google.com/file/d/18T5kSuv-zO7WERYzpI66DIKfyUsUJs5N/preview"
+                        },
+                        {
+                            "title": "Massimiliano_Nicholas_Nicholas Higham Multiprecision Algorithms.pdf",
+                            "url": "https://drive.google.com/file/d/1ahJ65BuUc547pfr0ZHn74Tk_S6SABhTL/preview"
+                        },
+                        {
+                            "title": "Murad_Murad_Vivienne Sze Efficient Processing of Deep Neural Networks from Algorithms to Hardware Architectures.pdf",
+                            "url": "https://drive.google.com/file/d/1a-BasW-lQu_BKM_5ycx-C_9IjA-pef9e/preview"
+                        },
+                        {
+                            "title": "Nicholas_Nicholas_Nicholas Higham The Rise of Multiprecision.pdf",
+                            "url": "https://drive.google.com/file/d/1_UsqHQf_xzF0m3g7IshBWCkvpnotoRmJ/preview"
+                        },
+                        {
+                            "title": "Nicholas_Srikara_Nicholas Higham Accelerating Scientific Discovery with Low Precision Floating Point Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1dUK_pdzIU-D6QOImmg7XkW8vkychHGWM/preview"
+                        },
+                        {
+                            "title": "Nicholas_Srikara_Nicholas Higham Exploiting Low Precision Arithmetic in the Solution of Linear Systems.pdf",
+                            "url": "https://drive.google.com/file/d/1xQK69OH_t3TrVMo6qOaiX-D0ggJUqy5n/preview"
+                        },
+                        {
+                            "title": "Nicholas_Srikara_Nicholas Higham Exploiting Mixed Precision Arithmetic for Fast Solution of Positive Definite Linear Systems.pdf",
+                            "url": "https://drive.google.com/file/d/1w8LK0y8_JWPXQY1eb3IEfLRGzi7M5-rq/preview"
+                        },
+                        {
+                            "title": "Shiho_Shiho_B. Catanzaro Computer arithmetic in deep learning.pdf",
+                            "url": "https://drive.google.com/file/d/1XI4-MBdsrJnnzbSojyluveycfTtZOEL3/preview"
+                        },
+                        {
+                            "title": "Vivienne_Joel_Vivienne Sze How to Evaluate DNN Accelerators 2020.pdf",
+                            "url": "https://drive.google.com/file/d/1aNpuAwiRydkDUSl7VB-rq3zCuCbhn2jI/preview"
+                        },
+                        {
+                            "title": "W.-T._W.-T._Tutorial   Systolic Arrays.pdf",
+                            "url": "https://drive.google.com/file/d/1xhX_U4AQ8nQd9acOX1Ku0lVyrsGN4FCo/preview"
+                        },
+                        {
+                            "title": "posits_brief.pdf",
+                            "url": "https://drive.google.com/file/d/18J11_d8e_0qzP0NWt1TsYFOIJeiWcLZZ/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multiplier",
+                    "files": [
+                        {
+                            "title": "Lect-Multiplier.pdf",
+                            "url": "https://drive.google.com/file/d/1xWMzzjWSp3NtgR18KyPbOb8PP1vR-cyX/preview"
+                        },
+                        {
+                            "title": "Shigeo_Naofumi_S. Kuninob Design of high speed MOS multiplier and divider using redundant binary representation.pdf",
+                            "url": "https://drive.google.com/file/d/1cXWDH14Tyl0A03427zSuns6GK16HkQTf/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_Adder",
+                    "files": [
+                        {
+                            "title": "D.S._I._Israeil Hybrid SD number systems a unified framework for redundant number representations with bounded carry propagation chains.pdf",
+                            "url": "https://drive.google.com/file/d/1loxBx9v8TzJaNH84CCE69iPdljT9qo1-/preview"
+                        },
+                        {
+                            "title": "D.S._I._Phatak SD vs Conventional Intermediate Representation in Two Operand Adders.pdf",
+                            "url": "https://drive.google.com/file/d/1oZVktU6MX0dzxwJrCJ7tS5NrKctInrxn/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_Division",
+                    "files": [
+                        {
+                            "title": "Shigeo_Naofumi_Takagi Design of high speed MOS multiplier and divider using redundant binary representation.pdf",
+                            "url": "https://drive.google.com/file/d/1onbIeBpUdcQbKqunxEeaB2IMf_2WZzQh/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_General",
+                    "files": [
+                        {
+                            "title": "D.S._I._Israel Hybrid signed digit number systems  a unified framework for redundant number representations with.pdf",
+                            "url": "https://drive.google.com/file/d/1lTCFNmGG1lnZJyB9OcAtidcohFi6ikQ7/preview"
+                        },
+                        {
+                            "title": "E._O._Gustafsson Bidirectional conversion to minimum signed digit representation.pdf",
+                            "url": "https://drive.google.com/file/d/1kCcYF-ynVm07cq8DZVRMvW5Vj30D7--T/preview"
+                        },
+                        {
+                            "title": "H._S._Kabuo Accurate rounding scheme for the Newton Raphson method using redundant binary representation.pdf",
+                            "url": "https://drive.google.com/file/d/1k_W-EoEj3GG7gIynhqrqvhEKnKbfSkaA/preview"
+                        },
+                        {
+                            "title": "N._S._Takagi Naofumi Hardware Algorithms for Arithmetic Operations with a Redundant Representation.pdf",
+                            "url": "https://drive.google.com/file/d/1rvvcY5Xe6wZzwr5kDFOISJf2gM1m0scR/preview"
+                        },
+                        {
+                            "title": "Robert-Digit-Pipelined_Arnthmetic_as_Illustrated_by_the_Paste-Up_System_A_Tutorial.pdf",
+                            "url": "https://drive.google.com/file/d/1oibbB9IUFn3b3M7YhkezE1pAt9DSDjgs/preview"
+                        },
+                        {
+                            "title": "S._T._Shoji Parallel hardware algorithms with redundant number representations for MVA VLSI.pdf",
+                            "url": "https://drive.google.com/file/d/1peDrDbT4hQWIwEAT_vWcmDwmhGdPiGL5/preview"
+                        },
+                        {
+                            "title": "T._A._Rajashekhara Conversion from signed digit to radix compliment representation.pdf",
+                            "url": "https://drive.google.com/file/d/1o9SFiH5QO9GVfke7Pgunm8FKQTlxgReU/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_Multiplier",
+                    "files": [
+                        {
+                            "title": "Mythili-Design of a new compact and regular 8x8 multiplier using redundant binary number representation.pdf",
+                            "url": "https://drive.google.com/file/d/1mfmrRHMfJ0AQUF8BZ_EssBI-7NPyelSd/preview"
+                        },
+                        {
+                            "title": "Naofumi_Shuzo_Shuzo  On Line Error Detectable High Speed Multiplier using Redundant Binary Representation and Three Rail Logic.pdf",
+                            "url": "https://drive.google.com/file/d/1pbTrZJAx3VkuQXDm6DVK-mMEJ9Yy6U3v/preview"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Published_Issues",
+            "items": [
+                {
+                    "name": "Accelerator",
+                    "files": [
+                        {
+                            "title": "Bert_Marian_Moons DVAFS.pdf",
+                            "url": "https://drive.google.com/file/d/1Kwft7HeZKNDhTjG6ggq6MbMp7QfZUz6o/preview"
+                        },
+                        {
+                            "title": "Yoonjin_Rabi_Yoonjin Kim, Rabi N. Mahapatra   Design of Low Power Coarse Grained Reconfigurable Architectures CRC Press (2010).pdf",
+                            "url": "https://drive.google.com/file/d/1MblE8OGiZj5r5No_Nxbxxo-GwCHldVji/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Arithmetic",
+                    "files": [
+                        {
+                            "title": "Babak_Mitra_Amir Sabbagh Embedded Systems Design with Special Arithmetic and Number Systems 2017.pdf",
+                            "url": "https://drive.google.com/file/d/1iM3HRlSG7ZHlucwkMVInffrt8xLKmIMq/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "CPU",
+                    "files": [
+                        {
+                            "title": "Nikolaos_Alkiviadis_SystemVerilog standr 2017 IEEE Std1800 2017 8299595.pdf",
+                            "url": "https://drive.google.com/file/d/17b75ao33RGG59jHulY1BrZgkFujNkYOE/preview"
+                        },
+                        {
+                            "title": "Vijay_David_A Primer on Memory Consistency and Cache Coherence 2nd Ed.pdf",
+                            "url": "https://drive.google.com/file/d/1E2vsMqqx6gXufH39PLPeFy1uPmvow0GJ/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Crypto",
+                    "files": [
+                        {
+                            "title": "Alex_Micha\u00ebl_Alex Biryukov   Advances in Cryptology 2004.pdf",
+                            "url": "https://drive.google.com/file/d/1iDa3xR-qKThXriqKpbtvVD10S_Ob4OPF/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_MAC",
+                    "files": [
+                        {
+                            "title": "Bogdan_Bogdan_Retrofitting IEEE FP Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1Bn_coWrkL5s4lFSd5MnWtg1H2DQeIrXF/preview"
+                        },
+                        {
+                            "title": "E._E._IEEE Standard for Floating Point Arithmetic 754 2008.pdf",
+                            "url": "https://drive.google.com/file/d/1Btkt1XoflxyQVXVO4d9X7VGhAYV3XBk4/preview"
+                        },
+                        {
+                            "title": "Functions to Support the IEEE Standard 722 for Binary Floating Point Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1zEG0NsYyRyGs7gp5molzfoCbfTy2EHyo/preview"
+                        },
+                        {
+                            "title": "IEEE FP Std 754-2008.pdf",
+                            "url": "https://drive.google.com/file/d/1C-X-msVFtSKCi6T-IoFTT-NON0El0dvl/preview"
+                        },
+                        {
+                            "title": "IEEE Standard for Binary Floating Point Arithmetic 754-1985.pdf",
+                            "url": "https://drive.google.com/file/d/1BwBNC-PmuHt7E3nOvaDvrVkHdzll-b3K/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Machine_Learning",
+                    "files": [
+                        {
+                            "title": "FITEE.2400867_Final_Published.pdf",
+                            "url": "https://drive.google.com/file/d/14Jt5iGU6FeKrNUtorT_gnjTRFcZFjLlr/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "PubIssue_Advances_in_Computing",
+                    "files": [
+                        {
+                            "title": "Advances in Computers Vol. 02.pdf",
+                            "url": "https://drive.google.com/file/d/1MUqpCsZ2iuHKyOcFc2WMBkU6kIDGY2mI/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 03.pdf",
+                            "url": "https://drive.google.com/file/d/1Tf3QjbOiCj4ZW8Q6cVGtRgecq-x34N8E/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 04.pdf",
+                            "url": "https://drive.google.com/file/d/1TfFq2dyJMKw0NSuF0IoRxYH8tFBJGlcl/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 05.pdf",
+                            "url": "https://drive.google.com/file/d/1ThOVjbOEsB0JOjpzuYdAWTk2y4jSuWJv/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 06.pdf",
+                            "url": "https://drive.google.com/file/d/1ThdZGKZokNdjpsnWCLzFn-sHLDZ1lUtb/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 07.pdf",
+                            "url": "https://drive.google.com/file/d/1TlPyyH97qFvfyjuoUg5C2bcXNiBeo2R2/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 08.pdf",
+                            "url": "https://drive.google.com/file/d/1TmGwUs9wQJutdYYAReiVi5sbutPhXGqv/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 09.pdf",
+                            "url": "https://drive.google.com/file/d/1TnAWl6GCzEZ4TKDSzSByDr0KJ4vk1rjI/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 10.pdf",
+                            "url": "https://drive.google.com/file/d/1Ts8B3jyS-8k3v2pdkc6_m_q6ahpWiBuQ/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 11.pdf",
+                            "url": "https://drive.google.com/file/d/1UFaJFnsLjZbm_944HGk1i8BFOVtO1DU0/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 12.pdf",
+                            "url": "https://drive.google.com/file/d/1UYQag4yHiYq42m1aaBiW3BaZJawMOYYK/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 13.pdf",
+                            "url": "https://drive.google.com/file/d/1U_VM-jqXL0FJ-aSeF-ayfuWhO8mNX_7s/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 14.pdf",
+                            "url": "https://drive.google.com/file/d/1UaLC8CfXcRgkoZZurdxjz47OV5p8bKIH/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 15.pdf",
+                            "url": "https://drive.google.com/file/d/1Ug6K7dI6qPfNWV0U5h0DnGh2Xb9SjN78/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 16.pdf",
+                            "url": "https://drive.google.com/file/d/1UhNY8a2ug7SSzLOpFuiFTNZhtSpRgOTa/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 17.pdf",
+                            "url": "https://drive.google.com/file/d/1UoxoPg7b9VGOjbAQ19thWoIgDEhaKnzX/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 18.pdf",
+                            "url": "https://drive.google.com/file/d/1Uu8EiCW4JBuD6ZJ3jhyb3fwTw0S302Cp/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 19.pdf",
+                            "url": "https://drive.google.com/file/d/1V5-mRFff6DyqQ5suEDQgyn1CVCID2cEu/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 20.pdf",
+                            "url": "https://drive.google.com/file/d/1VGSnBM46tzMz_1M5pMEE0PNKyvDC5jVB/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 21.pdf",
+                            "url": "https://drive.google.com/file/d/1V6X6WYYA1aE2IIviY5HYoN1aqmAXRYsm/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 22.pdf",
+                            "url": "https://drive.google.com/file/d/1VRAS0TjBvJe9K4Mx7GuGTfK6oVtctVbV/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 23.pdf",
+                            "url": "https://drive.google.com/file/d/1VVBChTktOs5mc73pvYMRDTBLILVLt196/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 24.pdf",
+                            "url": "https://drive.google.com/file/d/1V_g8nuEdZJjyIZe61w6g0vTBxMINAsaM/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 26.pdf",
+                            "url": "https://drive.google.com/file/d/1VdwdFrIDLqz7eIPwG3giV82JmN_UEBNI/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 27.pdf",
+                            "url": "https://drive.google.com/file/d/1Vf0dCiC82m8jMq5nvFp0UZR_TUMTLebA/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 28.pdf",
+                            "url": "https://drive.google.com/file/d/1Vi7qvhuy5R64qKyRa5RhCMiBmu4IvslS/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 29.pdf",
+                            "url": "https://drive.google.com/file/d/1VowgWVPc_O6fqCOnUNJ3xdDLmowNQdVj/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 30.pdf",
+                            "url": "https://drive.google.com/file/d/1VqPmq9HeEFHtLu37SZlzp_vTtMjH-uCp/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 31.pdf",
+                            "url": "https://drive.google.com/file/d/1Vsf7xtBQsEZ-HlIfiCNummU_dWTN4669/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 32.pdf",
+                            "url": "https://drive.google.com/file/d/1W0frmBpNlfDhiRc3P6K7AxtR4Mhz0MWI/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 33.pdf",
+                            "url": "https://drive.google.com/file/d/1W4ZIE-COu0Xz77hbbXR5aIV80bZujs4N/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 34.pdf",
+                            "url": "https://drive.google.com/file/d/1W9NyM4Lreryl7n9-pSDjVXuEuorTGl3Q/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 36.pdf",
+                            "url": "https://drive.google.com/file/d/1WSq-zIMmqeft2KnGjYA9b-biBC0VVOi2/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 37.pdf",
+                            "url": "https://drive.google.com/file/d/1WUUfZYS7neF_R7cset1kc-F5Os0YLZ_V/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 38.pdf",
+                            "url": "https://drive.google.com/file/d/1Wbr9Bwc_sHESa-_DygCQquKP6gErFBa8/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 39.pdf",
+                            "url": "https://drive.google.com/file/d/1WedZ0p0qTxYVtaKLCQpLN750qOzdmfgy/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 40.pdf",
+                            "url": "https://drive.google.com/file/d/1WhHZpUFVMyX7gktGbuawuKem0irAzU0q/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 46.pdf",
+                            "url": "https://drive.google.com/file/d/1X5okA73qHo2u0SYZaq2lk6MFwhCJqiuB/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 64.pdf",
+                            "url": "https://drive.google.com/file/d/1YOJz0644YSeXSIT1fDgY6g3wENjTdx0h/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 66.pdf",
+                            "url": "https://drive.google.com/file/d/1YIQH0vg-keor4n9rJLXbZbHcvicMlB9k/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 68.pdf",
+                            "url": "https://drive.google.com/file/d/1YDbHY-I9OX80PU7_tOH2lUAn8DLrUsL4/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 71.pdf",
+                            "url": "https://drive.google.com/file/d/1YYs0avH2k3ZLGyG0PMENYAV1enN-HDmc/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 74.pdf",
+                            "url": "https://drive.google.com/file/d/1Yc57IBhPF0UhvRGKPnvc2ur1slHDP908/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 75.pdf",
+                            "url": "https://drive.google.com/file/d/1YaHyQIDtD9mgKIYeLhlI8poNnj8u-bKv/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 78.pdf",
+                            "url": "https://drive.google.com/file/d/1YlcQlWv-NikKxoZTl2oRltj7HRqfioi5/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 81.pdf",
+                            "url": "https://drive.google.com/file/d/1YfF87tkj4ti51ft6aI1ywaOSq7A4SXjF/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 85.pdf",
+                            "url": "https://drive.google.com/file/d/1Z3JMhzvQ3enkGNbWuX9os2uO7RZ_SOAZ/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 86.pdf",
+                            "url": "https://drive.google.com/file/d/1Z1s6FsaKxD5eyNJUUWcivBc4V2v1vYiz/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 87.pdf",
+                            "url": "https://drive.google.com/file/d/1Z5iUOdFYkRSyuDNOSlI8MIp_fzCxXMxE/preview"
+                        },
+                        {
+                            "title": "Advances in Computers Vol. 96.pdf",
+                            "url": "https://drive.google.com/file/d/1Za5MQXHO7reqO98af_rHToouhF9_Sdvr/preview"
+                        },
+                        {
+                            "title": "Alan_Alan_Advances in Computers Vol. 63.pdf",
+                            "url": "https://drive.google.com/file/d/1YSpAZvf56fbjcZAId3xxW1i6QZnCrfOR/preview"
+                        },
+                        {
+                            "title": "Alireza_Anneliese_Advances in Computers Vol. 97.pdf",
+                            "url": "https://drive.google.com/file/d/1ZfqzsViSHK4k6l_ODIhLpEy6q5IfKy-a/preview"
+                        },
+                        {
+                            "title": "Azriel_Azriel_Advances in Computers Vol. 57.pdf",
+                            "url": "https://drive.google.com/file/d/1XV92gZo9aZBOoArND2u8xCmHKbqFOSJP/preview"
+                        },
+                        {
+                            "title": "Calvin_Calvin_Advances in Computers Vol. 42.pdf",
+                            "url": "https://drive.google.com/file/d/1Wxb7tu5YByQ-LYt6ONIp8cYqSzZDr7T_/preview"
+                        },
+                        {
+                            "title": "Charles_Charles_Advances in Computers Vol. 89.pdf",
+                            "url": "https://drive.google.com/file/d/1ZEdsREoPqguTycYmh5n9BxFVnifcWaD9/preview"
+                        },
+                        {
+                            "title": "David_Hewitt_Advances in Computers Vol. 53.pdf",
+                            "url": "https://drive.google.com/file/d/1XHVH18_JcFWqDUMi1o7tr5ooksD9_DvW/preview"
+                        },
+                        {
+                            "title": "David_Keith_Advances in Computers Vol. 50.pdf",
+                            "url": "https://drive.google.com/file/d/1XAWhLfo63V805i-QzXn1VuP_Z6IV45_z/preview"
+                        },
+                        {
+                            "title": "Edward_Edward_Advances in Computers Vol. 95.pdf",
+                            "url": "https://drive.google.com/file/d/1ZVFUyNtypM_hdT_WRFvQdU5FQeou5K6r/preview"
+                        },
+                        {
+                            "title": "G.I._G.I._Advances in Computers Vol. 25.pdf",
+                            "url": "https://drive.google.com/file/d/1VduZrSBUNwPl_F0T_v9j9dZFNw7fReAt/preview"
+                        },
+                        {
+                            "title": "G\u00fcnther_G\u00fcnther_Advances in Computers Vol. 72.pdf",
+                            "url": "https://drive.google.com/file/d/1YefHdi1UmzdBzVCgJeuES06z5c4SXEWs/preview"
+                        },
+                        {
+                            "title": "HJ_HJ_Advances in Computers Vol. 84.pdf",
+                            "url": "https://drive.google.com/file/d/1Z5L3RTJjgVE0JhaF9qUHb6NM2_YYaW6b/preview"
+                        },
+                        {
+                            "title": "Harry_Harry_Advances in Computers Vol. 58.pdf",
+                            "url": "https://drive.google.com/file/d/1Y72vQt77JpmLiXcHckqrPSKHUrs28c1a/preview"
+                        },
+                        {
+                            "title": "Irving_Irving_Advances in Computers Vol. 88.pdf",
+                            "url": "https://drive.google.com/file/d/1Z5ec4ZCN0OZ8ORZiB0uQ3nRfEq4JV9d2/preview"
+                        },
+                        {
+                            "title": "J.F._H._Advances in Computers Vol. 35.pdf",
+                            "url": "https://drive.google.com/file/d/1WBpb5-_zad09YIH97aYFleUqw46A9tyN/preview"
+                        },
+                        {
+                            "title": "J.F._H._Advances in Computers Vol. 92.pdf",
+                            "url": "https://drive.google.com/file/d/1ZS7hsp0s0r9CCwviCjAa4BfY_YFuK1TU/preview"
+                        },
+                        {
+                            "title": "J.S._J.S._Advances in Computers Vol. 94.pdf",
+                            "url": "https://drive.google.com/file/d/1ZWm0cm9_995gNSR3t7c3uGMHYDsJhJlr/preview"
+                        },
+                        {
+                            "title": "James_James_Advances in Computers Vol. 67.pdf",
+                            "url": "https://drive.google.com/file/d/1YHwCH-Ury-pWgf5Ns6yXhZkRxQY3KMDr/preview"
+                        },
+                        {
+                            "title": "Jean_Jean_Advances in Computers Vol. 47.pdf",
+                            "url": "https://drive.google.com/file/d/1X6DOcRKhVJENL2TVoAlep1SDPO9qxRz_/preview"
+                        },
+                        {
+                            "title": "Jim_Jim_Advances in Computers Vol. 54.pdf",
+                            "url": "https://drive.google.com/file/d/1XLh-gqPsHhsTfz-ianA-XC9q3DGi7kLu/preview"
+                        },
+                        {
+                            "title": "John_John_Advances in Computers Vol. 49.pdf",
+                            "url": "https://drive.google.com/file/d/1X7S4Jk_EbyAJrVmFquOJLFTzVWnIjFc7/preview"
+                        },
+                        {
+                            "title": "K.J._K.J._Advances in Computers Vol. 83.pdf",
+                            "url": "https://drive.google.com/file/d/1YrVlV5o-eO2doc6-z1RmjUM_4030fZjR/preview"
+                        },
+                        {
+                            "title": "Mauro_Cheng_Advances in Computers Vol. 48.pdf",
+                            "url": "https://drive.google.com/file/d/1X6to-LjLb_m4K_RFH_v7aBkSoQFpEaUM/preview"
+                        },
+                        {
+                            "title": "Michael_Michael_Advances in Computers Vol. 44.pdf",
+                            "url": "https://drive.google.com/file/d/1X-vcVaPenE8wadvYPioTWipbonYWiZri/preview"
+                        },
+                        {
+                            "title": "Michael_Michael_Advances in Computers Vol. 61.pdf",
+                            "url": "https://drive.google.com/file/d/1XwHSGrFZA-bh0XNO9JaFX6OkRiqq134B/preview"
+                        },
+                        {
+                            "title": "Norman_Norman_Advances in Computers Vol. 43.pdf",
+                            "url": "https://drive.google.com/file/d/1WsSB-6ZxwNf-se9JNGduBEX8RAdRouD4/preview"
+                        },
+                        {
+                            "title": "Norman_Norman_Advances in Computers Vol. 90.pdf",
+                            "url": "https://drive.google.com/file/d/1Z8BYgl0CtibBVXUcVLr21kmduz9aoY5T/preview"
+                        },
+                        {
+                            "title": "Patricia_Patricia_Advances in Computers Vol. 73.pdf",
+                            "url": "https://drive.google.com/file/d/1YeUzKJeBddi0P_52e-EoO772rgnxJe8c/preview"
+                        },
+                        {
+                            "title": "Philip_Philip_Advances in Computers Vol. 55.pdf",
+                            "url": "https://drive.google.com/file/d/1XQ81qPvRdOkdzE25ntQRnHXx4Lnsc18p/preview"
+                        },
+                        {
+                            "title": "Renato_Piero_Advances in Computers Vol. 99.pdf",
+                            "url": "https://drive.google.com/file/d/1_B8wtHNCF3ngYv2WJGk3t4vgdLhjd-OX/preview"
+                        },
+                        {
+                            "title": "S.B._G._Advances in Computers Vol. 01.pdf",
+                            "url": "https://drive.google.com/file/d/1MTMNfM45ODmY8j_zhq2H_OgIJOSB6UJS/preview"
+                        },
+                        {
+                            "title": "S.B._G._Advances in Computers Vol. 80.pdf",
+                            "url": "https://drive.google.com/file/d/1YhsSjMjbBXIiT4LJKcYqaj8eDGeqeJ8j/preview"
+                        },
+                        {
+                            "title": "S.D._V.Y._Advances in Computers Vol. 60.pdf",
+                            "url": "https://drive.google.com/file/d/1Y-SPXkIcnRn7LgIeyCrEiMGJvByLPgvy/preview"
+                        },
+                        {
+                            "title": "Samuel_Samuel_Advances in Computers Vol. 76.pdf",
+                            "url": "https://drive.google.com/file/d/1Yr3egEiGEOHkhHA0w5lia8X03nFQdXi0/preview"
+                        },
+                        {
+                            "title": "Sang_Sang_Advances in Computers Vol. 45.pdf",
+                            "url": "https://drive.google.com/file/d/1X57tDc32oEW4WvgMlhTRCDn7kGSo19Ko/preview"
+                        },
+                        {
+                            "title": "Stephen_Stephen_Advances in Computers Vol. 98.pdf",
+                            "url": "https://drive.google.com/file/d/1Zb0kjCkksd6IOOMdIdF8hFPXZsLsqfKS/preview"
+                        },
+                        {
+                            "title": "Subrata_Subrata_Advances in Computers Vol. 91.pdf",
+                            "url": "https://drive.google.com/file/d/1ZSUVWqNOB04VzXjzwu_5xXycHm4HtOfy/preview"
+                        },
+                        {
+                            "title": "Thomas_Thomas_Advances in Computers Vol. 93.pdf",
+                            "url": "https://drive.google.com/file/d/1ZMFAM_am59z8o7Xf-3RolWMJ9KWMIJ2s/preview"
+                        },
+                        {
+                            "title": "Thomas_Wayne_Advances in Computers Vol. 62.pdf",
+                            "url": "https://drive.google.com/file/d/1XXa2l8X2zEaCewJ6xLIRjUqdGvwdVF09/preview"
+                        },
+                        {
+                            "title": "W.R._George_Advances in Computers Vol. 82.pdf",
+                            "url": "https://drive.google.com/file/d/1Z-SJaUcCIs1hi4wLFrWxujoLn21LB1kV/preview"
+                        },
+                        {
+                            "title": "Warren_Warren_Advances in Computers Vol. 51.pdf",
+                            "url": "https://drive.google.com/file/d/1XBt_2UB3cAVzKAU9PB8Zodgr5VhqgdJx/preview"
+                        },
+                        {
+                            "title": "Werner_Werner_Advances in Computers Vol. 56.pdf",
+                            "url": "https://drive.google.com/file/d/1XT4v4C77HOrQ0ENZqiluYRvfgaY7dDrj/preview"
+                        },
+                        {
+                            "title": "William_William_Advances in Computers Vol. 52.pdf",
+                            "url": "https://drive.google.com/file/d/1XEQr-Lbyi5LAZO3EEjvA7EWBFubEHFBH/preview"
+                        },
+                        {
+                            "title": "Wingyan_Wingyan_Advances in Computers Vol. 41.pdf",
+                            "url": "https://drive.google.com/file/d/1WpCw2yyl_uTl0p9eKmX3aMD5IUNOlim5/preview"
+                        },
+                        {
+                            "title": "Wingyan_Wingyan_Advances in Computers Vol. 69.pdf",
+                            "url": "https://drive.google.com/file/d/1YZmdsfR2047dY5DLWNZ5jRvcxrb0emTd/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "PubIssue_Algorithms",
+                    "files": [
+                        {
+                            "title": "AlgebraMay29.pdf",
+                            "url": "https://drive.google.com/file/d/1f5RzTUeMEq2Ke1wUbYSU-z8GRRM3Wsmw/preview"
+                        },
+                        {
+                            "title": "AlgofInfVol1Oct24.pdf",
+                            "url": "https://drive.google.com/file/d/1f1sSCx_kZ6h_lZZ2Pl3DuejJTGZtFyt3/preview"
+                        },
+                        {
+                            "title": "AlgofInfVol2Oct24.pdf",
+                            "url": "https://drive.google.com/file/d/1ezbdeLsuDWL1v6OJ71S3nKkFd7x9vSWC/preview"
+                        },
+                        {
+                            "title": "AlgofInfVol3Oct24.pdf",
+                            "url": "https://drive.google.com/file/d/1ex4tROVapCss9XJG-UI_RvYYlYJcCt5r/preview"
+                        },
+                        {
+                            "title": "Automata29May.pdf",
+                            "url": "https://drive.google.com/file/d/1etZ2uaV1TNi7QfdfAfK-JT6S4ls5t92j/preview"
+                        },
+                        {
+                            "title": "CompAlg29May.pdf",
+                            "url": "https://drive.google.com/file/d/1espumLOYnKfZ0tTkR7mPN_Y1t6cxFuJh/preview"
+                        },
+                        {
+                            "title": "Compilers29May.pdf",
+                            "url": "https://drive.google.com/file/d/1eoKnzZdABZg0wifHodoxpdZIUE_c2Dfc/preview"
+                        },
+                        {
+                            "title": "Compression30May.pdf",
+                            "url": "https://drive.google.com/file/d/1eXL90WAq7aj_TORDFxzz4g3xOYqwNWc1/preview"
+                        },
+                        {
+                            "title": "Distributedf29May.pdf",
+                            "url": "https://drive.google.com/file/d/1eRK_lotKBHCYReiZny7g0WGHBfgwcRzr/preview"
+                        },
+                        {
+                            "title": "GameTheory29May.pdf",
+                            "url": "https://drive.google.com/file/d/1eNaRC1lgfD16VypeKjQqLAkqfihAYr_D/preview"
+                        },
+                        {
+                            "title": "Graphics30May.pdf",
+                            "url": "https://drive.google.com/file/d/1eMvNhN0cHp48MXBY584d0hTm5epn8gN6/preview"
+                        },
+                        {
+                            "title": "HCI29May.pdf",
+                            "url": "https://drive.google.com/file/d/1eKGoIh_EXNhv_oB9VmKd5TKyHWho89-7/preview"
+                        },
+                        {
+                            "title": "Network29May.pdf",
+                            "url": "https://drive.google.com/file/d/1fxHiAoXjwth51XCNYCCPZwASukNI3IQl/preview"
+                        },
+                        {
+                            "title": "Online29May.pdf",
+                            "url": "https://drive.google.com/file/d/1fcIQx4jE5pvtmeIQeSOaPgJ5Y1IL3UPQ/preview"
+                        },
+                        {
+                            "title": "Query5June.pdf",
+                            "url": "https://drive.google.com/file/d/1fag8zxZz5Z30qgv1fGAfdicnbw9YBx1X/preview"
+                        },
+                        {
+                            "title": "Recurrences29May.pdf",
+                            "url": "https://drive.google.com/file/d/1fYZA2XtkXG37RaSu394BasbbjIdwepNV/preview"
+                        },
+                        {
+                            "title": "Relational5June.pdf",
+                            "url": "https://drive.google.com/file/d/1fYIk-XILqi4J_s1oTIjpmFMlcNie7QWM/preview"
+                        },
+                        {
+                            "title": "Reliable29May.pdf",
+                            "url": "https://drive.google.com/file/d/1fNexOfBOrV4uHOGMSJk4FsxTm03zLcwF/preview"
+                        },
+                        {
+                            "title": "Scientific29May.pdf",
+                            "url": "https://drive.google.com/file/d/1fFolH26k35jgRlY15sxrakaz-7Nc-TMq/preview"
+                        },
+                        {
+                            "title": "Semistructured29May.pdf",
+                            "url": "https://drive.google.com/file/d/1fBonOwuFPKxcrGcvs6fA72DsXbq9sind/preview"
+                        },
+                        {
+                            "title": "Systolic30May.pdf",
+                            "url": "https://drive.google.com/file/d/1fBeQ7bcg85LNXb7OV9-E_X2Zs9dHqIfY/preview"
+                        },
+                        {
+                            "title": "ymlonCuda.pdf",
+                            "url": "https://drive.google.com/file/d/1f77gyUjoG72y6lFiuqo57H-of9t1VCDg/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "PubIssue_Colloquium",
+                    "files": [
+                        {
+                            "title": "Catherine_Catherine_tcq201904.issue.pdf",
+                            "url": "https://drive.google.com/file/d/1L5Osaldq3IYUJYRDBwMRFDo0axd6yoKv/preview"
+                        },
+                        {
+                            "title": "tcq201901.issue.pdf",
+                            "url": "https://drive.google.com/file/d/1LTkePLRPwjEhps-8k1VHnxjzg4yyHdsG/preview"
+                        },
+                        {
+                            "title": "tcq201902.issue.pdf",
+                            "url": "https://drive.google.com/file/d/1LTOWbJn_8dmUu5I1mpkccuWFnRSqmjd4/preview"
+                        },
+                        {
+                            "title": "tcq201903.issue.pdf",
+                            "url": "https://drive.google.com/file/d/1LOn2Prfor-ZjoVs_BcWrArj_63ww8Wxg/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "PubIssue_Computer_Arithmetic",
+                    "files": [
+                        {
+                            "title": "Earl_Carl_Computer Arithmetic Volume I by Earl E Swartzlander Jr, Earl E Swartzlander Jr, Carl E Lemonds Jr.pdf",
+                            "url": "https://drive.google.com/file/d/1LluliaSUyJWDVMq3UwxDHxu1LByEODcq/preview"
+                        },
+                        {
+                            "title": "Earl_Carl_Computer Arithmetic Volume II by Earl E Swartzlander Jr, Earl E Swartzlander Jr, Carl E Lemonds Jr.pdf",
+                            "url": "https://drive.google.com/file/d/1Lq3N_vU4UhkPcHqPuD93AHrafXKiOjBR/preview"
+                        },
+                        {
+                            "title": "Earl_Carl_Computer Arithmetic Volume III by Earl E Swartzlander Jr, Earl E Swartzlander Jr, Carl E Lemonds Jr.pdf",
+                            "url": "https://drive.google.com/file/d/1M3aNMDCBLrScBnQvf_z7nRXVYBQWjn5_/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "PubIssue_General",
+                    "files": [
+                        {
+                            "title": "7- IBM-Zurich Research.pdf",
+                            "url": "https://drive.google.com/file/d/1dzlutzN-6oYta36_PEbGtSOCcg3MJbFb/preview"
+                        },
+                        {
+                            "title": "A new golden age for computer architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1dRIt1rswUHnK8_cq59IXvQne_yL3U5-1/preview"
+                        },
+                        {
+                            "title": "Alessandra Lintas-Artificial Neural Networks and Machine Learning PART I.pdf",
+                            "url": "https://drive.google.com/file/d/1dJsKHV3GK29EgNDCkRsPCvDy8wwJxGLd/preview"
+                        },
+                        {
+                            "title": "Alessandra Lintas-Artificial Neural Networks and Machine Learning \u2013Part II .pdf",
+                            "url": "https://drive.google.com/file/d/1dXLD5DtH48lnorBm6KNF2Y3rzqurPjNz/preview"
+                        },
+                        {
+                            "title": "Reducing_Energy_TCO_SilMinds.pdf",
+                            "url": "https://drive.google.com/file/d/1dtwP-hPeMDauPM_Al7nnKGSEDZvHXAy5/preview"
+                        },
+                        {
+                            "title": "Snehashish-Concepts of Soft Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1dk5hmtatyjpWl2XGL8XRq7TdWWwSLYgk/preview"
+                        },
+                        {
+                            "title": "Ulrich_Ulrich_23 Computer Arithmetic Key Notes.pdf",
+                            "url": "https://drive.google.com/file/d/1e3O2mrccxYWJ0Y_VdAiidVlXl_uI-gyk/preview"
+                        },
+                        {
+                            "title": "Unconfirmed 747302.crdownload.pdf",
+                            "url": "https://drive.google.com/file/d/1diXMMZKapiQfqkvAbauUVvb19jeJYrI_/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "PubIssue_Historical",
+                    "files": [
+                        {
+                            "title": "Henry_Henry_The Origins of Digital Computers Selected Papers by Brian Randell (ed.) (z lib.org).pdf",
+                            "url": "https://drive.google.com/file/d/1dH1Nb1b80k3pV43XGfkbsg8xERyr2570/preview"
+                        },
+                        {
+                            "title": "The Origins of Digital Computers-1973.pdf",
+                            "url": "https://drive.google.com/file/d/1dHQPHENt2TR1Cb0WpHKsbmF9VwfXWxsW/preview"
+                        },
+                        {
+                            "title": "The Origins of Digital Computers-1975.pdf",
+                            "url": "https://drive.google.com/file/d/1dHAQoWzFHmCda7AWhN4g9DSBoUaz2LED/preview"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Thesis",
+            "items": [
+                {
+                    "name": "Accelerator",
+                    "files": [
+                        {
+                            "title": "Loom and location.pdf",
+                            "url": "https://drive.google.com/file/d/1X1nWcLzTNwQ3u8E9x-mPseGEYe00VzPl/preview"
+                        },
+                        {
+                            "title": "Meiling_Zhiyuan_Lab3 Tiling and Optimization for Accelerators.pdf",
+                            "url": "https://drive.google.com/file/d/1OiaP-5dA-2Pd-6De-jpq4FBskoes5L0x/preview"
+                        },
+                        {
+                            "title": "Shao-Design and Modeling of Specialized Architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1X1ZH-qDTtp92uC8bTHUMwMRKl2KXKM-b/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "CPU",
+                    "files": [
+                        {
+                            "title": "Ali-ProNoC_User_manual.pdf",
+                            "url": "https://drive.google.com/file/d/1iNdgpMrg0A-Kl539McMKrcIDO17T96uW/preview"
+                        },
+                        {
+                            "title": "Andrew_Krste_Waterman berkeley RISC V.pdf",
+                            "url": "https://drive.google.com/file/d/1uz4CxlZqYg1DVe0Mzg_wfzQavzKOQ8W5/preview"
+                        },
+                        {
+                            "title": "Houjin_Houjin_Andre Alternative Schemes for High Bandwidth Instruction.pdf",
+                            "url": "https://drive.google.com/file/d/15-wPrjrWNcH7fLeq9m0Jsbllh9tfMeC0/preview"
+                        },
+                        {
+                            "title": "Oscar_Oscar_tesis memory predictors.pdf",
+                            "url": "https://drive.google.com/file/d/1apNc9gCFQEuhyNEfNUUDpsvVBaiQ6rdt/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Accelerator",
+                    "files": [
+                        {
+                            "title": "Libo_Zhiying_ZHANG Thesis  Flexible Multiple Precision Fused Arithmetic Unit for DeepL @UoSaskatchewan.pdf",
+                            "url": "https://drive.google.com/file/d/1R_6U0yip9LN8FPPnMEZlNc7lM8b7s0FV/preview"
+                        },
+                        {
+                            "title": "Siti_Siti_Mihai Budiu Thesis Spatial Hardware.pdf",
+                            "url": "https://drive.google.com/file/d/1FpJUQ7leJFuAAavuZT5hsQ1gDIhWiSpn/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Adder",
+                    "files": [
+                        {
+                            "title": "Ali Malik Thesis-DESIGN TRADEOFF ANALYSIS OF FLOATING-POINT ADDERs @UOSaskatchewan.pdf",
+                            "url": "https://drive.google.com/file/d/1FJUXp-8LEufgZkEywa1GDmOfWI2P0m_T/preview"
+                        },
+                        {
+                            "title": "Jonathan_Jonathan_Tyran Thesis Half Precision Addition Unit.pdf",
+                            "url": "https://drive.google.com/file/d/1JR_RYhlxltXMs4OLdNtv0RYHxdxEMDQe/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Division",
+                    "files": [
+                        {
+                            "title": "Masayuki_Yukihiro_Vijay Thesis Design of a Single Precision Floating Point Divider and Multiplie @Rochester Institute.pdf",
+                            "url": "https://drive.google.com/file/d/1KOuRG_N_wPFx1kx-Ab6ai68Yw83OpXDM/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_General",
+                    "files": [
+                        {
+                            "title": "A.F._M.D._Alexandre Thesis Variable Long Precision Arithmetic for Reconfigurable Coprocessor Architectures @ (UCLA).pdf",
+                            "url": "https://drive.google.com/file/d/1FMiq2_2xNO0_pT_Vql2Xa6wu6r2lzV2c/preview"
+                        },
+                        {
+                            "title": "A._R._Nguyen Thesis ARCHITECTURAL IMPROVEMENTS IN IEEE COMPLIANT @HanoiU.pdf",
+                            "url": "https://drive.google.com/file/d/1Fl_I-zVX626LBQ1EN3gU1M7yJsk9yLc7/preview"
+                        },
+                        {
+                            "title": "B._B._Catanzaro Thesis Higher Radix Floating Point Representations for FPGA Based Arithm @ Brigham YU.pdf",
+                            "url": "https://drive.google.com/file/d/1EtDXavztKDaVIFuKNLu_KZBmp5ymE5BA/preview"
+                        },
+                        {
+                            "title": "Bin_Bin_Functional Unit For A Parallel As.pdf",
+                            "url": "https://drive.google.com/file/d/1FkaEqxU34op-RKC7-MXwzf0HgFibHZBA/preview"
+                        },
+                        {
+                            "title": "Coonen-Contributions to a proposed standard floating point arithimatics.pdf",
+                            "url": "https://drive.google.com/file/d/1EmRFJKPch80-SkrXRLEiHGE8VfS2Kk1J/preview"
+                        },
+                        {
+                            "title": "Crist\u00f3bal_Design and implementation of an Out of order execution engine of floating point arithmetic operations.pdf",
+                            "url": "https://drive.google.com/file/d/113RjaJm7lqBPxfI-AA5v8UUYbn3lM8Os/preview"
+                        },
+                        {
+                            "title": "Douglas_Douglas_Lamiaa Master thesis FPU.pdf",
+                            "url": "https://drive.google.com/file/d/1FzXwZf-_mcI_MfppnMlsOnC3C-wh_cqd/preview"
+                        },
+                        {
+                            "title": "Earl_Hani_Hani H Saleh Fused Floating Point Arithmetic for DSP 2009 @UTAustin.pdf",
+                            "url": "https://drive.google.com/file/d/1MkTzogIt9u1e0i6dPr-jayLzEBz7cmVY/preview"
+                        },
+                        {
+                            "title": "Eric_Eric_Sg thesis ENERGY EFFICIENT FLOATING POINT UNIT DESIGN @Stanford.pdf",
+                            "url": "https://drive.google.com/file/d/1GRgCCYeH1e8iKmh1vNuEbgu0JUU7WXiT/preview"
+                        },
+                        {
+                            "title": "G._G._BM Pasca Thesis High performance floating point computing on reconfigurable circutis.pdf",
+                            "url": "https://drive.google.com/file/d/1EzKRd4oNXCHdnillpMIYUsiXetWi426u/preview"
+                        },
+                        {
+                            "title": "G._W._Seidel Thesis On the Design of IEEE Compliant Floating Point Units and their qunatative analysis @Saarlands.pdf",
+                            "url": "https://drive.google.com/file/d/1GWJh1uQbzQN9bXWUDkb1HbVt1_aMmkjK/preview"
+                        },
+                        {
+                            "title": "Guillaume-Implementation of binary floating-point.pdf",
+                            "url": "https://drive.google.com/file/d/1FhEOqr8YLzXsA29_u3g9drqOw98IjreR/preview"
+                        },
+                        {
+                            "title": "Hao_Seok\u2010Bum_Hao Zhang Single Precision and Double Precision Merged FP Multiplicaiton and Addition Units on FPGA.pdf",
+                            "url": "https://drive.google.com/file/d/1MjGNZUjJ0FzTFgmk7xgxT30Cu17USoq-/preview"
+                        },
+                        {
+                            "title": "Hossam_Michael_Hossam Fahmy A REDUNDANT DIGIT FLOATING POINT SYSTEM @Stanford.pdf",
+                            "url": "https://drive.google.com/file/d/1FZPnQFClfnDiFBZgbb_O2V3ymZ3MsALm/preview"
+                        },
+                        {
+                            "title": "Katja_Katja_A Plet Thesis Contribution to error analysis of algorithms in FP Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1FOkemYDYewc11TImjY-JN_npG7MB4VlE/preview"
+                        },
+                        {
+                            "title": "Lawrence_Lawrence_Kumar VSLI Design Techniques for FP Computation @Berkeley.pdf",
+                            "url": "https://drive.google.com/file/d/1Pbl6Tqh0UA6YzkZqEBxN4cUwfgr0jajM/preview"
+                        },
+                        {
+                            "title": "Mustafa Thesis-Fused_Floating-Point_Arithmetic_for_DSP @A&T Texas.pdf",
+                            "url": "https://drive.google.com/file/d/1FpGW4WHrnL5QefbMn-90H-xfWsY9mdp1/preview"
+                        },
+                        {
+                            "title": "Nimisha_Saima_V Popescu Towards fast and certified multiple precision librairies.pdf",
+                            "url": "https://drive.google.com/file/d/1KPwHHbKqwS1muM-dEZF34DbNf52IOXsk/preview"
+                        },
+                        {
+                            "title": "Olga_Jean-Michel_Chirsoph Lauter Beyond IEEE754 Floating Point Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1MshAP0hCBuqZYV31bdFZJi3np1Vp-BZ4/preview"
+                        },
+                        {
+                            "title": "Olga_Jean-Michel_Kupriianova Towards a modern floating point environment @HAL.pdf",
+                            "url": "https://drive.google.com/file/d/1G4bdN6C8mIFQKDJS00Zune_gYTCfrKAA/preview"
+                        },
+                        {
+                            "title": "P._C.J._Oskuii Thesis Design of Low Power Reduction Trees @NTNU.pdf",
+                            "url": "https://drive.google.com/file/d/1GQ31vkIv5jniDpDucHbR5UNjW4z0rYFs/preview"
+                        },
+                        {
+                            "title": "Paul Michael Farmwald-On the design of high performance digital arithmetic units.pdf",
+                            "url": "https://drive.google.com/file/d/1PwQCsEzfK1Pb0xScZa6j6_CbWVRS29Y8/preview"
+                        },
+                        {
+                            "title": "Per_Dake_Tese AlvaroVazquez High Performance Deciman Floating Point Units.pdf",
+                            "url": "https://drive.google.com/file/d/1QFmv6qY80vpq-MWt8BOuYhND8T2wKKLJ/preview"
+                        },
+                        {
+                            "title": "Pierre-Lo\u00efc_Pierre-Lo\u00efc_Guillaume Formal Verification for Numerical Computations and the other way around.pdf",
+                            "url": "https://drive.google.com/file/d/1MrbU-7TD4PdASMiPDTfZDRBKSI9k5XI4/preview"
+                        },
+                        {
+                            "title": "S.F._M.J._Oberman Design issues in high performance flaoting point arithmetic units Stanford 1997.pdf",
+                            "url": "https://drive.google.com/file/d/1Q3P11e8teWiY5Wds8ryDadqXE4MO2Oyg/preview"
+                        },
+                        {
+                            "title": "Sameh Galal PhD Thesis-FP Design @Stanford.pdf",
+                            "url": "https://drive.google.com/file/d/1Gg8aLle1wHEKI832rHgxYe-qoXYP7B7w/preview"
+                        },
+                        {
+                            "title": "Stefan_Luca_STEFAN  Floating Point Architectures for Energy Efficient Transprecision Computing.pdf",
+                            "url": "https://drive.google.com/file/d/1GjohAOm2Sk-q4_tL25tYTPvGC0a4Sqik/preview"
+                        },
+                        {
+                            "title": "Syed_Michael_RV Low Power Floating Point Architectures for DSP Concordia.pdf",
+                            "url": "https://drive.google.com/file/d/1G7sa5edXzPX3-wb4x1WrrQjxyJpFnqbf/preview"
+                        },
+                        {
+                            "title": "Syed_Michael_S.Z Gilani Compute Efficient Embedded Processors.pdf",
+                            "url": "https://drive.google.com/file/d/1QI8Z-5E1d2psHt1gALlss3qQkppsEsuv/preview"
+                        },
+                        {
+                            "title": "Tao_Subir_JPimentelDissertation Methods for Reducing FP Computation Overhead.pdf",
+                            "url": "https://drive.google.com/file/d/1PBfgwwUiYDnNQsW3wZMq0tK_29Jz4j3_/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_MAC",
+                    "files": [
+                        {
+                            "title": "Ahmed_Hossam_Ibrahim Binary Floating Point Fused Multiply Add Unit Cairo Egypt.pdf",
+                            "url": "https://drive.google.com/file/d/1MX0FORrg7RsnwIiGchGOqaM7yeZObzcR/preview"
+                        },
+                        {
+                            "title": "Liu_Seok\u2010Bum_Liu Han Decimal Floating point Fused Multiply Add with Redundant Number System @UoSaskatchewan.pdf",
+                            "url": "https://drive.google.com/file/d/1PQtYIMmp3ZVuQLqxZzH69ars7Or_8sBb/preview"
+                        },
+                        {
+                            "title": "Quinnel-Floating-Point Fused Multiply-Add Architectures @A&T Texas.pdf",
+                            "url": "https://drive.google.com/file/d/1GLEtLwE-m9FiIdIfWZqpxTq3Q6DRoerk/preview"
+                        },
+                        {
+                            "title": "Shun_Shun_Gopal A novel low power multi path double precision fused multiplier accumulator architecture.pdf",
+                            "url": "https://drive.google.com/file/d/1FhQPE10lZMlMA6iRpqhXrNwsB6HcOjSm/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "FP_Multiplier",
+                    "files": [
+                        {
+                            "title": "Michael J. Flynn-USING A FLOATING-POINT MULTIPLIER\u2019S INTERNALS FOR HIGH RADIX @Stanford.pdf",
+                            "url": "https://drive.google.com/file/d/1Frm1Z7J-8-xNijeUE3YG8FSqSFtDkaVX/preview"
+                        },
+                        {
+                            "title": "Min_Nader_Min Soo Kim Cost Efficient Approximate Log Multipliers for Convolutional Neural Networks @UCI.pdf",
+                            "url": "https://drive.google.com/file/d/1POggRj3hi75daeyxZA_DImzbsrlvy8P6/preview"
+                        },
+                        {
+                            "title": "Rahul_Annapurna_CHONG Thesis Floating Point Multiplier @ UNSW.pdf",
+                            "url": "https://drive.google.com/file/d/1Ep4nsSM9avmQeiFpcIkniwIZ4tzGmNfw/preview"
+                        },
+                        {
+                            "title": "Ronald_Marc_Michael Flynn Report PerformanceArea Tradeoff in Booth Multipliers @Stanford.pdf",
+                            "url": "https://drive.google.com/file/d/1FvIdt4jMmRWLgb2khXC2ufamH6wmZXKE/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "MAC",
+                    "files": [
+                        {
+                            "title": "Yi_Yi_Cell and Interconnect Timing Analysis.pdf",
+                            "url": "https://drive.google.com/file/d/1yt-JVPA2qII9OK1kyerSHjL6UBTmMyqA/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Machine_Learning",
+                    "files": [
+                        {
+                            "title": "Gutmann-Exercises in Machine Learning.pdf",
+                            "url": "https://drive.google.com/file/d/1uNwOXhrcuNVjhcPGr1ePPuqmUNlEq4Wj/preview"
+                        },
+                        {
+                            "title": "L._A._Azzam On the parallel scalability of hybrid linear solvers for large 3D problems.pdf",
+                            "url": "https://drive.google.com/file/d/1WGjxVwnc2qy0PtFye2vi_2kJkTg9xjWZ/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Multiplier",
+                    "files": [
+                        {
+                            "title": "3. Zhijun Huang Thesis-High-Level Optimization Techniques for Low-Power Multiplier Design (UCLA).pdf",
+                            "url": "https://drive.google.com/file/d/1xlIl9Uha6IVGGKLTN_VdhRpQI2rWuI6D/preview"
+                        },
+                        {
+                            "title": "Kurram Muhammad.pdf",
+                            "url": "https://drive.google.com/file/d/1xjQsjsUpviQBvhADvDL4BH1KrA0zfKN6/preview"
+                        },
+                        {
+                            "title": "Nagaraj_Nagaraj_Timing Induced Error Analysis for Wallace Tree Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1xjBzZQyRRvfTpcVgcgR1v3Xt0ikrRWOG/preview"
+                        },
+                        {
+                            "title": "Santoro-Design and Clocking Of VLSI Multipliers.pdf",
+                            "url": "https://drive.google.com/file/d/1xlwzVLHRin4gD3V_SMSD8Ku1e54ykpuk/preview"
+                        },
+                        {
+                            "title": "Wentao_Wentao_Bewick Fast Multiplication Algorithms and Implementation.pdf",
+                            "url": "https://drive.google.com/file/d/1xme8Sfzjbv9Xb5_lZYfaV90H7jQ_YD2s/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "Posit",
+                    "files": [
+                        {
+                            "title": "Gustafson-Byeond Floating Point-Next Generation Computer Arithmetic.pdf",
+                            "url": "https://drive.google.com/file/d/1h7Ni_fR_YQRVOulE7GYOVc-aY02I1bCW/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_Adder",
+                    "files": [
+                        {
+                            "title": "David_David_Kosha Lottich Redundant Formats for Faster Floating Point Addition.pdf",
+                            "url": "https://drive.google.com/file/d/1ravXWWmgDUgkyBYBxspZLq9Li1kAO4ku/preview"
+                        }
+                    ]
+                },
+                {
+                    "name": "SD_General",
+                    "files": [
+                        {
+                            "title": "Amir_Seokbum_Amir Kaivani High Speed Co Processors Based on Redundant Number Systems @UoSaskatchewan.pdf",
+                            "url": "https://drive.google.com/file/d/1rlfUor34VwHWUcH_jCyfcWCQSEVN625e/preview"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+};

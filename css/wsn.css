@@ -164,6 +164,53 @@
     color: #2c3e50;
 }
 
+/* Academic files embed: A4 aspect ratio and responsive sizing */
+.academic-file-embed {
+    display: none;
+    margin-top: 12px;
+    max-width: 794px; /* A4 width at 96dpi */
+    width: 100%;
+    aspect-ratio: 210 / 297; /* A4 ratio */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 1px solid #e0e0e0;
+    background: #fff;
+}
+.academic-file-embed iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.academic-file-view-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #2c6b3a;
+    color: #fff;
+    background: #2c6b3a;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.academic-file-view-btn:hover {
+    background: #254f31;
+}
+.academic-file-download-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #2c6b3a;
+    color: #fff;
+    background: #2c6b3a;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.academic-file-download-btn:hover {
+    background: #254f31;
+}
+.academic-file-download-btn:hover {
+    background: #254f31;
+}
+
 .wsn-lab-details a {
     transition: transform 0.2s ease, opacity 0.2s ease;
     display: inline-block;
@@ -433,4 +480,54 @@
     .venues-grid {
         grid-template-columns: 1fr;
     }
+}
+
+/* Academic Data Constellation Styling */
+.academic-items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.academic-item {
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.academic-item-btn {
+    width: 100%;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #6a9a7a 0%, #5a8a6a 100%);
+    color: white;
+    border: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+    min-height: 40px;
+}
+
+.academic-toggle-icon {
+    font-size: 10px;
+}
+
+.academic-item-content {
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 3px solid #6a9a7a;
 }
