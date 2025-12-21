@@ -143,6 +143,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function renderCategoryToContainer(catData, container, lookup) {
+        function escapeHtml(str) {
+            return String(str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+        }
         var html = '<div class="academic-items">';
         (catData.items||[]).forEach(function(item, idx){
             var id = container.id + '-item-' + idx;
@@ -170,16 +173,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 html += '<div class="academic-files" style="margin-top:8px;">';
                 html += '<ul style="margin:0;padding-left:18px;">';
                 item.files.forEach(function(f, fidx){
-                    var safeUrl = f.url || f.link || '#';
-                    var title = f.title || f.name || safeUrl;
-                    var embedId = id + '-file-' + fidx;
-                    html += '<li style="margin-bottom:6px;">';
-                    html += '<span style="font-weight:500;">'+title+'</span> ';
-                    // Open preview/download in a new tab — Drive previews often block embedding
-                    html += '<a class="academic-file-view-btn" href="'+safeUrl+'" target="_blank" rel="noopener" aria-label="Open '+title+'" style="margin-left:8px;">Open</a>';
-                    var downloadUrl = (function(u){ try{ var m=u.match(/\/d\/([a-zA-Z0-9_-]+)/); if (m&&m[1]) return 'https://drive.google.com/uc?export=download&id=' + m[1]; var q = u.match(/[?&]id=([a-zA-Z0-9_-]+)/); if (q&&q[1]) return 'https://drive.google.com/uc?export=download&id=' + q[1]; }catch(e){} return u; })(safeUrl);
-                    html += '<a class="academic-file-download-btn" href="'+downloadUrl+'" target="_blank" rel="noopener" style="margin-left:8px;">Download</a>';
-                    html += '</li>';
+                    try {
+                        var safeUrl = f.url || f.link || '#';
+                        var title = f.title || f.name || safeUrl;
+                        var embedId = id + '-file-' + fidx;
+                        var escTitle = escapeHtml(title);
+                        var escUrl = escapeHtml(safeUrl);
+                        html += '<li style="margin-bottom:6px;">';
+                        html += '<span style="font-weight:500;">'+escTitle+'</span> ';
+                        // Open preview/download in a new tab — Drive previews often block embedding
+                        html += '<a class="academic-file-view-btn" href="'+escUrl+'" target="_blank" rel="noopener" aria-label="Open '+escTitle+'" style="margin-left:8px;">Open</a>';
+                        var downloadUrl = (function(u){ try{ var m=u.match(/\/d\/([a-zA-Z0-9_-]+)/); if (m&&m[1]) return 'https://drive.google.com/uc?export=download&id=' + m[1]; var q = u.match(/[?&]id=([a-zA-Z0-9_-]+)/); if (q&&q[1]) return 'https://drive.google.com/uc?export=download&id=' + q[1]; }catch(e){} return u; })(safeUrl);
+                        html += '<a class="academic-file-download-btn" href="'+escapeHtml(downloadUrl)+'" target="_blank" rel="noopener" style="margin-left:8px;">Download</a>';
+                        html += '</li>';
+                    } catch (err) {
+                        console.error('Error rendering file for', item.name, 'fileIndex', fidx, err);
+                    }
                 });
                 html += '</ul>';
                 html += '</div>';
@@ -194,6 +203,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function renderFromCategories(categories) {
+        function escapeHtml(str) {
+            return String(str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+        }
         var map = {
             'Articles': 'articlesItemsDiv',
             'Books': 'booksItemsDiv',
@@ -272,13 +284,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     html += '<div class="academic-files" style="margin-top:8px;">';
                     html += '<ul style="margin:0;padding-left:18px;">';
                     item.files.forEach(function(f, fidx){
-                        var safeUrl = f.url || f.link || '#';
-                        var title = f.title || f.name || safeUrl;
-                        var embedId = id + '-file-' + fidx;
-                        html += '<li style="margin-bottom:6px;">';
+                        try {
+                            var safeUrl = f.url || f.link || '#';
+                            var title = f.title || f.name || safeUrl;
+                            var embedId = id + '-file-' + fidx;
+                            var escTitle = escapeHtml(title);
+                            var escUrl = escapeHtml(safeUrl);
+                            html += '<li style="margin-bottom:6px;">';
                             // Open external preview in a new tab — Drive previews often block embedding
-                            html += '<span style="font-weight:500;">'+title+'</span> ';
-                            html += '<a class="academic-file-view-btn" href="'+safeUrl+'" target="_blank" rel="noopener" aria-label="Open '+title+'" style="margin-left:8px;">Open</a>';
+                            html += '<span style="font-weight:500;">'+escTitle+'</span> ';
+                            html += '<a class="academic-file-view-btn" href="'+escUrl+'" target="_blank" rel="noopener" aria-label="Open '+escTitle+'" style="margin-left:8px;">Open</a>';
                             // Build download URL (Google Drive direct-download when possible)
                             var downloadUrl = (function(u){
                                 try {
@@ -289,8 +304,11 @@ document.addEventListener('DOMContentLoaded', function() {
                                 } catch(e){}
                                 return u;
                             })(safeUrl);
-                            html += '<a class="academic-file-download-btn" href="'+downloadUrl+'" target="_blank" rel="noopener" style="margin-left:8px;">Download</a>';
+                            html += '<a class="academic-file-download-btn" href="'+escapeHtml(downloadUrl)+'" target="_blank" rel="noopener" style="margin-left:8px;">Download</a>';
                             html += '</li>';
+                        } catch (err) {
+                            console.error('Error rendering file for', item.name, 'fileIndex', fidx, err);
+                        }
                     });
                     html += '</ul>';
                     html += '</div>';
