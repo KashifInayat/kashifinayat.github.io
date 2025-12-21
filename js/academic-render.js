@@ -463,7 +463,20 @@ document.addEventListener('DOMContentLoaded', function() {
                                         var cats = window._academicCategories || [];
                                         var file = (cats[cidx] && cats[cidx].items && cats[cidx].items[iidx] && cats[cidx].items[iidx].files && cats[cidx].items[iidx].files[fidx]) || null;
                                         var url = file ? (file.url || file.link || null) : null;
-                                        if (url) window.open(url, '_blank');
+                                        if (url) {
+                                            try {
+                                                // Try to open inline viewer by triggering the View button for the file
+                                                var itemContainer = itemEl;
+                                                var fileLis = itemContainer.querySelectorAll('.academic-files li');
+                                                var targetLi = fileLis && fileLis[fidx];
+                                                if (targetLi) {
+                                                    var vbtn = targetLi.querySelector('.academic-file-view-btn');
+                                                    if (vbtn) { vbtn.click(); } else { window.open(url, '_blank'); }
+                                                } else {
+                                                    window.open(url, '_blank');
+                                                }
+                                            } catch(e) { window.open(url, '_blank'); }
+                                        }
                                     } catch(e) { /* ignore */ }
                                 }
                                 setTimeout(function(){ itemEl.scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 200);
