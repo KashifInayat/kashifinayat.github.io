@@ -216,11 +216,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (existing) { existing.parentNode.removeChild(existing); setTimeout(recalcAcademicTabs, 10); return; }
                     var wrap = document.createElement('div');
                     wrap.className = 'academic-iframe-wrap';
+                    // Center the viewer and constrain to A4 size (210mm x 297mm ≈ 794x1123px at 96dpi)
                     wrap.style.marginTop = '8px';
+                    wrap.style.maxWidth = '794px';
+                    wrap.style.marginLeft = 'auto';
+                    wrap.style.marginRight = 'auto';
                     var iframe = document.createElement('iframe');
                     iframe.src = url;
-                    iframe.width = '100%';
-                    iframe.height = '600';
+                    iframe.style.width = '100%';
+                    iframe.style.height = '1123px';
+                    iframe.style.maxWidth = '794px';
                     iframe.style.border = '1px solid #ddd';
                     iframe.loading = 'lazy';
                     wrap.appendChild(iframe);
@@ -384,10 +389,16 @@ document.addEventListener('DOMContentLoaded', function() {
                     var wrap = document.createElement('div');
                     wrap.className = 'academic-iframe-wrap';
                     wrap.style.marginTop = '8px';
+                    // Center the viewer and constrain to A4 size (210mm x 297mm ≈ 794x1123px at 96dpi)
+                    wrap.style.marginTop = '8px';
+                    wrap.style.maxWidth = '794px';
+                    wrap.style.marginLeft = 'auto';
+                    wrap.style.marginRight = 'auto';
                     var iframe = document.createElement('iframe');
                     iframe.src = url;
-                    iframe.width = '100%';
-                    iframe.height = '600';
+                    iframe.style.width = '100%';
+                    iframe.style.height = '1123px';
+                    iframe.style.maxWidth = '794px';
                     iframe.style.border = '1px solid #ddd';
                     iframe.loading = 'lazy';
                     wrap.appendChild(iframe);
