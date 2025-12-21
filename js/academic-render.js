@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     if (!document.getElementById('section-academic')) return;
 
-    // Fetch tree.md and academic-links.json in parallel to avoid large JS parse
+    // Fetch tree.md and academic-links.json in parallel.
+    // NOTE: tree.md is optional — if it's missing we should still use js/academic-links.json.
     Promise.all([
-        fetch('tree.md').then(function(res){ if (!res.ok) throw new Error('Failed to fetch tree.md'); return res.text(); }),
+        fetch('tree.md').then(function(res){ return res.ok ? res.text() : ''; }).catch(function(){ return ''; }),
         fetch('js/academic-links.json').then(function(res){ if (!res.ok) return {}; return res.json(); }).catch(function(){ return {}; })
     ])
     .then(function(results){
