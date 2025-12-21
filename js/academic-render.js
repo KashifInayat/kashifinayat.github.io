@@ -182,8 +182,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         var escUrl = escapeHtml(safeUrl);
                         html += '<li style="margin-bottom:6px;">';
                         html += '<span style="font-weight:500;">'+escTitle+'</span> ';
-                        // Open preview/download in a new tab — Drive previews often block embedding
-                        html += '<a class="academic-file-view-btn" href="'+escUrl+'" target="_blank" rel="noopener" aria-label="Open '+escTitle+'" style="margin-left:8px;">Open</a>';
+                        // Provide an inline "View" toggle (iframe) and keep a Download fallback.
+                        // The View button will be handled by JS to insert an iframe beneath the item.
+                        html += '<a class="academic-file-view-btn" href="#" data-url="'+escUrl+'" aria-label="View '+escTitle+'" style="margin-left:8px;">View</a>';
                         var downloadUrl = (function(u){ try{ var m=u.match(/\/d\/([a-zA-Z0-9_-]+)/); if (m&&m[1]) return 'https://drive.google.com/uc?export=download&id=' + m[1]; var q = u.match(/[?&]id=([a-zA-Z0-9_-]+)/); if (q&&q[1]) return 'https://drive.google.com/uc?export=download&id=' + q[1]; }catch(e){} return u; })(safeUrl);
                         html += '<a class="academic-file-download-btn" href="'+escapeHtml(downloadUrl)+'" target="_blank" rel="noopener" style="margin-left:8px;">Download</a>';
                         html += '</li>';
@@ -201,6 +202,33 @@ document.addEventListener('DOMContentLoaded', function() {
         container.innerHTML = html;
         // Attach item toggle handlers for new content
         container.querySelectorAll('.academic-item-btn').forEach(function(btn){ btn.addEventListener('click', function(){ var id = btn.getAttribute('data-target'); var el = document.getElementById(id); if (!el) return; el.style.display = (el.style.display==='none' || el.style.display==='') ? 'block' : 'none'; setTimeout(recalcAcademicTabs, 10); }); });
+
+        // Attach file "View" handlers that toggle an inline iframe viewer beneath the file entry
+        try {
+            container.querySelectorAll('.academic-file-view-btn').forEach(function(btn){
+                btn.addEventListener('click', function(e){
+                    e.preventDefault();
+                    var url = btn.getAttribute('data-url');
+                    if (!url) return;
+                    var li = btn.closest('li');
+                    if (!li) return;
+                    var existing = li.querySelector('.academic-iframe-wrap');
+                    if (existing) { existing.parentNode.removeChild(existing); setTimeout(recalcAcademicTabs, 10); return; }
+                    var wrap = document.createElement('div');
+                    wrap.className = 'academic-iframe-wrap';
+                    wrap.style.marginTop = '8px';
+                    var iframe = document.createElement('iframe');
+                    iframe.src = url;
+                    iframe.width = '100%';
+                    iframe.height = '600';
+                    iframe.style.border = '1px solid #ddd';
+                    iframe.loading = 'lazy';
+                    wrap.appendChild(iframe);
+                    li.appendChild(wrap);
+                    setTimeout(recalcAcademicTabs, 50);
+                });
+            });
+        } catch(e) {}
     }
 
     function renderFromCategories(categories) {
@@ -292,9 +320,9 @@ document.addEventListener('DOMContentLoaded', function() {
                             var escTitle = escapeHtml(title);
                             var escUrl = escapeHtml(safeUrl);
                             html += '<li style="margin-bottom:6px;">';
-                            // Open external preview in a new tab — Drive previews often block embedding
+                            // Provide an inline "View" toggle (iframe) and keep a Download fallback.
                             html += '<span style="font-weight:500;">'+escTitle+'</span> ';
-                            html += '<a class="academic-file-view-btn" href="'+escUrl+'" target="_blank" rel="noopener" aria-label="Open '+escTitle+'" style="margin-left:8px;">Open</a>';
+                            html += '<a class="academic-file-view-btn" href="#" data-url="'+escUrl+'" aria-label="View '+escTitle+'" style="margin-left:8px;">View</a>';
                             // Build download URL (Google Drive direct-download when possible)
                             var downloadUrl = (function(u){
                                 try {
@@ -342,7 +370,32 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
 
-        // File view buttons are anchors that open in a new tab; no JS handler required.
+        // Attach file "View" handlers that toggle an inline iframe viewer beneath the file entry
+        try {
+            document.querySelectorAll('#section-academic .academic-file-view-btn').forEach(function(btn){
+                btn.addEventListener('click', function(e){
+                    e.preventDefault();
+                    var url = btn.getAttribute('data-url');
+                    if (!url) return;
+                    var li = btn.closest('li');
+                    if (!li) return;
+                    var existing = li.querySelector('.academic-iframe-wrap');
+                    if (existing) { existing.parentNode.removeChild(existing); setTimeout(recalcAcademicTabs, 10); return; }
+                    var wrap = document.createElement('div');
+                    wrap.className = 'academic-iframe-wrap';
+                    wrap.style.marginTop = '8px';
+                    var iframe = document.createElement('iframe');
+                    iframe.src = url;
+                    iframe.width = '100%';
+                    iframe.height = '600';
+                    iframe.style.border = '1px solid #ddd';
+                    iframe.loading = 'lazy';
+                    wrap.appendChild(iframe);
+                    li.appendChild(wrap);
+                    setTimeout(recalcAcademicTabs, 50);
+                });
+            });
+        } catch(e) {}
 
         // recalcAcademicTabs moved to outer scope to avoid ReferenceError
 
