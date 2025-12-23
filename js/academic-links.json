@@ -4474,23 +4474,33 @@
       "category": "Books",
       "items": [
         {
-          "name": "CPU",
+          "name": "Arithmetic",
           "files": [
+            { "title": "Kai Hwang - Computer Arithmetic: Principles, Architecture, and Design", "url": "https://drive.google.com/file/d/1APbHmqz7rFJR0wvFGb0EAIZnyDwerpp4/preview" },
+            { "title": "M. D. Ercegovac; T. Lang - Digital Arithmetic", "url": "https://drive.google.com/file/d/1ATUEXxBtTnH--Kt46w4eF29Qc9sbSXjP/preview" },
+            { "title": "Mircea - Computer Arithmetic: Algorithms and Hardware Implementations", "url": "https://drive.google.com/file/d/1Ag-2R0wM6cxksFofMKn6JVaLVCNgMnEM/preview" },
+            { "title": "Peter Kornerup; David W. Matula - Finite Precision Number System Arithmetic", "url": "https://drive.google.com/file/d/1AhoEa6n9R3RT9GEJ4vv2UHLxjOVD5EZr/preview" },
+            { "title": "Israel Koren - Computer Arithmetic Algorithms", "url": "https://drive.google.com/file/d/1AnTrJ9MPOrlHblaAZs56pqppNdT1AblU/preview" },
+            { "title": "Behrooz Parhami - Computer Arithmetic Algorithms", "url": "https://drive.google.com/file/d/1AptJsZIMsiRfBZKKI3GVyIOKEensPgNc/preview" },
+            { "title": "Ulrich - Computer Arithmetic in Theory and Practice", "url": "https://drive.google.com/file/d/1AooGRdpO_Ig0v1U4Az4SVEHJiMP-wYWf/preview" },
+            { "title": "Peter Kornerup; David W. Matula - Finite Precision Number System Arithmetic (alternate)", "url": "https://drive.google.com/file/d/1AtJ9tR1SWm2uLJsmQzT02L9NqyImyf9C/preview" },
+            { "title": "George Boole - The Mathematical Analysis of Logic", "url": "https://drive.google.com/file/d/1Aso8dJiT9Q2g2X5vMVrL_065vPbB4yYQ/preview" },
+            { "title": "Sung-Mo Kang - CMOS Digital Integrated Circuits", "url": "https://drive.google.com/file/d/19D875BVpqv-iSA7HpttFx1V6DkSnWYV4/preview" }
+          ]
+        },
+        {
+          "name": "Computer Architecture",
+          "files": [
+            { "title": "John Paul Shen; Mikko H. Lipasti - Modern Processor Design: Fundamentals of Superscalar Processors", "url": "https://drive.google.com/file/d/1wWHIVaA6lMJZnH3Rdz-K6yCTDtWIxuDh/preview" },
+            { "title": "David Harris - Digital Design and Computer Architecture", "url": "https://drive.google.com/file/d/1wWgHhzIM_rJvjGxgSHCL0myttJBRbo6v/preview" },
+            { "title": "David A. Patterson - Computer Organization and Design", "url": "https://drive.google.com/file/d/1wiAetf-K5RRdtFReCdp5UhY_4XXxrBcI/preview" },
+            { "title": "David A. Patterson; John L. Hennessy - Computer Architecture: A Quantitative Approach", "url": "https://drive.google.com/file/d/1wx0okztNz2O52xu3YvVBHMsaCvsyKAee/preview" },
+            { "title": "Yale - Introduction to Computing Systems: From Bits & Gates to C/C++ & Beyond", "url": "https://drive.google.com/file/d/1wn83cONvO3kUE7gZI04oQYmIhjf_2rXA/preview" },
+            { "title": "Kai Hwang - Computer Architecture and Parallel Processing", "url": "https://drive.google.com/file/d/1Du8U9zLQBvnOLKwo82AN9GxBSdQYUs3Y/preview" },
+            { "title": "Kai Hwang - Advanced Computer Architecture", "url": "https://drive.google.com/file/d/1Do3H46yGoB9A8DbDFrNaPC_Anxc5Egjk/preview" },
             {
               "title": "Avinoam-Of Limits and Myths in Branch Prediction.pdf",
               "url": "https://drive.google.com/file/d/11-yb_ZJ2vChvccHPNfFvW7PSjLn_Fzxj/preview"
-            },
-            {
-              "title": "B._J.P._LIBRO LIPASTI 2 ed Modern Processor Design  Fundamentals of Superscalar Processors ( PDFDrive ).pdf",
-              "url": "https://drive.google.com/file/d/1_5f6_9A5NnEq_elE7DIdGPYbfFa92Uih/preview"
-            },
-            {
-              "title": "Babak_Thomas_A Primer on Hardware Prefetching.pdf",
-              "url": "https://drive.google.com/file/d/1EfDD8pbz3sXpD9XN1rGKrNbatZK9ku6U/preview"
-            },
-            {
-              "title": "C.J._C.J._Cesar Thesis Superscalar Processor Design for Embedded Systems.pdf",
-              "url": "https://drive.google.com/file/d/1gx_AwbZYrCWOtypibUL0JcO7TBxDIAVC/preview"
             },
             {
               "title": "Claudia_Claudia_libro BAER.pdf",
@@ -4505,26 +4515,10 @@
               "url": "https://drive.google.com/file/d/1_8GxME3fjdj6exolrBga6I71PZFlV9FG/preview"
             },
             {
-              "title": "Muhammad_David_Hassan A Reusable Characterization of the Memory System Behavior of SPEC2017 and SPEC2006.pdf",
-              "url": "https://drive.google.com/file/d/1Ec5dlEMADn3I5Y9DLrbKqsq_ludzgtop/preview"
-            },
-            {
-              "title": "Muhammad_David_Hassan Architecturally independent and time based characterization of SPEC CPU 2017.pdf",
-              "url": "https://drive.google.com/file/d/1pKwnBfejoq-LrTEvNbuNayYajMQbEDwH/preview"
-            },
-            {
-              "title": "Muhammad_David_Hassan Protean Resource efficient Instruction Prefetching.pdf",
-              "url": "https://drive.google.com/file/d/13U_7xevRKEBp0BCvecyqNM1BuhAvPBTO/preview"
-            },
-            {
-              "title": "Yuval-Historical Study of the Development of Branch Prediction.pdf",
-              "url": "https://drive.google.com/file/d/1CIYP-m5Yzh8TYbvNVHLzQwwxFwv-MH-l/preview"
-            },
-            {
               "title": "[The Morgan Kaufmann Series in Computer Architecture and Design ] Jim Handy - The Cache Memory Book (1998, Morgan Kaufmann Publishers) - libgen.li.pdf",
               "url": "https://drive.google.com/file/d/1d5B2r8p8eBhCby68M319etKDR2TANmcT/preview"
             },
-            {
+             {
               "title": "libro_cap7.pdf",
               "url": "https://drive.google.com/file/d/1oduycqOBSOzutP5-WAtGMp4OVwiRYcjr/preview"
             },
@@ -4645,6 +4639,56 @@
             {
               "title": "John_John_posit standard 2.pdf",
               "url": "https://drive.google.com/file/d/1hvP3TMlpUBQsXoeT9EphE-MZuWYkjYZy/preview"
+            }
+          ]
+        }
+        ,
+        {
+          "name": "VLSI",
+          "files": [
+            {
+              "title": "Charles_Ron_H.TKung 1980 introduction to vlsi systems kung leiserson.pdf",
+              "url": "https://drive.google.com/file/d/1rg74DRpwTwoXSCWgZVkWoLPYkfuHe3-A/preview"
+            },
+            {
+              "title": "H.TKung-The design of special purpose VLSI chips 1980.pdf",
+              "url": "https://drive.google.com/file/d/1JgLJW2-DnohJTKCkP_Z8ySnmHnP5jjxc/preview"
+            },
+            {
+              "title": "Dharma_Bhuwan_DP Agrawal Design and Performance of VLSI Based Parallel Multiplier.pdf",
+              "url": "https://drive.google.com/file/d/1vizeqzRA7aD_E4d2eHg3sae3W0fYjgoj/preview"
+            },
+            {
+              "title": "V.G._V.G._Oklobdzija Imporving multipl ieee vlsi 95.pdf",
+              "url": "https://drive.google.com/file/d/1vkYr2hnao6jTU7hHLA1vmDxEWJ3Fu-HM/preview"
+            },
+            {
+              "title": "Xin_Xin_Geoffrey Burns VLSI Implementation of LRCF Multiplier.pdf",
+              "url": "https://drive.google.com/file/d/1X1Z0xNmNFnsMu-U1yPts8IKfzjlpCqQw/preview"
+            },
+            {
+              "title": "G._D._Dimitris Nikolos High Speed Parallel Prefix VLSI Ling Adders.pdf",
+              "url": "https://drive.google.com/file/d/1Azs4Lv9TH9DJwia786i_8z5xz2-QAg6S/preview"
+            },
+            {
+              "title": "H_C_Luca Bio Inspired Imprecise Computational Blocks for Efficient VLSI.pdf",
+              "url": "https://drive.google.com/file/d/1wihoU2sPRB2r2yoN-z3yh5_rA-46FT5y/preview"
+            },
+            {
+              "title": "Hafiz_Hafiz Binary Adder Architectures for Cell-Based VLSI and their Synthesis.pdf",
+              "url": "https://drive.google.com/file/d/1xzq6E0G2Yk8H2KABWXvaHVjJ6HqG1p6b/preview"
+            },
+            {
+              "title": "Shalini_Madhav_Israel Koren Galop A Generalized VLSI Architecture for Ultrafast Carry Originate Propagate adders.pdf",
+              "url": "https://drive.google.com/file/d/1xz0rQHnp6zbnAXe35Yj8-zBGYHLkaVRr/preview"
+            },
+            {
+              "title": "Tackdon_David_David Fast Area Efficient VLSI Adders.pdf",
+              "url": "https://drive.google.com/file/d/1kuWG0Jcw9svfrON3SKr_9_tLUzH3r710/preview"
+            },
+            {
+              "title": "Vojin_Earl_Oklobdzija On Implementing Additions in VLSI Technology.pdf",
+              "url": "https://drive.google.com/file/d/1bLEPky-sHeOCdbQ8nC2T_NlcutrwFzrV/preview"
             }
           ]
         }
