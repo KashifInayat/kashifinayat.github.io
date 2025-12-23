@@ -122,7 +122,13 @@ document.addEventListener('DOMContentLoaded', function() {
         try { setTimeout(recalcAcademicTabs, 50); } catch (e) {}
         // attach change handler to render other tabs on demand
         document.querySelectorAll('input[name="ktabs-academic"]').forEach(function(inp){
-            inp.addEventListener('change', function(){ setTimeout(renderActiveAcademicTab, 50); });
+            inp.addEventListener('change', function(){
+                try {
+                    // clear rendered flag for all items containers so they will be rebuilt when selected
+                    document.querySelectorAll('[id$="ItemsDiv"]').forEach(function(el){ if (el && el.dataset) el.dataset.rendered = '0'; });
+                } catch(e) {}
+                setTimeout(renderActiveAcademicTab, 50);
+            });
         });
     }
 
@@ -415,7 +421,11 @@ document.addEventListener('DOMContentLoaded', function() {
         // Also recalc when switching academic tabs
         if (window.jQuery) {
             $('input[name="ktabs-academic"]').on('change', function(){
-                setTimeout(recalcAcademicTabs, 50);
+                try {
+                    // clear rendered flags for all containers (jQuery path)
+                    $('[id$="ItemsDiv"]').each(function(){ try { this.dataset && (this.dataset.rendered = '0'); } catch(e){} });
+                } catch(e){}
+                setTimeout(function(){ try { if (typeof renderActiveAcademicTab === 'function') renderActiveAcademicTab(); } catch(e){} try { recalcAcademicTabs(); } catch(e){} }, 50);
             });
         }
 
