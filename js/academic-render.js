@@ -118,6 +118,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // render the category into this container
         renderCategoryToContainer(catData, container, lookup);
         container.dataset.rendered = '1';
+        // Ensure layout/spacings are recalculated after rendering the tab
+        try { setTimeout(recalcAcademicTabs, 50); } catch (e) {}
         // attach change handler to render other tabs on demand
         document.querySelectorAll('input[name="ktabs-academic"]').forEach(function(inp){
             inp.addEventListener('change', function(){ setTimeout(renderActiveAcademicTab, 50); });
