@@ -160,7 +160,12 @@ $(document).ready(function () {
           try {
             var tabsHeight = $tabs.outerHeight() || 0;
             var currentContent = $tabs.find('.c-tabs__content:visible');
-            var currentContentHeight = currentContent.outerHeight() || 0;
+            var currentContentHeight = 0;
+            if (currentContent.length) {
+              currentContentHeight = currentContent.outerHeight() || currentContent.prop('scrollHeight') || 0;
+            }
+            // small buffer to avoid 1px overlaps
+            currentContentHeight = Math.ceil(currentContentHeight) + 8;
             $tabs.css({ 'margin-bottom': currentContentHeight });
             currentContent.css({ 'top': tabsHeight });
           } catch(e){}
@@ -170,7 +175,11 @@ $(document).ready(function () {
           try {
             var tabsHeight = $tabs.outerHeight() || 0;
             var currentContent = $tabs.find('.p-ptabs__content:visible');
-            var currentContentHeight = currentContent.outerHeight() || 0;
+            var currentContentHeight = 0;
+            if (currentContent.length) {
+              currentContentHeight = currentContent.outerHeight() || currentContent.prop('scrollHeight') || 0;
+            }
+            currentContentHeight = Math.ceil(currentContentHeight) + 8;
             $tabs.css({ 'margin-bottom': currentContentHeight });
             currentContent.css({ 'top': tabsHeight });
           } catch(e){}
@@ -180,7 +189,11 @@ $(document).ready(function () {
           try {
             var tabsHeight = $tabs.outerHeight() || 0;
             var currentContent = $tabs.find('.k-tabs__content:visible');
-            var currentContentHeight = currentContent.outerHeight() || 0;
+            var currentContentHeight = 0;
+            if (currentContent.length) {
+              currentContentHeight = currentContent.outerHeight() || currentContent.prop('scrollHeight') || 0;
+            }
+            currentContentHeight = Math.ceil(currentContentHeight) + 8;
             $tabs.css({ 'margin-bottom': currentContentHeight });
             currentContent.css({ 'top': tabsHeight });
           } catch(e){}
