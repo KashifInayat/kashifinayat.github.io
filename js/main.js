@@ -155,51 +155,57 @@ $(document).ready(function () {
 
       var $this = this;
       var tabs = $('.js-tabs');
+        // Recalculate margins per `.js-tabs` container to avoid global sizing issues
+        function setTabMarginFor($tabs){
+          try {
+            var tabsHeight = $tabs.outerHeight() || 0;
+            var currentContent = $tabs.find('.c-tabs__content:visible');
+            var currentContentHeight = currentContent.outerHeight() || 0;
+            $tabs.css({ 'margin-bottom': currentContentHeight });
+            currentContent.css({ 'top': tabsHeight });
+          } catch(e){}
+        }
 
-      function setTabMargin(){
-        var tabsHeight = tabs.outerHeight();
-        var currentContent = tabs.find('.c-tabs__content:visible');
-        var currentContentHeight = currentContent.outerHeight();
-        tabs.css({
-          'margin-bottom': currentContentHeight
-        });
-        currentContent.css({
-          'top': tabsHeight
-        });
-      }
+        function setTabPMarginFor($tabs){
+          try {
+            var tabsHeight = $tabs.outerHeight() || 0;
+            var currentContent = $tabs.find('.p-ptabs__content:visible');
+            var currentContentHeight = currentContent.outerHeight() || 0;
+            $tabs.css({ 'margin-bottom': currentContentHeight });
+            currentContent.css({ 'top': tabsHeight });
+          } catch(e){}
+        }
 
-      function setTabPMargin(){
-        var tabsHeight = tabs.outerHeight();
-        var currentContent = tabs.find('.p-ptabs__content:visible');
-        var currentContentHeight = currentContent.outerHeight();
-        tabs.css({
-          'margin-bottom': currentContentHeight
-        });
-        currentContent.css({
-          'top': tabsHeight
-        });
-      }
+        function setTabKMarginFor($tabs){
+          try {
+            var tabsHeight = $tabs.outerHeight() || 0;
+            var currentContent = $tabs.find('.k-tabs__content:visible');
+            var currentContentHeight = currentContent.outerHeight() || 0;
+            $tabs.css({ 'margin-bottom': currentContentHeight });
+            currentContent.css({ 'top': tabsHeight });
+          } catch(e){}
+        }
 
-      function setTabKMargin(){
-        var tabsHeight = tabs.outerHeight();
-        var currentContent = tabs.find('.k-tabs__content:visible');
-        var currentContentHeight = currentContent.outerHeight();
-        tabs.css({
-          'margin-bottom': currentContentHeight
+        // Initial pass for every tabs container
+        tabs.each(function(){
+          var $t = $(this);
+          setTabMarginFor($t);
+          setTabPMarginFor($t);
+          setTabKMarginFor($t);
         });
-        currentContent.css({
-          'top': tabsHeight
-        });
-      }
 
-      setTabMargin();
-      setTabPMargin();
-      setTabKMargin();
-      tabs.on('click', function(event){
-        setTabMargin();
-        setTabPMargin();
-        setTabKMargin();
-      });
+        // Recalc only for the specific tabs container when clicked
+        tabs.on('click', function(event){
+          var $t = $(this);
+          setTabMarginFor($t);
+          setTabPMarginFor($t);
+          setTabKMarginFor($t);
+        });
+
+        // Recalc on window resize for all containers
+        $(window).on('resize', function(){
+          tabs.each(function(){ var $t = $(this); setTabMarginFor($t); setTabPMarginFor($t); setTabKMarginFor($t); });
+        });
     },
 
     mainMenuActions: function() {
