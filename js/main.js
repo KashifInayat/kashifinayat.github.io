@@ -194,6 +194,11 @@ $(document).ready(function () {
           setTabKMarginFor($t);
         });
 
+        // Lightweight helper to recalc margins for all containers (no observers)
+        function recalcAll(){
+          tabs.each(function(){ var $t = $(this); setTabMarginFor($t); setTabPMarginFor($t); setTabKMarginFor($t); });
+        }
+
         // Recalc only for the specific tabs container when clicked
         tabs.on('click', function(event){
           var $t = $(this);
@@ -227,12 +232,15 @@ $(document).ready(function () {
         tabs.each(function(){
           try {
             var $t = $(this);
+            // avoid attaching multiple observers on repeated tabs() calls
+            if ($t.data('tabs-observer-attached')) return;
             var observer = new MutationObserver(debounce(function(mutations){
               setTabMarginFor($t);
               setTabPMarginFor($t);
               setTabKMarginFor($t);
             }, 120));
             observer.observe(this, { childList: true, subtree: true, characterData: true });
+            $t.data('tabs-observer-attached', true);
           } catch(e){}
         });
 
@@ -241,15 +249,20 @@ $(document).ready(function () {
           var pubSection = document.getElementById('section-publications');
           if (pubSection) {
             var pubObserver = new MutationObserver(debounce(function(){
-              tabs.each(function(){ var $t = $(this); setTabMarginFor($t); setTabPMarginFor($t); setTabKMarginFor($t); });
+              recalcAll();
             }, 150));
             pubObserver.observe(pubSection, { childList: true, subtree: true, characterData: true });
           }
         } catch(e){}
         // Recalc on window resize for all containers
         $(window).on('resize', function(){
-          tabs.each(function(){ var $t = $(this); setTabMarginFor($t); setTabPMarginFor($t); setTabKMarginFor($t); });
+          recalcAll();
         });
+
+        // Ensure late-rendered content doesn't leave sections overlapping.
+        // Run a couple of delayed recalculations after initial run.
+        setTimeout(recalcAll, 250);
+        setTimeout(recalcAll, 1000);
     },
 
     mainMenuActions: function() {
