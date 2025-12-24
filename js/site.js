@@ -379,6 +379,18 @@ if (typeof window !== 'undefined') {
 
 var chipsopp = {
      "chips": [
+
+        {
+        "date": "December 24, 2025",
+        "text": 'Note: 1500+ research articles, patents, thesis, published issues, and books related to VLSI, ASICS, ML, Digital Design and Computer Architecutre  has been added on this page.',
+        "link": "https://kashifinayat.github.io/wsn.html/#section-wsn",
+    },
+
+        {
+        "date": "December 12, 2025",
+        "text": 'Note: 400+ research group has been added on this page from all over the world.',
+        "link": "https://kashifinayat.github.io/wsn.html/#section-academic",
+    },
      
 	 {
         "date": "July 6, 2021",
