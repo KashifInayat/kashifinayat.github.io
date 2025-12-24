@@ -202,6 +202,16 @@ $(document).ready(function () {
           setTabKMarginFor($t);
         });
 
+        // Recalc when radio inputs change state (label clicks trigger this)
+        tabs.on('change', 'input[type=radio]', function(event){
+          try {
+            var $input = $(this);
+            var $t = $input.closest('.js-tabs');
+            setTabMarginFor($t);
+            setTabPMarginFor($t);
+            setTabKMarginFor($t);
+          } catch(e){}
+        });
         // Recalc on window resize for all containers
         $(window).on('resize', function(){
           tabs.each(function(){ var $t = $(this); setTabMarginFor($t); setTabPMarginFor($t); setTabKMarginFor($t); });
