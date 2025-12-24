@@ -212,6 +212,40 @@ $(document).ready(function () {
             setTabKMarginFor($t);
           } catch(e){}
         });
+
+        // Debounced helper
+        function debounce(fn, wait){
+          var t;
+          return function(){
+            var ctx = this, args = arguments;
+            clearTimeout(t);
+            t = setTimeout(function(){ fn.apply(ctx, args); }, wait || 100);
+          };
+        }
+
+        // Observe dynamic changes inside each tabs container and recalc when content is populated
+        tabs.each(function(){
+          try {
+            var $t = $(this);
+            var observer = new MutationObserver(debounce(function(mutations){
+              setTabMarginFor($t);
+              setTabPMarginFor($t);
+              setTabKMarginFor($t);
+            }, 120));
+            observer.observe(this, { childList: true, subtree: true, characterData: true });
+          } catch(e){}
+        });
+
+        // Also observe the publications section (content may be rendered asynchronously)
+        try {
+          var pubSection = document.getElementById('section-publications');
+          if (pubSection) {
+            var pubObserver = new MutationObserver(debounce(function(){
+              tabs.each(function(){ var $t = $(this); setTabMarginFor($t); setTabPMarginFor($t); setTabKMarginFor($t); });
+            }, 150));
+            pubObserver.observe(pubSection, { childList: true, subtree: true, characterData: true });
+          }
+        } catch(e){}
         // Recalc on window resize for all containers
         $(window).on('resize', function(){
           tabs.each(function(){ var $t = $(this); setTabMarginFor($t); setTabPMarginFor($t); setTabKMarginFor($t); });
