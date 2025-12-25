@@ -268,35 +268,37 @@
         
                             <div class="c-article" style="text-align:justify">
                                 <div class="o-screen-contact__col-info">
-                                    <span style="font-family: 'Lora', sans-serif; font-size: 20px; font-weight:bold; margin-bottom: 2%;float: left;"> Journals (SCI/SCIE)  (<script>document.write(publications.journals.length)</script>).</span>
-                                    <div class="p-ptabs__content" id="journalDiv" style="text-align: justify;"></div>
-        
-        
-                                    <span style="font-family: 'Lora', sans-serif; font-size: 20px; font-weight:bold; margin-bottom: 2%;float: left;">Journals (Non-SCI) (<script>document.write(publications.journalsdomestic.length)</script>).</span>
-        
-                                    <div class="p-ptabs__content" id="journalnonsciDiv" style="text-align: justify;"></div>
-        
-                                    <!-- Ddemo -->
-        
-                                    <span style="font-family: 'Lora', sans-serif; font-size: 20px; font-weight:bold; margin-bottom: 2%;float: left;">Conferences (<script>document.write(publications.conferences.length)</script>).</span>
-                                    
-                                    <div class="p-ptabs__content" id="conferenceDiv" style="text-align: justify;"></div>
-									
-                                    <span style="font-family: 'Lora', sans-serif; font-size: 20px; font-weight:bold; margin-bottom: 2%;float: left;">Posters (<script>document.write(publications.posters.length)</script>).</span>
-                                    
-                                    <div class="p-ptabs__content" id="posterDiv" style="text-align: justify;"></div>
+                                    <nav class="k-tabs js-tabs">
+                                        <div class="k-tabs__item">
+                                            <input class="u-visuallyhidden" id="ktab_pub1" type="radio" name="ktabs-pub" checked>
+                                            <label class="k-tabs__header" for="ktab_pub1">Journals (SCI/SCIE) (<script>document.write(publications.journals.length)</script>).</label>
+                                            <div class="k-tabs__content" id="journalDiv" style="text-align: justify;"></div>
+                                        </div>
 
+                                        <div class="k-tabs__item">
+                                            <input class="u-visuallyhidden" id="ktab_pub2" type="radio" name="ktabs-pub">
+                                            <label class="k-tabs__header" for="ktab_pub2">Journals (Non-SCI) (<script>document.write(publications.journalsdomestic.length)</script>).</label>
+                                            <div class="k-tabs__content" id="journalnonsciDiv" style="text-align: justify;"></div>
+                                        </div>
 
-									<span style="font-family: 'Lora', sans-serif; font-size: 20px; font-weight:bold; margin-bottom: 2%;float: left;">Others (<script>document.write(publications.otherspublications.length)</script>).</span>
-                                    
-                                    <div class="p-ptabs__content" id="otherspublicationsDiv" style="text-align: justify;"></div>
+                                        <div class="k-tabs__item">
+                                            <input class="u-visuallyhidden" id="ktab_pub3" type="radio" name="ktabs-pub">
+                                            <label class="k-tabs__header" for="ktab_pub3">Conferences (<script>document.write(publications.conferences.length)</script>).</label>
+                                            <div class="k-tabs__content" id="conferenceDiv" style="text-align: justify;"></div>
+                                        </div>
 
-                                    
-                                        
+                                        <div class="k-tabs__item">
+                                            <input class="u-visuallyhidden" id="ktab_pub4" type="radio" name="ktabs-pub">
+                                            <label class="k-tabs__header" for="ktab_pub4">Posters (<script>document.write(publications.posters.length)</script>).</label>
+                                            <div class="k-tabs__content" id="posterDiv" style="text-align: justify;"></div>
+                                        </div>
 
-                                </div>
-        
-                                    
+                                        <div class="k-tabs__item">
+                                            <input class="u-visuallyhidden" id="ktab_pub5" type="radio" name="ktabs-pub">
+                                            <label class="k-tabs__header" for="ktab_pub5">Others (<script>document.write(publications.otherspublications.length)</script>).</label>
+                                            <div class="k-tabs__content" id="otherspublicationsDiv" style="text-align: justify;"></div>
+                                        </div>
+                                    </nav>
                                 </div>
                             </div>
                             <!--<div class="u-text-right">
