@@ -2268,12 +2268,12 @@ function displayPapers(paperCollection, divId, paperCount) {
                         // Simple inline icons (green) for available PDF / GitHub links
                         try {
                                 var iconParts = [];
-                                var iconColor = '#8cb994';
+                                var iconColor = '#09711cff';
                                 if (paper.publicationDownloadLink) {
-                                        iconParts.push('<a style="color:' + iconColor + '; margin-right:6px; text-decoration:none; display:inline-block;" target="_blank" href="' + paper.publicationDownloadLink + '"><i class="icofont icofont-file-pdf"></i></a>');
+                                        iconParts.push('<a style="color:' + iconColor + '; margin-right:6px; text-decoration:none; display:inline-block; font-size:1.25rem;" target="_blank" href="' + paper.publicationDownloadLink + '"><i class="icofont icofont-file-pdf"></i></a>');
                                 }
                                 if (paper.publicationGithubLink) {
-                                        iconParts.push('<a style="color:' + iconColor + '; margin-right:6px; text-decoration:none; display:inline-block;" target="_blank" href="' + paper.publicationGithubLink + '"><i class="icofont icofont-file-code "></i></a>');
+                                        iconParts.push('<a style="color:' + iconColor + '; margin-right:6px; text-decoration:none; display:inline-block; font-size:1.25rem;" target="_blank" href="' + paper.publicationGithubLink + '"><i class="icofont icofont-file-code "></i></a>');
                                 }
                                 if (iconParts.length) fileText = ' ' + iconParts.join(''); else fileText = '';
                         } catch (e) { fileText = ''; }
