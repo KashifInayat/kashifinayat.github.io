@@ -175,8 +175,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 html += '<ul style="margin:0 0 0 18px;padding:6px 0;">';
                 item.children.forEach(function(c){ html += '<li>'+c+'</li>'; });
                 html += '</ul>';
-            } else {
-                html += '<p style="margin:0;">'+item.name+'</p>';
             }
             if (item.files && item.files.length) {
                 html += '<div class="academic-files" style="margin-top:8px;">';
@@ -317,8 +315,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     html += '<ul style="margin:0 0 0 18px;padding:6px 0;">';
                     item.children.forEach(function(c){ html += '<li>'+c+'</li>'; });
                     html += '</ul>';
-                } else {
-                    html += '<p style="margin:0;">'+item.name+'</p>';
                 }
 
                 // Render attached files (links / Drive previews)
