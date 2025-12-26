@@ -606,7 +606,8 @@ var publications = {
             "publicationVenue": "Journal of Systems Architecture",
             "publicationVenueInformation": "April, 2024",
             "publicationDownloadText": "[View]",
-            "publicationDownloadLink": "https://www.sciencedirect.com/journal/journal-of-systems-architecture",
+            "publicationDownloadLink": "https://tinyurl.com/quickloop-jsa",
+            "publicationGithubLink": "https://github.com/KashifInayat/quickloop",
             "publicationImpactFactor": "3.7)",
             "comment": "",
             "commentLink": "",
@@ -621,7 +622,8 @@ var publications = {
             "publicationVenue": "International Journal of Information Security",
             "publicationVenueInformation": "Aug, 2024",
             "publicationDownloadText": "[View]",
-            "publicationDownloadLink": "https://link.springer.com/journal/10207",
+            "publicationDownloadLink": "https://tinyurl.com/ascon-lightweight",
+            "publicationGithubLink": "https://github.com/KashifInayat/ascon-lightweight",
             "publicationImpactFactor": "2.4)",
             "comment": "",
             "commentLink": "",
@@ -636,7 +638,7 @@ var publications = {
             "publicationVenue": "IEEE Transactions on Very Large Scale Integration (TVLSI) Systems",
             "publicationVenueInformation": "Feb, 2024",
             "publicationDownloadText": "[View]",
-            "publicationDownloadLink": "https://ieeexplore.ieee.org/abstract/document/10520269",
+            "publicationDownloadLink": "https://tinyurl.com/fsa-ieeetvlsi",
             "publicationImpactFactor": "2.8)",
             "comment": "",
             "commentLink": "",
@@ -651,7 +653,7 @@ var publications = {
             "publicationVenue": "Journal Computers & Electrical Engineering",
             "publicationVenueInformation": "Feb, 2024",
             "publicationDownloadText": "[View]",
-            "publicationDownloadLink": "https://www.sciencedirect.com/science/article/abs/pii/S0045790624000430",
+            "publicationDownloadLink": "https://tinyurl.com/lpchisel-cee",
             "publicationImpactFactor": "4.3)",
             "comment": "",
             "commentLink": "",
@@ -666,7 +668,7 @@ var publications = {
             "publicationVenue": "MDPI Sensors",
             "publicationVenueInformation": "April, 2023",
             "publicationDownloadText": "[View]",
-            "publicationDownloadLink": "https://www.mdpi.com/1424-8220/23/9/4297",
+            "publicationDownloadLink": "https://tinyurl.com/pi-sensor",
             "publicationImpactFactor": "3.847)",
             "comment": "",
             "commentLink": "",
@@ -684,7 +686,8 @@ var publications = {
             "publicationVenue": "IEEE Transactions on Very Large Scale Integration (TVLSI) Systems",
             "publicationVenueInformation": "April, 2022",
             "publicationDownloadText": "[View]",
-            "publicationDownloadLink": "https://ieeexplore.ieee.org/document/9773321",
+            "publicationDownloadLink": "https://tinyurl.com/ha-fsa",
+            "publicationGithubLink": "https://github.com/KashifInayat/HA_FSA_ML_IEEE_TVLSI",
             "publicationImpactFactor": "2.8)",
             "comment": "",
             "commentLink": "",
@@ -698,7 +701,8 @@ var publications = {
             "publicationVenue": "MDPI ELlectronics",
             "publicationVenueInformation": "ISSN: 2079-9292",
             "publicationDownloadText": "[View]",
-            "publicationDownloadLink": "https://www.mdpi.com/2079-9292/10/6/652/htm",
+            "publicationDownloadLink": "https://tinyurl.com/cpa-fsa-electronics",
+            "publicationGithubLink": "https://github.com/KashifInayat/CPAF-Gemmini-ML-Electronics",
             "publicationImpactFactor": "2.690)",
             "comment": "",
             "commentLink": "",
@@ -871,6 +875,7 @@ var publications = {
             "publicationVenueInformation": "Austria",
             "publicationDownloadText": "[View]",
             "publicationDownloadLink": "https://pact2023.github.io/",
+            "publicationGithubLink": "https://github.com/KashifInayat/Quickloop-PACT",
             "publicationImpactFactor": "",
             "comment": "",
             "commentLink": "",
@@ -2260,18 +2265,18 @@ function displayPapers(paperCollection, divId, paperCount) {
 
                 }
             })
-            if (paper.publicationDownloadLink) {
-                fileText = ' <a style="cursor:pointer" target="_blank" href="' + paper.publicationDownloadLink + '">' + paper.publicationDownloadText + '</a>';
-            }
-            else {
-                if (paper.isAccepted == "true") {
-                    fileText = ' <a href="mailto:engrkashifinayat@outlook.com?subject=Full Text Request (Website): ' + paper.publicationTitle + '">Request PDF</a>';
-                }
-                else {
-                    fileText = '<span style="color: blue; text-decoration:underline"">' + paper.publicationDownloadText + '</span>';
-                }
-
-            }
+                        // Simple inline icons (green) for available PDF / GitHub links
+                        try {
+                                var iconParts = [];
+                                var iconColor = '#8cb994';
+                                if (paper.publicationDownloadLink) {
+                                        iconParts.push('<a style="color:' + iconColor + '; margin-right:6px; text-decoration:none; display:inline-block;" target="_blank" href="' + paper.publicationDownloadLink + '"><i class="icofont icofont-file-pdf"></i></a>');
+                                }
+                                if (paper.publicationGithubLink) {
+                                        iconParts.push('<a style="color:' + iconColor + '; margin-right:6px; text-decoration:none; display:inline-block;" target="_blank" href="' + paper.publicationGithubLink + '"><i class="icofont icofont-file-code "></i></a>');
+                                }
+                                if (iconParts.length) fileText = ' ' + iconParts.join(''); else fileText = '';
+                        } catch (e) { fileText = ''; }
             if (paper.publicationImpactFactor) {
                 impactFactorText = ', <b>(Impact Factor: ' + paper.publicationImpactFactor + '   </b>';
             }
