@@ -2089,8 +2089,9 @@ function displayWorkExperience() {
     var myList = '<ul class="c-tabs__list" id="shortcourseul">';
         shortCourses.courses.forEach(function (course) {
                 var certLink = '';
+                var iconCColor = '#09711cff';
                 if (course.link && course.link.length) {
-                        certLink = ' <a style="color:#09711cff;text-decoration:none;display:inline-block;font-size:1.25rem" target="_blank" href="' + course.link + '"><i class="icofont icofont-certificate"></i></a>';
+                        certLink = ' <a style="color:' + iconCColor + ';text-decoration:none;display:inline-block;font-size:1.25rem" target="_blank" href="' + course.link + '"><i class="icofont icofont-certificate"></i></a>';
                 } else {
                         certLink = ' ' + course.text;
                 }
