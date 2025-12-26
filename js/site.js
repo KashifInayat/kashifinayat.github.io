@@ -2087,10 +2087,16 @@ function displayWorkExperience() {
 //ShortCourses
  function displayShortCourses() {
     var myList = '<ul class="c-tabs__list" id="shortcourseul">';
-    shortCourses.courses.forEach(function (course) {
+        shortCourses.courses.forEach(function (course) {
+                var certLink = '';
+                if (course.link && course.link.length) {
+                        certLink = ' <a style="color:#8cb994;text-decoration:none;display:inline-block;font-size:1.1rem" target="_blank" href="' + course.link + '"><i class="icofont icofont-certificate"></i></a>';
+                } else {
+                        certLink = ' ' + course.text;
+                }
 
-        myList += '<li><h4>' + course.title + ' <span style="float:right">' + course.comments + '</span></h4><p>' + course.platform + ' <a style="color: blue; text-decoration:underline" target="_blank" href="' + course.link + '">' + course.text + '</a></p></li>';
-    });
+                myList += '<li><h4>' + course.title + ' <span style="float:right">' + course.comments + '</span></h4><p>' + course.platform + certLink + '</p></li>';
+        });
     myList += '</ul>';
     document.getElementById("shortcoursesDiv").innerHTML = myList;
 } 
