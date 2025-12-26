@@ -70,7 +70,7 @@ var about = {
         //},
 		{
             "name": "Email",
-            "link": 'mailto:engrkashifinayat@outlook.com',
+            "link": 'mailto:kinayatir@gmail.com',
             "icon": "email",
         }
 		
@@ -1856,9 +1856,9 @@ var conferencesLinks = {
 var contacts = {
     "contact":
     {
-        "email": "engrkashifinayat [at] outlook.com",
-        "skype": "kashif.inayat [at] inu.ac.kr ",
-        "mobile": "+34607147086",
+        "email": "kinayatir@gmail.com",
+        "skype": "",
+        "mobile": "",
         "lab": "Cork, Ireland",
         
     }
