@@ -1856,9 +1856,9 @@ var conferencesLinks = {
 var contacts = {
     "contact":
     {
-        "email": "kinayatir@gmail.com",
-        "skype": "",
-        "mobile": "",
+        "email": "kinayatir [at] gmail.com",
+        "skype": "kashif.inayat [at] inu.ac.kr ",
+        "mobile": "+34607147086",
         "lab": "Cork, Ireland",
         
     }
