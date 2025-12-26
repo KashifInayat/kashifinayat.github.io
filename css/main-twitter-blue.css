@@ -950,6 +950,24 @@ p {
   .c-card__text {
     margin-bottom: 10px;
     transition: all 0.3s; }
+
+  @media (max-width: 599px) {
+    .c-card__icon {
+      margin-bottom: 12px;
+      font-size: 1.25rem;
+    }
+    .c-card__header {
+      font-size: 1rem;
+      margin-bottom: 6px;
+    }
+    .c-card__text {
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+    }
+    .c-card__item, .c-card__item--text-only {
+      padding: 12px 10px;
+    }
+  }
   .c-card__button {
     position: absolute;
     bottom: 0;
