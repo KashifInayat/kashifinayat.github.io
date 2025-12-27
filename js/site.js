@@ -21,7 +21,7 @@ var webURL = "https://kashifinayat.github.io/index.html";
 
 var about = {
    "name": "Kashif Inayat",
-    "heading": "SENIOR ENGINEER @ Custom Nuvia CPU TEAM, Qualcomm Technologies Inc.",
+    "heading": "SENIOR ENGINEER @ Custom CPU TEAM, Qualcomm Technologies Inc.",
     "profles": [
 	
 		{
@@ -77,7 +77,7 @@ var about = {
     ],
     "aboutText": [
         {
-            "text1": "I am working as Senior Engineer at exceptional CPU Team at Qualcomm Technologies Inc. Cork, Ireland. Previously, I worked as a Senior Design Engineer (RE-3) at Barcelona Supercomputing Center in Computer Sciences-Microarchitecture Design and Implementation group. I completed Doctrate's degree in Electronic Engineering from the System-on-Chips (SoC) Laboratory of Incheon National University (INU), South Korea in January, 2023. It was a great privilege for me to work under Prof. Jaeyong Chung at INU. Earlier in 2019, I completed a Master's degree in Electronics and Computer Engineering at Hongik University under the guidance of Prof. Seong Oun Hwang.",
+            "text1": "I am working as Senior Engineer at exceptional Custom CPU Team at Qualcomm Technologies Inc. Cork, Ireland, crafting next-gen Oryon CPUs for Snapdragon X Elite/Plus. Previously, I worked as a Senior Design Engineer (RE-3) at Barcelona Supercomputing Center in Computer Sciences-Microarchitecture Design and Implementation group. I completed Doctrate's degree in Electronic Engineering from the System-on-Chips (SoC) Laboratory of Incheon National University (INU), South Korea in January, 2023. It was a great privilege for me to work under Prof. Jaeyong Chung at INU. Earlier in 2019, I completed a Master's degree in Electronics and Computer Engineering at Hongik University under the guidance of Prof. Seong Oun Hwang.",
 			"text2": "I graduated from Iqra University Islamabad Campus, Pakistan in September, 2014 with a Bachelor's degree in Electronic Engineering under the supervision of Prof. Viqar Ahmed. During undergrad, I worked with FPGA Design Team at Renzym Private Limited during the summers of 2013. Upon completing my undergraduate degree, I worked at Computing and Science Department, Iqra University as a lab engineer for almost 3 years.",
             "text3": "Furthermore, I chaired the special sessions at ICGHIT 2019. I also served as artifact/articles evaluator/reviewer  of  IEEE/ACM (MICRO'21, MICRO'22 and MICRO'23), IEEE (ICECS'21 and ICECS'22), IEEE (ISCAS'22, ISCAS'23, ISCAS'24), IEEE TCAD, IEEE TV and IEEE Access Journal. I am member of Open-Source FPGA (OSFPGA) Education and Training Committee and a registered member of the Pakistan Engineering Council and Technical Education Lahore (Tevta), Pakistan. I also hold ACM profisional membership. To sum up,  my development interests span conventional architectures, CPUs, GPUs, and specialized chips like 2D Spatial Array-based accelerators and VPUs."
         }
