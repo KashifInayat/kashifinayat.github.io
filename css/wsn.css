@@ -231,17 +231,18 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .wsn-country-btn {
-        padding: 7px 16px;
+        padding: 10px 18px;
         font-size: 15px;
+        min-height: 46px;
     }
-    
+
     .wsn-lab-btn {
-        padding: 5px 14px;
-        font-size: 13px;
+        padding: 8px 12px;
+        font-size: 14px;
     }
-    
+
     .wsn-country-content {
-        padding: 12px;
+        padding: 10px;
     }
 }
 
@@ -399,13 +400,14 @@
     }
     
     .wsn-country-btn {
-        padding: 12px 12px;
-        font-size: 14px;
+        padding: 10px 18px;
+        font-size: 15px;
         flex-wrap: nowrap;
         gap: 8px;
-        min-height: 48px;
+        min-height: 46px;
         width: 100%;
         box-sizing: border-box;
+        border-radius: 8px;
     }
     
     .wsn-toggle-icon {
@@ -434,12 +436,12 @@
     }
     
     .wsn-country-content {
-        padding: 12px;
+        padding: 10px;
     }
     
     .wsn-lab-btn {
-        font-size: 13px;
-        padding: 8px 10px;
+        font-size: 14px;
+        padding: 8px 12px;
     }
 }
 
@@ -461,11 +463,13 @@
     }
     
     .wsn-country-btn {
-        padding: 10px 10px;
+        padding: 10px 14px;
         font-size: 13px;
-        gap: 6px;
+        gap: 8px;
         width: 100%;
         box-sizing: border-box;
+        min-height: 44px;
+        border-radius: 6px;
     }
     
     .wsn-country-flag {
