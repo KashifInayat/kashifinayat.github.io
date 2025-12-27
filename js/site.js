@@ -6334,7 +6334,7 @@ function displayWSNRegion(regionData, divId) {
         html += '<span class="wsn-country-name">' + country.country + '</span>';
         html += '<span class="wsn-country-count">' + labCountText + '</span>';
         html += '</button>';
-        html += '<div id="' + countryId + '" class="wsn-country-content" style="display:none; background:#f9f9f9; border-left:3px solid #007bff; padding:10px; margin-top:5px;">';
+        html += '<div id="' + countryId + '" class="wsn-country-content" style="display:none; background:#f9f9f9; border-left:3px solid #6a9a7a; padding:10px; margin-top:5px;">';
         
         // Handle nested regions (e.g., USA with NORTH-EAST, NORTH, WEST, SOUTH)
         if (country.regions && country.regions.length > 0) {
@@ -6355,7 +6355,7 @@ function displayWSNRegion(regionData, divId) {
                             lab.people.forEach(function(person, personIndex) {
                                 html += '<p style="margin: 8px 0;"><strong>Professor ' + (personIndex + 1) + ':</strong> ' + person.professor + '</p>';
                                 html += '<div style="display:flex; gap:8px; margin-bottom:10px;">';
-                                if (person.homepage) html += '<a href="' + person.homepage + '" target="_blank" title="Homepage"><i class="fas fa-globe" style="font-size:14px; color:#007bff;"></i></a>';
+                                if (person.homepage) html += '<a href="' + person.homepage + '" target="_blank" title="Homepage"><i class="fas fa-globe" style="font-size:14px; color:#6a9a7a;"></i></a>';
                                 if (person.scholar) html += '<a href="' + person.scholar + '" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap" style="font-size:14px; color:#4285F4;"></i></a>';
                                 if (person.dblp) html += '<a href="' + person.dblp + '" target="_blank" title="DBLP"><i class="fas fa-database" style="font-size:14px; color:#FF6B6B;"></i></a>';
                                 html += '</div>';
@@ -6383,7 +6383,7 @@ function displayWSNRegion(regionData, divId) {
                     lab.people.forEach(function(person, personIndex) {
                         html += '<p style="margin: 8px 0;"><strong>Professor ' + (personIndex + 1) + ':</strong> ' + person.professor + '</p>';
                         html += '<div style="display:flex; gap:8px; margin-bottom:10px;">';
-                        if (person.homepage) html += '<a href="' + person.homepage + '" target="_blank" title="Homepage"><i class="fas fa-globe" style="font-size:14px; color:#007bff;"></i></a>';
+                        if (person.homepage) html += '<a href="' + person.homepage + '" target="_blank" title="Homepage"><i class="fas fa-globe" style="font-size:14px; color:#6a9a7a;"></i></a>';
                         if (person.scholar) html += '<a href="' + person.scholar + '" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap" style="font-size:14px; color:#4285F4;"></i></a>';
                         if (person.dblp) html += '<a href="' + person.dblp + '" target="_blank" title="DBLP"><i class="fas fa-database" style="font-size:14px; color:#FF6B6B;"></i></a>';
                         html += '</div>';
@@ -6392,7 +6392,7 @@ function displayWSNRegion(regionData, divId) {
                     // Fallback for single professor format
                     html += '<p><strong>Professor:</strong> ' + lab.professor + '</p>';
                     html += '<div style="display:flex; gap:8px; margin-top:8px;">';
-                    if (lab.homepage) html += '<a href="' + lab.homepage + '" target="_blank" title="Lab Homepage"><i class="fas fa-globe" style="font-size:16px; color:#007bff;"></i></a>';
+                    if (lab.homepage) html += '<a href="' + lab.homepage + '" target="_blank" title="Lab Homepage"><i class="fas fa-globe" style="font-size:16px; color:#6a9a7a;"></i></a>';
                     if (lab.scholar) html += '<a href="' + lab.scholar + '" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap" style="font-size:16px; color:#4285F4;"></i></a>';
                     if (lab.dblp) html += '<a href="' + lab.dblp + '" target="_blank" title="DBLP"><i class="fas fa-database" style="font-size:16px; color:#FF6B6B;"></i></a>';
                     html += '</div>';
