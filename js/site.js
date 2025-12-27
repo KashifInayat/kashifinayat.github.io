@@ -6334,22 +6334,22 @@ function displayWSNRegion(regionData, divId) {
         html += '<span class="wsn-country-name">' + country.country + '</span>';
         html += '<span class="wsn-country-count">' + labCountText + '</span>';
         html += '</button>';
-        html += '<div id="' + countryId + '" class="wsn-country-content" style="display:none; background:#f9f9f9; border-left:3px solid #6a9a7a; padding:10px; margin-top:5px;">';
+        html += '<div id="' + countryId + '" class="wsn-country-content" style="display:none;">';
         
         // Handle nested regions (e.g., USA with NORTH-EAST, NORTH, WEST, SOUTH)
         if (country.regions && country.regions.length > 0) {
             country.regions.forEach(function(region, regionIndex) {
                 var regionId = countryId + '-region-' + regionIndex;
                 html += '<div class="wsn-region" style="margin-bottom:15px;">';
-                html += '<button class="wsn-region-btn" onclick="toggleWSNCountry(\'' + regionId + '\')" style="background-color:#e8f5e9; border:1px solid #81c784; padding:8px 12px; width:100%; text-align:left; cursor:pointer; font-weight:bold; border-radius:4px;"><span style="display:inline-block; width:20px;">▼</span>' + region.region + ' (' + (region.labs ? region.labs.length : 0) + ' ' + ((region.labs && region.labs.length === 1) ? 'University' : 'Universities') + ')</button>';
-                html += '<div id="' + regionId + '" class="wsn-region-content" style="display:none; margin-top:8px; padding-left:10px;">';
+                html += '<button class="wsn-region-btn" onclick="toggleWSNCountry(\'' + regionId + '\')"><span style="display:inline-block; width:20px;">▼</span>' + region.region + ' (' + (region.labs ? region.labs.length : 0) + ' ' + ((region.labs && region.labs.length === 1) ? 'University' : 'Universities') + ')</button>';
+                html += '<div id="' + regionId + '" class="wsn-region-content" style="display:none;">';
                 
                 if (region.labs && region.labs.length > 0) {
                     region.labs.forEach(function(lab, labIndex) {
                         var labId = regionId + '-lab-' + labIndex;
                         html += '<div class="wsn-lab" style="margin-bottom:10px;">';
-                        html += '<button class="wsn-lab-btn" onclick="toggleWSNLab(\'' + labId + '\')" style="background-color:#f0f0f0; border:1px solid #ccc;"><span>▶</span> ' + lab.name + '</button>';
-                        html += '<div id="' + labId + '" class="wsn-lab-details" style="display:none; background:white; border-left:2px solid #28a745; padding:8px; margin-left:10px; margin-top:3px;">';
+                        html += '<button class="wsn-lab-btn" onclick="toggleWSNLab(\'' + labId + '\')"><span>▶</span> ' + lab.name + '</button>';
+                        html += '<div id="' + labId + '" class="wsn-lab-details" style="display:none;">';
                         
                         if (lab.people && lab.people.length > 0) {
                             lab.people.forEach(function(person, personIndex) {
@@ -6375,8 +6375,8 @@ function displayWSNRegion(regionData, divId) {
             country.labs.forEach(function(lab, labIndex) {
                 var labId = countryId + '-lab-' + labIndex;
                 html += '<div class="wsn-lab" style="margin-bottom:10px;">';
-                html += '<button class="wsn-lab-btn" onclick="toggleWSNLab(\'' + labId + '\')" style="background-color:#f0f0f0; border:1px solid #ccc;"><span>▶</span> ' + lab.name + '</button>';
-                html += '<div id="' + labId + '" class="wsn-lab-details" style="display:none; background:white; border-left:2px solid #28a745; padding:8px; margin-left:10px; margin-top:3px;">';
+                html += '<button class="wsn-lab-btn" onclick="toggleWSNLab(\'' + labId + '\')"><span>▶</span> ' + lab.name + '</button>';
+                html += '<div id="' + labId + '" class="wsn-lab-details" style="display:none;">';
                 
                 // Render either a people array (multiple professors) or single professor
                 if (lab.people && lab.people.length > 0) {
