@@ -1,5 +1,12 @@
 #section-wsn .k-tabs__content {
-    padding-top: 0;
+    /* Use site default tab top-padding so first cards align with other sections */
+    padding-top: 30px;
+}
+
+@media (min-width: 600px) {
+    #section-wsn .k-tabs__content {
+        padding-top: 60px;
+    }
 }
 
 #section-wsn {

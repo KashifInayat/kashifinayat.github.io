@@ -1,0 +1,12 @@
+/* Jobs section: reuse academic styles to match Academic Data visuals */
+#section-jobs .k-tabs { margin-bottom: 20px; }
+
+/* Ensure the academic card styles apply inside jobs section (override if needed) */
+#section-jobs .academic-item { width:100%; box-sizing:border-box; }
+#section-jobs .academic-item-btn { background: linear-gradient(135deg, #6a9a7a 0%, #5a8a6a 100%); color: #fff; }
+#section-jobs .academic-item-content { background:#f9f9f9; border-left:3px solid #6a9a7a; }
+
+/* Small responsive tweak */
+@media (max-width:768px){
+  #section-jobs .academic-item-btn { padding:10px; }
+}

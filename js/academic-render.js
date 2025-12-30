@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
     .then(function(results){
         var text = results[0] || '';
         var linksData = results[1] || {};
+        // Helpful debug: warn when JSON fetch returned nothing so developers know why data may not appear.
+        if (!linksData || !linksData.constellation) {
+            console.warn('academic-render: js/academic-links.json missing or empty — falling back to tree.md or academicData. If you are opening files via file:// the fetch() will fail; run a local HTTP server to serve the site.');
+        }
         var categories = [];
 
         // Prefer structure from `js/academic-links.json` when available.
