@@ -61,7 +61,15 @@ var jobsData = {
     {
       "category": "Contract Base",
       "items": [
-        {"name":"Digital Hardware","desc":"","files":[]},
+        {"name":"Digital Hardware","desc":"","files":[
+            {
+              "title":"PostDoc Position - Automatic Exploration of RISC-V Compressed Instruction Set Extensions",
+              "company":"Munich University",
+              "city":"Munich, Germany",
+              "salary":"Yes",
+              "apply":"https://wallento.cs.hm.edu/job-postdoc-scale4edge/"
+            }
+        ]},
         {"name":"Analog Hardware","desc":"","files":[]},
         {"name":"EDA","desc":"","files":[]},
         {"name":"Machine Learning","desc":"","files":[]},
