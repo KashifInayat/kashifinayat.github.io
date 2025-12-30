@@ -4,7 +4,70 @@
 /* Ensure the academic card styles apply inside jobs section (override if needed) */
 #section-jobs .academic-item { width:100%; box-sizing:border-box; }
 #section-jobs .academic-item-btn { background: linear-gradient(135deg, #6a9a7a 0%, #5a8a6a 100%); color: #fff; }
-#section-jobs .academic-item-content { background:#f9f9f9; border-left:3px solid #6a9a7a; }
+
+#section-jobs .academic-item-content {
+  /* Compact futuristic post content styling */
+  background: linear-gradient(180deg, #dff7ea 0%, #bff3d6 30%, #9de8b8 60%, #7adf97 100%);
+  border-left: 3px solid rgba(9,80,40,0.16);
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: rgba(6,40,20,0.95);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+/* Ensure the inner post/card area (the circled white box) is colourful and compact */
+#section-jobs .academic-item-content .job-card,
+#section-jobs .academic-item-content .academic-files {
+  background: linear-gradient(135deg, #0fb06a 0%, #39d07f 45%, #bff5d8 100%) !important;
+  border: 1px solid rgba(6,120,60,0.14) !important;
+  box-shadow: 0 8px 18px rgba(5,60,30,0.08) !important;
+  padding: 8px !important;
+  border-radius: 10px !important;
+}
+
+/* Remove nested white list item backgrounds that may come from other styles */
+#section-jobs .academic-item-content .academic-files ul,
+#section-jobs .academic-item-content .academic-files li {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Make job title and meta slightly compact and vivid */
+#section-jobs .academic-item-content .job-card .job-title { font-size:15px; font-weight:700; margin-bottom:6px; color:#04331a; }
+#section-jobs .academic-item-content .job-card div { font-size:13px; margin-bottom:4px; }
+
+/* Job card specific styling — futuristic green gradient */
+#section-jobs .job-card {
+  background: linear-gradient(135deg, #0f9d58 0%, #5fc57a 45%, #c8f7dd 100%);
+  color: #07331a;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(10,70,40,0.12);
+  box-shadow: 0 8px 18px rgba(6,51,26,0.08), 0 2px 6px rgba(0,0,0,0.04);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  backdrop-filter: blur(2px);
+}
+#section-jobs .job-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 44px rgba(6,51,26,0.14), 0 6px 14px rgba(0,0,0,0.06);
+}
+#section-jobs .job-card .job-apply-link {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: linear-gradient(180deg,#0b6b3b 0%, #0a5b32 100%);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(11,107,59,0.12);
+  transition: transform 140ms ease, box-shadow 140ms ease, opacity 140ms ease;
+}
+#section-jobs .job-card .job-apply-link:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(11,107,59,0.16); opacity: 0.98; }
+
+/* small tweaks for inner text contrast */
+#section-jobs .job-card div { color: rgba(3,51,26,0.95); }
 
 /* Small responsive tweak */
 @media (max-width:768px){

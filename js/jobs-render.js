@@ -41,18 +41,38 @@
       }
       if (item.files && item.files.length) {
         html += '<div class="academic-files" style="margin-top:8px;"><ul style="margin:0;padding-left:18px;">';
-        item.files.forEach(function(f, fidx){
+            item.files.forEach(function(f, fidx){
           try {
-            var safeUrl = f.url || f.link || '#';
-            var title = f.title || f.name || safeUrl;
-            var escTitle = escapeHtml(title);
-            var escUrl = escapeHtml(safeUrl);
-            html += '<li style="margin-bottom:6px;">';
-            html += '<span style="font-weight:500;">'+escTitle+'</span> ';
-            html += '<a class="academic-file-view-btn" href="#" data-url="'+escUrl+'" style="margin-left:8px;">View</a>';
-            var downloadUrl = (function(u){ try{ var m=u.match(/\/d\/([a-zA-Z0-9_-]+)/); if(m&&m[1]) return 'https://drive.google.com/uc?export=download&id='+m[1]; var q=u.match(/[?&]id=([a-zA-Z0-9_-]+)/); if(q&&q[1]) return 'https://drive.google.com/uc?export=download&id='+q[1]; }catch(e){} return u; })(safeUrl);
-            html += '<a class="academic-file-download-btn" href="'+escapeHtml(downloadUrl)+'" target="_blank" rel="noopener" style="margin-left:8px;">Download</a>';
-            html += '</li>';
+              // If job-style fields present, render a structured job card
+              if (f && (f.company || f.apply || f.city || f.rsu)) {
+                var jobTitle = escapeHtml(f.title || f.name || 'Job');
+                var jobCompany = escapeHtml(f.company || '');
+                var jobCity = escapeHtml(f.city || '');
+                var jobRsu = escapeHtml(f.rsu || '');
+                var jobSalary = escapeHtml(f.salary || '');
+                var jobApply = escapeHtml(f.apply || f.url || f.link || '#');
+                html += '<li style="margin-bottom:10px;">';
+                html += '<div class="job-card" style="padding:10px;border:1px solid #e6e6e6;border-radius:6px;background:#fff;">';
+                html += '<div style="font-weight:700;margin-bottom:6px;">'+jobTitle+'</div>';
+                html += '<div style="font-size:90%;color:#333;margin-bottom:4px;">Company: <strong>'+jobCompany+'</strong></div>';
+                if (jobCity) html += '<div style="font-size:90%;color:#333;margin-bottom:4px;">City/Country: '+jobCity+'</div>';
+                if (jobRsu) html += '<div style="font-size:90%;color:#333;margin-bottom:4px;">RSU: '+jobRsu+'</div>';
+                if (jobSalary) html += '<div style="font-size:90%;color:#333;margin-bottom:8px;">Salary: '+jobSalary+'</div>';
+                html += '<a class="job-apply-link" href="'+jobApply+'" target="_blank" rel="noopener" style="display:inline-block;padding:6px 10px;background:#2b8bd6;color:#fff;border-radius:4px;text-decoration:none;">Apply</a>';
+                html += '</div>';
+                html += '</li>';
+              } else {
+                var safeUrl = f.url || f.link || '#';
+                var title = f.title || f.name || safeUrl;
+                var escTitle = escapeHtml(title);
+                var escUrl = escapeHtml(safeUrl);
+                html += '<li style="margin-bottom:6px;">';
+                html += '<span style="font-weight:500;">'+escTitle+'</span> ';
+                html += '<a class="academic-file-view-btn" href="#" data-url="'+escUrl+'" style="margin-left:8px;">View</a>';
+                var downloadUrl = (function(u){ try{ var m=u.match(/\/d\/([a-zA-Z0-9_-]+)/); if(m&&m[1]) return 'https://drive.google.com/uc?export=download&id='+m[1]; var q=u.match(/[?&]id=([a-zA-Z0-9_-]+)/); if(q&&q[1]) return 'https://drive.google.com/uc?export=download&id='+q[1]; }catch(e){} return u; })(safeUrl);
+                html += '<a class="academic-file-download-btn" href="'+escapeHtml(downloadUrl)+'" target="_blank" rel="noopener" style="margin-left:8px;">Download</a>';
+                html += '</li>';
+              }
           } catch(e) { console.error('jobs-render file render error', e); }
         });
         html += '</ul></div>';
