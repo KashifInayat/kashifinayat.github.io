@@ -18,6 +18,30 @@
             this.generateSectionMetadata(); // Auto-generate metadata from DOM
             // Ensure academic content is indexed for search on all pages
             this.ensureAcademicIndex();
+            // Ensure jobs content is indexed for search
+            this.ensureJobsIndex();
+        },
+
+        ensureJobsIndex: function() {
+            if (window._searchJobsCategories) return Promise.resolve(window._searchJobsCategories);
+            return fetch('js/jobs-links.json').then(function(res){ if (!res.ok) return {}; return res.json(); }).catch(function(){ return {}; }).then(function(data){
+                var cats = [];
+                if (data && data.constellation && data.constellation.length) {
+                    cats = (data.constellation||[]).map(function(c){ return { category: c.category, items: (c.items||[]).map(function(i){ return { name: i.name||i, children: i.children||[], files: i.files||[] }; }) }; });
+                    window._searchJobsCategories = cats;
+                    console.log('search.js: indexed jobs content from js/jobs-links.json', (cats||[]).length, 'categories');
+                    return cats;
+                }
+                // Fallback to jobsData global if present
+                if (typeof jobsData !== 'undefined' && jobsData.constellation) {
+                    cats = (jobsData.constellation||[]).map(function(c){ return { category: c.category, items: (c.items||[]).map(function(i){ return { name: i.name||i, children: i.children||[], files: i.files||[] }; }) }; });
+                    window._searchJobsCategories = cats;
+                    console.log('search.js: indexed jobs content from jobsData fallback', (cats||[]).length, 'categories');
+                    return cats;
+                }
+                window._searchJobsCategories = [];
+                return [];
+            }).catch(function(){ window._searchJobsCategories = []; return []; });
         },
 
         ensureAcademicIndex: function() {
@@ -312,6 +336,8 @@
 
             // Search Academic Section (WSN page `section-academic`) using runtime data
             results = results.concat(this.searchAcademicSection(query));
+            // Search Jobs Section (WSN page `section-jobs`) using runtime data
+            results = results.concat(this.searchJobsSection(query));
             // Search Tools & Resources
             if (typeof toolsResourcesData !== 'undefined') {
                 results = results.concat(this.searchToolsResources(query));
@@ -1264,6 +1290,53 @@
             return results;
         },
 
+        // Search rendered Jobs section (categories, items, job files)
+        searchJobsSection: function(query) {
+            var results = [];
+            var cats = window._searchJobsCategories || window._jobsCategories || [];
+
+            (cats||[]).forEach(function(cat, cidx){
+                var catKey = (cat.category||'').toString();
+                (cat.items||[]).forEach(function(item, iidx){
+                    var baseText = (catKey + ' ' + (item.name||'') + ' ' + ((item.children||[]).join(' '))).toLowerCase();
+                    var files = item.files || [];
+                    var filesText = files.map(function(f){ return (f.title||f.name||f.company||f.url||f.link||''); }).join(' ').toLowerCase();
+                    var searchText = (baseText + ' ' + filesText);
+
+                    if (searchText.includes(query)) {
+                        // push matching file-level results (jobs) for direct open
+                        files.forEach(function(f, fidx){
+                            var fText = (f.title||f.name||f.company||f.url||f.link||'').toString().toLowerCase();
+                            if (fText.includes(query) || baseText.includes(query)) {
+                                results.push({
+                                    type: 'job',
+                                    title: (f.title || item.name || catKey),
+                                    subtitle: (f.company ? f.company + ' • ' : '') + (item.name || '') + ' • ' + (cat.category || ''),
+                                    description: (f.city ? 'Location: ' + f.city : '') + (f.rsu ? ' • RSU: ' + f.rsu : ''),
+                                    action: 'navigate-job',
+                                    data: { categoryIndex: cidx, itemIndex: iidx, fileIndex: fidx },
+                                    relevance: this.calculateRelevance(query, searchText)
+                                });
+                            }
+                        }.bind(this));
+
+                        // also add an item-level result
+                        results.push({
+                            type: 'job',
+                            title: item.name || catKey,
+                            subtitle: cat.category || '',
+                            description: 'Job category',
+                            action: 'navigate-job',
+                            data: { categoryIndex: cidx, itemIndex: iidx },
+                            relevance: this.calculateRelevance(query, searchText)
+                        });
+                    }
+                }.bind(this));
+            }.bind(this));
+
+            return results;
+        },
+
         searchToolsResources: function(query) {
             var results = [];
             
@@ -1367,6 +1440,7 @@
                 'tool': '<i class="icofont icofont-tools-alt-2"></i>',
                 'section': '<i class="icofont icofont-location-arrow"></i>'
             };
+            icons['job'] = '<i class="icofont icofont-briefcase"></i>';
             return icons[type] || '<i class="icofont icofont-search"></i>';
         },
 
@@ -1410,10 +1484,85 @@
                         this.navigateToSection('publications');
                     }
                     break;
+                case 'navigate-job':
+                    this.navigateToJob(data);
+                    break;
                 case 'navigate-blog':
                     window.location.href = data.url;
                     break;
             }
+        },
+
+        navigateToJob: function(data) {
+            // Build URL to wsn and focus jobs section
+            var params = [];
+            if (typeof data.categoryIndex !== 'undefined') params.push('j_cat=' + encodeURIComponent(data.categoryIndex));
+            if (typeof data.itemIndex !== 'undefined') params.push('j_item=' + encodeURIComponent(data.itemIndex));
+            if (typeof data.fileIndex !== 'undefined') params.push('j_file=' + encodeURIComponent(data.fileIndex));
+            var query = params.length ? ('?' + params.join('&')) : '';
+            var url = 'wsn.html' + query + '#section-jobs';
+
+            if (!window.location.href.includes('wsn.html')) {
+                window.location.href = url;
+                return;
+            }
+
+            // Already on wsn.html — expand jobs UI
+            this.expandJobSection(data);
+        },
+
+        expandJobSection: function(data) {
+            setTimeout(function(){
+                try {
+                    var cats = window._jobsCategories || window.jobsData && window.jobsData.constellation || [];
+                    var cidx = parseInt(data.categoryIndex || 0, 10);
+                    var iidx = parseInt(data.itemIndex || 0, 10);
+
+                    var cat = cats[cidx];
+                    if (!cat) return;
+
+                    // Map category name to radio id used in wsn.html for jobs
+                    var radioMap = {
+                        'full time': 'ktabJ1', 'contract base': 'ktabJ2', 'internship': 'ktabJ3', 'academic': 'ktabJ4', 'companies': 'ktabJ5'
+                    };
+                    var norm = (cat.category||'').toString().toLowerCase();
+                    var radioId = radioMap[norm] || 'ktabJ1';
+                    var radio = document.getElementById(radioId);
+                    if (radio) radio.checked = true;
+
+                    // Trigger rendering and expand item
+                    setTimeout(function(){
+                        var container = document.getElementById('fulltimeItemsDiv') || document.querySelector('#section-jobs [id$="ItemsDiv"]');
+                        // attempt to find correct container from mapping
+                        var mapping = {
+                            'full time': 'fulltimeItemsDiv', 'contract base': 'contractItemsDiv', 'internship': 'internshipItemsDiv', 'academic': 'academicJobsItemsDiv', 'companies': 'companiesItemsDiv'
+                        };
+                        var divId = mapping[norm] || 'fulltimeItemsDiv';
+                        container = document.getElementById(divId) || container;
+                        if (!container) return;
+                        // Ensure rendered (jobs-render sets dataset.rendered)
+                        if (container.dataset && container.dataset.rendered !== '1') {
+                            // try to call renderCategoryToContainer if available
+                            try { if (typeof renderCategoryToContainer === 'function') renderCategoryToContainer(cat, container, window._jobsLinksLookup); } catch(e){}
+                        }
+
+                        var itemId = container.id + '-item-' + iidx;
+                        var itemEl = document.getElementById(itemId);
+                        if (itemEl) {
+                            if (itemEl.style.display === 'none') itemEl.style.display = 'block';
+                            // If fileIndex provided, open job apply url in new tab
+                            if (typeof data.fileIndex !== 'undefined') {
+                                try {
+                                    var file = (cats[cidx] && cats[cidx].items && cats[cidx].items[iidx] && cats[cidx].items[iidx].files && cats[cidx].items[iidx].files[data.fileIndex]) || null;
+                                    var url = file ? (file.apply || file.url || file.link || null) : null;
+                                    if (url) window.open(url, '_blank');
+                                } catch(e) {}
+                            }
+                            setTimeout(function(){ itemEl.scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 200);
+                        }
+                    }, 200);
+                } catch(e) { console.warn('expandJobSection error', e); }
+            }, 300);
         },
 
         navigateToWSN: function(data) {
