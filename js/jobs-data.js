@@ -18,6 +18,14 @@ var jobsData = {
               "rsu": "Possible",
               "salary": "Yes",
               "apply": "https://www.linkedin.com/jobs/view/4323382587/?refId=I9NW9FRlvNT4PZt%2BvXS2hQ%3D%3D&trackingId=I9NW9FRlvNT4PZt%2BvXS2hQ%3D%3D"
+            },
+            {
+              "title": "Sr. Physical Design Engineer (CPU cores), Cork, Ireland",
+              "company": "AMD",
+              "city": "Cork, Ireland",
+              "rsu": "",
+              "salary": "",
+              "apply": "https://www.linkedin.com/jobs/view/4264442415/?alternateChannel=search&refId=NotAvailable&trackingId=99qijnq%2BS5acSjE6dsX%2Bbg%3D%3D&trk=d_flagship3_search_srp_jobs&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_jobs%3BI%2FOsEsVnRQKgSTUsXg1gpQ%3D%3D"
             }
           ]
         },
@@ -61,42 +69,114 @@ var jobsData = {
     {
       "category": "Contract Base",
       "items": [
-        {"name":"Digital Hardware","desc":"","files":[]},
-        {"name":"Analog Hardware","desc":"","files":[]},
-        {"name":"EDA","desc":"","files":[]},
-        {"name":"Machine Learning","desc":"","files":[]},
-        {"name":"Software","desc":"","files":[]},
-        {"name":"Others","desc":"","files":[]}
+        {
+          "name": "Digital Hardware",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Analog Hardware",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "EDA",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Machine Learning",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Software",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Others",
+          "desc": "",
+          "files": []
+        }
       ]
     },
     {
       "category": "Internship",
       "items": [
-        {"name":"Digital Hardware","desc":"","files":[]},
-        {"name":"Analog Hardware","desc":"","files":[]},
-        {"name":"EDA","desc":"","files":[]},
-        {"name":"Machine Learning","desc":"","files":[]},
-        {"name":"Software","desc":"","files":[]},
-        {"name":"Others","desc":"","files":[]}
+        {
+          "name": "Digital Hardware",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Analog Hardware",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "EDA",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Machine Learning",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Software",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Others",
+          "desc": "",
+          "files": []
+        }
       ]
     },
     {
       "category": "Academic",
       "items": [
-        {"name":"Digital Hardware","desc":"","files":[
+        {
+          "name": "Digital Hardware",
+          "desc": "",
+          "files": [
             {
-              "title":"PostDoc Position - Automatic Exploration of RISC-V Compressed Instruction Set Extensions",
-              "company":"Munich University",
-              "city":"Munich, Germany",
-              "salary":"Yes",
-              "apply":"https://wallento.cs.hm.edu/job-postdoc-scale4edge/"
+              "title": "PostDoc Position - Automatic Exploration of RISC-V Compressed Instruction Set Extensions",
+              "company": "Munich University",
+              "city": "Munich, Germany",
+              "salary": "Yes",
+              "apply": "https://wallento.cs.hm.edu/job-postdoc-scale4edge/"
             }
-        ]},
-        {"name":"Analog Hardware","desc":"","files":[]},
-        {"name":"EDA","desc":"","files":[]},
-        {"name":"Machine Learning","desc":"","files":[]},
-        {"name":"Software","desc":"","files":[]},
-        {"name":"Others","desc":"","files":[]}
+          ]
+        },
+        {
+          "name": "Analog Hardware",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "EDA",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Machine Learning",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Software",
+          "desc": "",
+          "files": []
+        },
+        {
+          "name": "Others",
+          "desc": "",
+          "files": []
+        }
       ]
     },
     {
