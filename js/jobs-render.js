@@ -43,6 +43,10 @@
         html += '<div class="academic-files" style="margin-top:8px;"><ul style="margin:0;padding-left:18px;">';
             item.files.forEach(function(f, fidx){
           try {
+              // slug helper (use provided slug if present)
+              function slugifyStr(s){ return (s||'').toString().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''); }
+              var slug = (f && f.slug) ? f.slug : slugifyStr((f && (f.title||f.name)) || (item.name||'') + '-' + fidx);
+              var jobId = 'job-' + slug;
               // If job-style fields present, render a structured job card
               if (f && (f.company || f.apply || f.city || f.rsu)) {
                 var jobTitle = escapeHtml(f.title || f.name || 'Job');
@@ -52,9 +56,9 @@
                 var jobSalary = escapeHtml(f.salary || '');
                 var jobApply = escapeHtml(f.apply || f.url || f.link || '#');
                 html += '<li style="margin-bottom:10px;">';
-                html += '<div class="job-card" style="padding:10px;border:1px solid #e6e6e6;border-radius:6px;background:#fff;">';
-                html += '<div style="font-weight:700;margin-bottom:6px;">'+jobTitle+'</div>';
-                html += '<div style="font-size:90%;color:#333;margin-bottom:4px;">Company: <strong>'+jobCompany+'</strong></div>';
+                html += '<div id="'+jobId+'" class="job-card" style="padding:10px;border:1px solid #e6e6e6;border-radius:6px;background:#fff;">';
+                html += '<div style="font-weight:700;margin-bottom:6px;">'+jobTitle+' <a class="job-permalink" href="#'+jobId+'" style="font-size:12px;margin-left:8px;color:#666;text-decoration:none;">🔗</a></div>';
+                html += '<div style="font-size:90%;color:#333;margin-bottom:4px;">Company/University: <strong>'+jobCompany+'</strong></div>';
                 if (jobCity) html += '<div style="font-size:90%;color:#333;margin-bottom:4px;">City/Country: '+jobCity+'</div>';
                 if (jobRsu) html += '<div style="font-size:90%;color:#333;margin-bottom:4px;">RSU: '+jobRsu+'</div>';
                 if (jobSalary) html += '<div style="font-size:90%;color:#333;margin-bottom:8px;">Salary: '+jobSalary+'</div>';
@@ -92,6 +96,24 @@
     try {
       container.querySelectorAll('.academic-file-view-btn').forEach(function(btn){ btn.addEventListener('click', function(e){ e.preventDefault(); var url = btn.getAttribute('data-url'); if(!url) return; var li = btn.closest('li'); if(!li) return; var existing = li.querySelector('.academic-iframe-wrap'); if(existing) { existing.parentNode.removeChild(existing); setTimeout(recalcJobTabs, 10); return; } var wrap = document.createElement('div'); wrap.className = 'academic-iframe-wrap'; wrap.style.marginTop = '8px'; wrap.style.maxWidth = '794px'; wrap.style.marginLeft = 'auto'; wrap.style.marginRight = 'auto'; var iframe = document.createElement('iframe'); iframe.src = url; iframe.style.width = '100%'; iframe.style.height = '600px'; iframe.style.maxWidth = '794px'; iframe.style.border = '1px solid #ddd'; iframe.loading = 'lazy'; wrap.appendChild(iframe); li.appendChild(wrap); setTimeout(recalcJobTabs, 50); }); });
     } catch(e) {}
+  }
+
+  // If a hash points to a job, ensure it's rendered and expanded
+  function openJobFromHash(){
+    try{
+      var h = (location.hash||'').replace(/^#/, '');
+      if(!h) return;
+      if(h.indexOf('job-')!==0) return;
+      // ensure all categories rendered (safe for modest data sizes)
+      if(window._jobsCategories){ renderFromCategories(window._jobsCategories, window._jobsLinksLookup); }
+      var el = document.getElementById(h);
+      if(!el) return;
+      // expand parent academic-item-content
+      var content = el.closest('.academic-item-content');
+      if(content){ content.style.display = 'block'; }
+      // scroll into view
+      setTimeout(function(){ el.scrollIntoView({behavior:'smooth', block:'center'}); setTimeout(recalcJobTabs, 50); }, 200);
+    }catch(e){ console.warn('openJobFromHash error', e); }
   }
 
   function renderFromCategories(categories, lookup){
@@ -198,6 +220,8 @@
 
   document.addEventListener('DOMContentLoaded', function(){
     initJobs();
+    // handle permalink hash after rendering
+    setTimeout(openJobFromHash, 600);
     // small delay to allow layout scripts to run
     setTimeout(recalcJobTabs, 500);
   });
