@@ -161,12 +161,16 @@
         renderFromCategories(json.constellation, jobsLinksLookup);
         window._jobsCategories = json.constellation;
         window._jobsLinksLookup = jobsLinksLookup;
+        // Ensure permalink handling after async JSON render
+        setTimeout(openJobFromHash, 120);
       }
     }).catch(function(){
       // fallback to jobsData variable if present
       if(window.jobsData && window.jobsData.constellation){
         renderFromCategories(window.jobsData.constellation);
         window._jobsCategories = window.jobsData.constellation;
+        // Ensure permalink handling after synchronous fallback render
+        setTimeout(openJobFromHash, 120);
       }
     });
 
